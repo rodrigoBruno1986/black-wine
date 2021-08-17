@@ -1,6 +1,9 @@
 .autoCompleteOuterContainer{
     width: 450px;
 }
+.container{
+    padding: 0%;
+}
 
 .searchBarInnerContainer :global(.vtex-input__suffix) {
     background-color: #7E7D7D;

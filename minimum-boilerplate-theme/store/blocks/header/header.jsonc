@@ -24,7 +24,8 @@
   "flex-layout.col#menu-container": {
     "children": [
       "flex-layout.row#top",
-      "flex-layout.row#desktop"
+      "flex-layout.row#desktop",
+      "flex-layout.row#categories-menu"
     
     ],
     "props": {
@@ -78,6 +79,12 @@
       // "locale-switcher",
       "flex-layout.row#account-header"
     ]
+  },
+  "flex-layout.row#categories-menu": {
+    "props": {
+      "blockClass": ["sticky-header", "categories-container"]
+    },
+    "children": ["menu#categories-menu"]
   },
   "flex-layout.row#account-header": {
     "props": {

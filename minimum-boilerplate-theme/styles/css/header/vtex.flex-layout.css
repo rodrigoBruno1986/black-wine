@@ -24,13 +24,6 @@
     
   }
 
-  @media only screen and (max-width: 1026) {
-    .flexRowContent{
-        background: red !important;
-    }
-
-    }   
-
 
   @media only screen and (max-width: 600px) {
     .wrapper{
@@ -66,7 +59,7 @@
 
   
   .flexRow--categories-container {
-    background-color: #0283d8;
+    background-color:black;
     color: white;
   }
   
