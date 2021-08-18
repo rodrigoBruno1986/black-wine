@@ -34,15 +34,15 @@
   }
   .menuItem:hover {
     background: #F3F2F2;
+    
   }
     
     .menuItem:hover  :global(.vtex-menu-2-x-styledLinkContent){
         background: #F3F2F2;
         color: black;
     }
-  
-  
-  
+    
+
   
   @media screen and (max-width: 720px) {
     .menuItem {
@@ -53,9 +53,32 @@
       color: black;
     }
   }
+
+  .menuItem:first-child::before {
+    content: "";
+    background-image: url("https://limpioonline.vteximg.com.br/arquivos/burger-menu.png");
+    position: relative;
+    background-size: 25px 18px;
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+    left: -1.2rem;
+    background-repeat: no-repeat;
+  }
   .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias::before {
     content: "";
     background-image: url("https://limpioonline.vteximg.com.br/arquivos/burger-menu.png");
+    position: relative;
+    background-size: 25px 18px;
+    display: inline-block;
+    width: 25px;
+    height: 18px;
+    left: -1.2rem;
+    background-repeat: no-repeat;
+  }
+  .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias:hover::before {
+    content: "";
+    background-image: url("https://winesupply.vteximg.com.br/arquivos/blackburguer.svg");
     position: relative;
     background-size: 25px 18px;
     display: inline-block;
@@ -144,3 +167,7 @@
     color: #4d4d4d;
   }
   
+
+  .limpioonline-limpioonline-components-1-x-MenuHorizontal{
+    background: #0283d8 !important;
+  }

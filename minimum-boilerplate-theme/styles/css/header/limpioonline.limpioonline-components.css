@@ -102,15 +102,104 @@
   color: black;
 }
 
+.contentAccordion{
+  margin-left: -27px ;
+  border: 1px solid;
+}
+
+
+.AsideNav {
+  color: #3f3f40;
+  padding: 1rem 0;
+  max-width: 27%;
+  width: 100%;
+  background-color: rgb(250, 249, 249);
+}
+
+.menuItemContainer {
+  font-family: "Nunito-Regular";
+  transition: 300ms all;
+  list-style: none;
+}
+
+
+.AsideNav .menuItemContainer:first-child .linkContainer {
+  clip-path: inset(0 1rem);
+  background-color: black !important;
+  color: white;
+  border-radius: 3px;
+}
+
+.menuItemContainer.isActive .linkContainer {
+  font-family: "Nunito-Bold" !important;
+  background: black !important;
+}
+
+.menuItemLink {
+  padding: 0.7rem 2rem;
+}
+
+.limpioonline-limpioonline-components-1-x-SubMenuTitle {
+  margin-top: 0;
+  color:black !important;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+}
+
+.SubMenuTitle {
+  margin-top: 0;
+  color: black !important;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+}
+
+.subMenuItemTitle {
+  color: black !important;
+}
+
+
+.isActive{
+  background: transparent !important;
+}
+
+
+
+
 @media only screen and (max-width: 600px) {
  
   .menu--category{
       color: white !important;
     }
-   
-}
 
-.contentAccordion{
-  margin-left: -27px ;
-  border: 1px solid;
+    .AsideNav {
+      color: #3f3f40;
+      padding: 1rem 0;
+      max-width: 27%;
+      width: 100%;
+      background-color: rgb(250, 249, 249);
+    }
+    
+    .menuItemContainer {
+      font-family: "Nunito-Regular";
+      transition: 300ms all;
+      list-style: none;
+    }
+    
+    
+    .AsideNav .menuItemContainer:first-child .linkContainer {
+      clip-path: inset(0 1rem);
+      background-color: black !important;
+      color: white;
+      border-radius: 3px;
+    }
+    
+    .menuItemContainer.isActive .linkContainer {
+      font-family: "Nunito-Bold" !important;
+      background: black !important;
+    }
+    
+    .menuItemLink {
+      padding: 0.7rem 2rem;
+    }
+   
 }
