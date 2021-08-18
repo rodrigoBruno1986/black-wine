@@ -54,17 +54,7 @@
     }
   }
 
-  .menuItem:first-child::before {
-    content: "";
-    background-image: url("https://limpioonline.vteximg.com.br/arquivos/burger-menu.png");
-    position: relative;
-    background-size: 25px 18px;
-    display: inline-block;
-    width: 25px;
-    height: 18px;
-    left: -1.2rem;
-    background-repeat: no-repeat;
-  }
+
   .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias::before {
     content: "";
     background-image: url("https://limpioonline.vteximg.com.br/arquivos/burger-menu.png");
