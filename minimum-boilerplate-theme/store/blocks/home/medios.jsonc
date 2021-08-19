@@ -1,0 +1,170 @@
+{
+"flex-layout.row#mediosdepago": {
+    "children": [
+      "image#card1",
+      "flex-layout.col#info"
+    ],
+    "props": {
+      "blockClass": "mediosDePagos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+
+  "flex-layout.col#info":{
+    "children":["rich-text#card1",
+      "rich-text#card2"],
+      "props": {
+        "blockClass": "contenidoTexto",
+        "fullWidth":true
+      }
+  },
+  "image#card1": {
+    "props": {
+      "blockClass": "mediosDePagos--image",
+      "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+      "link": "#"
+    }
+  },
+  "rich-text#card1": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "infopagos"
+    }
+  },
+  "rich-text#card2": {
+    "props": {
+      "text": "tarjetas de crédito, débito o transferencia",
+      "blockClass": "textoAlternativoInfopagos"
+    }
+  },
+  //BLOQUE CUOTAS
+  "flex-layout.row#cuotas": {
+    "children": [
+      "image#card1cuotas",
+      "flex-layout.col#infocuotas"
+    ],
+    "props": {
+      "blockClass": "mediosDePagos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+
+  "flex-layout.col#infocuotas":{
+    "children":["rich-text#card1cuotas",
+      "rich-text#card2cuotas"],
+      "props": {
+        "blockClass": "contenidoTexto",
+        "fullWidth":true
+      }
+  },
+  "image#card1cuotas": {
+    "props": {
+      "blockClass": "mediosDePagos--image",
+      "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+      "link": "#"
+    }
+  },
+  "rich-text#card1cuotas": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "infopagos"
+    }
+  },
+  "rich-text#card2cuotas": {
+    "props": {
+      "text": "tarjetas de crédito, débito o transferencia",
+      "blockClass": "textoAlternativoInfopagos"
+    }
+  },
+
+  //FIN BLOQUE CUOTAS
+  
+  //BLOQUE ENVIOS
+
+  "flex-layout.row#envios": {
+    "children": [
+      "image#card1envios",
+      "flex-layout.col#infoenvios"
+    ],
+    "props": {
+      "blockClass": "mediosDePagos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+
+  "flex-layout.col#infoenvios":{
+    "children":["rich-text#card1envios",
+      "rich-text#card2envios"],
+      "props": {
+        "blockClass": "contenidoTexto",
+        "fullWidth":true
+      }
+  },
+  "image#card1envios": {
+    "props": {
+      "blockClass": "mediosDePagos--image",
+      "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+      "link": "#"
+    }
+  },
+  "rich-text#card1envios": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "infopagos"
+    }
+  },
+  "rich-text#card2envios": {
+    "props": {
+      "text": "tarjetas de crédito, débito o transferencia",
+      "blockClass": "textoAlternativoInfopagos"
+    }
+  },
+
+   //FIN BLOQUE ENVIOS
+
+   //BLOQUE HABLEMOS
+
+   "flex-layout.row#hablemos": {
+    "children": [
+      "image#card1hablemos",
+      "flex-layout.col#infohablemos"
+    ],
+    "props": {
+      "blockClass": "estilosHablemos",
+      "preventHorizontalStretch": true
+  
+    }
+  },
+
+  "flex-layout.col#infohablemos":{
+    "children":["rich-text#card1hablemos",
+      "rich-text#card2hablemos"],
+      "props": {
+        "blockClass": "contenidoTexto",
+        "fullWidth":true
+      }
+  },
+  "image#card1hablemos": {
+    "props": {
+      "blockClass": "mediosDePagos--image",
+      "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
+      "link": "#"
+    }
+  },
+  "rich-text#card1hablemos": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "infopagos"
+    }
+  },
+  "rich-text#card2hablemos": {
+    "props": {
+      "text": "tarjetas de crédito, débito o transferencia",
+      "blockClass": "textoAlternativoInfopagos"
+    }
+  }
+
+}

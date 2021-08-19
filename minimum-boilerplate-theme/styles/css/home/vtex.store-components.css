@@ -1,0 +1,23 @@
+.imageElementLink--mediosDePagos--image{
+    height: 100%;
+}
+
+.imageElementLink--mediosDePagos--image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;;
+    margin-right: 25px;
+  }
+
+
+  
+@media only screen and (max-width: 1025px) {
+  .imageElementLink--mediosDePagos--image{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    margin-right: 0px;
+    width: 40px;
+    height: 20px;
+  }
+}

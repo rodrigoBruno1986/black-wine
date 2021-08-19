@@ -457,6 +457,16 @@
       background: #F3F2F2;
       padding: 0 1rem;
     }
+
+    .flexRow--tab-search {
+      max-width: none;
+      position: absolute;
+      top: 43px;
+      width: 100%;
+      left: 0;
+      right: 0;
+      background: #fff;
+    }
   
     .flexRowContent--main-header-left,
   .flexRowContent--main-header-right {

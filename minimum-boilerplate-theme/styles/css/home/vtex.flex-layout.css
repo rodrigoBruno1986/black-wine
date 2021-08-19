@@ -1,0 +1,56 @@
+.flexRow--contenidoMediosdepago{
+  background: #C7C7C7;
+}
+.flexRowContent--contenidoMediosdepago{
+  background: #C7C7C7;
+  height: 127px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+.flexRowContent--mediosDePagos{
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--estilosHablemos{
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--mediosDePagos {
+  background:url(assets/Line7.svg) bottom right no-repeat;
+}
+
+
+
+.flexRow--contenidoMediosdepago .stretchChildrenWidth{
+  padding: 28px;
+}
+
+
+@media only screen and (max-width: 1025px) {
+  .flexRowContent--contenidoMediosdepago{
+  }
+  .flexRowContent--mediosDePagos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .flexRowContent--estilosHablemos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .flexRow--mediosDePagos {
+    background:none;
+  }
+  .flexRow--contenidoMediosdepago .stretchChildrenWidth{
+    padding: 0px;
+  }
+
+
+}

@@ -1,6 +1,8 @@
 .styledLinkContent--header-menu-title {
     font-size: 0.8rem;
     text-transform: uppercase;
+  
+    font-family: "Nunito-Regular";
   }
   
   .menuContainer {
@@ -9,6 +11,8 @@
     /* width: 86%; */
     margin: auto;
     justify-content: center;
+   
+  font-family: "Nunito-Regular";
   }
 
   @media only screen and (max-width: 600px) {
@@ -66,17 +70,11 @@
     left: -1.2rem;
     background-repeat: no-repeat;
   }
-  .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias:hover::before {
-    content: "";
-    background-image: url("https://winesupply.vteximg.com.br/arquivos/blackburguer.svg");
-    position: relative;
-    background-size: 25px 18px;
-    display: inline-block;
-    width: 25px;
-    height: 18px;
-    left: -1.2rem;
-    background-repeat: no-repeat;
-  }
+  
+ .menuItem--menu-item-categorias--isOpen .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias::before {
+  filter: invert(100);
+ }
+
   .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias::after {
     content: "";
     background-image: url("https://limpioonline.vteximg.com.br/arquivos/arrow.png");
@@ -89,19 +87,23 @@
     background-repeat: no-repeat;
   }
   
+  .menuItem--menu-item-categorias--isOpen .styledLink--menu-item-categorias .styledLinkContent--menu-item-categorias::after {
+    filter: invert(100);
+   }
+
   .styledLinkContent--header-menu-title {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: "Nunito-Bold";
+  font-family: "Nunito-Bold";
     letter-spacing: -0.34px;
   }
   
   .styledLinkContainer--product-page-menu-item {
     margin: 0;
     font-size: 1.5rem;
-    font-family: "Nunito-Bold";
+  font-family: "Nunito-Bold";
   }
   
   .styledLinkContent--product-page-menu-item.styledLinkContent--product-page-description {

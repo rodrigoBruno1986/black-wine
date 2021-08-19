@@ -18,7 +18,8 @@
   "flex-layout.row#menu-container": {
     "children": ["flex-layout.col#menu-container"],
     "props": {
-      "blockClass": "menu-container"
+      "blockClass": "menu-container",
+      "fullWidth":true
     }
   },
   "flex-layout.col#menu-container": {

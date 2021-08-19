@@ -1,0 +1,63 @@
+{
+  "store.home": { 
+    "blocks": [
+      "list-context.image-list#home",
+      "flex-layout.row#medios"
+    ]
+  },
+  "list-context.image-list#home": {
+    "children": [
+      "slider-layout#home-images"
+    ],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+          "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+          "description": "descuentos"
+        },
+        {
+          "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+          "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+          "description": "descuentos"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-images": {
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#medios":{
+    "children": [
+      "flex-layout.row#mediosdepago",
+      "flex-layout.row#cuotas",
+      "flex-layout.row#envios",
+      "flex-layout.row#hablemos"
+    ],
+    "props": {
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth":true,
+      "blockClass": "contenidoMediosdepago"
+    }
+  }
+    
+
+  
+  
+}
