@@ -1,0 +1,15 @@
+.paginationDot {
+   display: none;
+}
+
+
+@media only screen and (max-width: 1025px) {
+
+    .paginationDot {
+        display: block;
+     }
+     
+    .paginationDot--isActive {
+        background-color: grey;
+    }
+}

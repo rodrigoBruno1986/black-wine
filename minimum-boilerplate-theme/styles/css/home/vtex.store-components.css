@@ -10,6 +10,13 @@
   }
 
 
+  /* BLOQUE TIENDAS */
+
+.imageElementLink--imgUno{
+  width: 300px !important;
+}
+
+
 
   
 @media only screen and (max-width: 1025px) {
@@ -30,6 +37,9 @@
   .imageElementLink--imgHablemos{
     margin-top: 15px;
   }
+  .imageElementLink--imgUno{
+    width: 100% !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -43,6 +53,12 @@
   .imageElementLink--imgHablemos{
     margin-top: 9px;
   }
+
+  
+.imageElementLink--imgUno{
+  width: 100% !important;
+}
+
 }
 @media only screen and (max-width: 500px) {
   .logoImage{
@@ -92,3 +108,5 @@
   
   
 }
+
+

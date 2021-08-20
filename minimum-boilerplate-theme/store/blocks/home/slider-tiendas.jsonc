@@ -1,0 +1,260 @@
+{
+
+    "slider-layout#tienda": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel",
+          "navigationStep":1
+        },
+        "children": ["flex-layout.row#post1","flex-layout.row#post2","flex-layout.row#post3","flex-layout.row#post4","flex-layout.row#post5","flex-layout.row#post5"]
+      },
+      
+      
+      "flex-layout.row#post1":{
+        "children": [
+          "image#uno",
+          "flex-layout.col#textouno"
+        ],
+        "props":{
+          "blockClass":["contenidoTienda"]
+        }
+      },
+      "flex-layout.col#textouno":{
+        "children":["rich-text#uno",
+          "rich-text#dos"],
+          "props": {
+            "fullWidth":true,
+            "preventVerticalStretch":true
+          }
+      },
+      "image#uno": {
+        "props": {
+          "blockClass": ["imgUno"],
+          "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+          "link": "#"
+        }
+      },
+      "rich-text#uno": {
+        "props": {
+          "text": "Tienda Exclusiva",
+          "blockClass": "fuenteUno"
+        }
+      },
+      "rich-text#dos": {
+        "props": {
+          "text": "Johnnie Walker",
+          "blockClass": "fuenteSecundariaUno"
+        }
+      },
+
+    //   ---------------
+
+
+      "flex-layout.row#post2":{
+        "children": [
+          "image#uno",
+          "flex-layout.col#post2"
+        ],
+        "props":{
+          "blockClass":["contenidoTienda"]
+        }
+      },
+      "flex-layout.col#post2":{
+        "children":["rich-text#post2",
+          "rich-text#post22"],
+          "props": {
+            "fullWidth":true,
+            "preventVerticalStretch":true
+          }
+      },
+      "image#post2": {
+        "props": {
+          "blockClass": ["imgUno"],
+          "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+          "link": "#"
+        }
+      },
+      "rich-text#post2": {
+        "props": {
+          "text": "Tienda Exclusiva",
+          "blockClass": "fuenteUno"
+        }
+      },
+      "rich-text#post22": {
+        "props": {
+          "text": "Johnnie Walker",
+          "blockClass": "fuenteSecundariaUno"
+        }
+      },
+
+       //   ---------------
+       
+
+       "flex-layout.row#post3":{
+        "children": [
+          "image#uno",
+          "flex-layout.col#post3"
+        ],
+        "props":{
+          "blockClass":["contenidoTienda"]
+        }
+      },
+      "flex-layout.col#post3":{
+        "children":["rich-text#post3",
+          "rich-text#post33"],
+          "props": {
+            "fullWidth":true,
+            "preventVerticalStretch":true
+          }
+      },
+      "image#post3": {
+        "props": {
+          "blockClass": ["imgUno"],
+          "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+          "link": "#"
+        }
+      },
+      "rich-text#post3": {
+        "props": {
+          "text": "Tienda Exclusiva",
+          "blockClass": "fuenteUno"
+        }
+      },
+      "rich-text#post33": {
+        "props": {
+          "text": "Johnnie Walker",
+          "blockClass": "fuenteSecundariaUno"
+        }
+      },
+
+
+        //   ---------------
+
+
+    "flex-layout.row#post4":{
+        "children": [
+            "image#uno",
+            "flex-layout.col#post4"
+        ],
+            "props":{
+                "blockClass":["contenidoTienda"]
+            }
+        },
+        "flex-layout.col#post4":{
+        "children":["rich-text#post4",
+            "rich-text#post44"],
+                "props": {
+                "fullWidth":true,
+                "preventVerticalStretch":true
+                }
+        },
+        "image#post4": {
+            "props": {
+                "blockClass": ["imgUno"],
+                "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+                "link": "#"
+            }
+        },
+        "rich-text#post4": {
+            "props": {
+                "text": "Tienda Exclusiva",
+                "blockClass": "fuenteUno"
+            }
+        },
+        "rich-text#post44": {
+            "props": {
+                "text": "Johnnie Walker",
+                "blockClass": "fuenteSecundariaUno"
+            }
+        },
+
+
+         //   ---------------
+
+
+         "flex-layout.row#post5":{
+            "children": [
+                "image#uno",
+                "flex-layout.col#post5"
+            ],
+                "props":{
+                    "blockClass":["contenidoTienda"]
+                }
+            },
+            "flex-layout.col#post5":{
+            "children":["rich-text#post5",
+                "rich-text#post55"],
+                    "props": {
+                    "fullWidth":true,
+                    "preventVerticalStretch":true
+                    }
+            },
+            "image#post5": {
+                "props": {
+                    "blockClass": ["imgUno"],
+                    "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+                    "link": "#"
+                }
+            },
+            "rich-text#post5": {
+                "props": {
+                    "text": "Tienda Exclusiva",
+                    "blockClass": "fuenteUno"
+                }
+            },
+            "rich-text#post55": {
+                "props": {
+                    "text": "Johnnie Walker",
+                    "blockClass": "fuenteSecundariaUno"
+                }
+            },
+
+
+            //   ---------------
+
+
+            "flex-layout.row#post6":{
+                "children": [
+                    "image#uno",
+                    "flex-layout.col#post6"
+                ],
+                    "props":{
+                        "blockClass":["contenidoTienda"]
+                    }
+                },
+                "flex-layout.col#post6":{
+                "children":["rich-text#post6",
+                    "rich-text#post66"],
+                        "props": {
+                        "fullWidth":true,
+                        "preventVerticalStretch":true
+                        }
+                },
+                "image#post6": {
+                    "props": {
+                        "blockClass": ["imgUno"],
+                        "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+                        "link": "#"
+                    }
+                },
+                "rich-text#post6": {
+                    "props": {
+                        "text": "Tienda Exclusiva",
+                        "blockClass": "fuenteUno"
+                    }
+                },
+                "rich-text#post66": {
+                    "props": {
+                        "text": "Johnnie Walker",
+                        "blockClass": "fuenteSecundariaUno"
+                    }
+                }
+
+
+}

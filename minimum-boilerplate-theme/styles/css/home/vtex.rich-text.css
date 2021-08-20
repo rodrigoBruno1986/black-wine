@@ -500,3 +500,40 @@
  
   
 }
+
+
+/* BLOQUE  TIENDAS */
+
+.wrapper--fuenteUno {
+  margin: auto;
+  margin-top: -12px;
+}
+
+.wrapper--fuenteUno .paragraph{
+  font-family: none;
+  font-weight: bold;
+}
+
+.container--fuenteSecundariaUno{
+  justify-content: center;
+  margin-top: -38px;
+}
+
+.wrapper--fuenteSecundariaUno .paragraph{
+  font-family: none;
+}
+
+@media only screen and (max-width:700px) {
+  .wrapper--fuenteUno {
+    font-size: 16px;
+   }
+  .container--fuenteSecundariaUno{
+    font-size: 13px;
+  }
+
+  .container--fuenteSecundariaUno{
+    justify-content: center;
+    margin-top: -30px;
+  }
+  
+}

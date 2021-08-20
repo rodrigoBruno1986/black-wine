@@ -2,7 +2,9 @@
   "store.home": { 
     "blocks": [
       "list-context.image-list#home",
-      "flex-layout.row#medios"
+      "flex-layout.row#medios",
+      "flex-layout.row#tiendas"
+      
     ]
   },
   "list-context.image-list#home": {
@@ -42,22 +44,17 @@
       "fullWidth": true
     }
   },
-  "flex-layout.row#medios":{
-    "children": [
-      "flex-layout.row#mediosdepago",
-      "flex-layout.row#cuotas",
-      "flex-layout.row#envios",
-      "flex-layout.row#hablemos"
-    ],
-    "props": {
-      "preventHorizontalStretch": false,
-      "preventVerticalStretch": false,
-      "fullWidth":true,
-      "blockClass": "contenidoMediosdepago"
-    }
-  }
     
+// BLOQUE TIENDAS
 
-  
+ "flex-layout.row#tiendas":{
+   "children":[
+     "slider-layout#tienda"
+   ],
+   "props":{
+     "blockClass":["contenidoSlider"]
+   }
+ }
+
   
 }

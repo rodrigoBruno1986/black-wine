@@ -1,4 +1,21 @@
 {
+
+  
+  "flex-layout.row#medios":{
+    "children": [
+      "flex-layout.row#mediosdepago",
+      "flex-layout.row#cuotas",
+      "flex-layout.row#envios",
+      "flex-layout.row#hablemos"
+    ],
+    "props": {
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth":true,
+      "blockClass": "contenidoMediosdepago"
+    }
+  },
+
 "flex-layout.row#mediosdepago": {
     "children": [
       "image#card1",

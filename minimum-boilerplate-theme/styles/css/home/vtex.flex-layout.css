@@ -53,3 +53,20 @@
 
 
 }
+
+
+/* BLOQUE TIENDA */
+
+.flexRow--contenidoSlider{
+  padding: 30px;
+}
+
+
+.flexRowContent--contenidoTienda{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
