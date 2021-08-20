@@ -424,15 +424,79 @@
   margin: 0px;
 }
 
+@media only screen and (max-width: 1025px) {
+  .imageElementLink--mediosDePagos--image{
+    width: 40px;
+  }
+}
+
+
+
 
 @media only screen and (max-width: 1025px) {
-  .paragraph--textoAlternativoInfopagos{
-    display: none;
-  }
   .paragraph--infopagos {
     text-align: center;
-    font-size: 14px;
-    
+    font-size: 15px;
     margin-top: 20px;
   }
+  .paragraph--textoAlternativoInfopagos{
+    font-size: 12px;
+    margin: auto;
+    text-align: center !important;
+  }
+  .container--infopagos{
+    justify-content: center;
+  }
+
+  .container--textoAlternativoInfopagos{
+    text-align: center !important;
+    justify-content: center;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .paragraph--infopagos {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 20px;
+  }
+  
+  .paragraph--textoAlternativoInfopagos{
+    font-size: 9px;
+    margin: auto;
+    text-align: center !important;
+  }
+  .container--infopagos{
+    justify-content: center;
+  }
+
+  .container--textoAlternativoInfopagos{
+    text-align: center !important;
+    justify-content: center;
+  }
+ 
+}
+
+@media only screen and (max-width: 360px) {
+  .paragraph--infopagos {
+    text-align: center;
+    font-size: 11px;
+    margin-top: 20px;
+  }
+  .paragraph--textoAlternativoInfopagos{
+    font-size: 9px;
+    margin: auto;
+    text-align: center !important;
+  }
+  .container--infopagos{
+    justify-content: center;
+  }
+
+  .container--textoAlternativoInfopagos{
+    text-align: center !important;
+    justify-content: center;
+  }
+ 
+  
 }

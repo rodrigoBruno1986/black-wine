@@ -21,7 +21,7 @@
   },
   "image#card1": {
     "props": {
-      "blockClass": "mediosDePagos--image",
+      "blockClass": ["mediosDePagos--image","imgPgos"],
       "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
       "link": "#"
     }
@@ -61,7 +61,7 @@
   },
   "image#card1cuotas": {
     "props": {
-      "blockClass": "mediosDePagos--image",
+      "blockClass": ["mediosDePagos--image","imgCuotas"],
       "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
       "link": "#"
     }
@@ -69,13 +69,13 @@
   "rich-text#card1cuotas": {
     "props": {
       "text": "Medios de pago",
-      "blockClass": "infopagos"
+      "blockClass": ["infopagos","top-cuotas-text"]
     }
   },
   "rich-text#card2cuotas": {
     "props": {
       "text": "tarjetas de crédito, débito o transferencia",
-      "blockClass": "textoAlternativoInfopagos"
+      "blockClass": ["textoAlternativoInfopagos"]
     }
   },
 
@@ -149,7 +149,7 @@
   },
   "image#card1hablemos": {
     "props": {
-      "blockClass": "mediosDePagos--image",
+      "blockClass": ["mediosDePagos--image","imgHablemos"],
       "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
       "link": "#"
     }

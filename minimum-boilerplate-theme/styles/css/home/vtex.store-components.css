@@ -10,6 +10,7 @@
   }
 
 
+
   
 @media only screen and (max-width: 1025px) {
   .imageElementLink--mediosDePagos--image{
@@ -20,4 +21,74 @@
     width: 40px;
     height: 20px;
   }
+}
+
+@media only screen and (max-width: 700px) {
+  .imageElementLink--imgPgos{
+    margin-top: 15px;
+  }
+  .imageElementLink--imgHablemos{
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logoImage{
+    width: 122px;
+    height: 71px;
+  }
+  .imageElementLink--imgPgos{
+    margin-top: 10px;
+  }
+  .imageElementLink--imgHablemos{
+    margin-top: 9px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .logoImage{
+    width: 100px;
+    height: 60px;
+  }
+  .imageElementLink--mediosDePagos--image{
+    width: 30px;
+  }
+  .imageElementLink--imgPgos{
+    width: 30px; 
+    margin-top: 0px;
+  }
+  .imageElementLink--imgHablemos{
+    width: 30px;
+    margin-top: 0px;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 400px) {
+  .imageElementLink--imgCuotas{
+    width: 30px; 
+    margin-top: -13px;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 360px) {
+  .imageElementLink--mediosDePagos--image{
+    width: 30px;
+  }
+  .imageElementLink--imgPgos{
+    width: 30px; 
+    margin-top: 4px;
+  }
+  .imageElementLink--imgCuotas{
+    width: 30px; 
+    margin-top: -10px;
+  }
+  .imageElementLink--imgHablemos{
+    width: 30px;
+    margin-top: 0px;
+  }
+  
+  
 }

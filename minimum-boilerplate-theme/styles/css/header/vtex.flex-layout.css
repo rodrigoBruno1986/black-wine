@@ -25,6 +25,25 @@
   }
 
 
+  @media only screen and (max-width: 1025px) {
+    .flexRowContent--contentImg{
+      margin-right: 25px;
+    }
+  }
+
+  
+  @media only screen and (max-width: 700px) {
+    .flexRowContent--contentImg{
+      margin-right:24px;
+    }
+
+  }
+
+ 
+
+  
+
+
   @media only screen and (max-width: 600px) {
     .wrapper{
     background:#F3F2F2; 
@@ -40,7 +59,7 @@
       }
       .flexRowContent--contentImg{
         width: 100%;
-        margin-right: 17px;
+        margin-right:24px;
         display: flex;
         justify-content: flex-end;
        
@@ -52,12 +71,7 @@
 
   }
 
-  
 
-
-
-
-  
   .flexRow--categories-container {
     background-color:black;
     color: white;
