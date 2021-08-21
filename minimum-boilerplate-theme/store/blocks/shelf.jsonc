@@ -1,0 +1,45 @@
+{
+  "list-context.product-list#mas-vendidos": {
+    "blocks": ["product-summary.shelf#default"],
+    "children": ["rich-text#mas-vendidos","slider-layout#demo-products"],
+    "props": {
+      "category": "2"
+    }
+  },
+  "product-summary.shelf#default": {
+    "children": [
+      "product-summary-image",
+       "vtex.product-highlights@2.x:product-highlights#collection",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "related-shelf-home"
+    }
+  },
+    "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showNavigationArrows": "desktopOnly",
+      /*  "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": true
+      }, */
+      "fullWidth": true,
+      "infinite": true,
+      "blockClass": "shelf-default"
+    }
+  },
+  "rich-text#mas-vendidos": {
+    "props": {
+      "text": "**rodrigo**",
+      "font": "t-heading-4",
+      "blockClass": "shelf-title"
+    }
+  }
+}

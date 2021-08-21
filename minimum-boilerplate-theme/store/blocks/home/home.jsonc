@@ -3,7 +3,10 @@
     "blocks": [
       "list-context.image-list#home",
       "flex-layout.row#medios",
-      "flex-layout.row#tiendas"
+      "flex-layout.row#tiendas",
+      "flex-layout.row#contenidoTextNovedades",
+      "list-context.product-list#mas-vendidos"
+      
       
     ]
   },
@@ -54,7 +57,32 @@
    "props":{
      "blockClass":["contenidoSlider"]
    }
- }
+ },
+
+ // FIN BLOQUE TIENDAS
+
+ 
+// BLOQUE NOVEDADES
+
+
+"flex-layout.row#contenidoTextNovedades":{
+  "children":["rich-text#novedades"],
+  "props": {
+    "blockClass": "contenidoNovedades",
+    "fullWidth":false
+  }
+},
+
+
+
+"rich-text#novedades":{
+  "props":{
+    "text": "LOS MAS VENDIDOS  &nbsp;  ver más >",
+    "blockClass": "textNovedades"
+  }
+}
+
 
   
 }
+

@@ -414,13 +414,13 @@
 
 
 .paragraph--infopagos{
-  font-family: 'Nunito-SemiBold';
+  font-family: 'Nunito-Bold';
   color: black;
 }
 
 .paragraph--textoAlternativoInfopagos{
   font-size: 12px;
-  font-family: 'Nunito-Light';
+  font-family: 'Nunito-Bold';
   margin: 0px;
 }
 
@@ -536,4 +536,18 @@
     margin-top: -30px;
   }
   
+}
+
+/* FIN BLOQUE TIENDAS */
+
+
+/*  BLOQUE NOVEDADES  */
+
+.paragraph--titleBlogs{
+  font-weight: 800;
+  padding-top: 10px;
+}
+
+.paragraph--textNovedades{
+  font-weight: bold;
 }
