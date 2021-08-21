@@ -1,9 +1,9 @@
 {
   "list-context.product-list#mas-vendidos": {
     "blocks": ["product-summary.shelf#default"],
-    "children": ["rich-text#mas-vendidos","slider-layout#demo-products"],
+    "children": ["slider-layout#demo-products"],
     "props": {
-      "category": "2"
+      "category": "47"
     }
   },
   "product-summary.shelf#default": {
@@ -12,7 +12,7 @@
        "vtex.product-highlights@2.x:product-highlights#collection",
       "product-summary-name",
       "product-summary-price",
-      "add-to-cart-button"
+      "product-summary-buy-button"
     ],
     "props": {
       "blockClass": "related-shelf-home"
@@ -33,13 +33,6 @@
       "fullWidth": true,
       "infinite": true,
       "blockClass": "shelf-default"
-    }
-  },
-  "rich-text#mas-vendidos": {
-    "props": {
-      "text": "**rodrigo**",
-      "font": "t-heading-4",
-      "blockClass": "shelf-title"
     }
   }
 }
