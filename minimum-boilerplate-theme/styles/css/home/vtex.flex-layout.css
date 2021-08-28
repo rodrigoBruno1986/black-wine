@@ -83,5 +83,202 @@
   border-bottom: 2px solid black;
 }
 
+.flexRow--contenidoMarcasLideres{
+  width:90%;
+  margin: auto; 
+  border-top: 2px solid black;
+}
 
+.flexRow--styleContenido :global(.vtex-slider-layout-0-x-paginationDotsContainer){
+  margin-top:100px;
+  top: 0px;
+}
+
+
+@media only screen and (max-width: 1025px) {
+  .flexRow--contenidoNovedades{
+    width:100%;
+    margin: auto; 
+    color: white;
+    background-color: black;
+  }
+}
+
+
+
+
+/* FIN  MAS VENDIDOS  */
+
+
+/* BLOQUE INFOCARDT */
+
+
+.flexRowContent--contenedorInfoCart{
+  padding: 30px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .flexRowContent--contenedorInfoCart{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+   align-items: center;
+}
+
+.flexRowContent--contenedorInfoCart{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.flexRow--contenidoSlider {
+  margin: 5px 0px 73px 0px;
+}
+.flexRow--contenidoSeguinos{
+  margin: 25px 0px 55px 0px;
+}
+  
+}
+
+@media only screen and (max-width: 640px) {
+  .flexRowContent--contenedorInfoCart{
+    padding: 10px;
+  }
+}
+
+
+/* FIN BLOQUE INFOCARD  */
+
+
+/* BLOQUE MARCAS */
+
+.flexRow--contenidoMarca{
+  width:110px;
+}
+
+/* FIN BLOQUE MARCAS */
+
+
+
+
+/* BLOQUE BLOG */
+
+.flexCol--card{
+  border: solid 1px #96969666;
+  height: 315px;
+  border-radius: 18px;
+  position: relative;
+  margin-left: 15px;
+  box-shadow: 1px 1px 6px #b7b7cb;
+  margin-top: 40px;
+}
+.flexRow--mobile{
+  display: none;
+  border: solid 1px #96969666;
+  height: 315px;
+  border-radius: 18px;
+  position: relative;
+  margin-left: 15px;
+  box-shadow: 1px 1px 6px #b7b7cb;
+  margin-top: 40px;
+}
+
+.flexCol--cartPrensa{
+ background: #BABABA;
+}
+
+.flexColContent--contenidoBlog {
+  padding: 15px;
+}
+.flexRowContent--contenidoBlog{
+  margin-bottom: 40px;
+}
+
+
+@media only screen and (max-width:1025px) {
+  .flexCol--cartPrensa{
+    display: none;
+  }
+  .flexCol--cartBlog{
+    display: none;
+  }
+  .flexCol--card {
+    display: none;
+  }
+  .flexRowContent--contenidoBlog{
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+  }
+
+  .flexCol--card{
+    border: solid 1px #96969666;
+    height: 270px;
+  }
+
+  .flexRow--mobile{
+    display: block;
+    border: solid 1px #96969666;
+    height: 315px;
+    border-radius: 18px;
+    position: relative;
+    box-shadow: 1px 1px 6px #b7b7cb;
+    margin-top: 40px;
+    margin: -15px 30px 15px 25px !important;
+
+  }
+
+}
+
+
+/* BLOQUE NEWS */
+
+:global(.vtex-store-components-3-x-label) {
+  display: none;
+}
+
+
+
+
+
+.flexRow--newsStyle{
+  border-top: 2px solid #BABABA;
+  border-bottom: 2px solid #BABABA;
+  display: flex;
+}
+
+
+
+
+@media only screen and (max-width: 1025px) {
+  .flexRowContent--newsStyle{
+    flex-direction: column;
+  }
+  .flexRow--newsStyle {
+    border-top: 2px solid #b8aa85;
+    border-bottom: 2px solid #b8aa85;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+}
+
+
+
+/* FOOTER */
+
+
+.flexRowContent--contenidoLogos{
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--footer-menu-wrapper{
+  padding: 40px;
+}
+
+
+
+.flexRow--footer-desktop-redes-izquierda{
+  margin-left: 60px;
+}
 

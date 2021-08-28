@@ -1,0 +1,116 @@
+{
+    
+
+"flex-layout.row#masVendidosTitulo":{
+    "children":["rich-text#masVendidos"],
+    "props": {
+      "blockClass": "contenidoNovedades",
+      "fullWidth":false
+    }
+  },
+  
+  
+  
+  "rich-text#masVendidos":{
+    "props":{
+      "text": "LOS MAS VENDIDOS  &nbsp;  ver más >",
+      "blockClass": "textNovedades"
+    }
+  },
+  
+  
+  "flex-layout.row#bodegasDelMesTitulo":{
+    "children":["rich-text#bodegas"],
+    "props": {
+      "blockClass": "contenidoNovedades",
+      "fullWidth":false
+    }
+  },
+  
+  
+  
+  "rich-text#bodegas":{
+    "props":{
+      "text": "BODEGAS DEL MES",
+      "blockClass": "textNovedades"
+    }
+  },
+  
+  
+  "flex-layout.row#novedadesTitulo":{
+    "children":["rich-text#novedades"],
+    "props": {
+      "blockClass": "contenidoNovedades",
+      "fullWidth":false
+    }
+  },
+  "rich-text#novedades":{
+    "props":{
+      "text": "NOVEDADES  &nbsp;  ver más >",
+      "blockClass": "textNovedades"
+    }
+  },
+  
+  "flex-layout.row#especialesTitulo":{
+    "children":["rich-text#especiales"],
+    "props": {
+      "blockClass": "contenidoNovedades",
+      "fullWidth":false
+    }
+  },
+  "rich-text#especiales":{
+    "props":{
+      "text": "ESPECIALES  &nbsp;  ver más >",
+      "blockClass": "textNovedades"
+    }
+  },
+  
+  "flex-layout.row#destacadosTitulo":{
+    "children":["rich-text#destacados"],
+    "props": {
+      "blockClass": "contenidoNovedades",
+      "fullWidth":false
+    }
+  },
+  "rich-text#destacados":{
+    "props":{
+      "text": "DESTACADOS",
+      "blockClass": ["textNovedades","textoDestacadosMobile"]
+    }
+  },
+
+  
+
+  "flex-layout.row#marcasTitulo":{
+    "children":["rich-text#marcas"],
+    "props": {
+      "blockClass": "contenidoMarcasLideres",
+      "fullWidth":false
+    }
+  },
+  "rich-text#marcas":{
+    "props":{
+      "text": "MARCAS LIDERES",
+      "blockClass": "textNovedades",
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#linea":{
+    "children":["rich-text#linea"],
+    "props": {
+      "blockClass": "contenidoMarcasLideres",
+      "fullWidth":false
+    }
+  },
+  "rich-text#linea":{
+    "props":{
+      "text": "",
+      "blockClass": "textNovedades",
+      "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+    }
+  }
+  
+}

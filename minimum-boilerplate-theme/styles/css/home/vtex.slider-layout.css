@@ -13,3 +13,8 @@
         background-color: grey;
     }
 }
+
+
+.paginationDotsContainer--carousel {
+    bottom: -15px;
+}

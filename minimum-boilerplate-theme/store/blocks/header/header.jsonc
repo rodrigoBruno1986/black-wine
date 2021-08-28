@@ -45,21 +45,24 @@
   "flex-layout.row#redes":{
     "children":["image#insta","image#face"],
     "props": {
-      "blockClass":"contentImg"
+      "blockClass":["contentImg"]
     }
   
   },
 
   "image#insta": {
     "props": {
-      "src": "assets/face.svg",
-      "maxHeight": 20
+      "src": "assets/ig.svg",
+      "maxHeight": 20,
+      "blockClass":["iconFace"]
     }
   },
   "image#face": {
     "props": {
-      "src": "assets/ig.svg",
+      "src": "assets/face.svg",
       "maxHeight": 20
+      
+    
     }
   },
  

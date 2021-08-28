@@ -1,8 +1,14 @@
 {
   "store.product": {
-    "children": [
- 
-    ]
+    "children": ["rich-text#title-composition-cares"],
+    "props": {
+      "blockClass": "nameCompositionCares"
+    }
+  },
+  "rich-text#title-composition-cares": {
+    "props": {
+      "text": "aca la ficha",
+      "blockClass": "titelCompositionCares"
+    }
   }
-  
 }

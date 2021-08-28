@@ -4,8 +4,23 @@
       "list-context.image-list#home",
       "flex-layout.row#medios",
       "flex-layout.row#tiendas",
-      "flex-layout.row#contenidoTextNovedades",
-      "list-context.product-list#mas-vendidos"
+      "flex-layout.row#masVendidosTitulo", //mas vendidos titulo
+      "list-context.product-list#mas-vendidos",
+      "flex-layout.row#bodegasDelMesTitulo",//mas bondegas titulo
+      "list-context.product-list#mas-vendidos",
+      "flex-layout.row#novedadesTitulo",//mas novedades titulo
+      "list-context.product-list#mas-vendidos",
+      "flex-layout.row#especialesTitulo",//mas especiales titulo
+      "list-context.product-list#mas-vendidos",
+      "flex-layout.row#vinosSlider",
+      "flex-layout.row#destacadosTitulo",//mas destacados titulo
+      "flex-layout.row#banners",
+      "flex-layout.row#marcasTitulo",//mas marcas titulo
+      "flex-layout.row#marcas",
+      "flex-layout.row#linea",//mas marcas titulo
+      "flex-layout.row#blogs",
+      "flex-layout.row#blogsMobile",
+      "flex-layout.row#newsletter"
       
       
     ]
@@ -59,30 +74,211 @@
    }
  },
 
- // FIN BLOQUE TIENDAS
+ // BLOQUE VINOS
 
- 
-// BLOQUE NOVEDADES
+ "flex-layout.row#vinosSlider":{
+  "children":[
+    "slider-layout#vinos"
+  ],
+  "props":{
+    "blockClass":["contenidoSlider"]
+  }
+},
 
-
-"flex-layout.row#contenidoTextNovedades":{
-  "children":["rich-text#novedades"],
+"flex-layout.row#banners": {
+  "children": ["image#example","info-card#test"],
   "props": {
-    "blockClass": "contenidoNovedades",
-    "fullWidth":false
+    "blockClass": ["contenedorInfoCart"]
+
+  }
+},
+"image#example": {
+  "props": {
+    "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+    "blockClass": ["imagenRodri"],
+    "maxHeight": 250
+  }
+},
+"info-card#test": {
+  "props": {
+    "id": "info-card-test",
+    "textPosition": "center",
+    "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+    "headline": "¿NO SAVES QUÉ VINO ELEGIR?",
+    "subhead": "Descubrí los vinos que conbinan con tus gustos con nuestro Test de Paladar",
+    "callToActionText": "Empezar Test",
+    "callToActionUrl": "/sale/d",
+    "blockClass": "info-card-test",
+    "textAlignment": "center",
+    "isFullModeStyle":true,
+    "maxHeight": 250
+  }
+},
+
+ // BLOQUE MARCAS
+
+ "flex-layout.row#marcas":{
+  "children":[
+    "slider-layout#marcas"
+  ],
+  "props":{
+    "blockClass":["contenidoSlider","styleContenido"]
+  }
+},
+
+// FIN BLOQUE MARCAS
+
+
+
+"flex-layout.row#blogs": {
+  "children": ["flex-layout.col#insta", "flex-layout.col#prensa","flex-layout.col#blog"],
+  "props": {
+    "blockClass": ["contenidoBlog","mobileContenidoBlogs"]
+  }
+},
+
+
+"flex-layout.col#insta":{
+  "children":["rich-text#insta","image#instaHome2"] ,
+  "props": {
+    "blockClass": ["card"],
+    "preventVerticalStretch":true
+  }
+},
+"rich-text#insta":{
+  "props":{
+    "text": "RRSS: Ig: @blackwine.com.ar",
+    "blockClass": "tituloblog"
+  }
+},
+"image#instaHome2": {
+  "props": {
+    "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+    "blockClass": "imgINSTAGRAM"
   }
 },
 
 
 
-"rich-text#novedades":{
+// MOBILE
+
+"flex-layout.row#blogsMobile": {
+  "children": ["flex-layout.col#instaMobile"],
+  "props": {
+    "blockClass": ["mobile"],
+    "preventHorizontalStretch":true
+  }
+},
+"flex-layout.col#instaMobile":{
+  "children":["rich-text#instaMobile","image#instaHome2Mbobile"] 
+},
+"rich-text#instaMobile":{
   "props":{
-    "text": "LOS MAS VENDIDOS  &nbsp;  ver más >",
-    "blockClass": "textNovedades"
+    "text": "RRSS: Ig: @blackwine.com.ar",
+    "blockClass": "tituloblog"
+  }
+},
+"image#instaHome2Mbobile": {
+  "props": {
+    "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+    "blockClass": "imgINSTAGRAM"
+  }
+},
+
+
+
+"flex-layout.col#prensa":{
+  "children":["rich-text#titulo","rich-text#subTitulo","rich-text#texto"] ,
+  "props": {
+    "blockClass": ["card","cartPrensa"]
+  }
+},
+"rich-text#titulo":{
+  "props":{
+    "text": "PRENSA y COMUNICACIÓN",
+    "blockClass": "tituloblogComunicacion"
+  }
+},
+"rich-text#subTitulo":{
+  "props":{
+    "text": "Bienvenido a Black Wine!",
+    "blockClass": "parrafoBlog2"
+  }
+},
+"rich-text#texto":{
+  "props":{
+    "text": "Bienvenido a Black Wine! Este es el espacio que construimos para conectarte con las marcas premium nacionales e internacionales de Spirits & Vinos, que te llevarán a vivir  una increíble experiencia de sentidos.<br><br> Queremos brindarte un proceso de compra simple, para que recibas los productos que necesitas desde la comodidad de tu casa, de manera fácil, rápida y segura. Queremos brindarte un proceso de compra simple, para que recibas los productos que necesitas desde la como.",
+    "blockClass": "parrafo2Blog2"
+  }
+},
+
+
+
+"flex-layout.col#blog":{
+  "children":["rich-text#tituloBlog","rich-text#subTituloBlog","rich-text#textoBlog"] ,
+  "props": {
+    "blockClass": ["card","cartBlog"]
+  }
+},
+"rich-text#tituloBlog":{
+  "props":{
+    "text": "BLOG",
+    "blockClass": "tituloblog"
+  }
+},
+"rich-text#subTituloBlog":{
+  "props":{
+    "text": "Bienvenido a Black Wine!",
+    "blockClass": "parrafoBlog3"
+  }
+},
+"rich-text#textoBlog":{
+  "props":{
+    "text": "Bienvenido a Black Wine! Este es el espacio que construimos para conectarte con las marcas premium nacionales e internacionales de Spirits & Vinos, que te llevarán a vivir una increíble experiencia de sentidos.",
+    "blockClass": "parrafo3DosBlog3"
+  }
+},
+
+
+// NEWS LETTER
+
+
+"flex-layout.row#newsletter":{
+  "children": ["flex-layout.col#NewsText","newsletter"
+  ],
+  "props":{
+    "blockClass": "newsStyle",
+    "preventHorizontalStretch":true
+  }
+},
+"flex-layout.col#NewsText":{
+  "children":["rich-text#newsTop","rich-text#newsBotton"]
+},
+"rich-text#newsTop":{
+  "props":{
+    "text": "ENTÉRATE DE LAS PROMOCIONES Y NOVEDADES.",
+    "blockClass": "textNewsuno"
+  }
+},
+"rich-text#newsBotton":{
+  "props":{
+    "text": "Suscribite a nuestro Newsletter",
+    "blockClass": "textNewsDos"
+  }
+},
+"newsletter":{
+  "props":{
+    "submit":"SUSCRIBIRME"
   }
 }
 
 
-  
+
+
+
+
 }
+
+
+
 

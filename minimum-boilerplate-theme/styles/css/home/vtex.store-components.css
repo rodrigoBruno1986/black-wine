@@ -16,6 +16,10 @@
   width: 300px !important;
 }
 
+.imageElement--iconFace {
+  width: 20px !important;
+}
+
 
 
   
@@ -107,6 +111,167 @@
   }
   
   
+}
+
+
+/* INFO CART HOME */
+
+.infoCardCallActionContainer--info-card-puntos :global(.vtex-button){
+  display: none;
+}
+
+.infoCardContainer--info-card-puntos{
+  font-family: 'MuseoSans-700' ;
+  height: 246px;
+  width: 100%;
+}
+.infoCardContainer--info-card-test{
+  height: 250px;
+  border-radius: 10px;
+  margin-left: 10px;
+  
+}
+
+.infoCardTextContainer--info-card-test{
+  width: 100%;
+}
+.infoCardHeadline--info-card-test {
+  color :white;
+  font-family: 'Nunito-Regular';
+  font-size: 16px;
+}
+
+.infoCardSubhead--info-card-test {
+  color :white;
+  font-size: 13px;
+}
+
+
+
+.infoCardCallActionContainer--info-card-test :global(.vtex-button),
+.infoCardCallActionContainer--info-card-test :global(.vtex-button) {
+    outline: none;
+    border-color: transparent;
+    background-color: #bcac42 !important;
+    color: white;
+    width: 130px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.infoCardCallActionContainer--info-card-test :global(.vtex-button):focus,
+.infoCardCallActionContainer--info-card-test :global(.vtex-button):hover {
+    outline: none;
+    border-color:transparent;
+    background-color: black !important ;
+    color: white;
+}
+
+@media only screen and (max-width: 1025px) {
+  .infoCardContainer--info-card-test{
+    height: auto !important;
+    border-radius: 10px;
+    margin-left: 10px;
+    
+  }
+  .infoCardContainer--info-card-puntos{
+   margin-top: 20px;
+  }
+  .infoCardContainer--info-card-test{
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+    
+  }
+}
+
+
+@media only screen and (max-width: 640px) {
+  .infoCardHeadline--info-card-test {
+    color :white;
+    font-family: 'Nunito-Regular';
+    font-size: 12px;
+  }
+  
+  .infoCardSubhead--info-card-test {
+    color :white;
+    font-size:9px;
+  }
+
+.infoCardCallActionContainer--info-card-test :global(.vtex-button),
+.infoCardCallActionContainer--info-card-test :global(.vtex-button) {
+    outline: none;
+    border-color: transparent;
+    background-color: #bcac42 !important;
+    color: white;
+    width: 110px;
+    text-transform: capitalize;
+    font-size: 9px;
+}
+
+
+  
+}
+
+
+/* BLOQUE BLOGS */
+
+
+.imageElement--imgINSTAGRAM{
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 65px;
+  width: 90%;
+}
+
+@media only screen and (max-width: 1025px) {
+  .imageElement--imgINSTAGRAM {
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 9px;
+    top: 65px;
+    width: 95%;
+  
+  }
+}
+
+/* NEWS*/
+
+.inputGroup{
+}
+
+.buttonContainer :global(.vtex-button){
+ background: #BABABA;
+ border: none;
+ border-radius: 0px 8px 8px 0px;
+ margin-left: -14px;
+}
+
+.buttonContainer :global(.vtex-button__label){
+  color: black;
+  font-family: 'Nunito-ExtraBold';
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 700px) {
+  .buttonContainer :global(.vtex-button){
+    background: #b8aa85;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: -14px;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;  
+  
+   }
+
+   .buttonContainer :global(.vtex-button__label){
+    color: white;
+  }
 }
 
 

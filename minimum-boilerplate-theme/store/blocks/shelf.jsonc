@@ -3,7 +3,7 @@
     "blocks": ["product-summary.shelf#default"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "category": "47"
+      "collection": "138"
     }
   },
   "product-summary.shelf#default": {
@@ -12,16 +12,29 @@
        "vtex.product-highlights@2.x:product-highlights#collection",
       "product-summary-name",
       "product-summary-price",
-      "product-summary-buy-button"
+     "flex-layout.row#botones"
+      
     ],
     "props": {
       "blockClass": "related-shelf-home"
     }
   },
+
+  "flex-layout.row#botones":{
+    "children":[  
+      "product-summary-buy-button",
+      "product-specification-badges#baby"
+    ]
+  },
+
+
+
+
+
     "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 6,
         "tablet": 3,
         "phone": 2
       },
@@ -33,6 +46,23 @@
       "fullWidth": true,
       "infinite": true,
       "blockClass": "shelf-default"
+    }
+  },
+  "product-specification-badges#baby": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Producto de Preventa",
+          "displayValue": "SPECIFICATION_NAME",
+          "visibleWhen": ""
+        },
+        {
+          "specificationName": "envio gratis",
+          "displayValue": "envio gratis",
+          "visibleWhen": false
+        }
+      ]
     }
   }
 }
