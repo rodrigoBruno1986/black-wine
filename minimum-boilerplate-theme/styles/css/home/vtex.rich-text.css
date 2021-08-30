@@ -504,9 +504,18 @@
 
 /* BLOQUE  TIENDAS */
 
+.paragraph--fuenteUno{
+  font-family: 'BodoniFLF-Bold' !important;
+}
+
+.paragraph--fuenteSecundariaUno{
+  font-family: 'Baskervville-Regular' !important;
+}
+
 .wrapper--fuenteUno {
   margin: auto;
   margin-top: -12px;
+  
 }
 
 .wrapper--fuenteUno .paragraph{
@@ -520,7 +529,7 @@
 }
 
 .wrapper--fuenteSecundariaUno .paragraph{
-  font-family: none;
+  font-family: 'Baskervville-Regular' !important;
 }
 
 @media only screen and (max-width:700px) {
@@ -546,10 +555,15 @@
 .paragraph--titleBlogs{
   font-weight: 800;
   padding-top: 10px;
+  font-family: "MuseoSans_500" !important;
+  color: black;
+  
 }
 
 .paragraph--textNovedades{
   font-weight: bold;
+  font-family: "MuseoSans_500" !important;
+  color: black;
 }
 
 
@@ -568,7 +582,6 @@
 .wrapper--fuenteUnoVinos {
   margin: auto;
   margin-top: -12px;
-  font-family: 'Nunito-Bold';
 }
 
 .wrapper--fuenteUnoVinos .paragraph{
@@ -599,12 +612,14 @@
 .paragraph--tituloblog{
   padding: 10px 25px;
   font-size: 18px;
-  font-family: 'Nunito-Bold';
+  font-family: 'Nunito-Bold' !important;
 }
 
 .paragraph--tituloblogComunicacion{
   padding: 10px 25px;
   font-size: 18px;
+  font-family: 'Nunito-Bold' !important;
+  color: black;
 }
 
 
@@ -622,10 +637,11 @@
   padding: 10px 25px;
   font-family: 'Nunito-Regular';
   font-size: 13px;
+  color: black;
 }
 
 .paragraph--tituloblogComunicacion{
-  font-family: 'Nunito-SemiBold';
+  font-family: 'Nunito-Bold' !important;
 }
 
 
@@ -640,9 +656,11 @@
 
 .paragraph--parrafoBlog2{
   font-weight: bold;
+  color: black;
 }
 .paragraph--parrafoBlog3{
   font-weight: bold;
+  color: black;
 }
 
 .paragraph--parrafoDosBlog3{
@@ -674,10 +692,12 @@
 .paragraph--textNewsuno{
   font-family: 'Nunito-Bold';
   margin-right: 50px;
+  color: black;
 }
 .paragraph--textNewsDos{
   font-family: 'Nunito-Bold';
   margin-top: -15px;
+  color: black;
 }
 
 
@@ -702,6 +722,7 @@
 .paragraph--seguinosStyle{
   color: white;
   margin-top: 0px;
+  font-family: 'Nunito-Bold';
 }
 
 .container--seguinosStyleLogos{
@@ -713,6 +734,7 @@
 .paragraph--seguinosStyleLogos{
   color: white;
   margin-left: 50px;
+  font-family: 'Nunito-Bold';
 }
 
 

@@ -20,6 +20,9 @@
   width: 20px !important;
 }
 
+.searchBarContainer :global(.vtex-styleguide-9-x-noAppearance ){
+  font-family: 'Nunito-Regular'!important;
+}
 
 
   

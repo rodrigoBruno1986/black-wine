@@ -9,9 +9,10 @@
   "product-summary.shelf#default": {
     "children": [
       "product-summary-image",
-       "vtex.product-highlights@2.x:product-highlights#collection",
+      "vtex.product-highlights@2.x:product-highlights#collection",
       "product-summary-name",
-      "product-summary-price",
+      "product-price",
+      "product-selling-price",
      "flex-layout.row#botones"
       
     ],
@@ -24,7 +25,11 @@
     "children":[  
       "product-summary-buy-button",
       "product-specification-badges#baby"
-    ]
+    ],
+    "props": {
+      "blockClass": "botones"
+    }
+
   },
 
 
