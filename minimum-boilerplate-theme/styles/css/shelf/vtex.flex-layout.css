@@ -1,0 +1,29 @@
+
+.flexRowContent--botones{
+  justify-content: center;
+  align-items: center;
+}
+
+
+.flexRowContent--botones .stretchChildrenWidth:first-child {
+  
+  width: 100% !important;
+  
+}
+
+.flexRowContent--botones .stretchChildrenWidth:last-child {
+  background: green;
+  width: auto !important;
+  
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText--botonComprar){
+  font-family: 'Baskervville-Regular';
+  font-size: 22px;
+  padding: 6px;
+  font-weight: bold;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal--related-shelf-home ){
+  background: white;
+}

@@ -11,7 +11,6 @@
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-summary-name",
-      "product-price",
       "product-selling-price",
      "flex-layout.row#botones"
       
@@ -23,15 +22,23 @@
 
   "flex-layout.row#botones":{
     "children":[  
-      "product-summary-buy-button",
+      "add-to-cart-button#home",
       "product-specification-badges#baby"
     ],
     "props": {
       "blockClass": "botones"
+
     }
 
   },
-
+  
+  "add-to-cart-button#home":{
+    "props": {
+      "text": "COMPRAR",
+      "unavailableText": "SIN STOCK",
+      "blockClass": "botonComprar"
+    }
+  },
 
 
 
