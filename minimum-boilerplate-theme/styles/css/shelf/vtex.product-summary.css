@@ -1,0 +1,28 @@
+.nameContainer{
+    justify-content: flex-start;
+    padding: 8px 0px;
+}
+.nameWrapper{
+    color: white;
+    background-color: black;
+    text-align: left;
+    padding: 8px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    
+}
+.brandName{
+    font-family: 'Baskervville-Regular';
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+:global(.vtex-product-summary-2-x-element--related-shelf-home){
+    padding: 13px;
+}
+
+:global(.vtex-product-summary-2-x-containerNormal){
+    width: 275px;
+}

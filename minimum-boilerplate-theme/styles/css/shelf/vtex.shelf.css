@@ -1,0 +1,17 @@
+:global(.vtex-product-price-1-x-sellingPriceValue){
+    font-family: 'BodoniFLF-Bold';
+    font-size: 27px;
+}
+
+
+:global(.vtex-product-price-1-x-listPriceRange){
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #6D6E6E;
+    font-size: 15px;
+    opacity: 0.9;
+    font-family: 'BodoniFLF-Bold';
+
+}

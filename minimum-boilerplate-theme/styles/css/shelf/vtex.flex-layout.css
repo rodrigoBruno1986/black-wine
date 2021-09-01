@@ -4,6 +4,9 @@
   align-items: center;
 }
 
+.stretchChildrenWidth :global(.vtex-button){
+  border:none;
+}
 
 .flexRowContent--botones .stretchChildrenWidth:first-child {
   
@@ -12,8 +15,11 @@
 }
 
 .flexRowContent--botones .stretchChildrenWidth:last-child {
-  background: green;
+  background:black;
   width: auto !important;
+  border-radius: 7px 7px 7px 7px;
+  border-left: 2px solid white;
+  height: 43px;
   
 }
 
@@ -22,8 +28,28 @@
   font-size: 22px;
   padding: 6px;
   font-weight: bold;
+  
 }
 
 :global(.vtex-product-summary-2-x-containerNormal--related-shelf-home ){
   background: white;
+  box-shadow: 1px 1px 6px #b7b7cb;
+}
+
+:global(.vtex-product-specification-badges-0-x-badgeContainer--envio-gratis){
+  background-image: url("https://winesupply.vteximg.com.br/arquivos/envioGratis.png");
+  background-repeat: no-repeat;  
+  background-size: 30px;
+  background-position: center;
+  background-color: black
+
+}
+
+:global(.vtex-product-specification-badges-0-x-badgeText--envio-gratis){
+  color: transparent;
+  font-size: 9px;
+}
+
+.flexRow--contenidoPrecios{
+  margin: 10px 3px;
 }

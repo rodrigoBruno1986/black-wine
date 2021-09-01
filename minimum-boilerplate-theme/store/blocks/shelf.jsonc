@@ -11,12 +11,25 @@
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-summary-name",
-      "product-selling-price",
-     "flex-layout.row#botones"
+      "product-description",
+      "flex-layout.row#price",  
+      "flex-layout.row#botones",
+      "product-installments"
       
     ],
     "props": {
       "blockClass": "related-shelf-home"
+    }
+  },
+
+  "flex-layout.row#price":{
+    "children":[
+      "product-selling-price",
+      "product-list-price-range"
+    ],
+    "props":{
+      "blockClass": "contenidoPrecios",
+      "preventHorizontalStretch":true
     }
   },
 
@@ -46,16 +59,19 @@
     "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
+        "desktop": 4,
         "tablet": 3,
         "phone": 2
       },
       "showNavigationArrows": "desktopOnly",
-      /*  "autoplay": {
-        "timeout": 2000,
-        "stopOnHover": true
-      }, */
-      "fullWidth": true,
+      "navigationStep": 1,
+      "arrowSize":25,
+      "showPaginationDots": false,
+      "autoplay": {
+          "timeout": 5000,
+          "stopOnHover": true
+      },
+      "fullWidth": false,
       "infinite": true,
       "blockClass": "shelf-default"
     }
@@ -74,7 +90,8 @@
           "displayValue": "envio gratis",
           "visibleWhen": false
         }
-      ]
+      ],
+      "blockClass": "envioGratisContenido"
     }
   }
 }
