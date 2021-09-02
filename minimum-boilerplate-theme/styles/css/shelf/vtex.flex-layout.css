@@ -23,6 +23,8 @@
   
 }
 
+
+
 :global(.vtex-add-to-cart-button-0-x-buttonText--botonComprar){
   font-family: 'Baskervville-Regular';
   font-size: 22px;
@@ -51,5 +53,42 @@
 }
 
 .flexRow--contenidoPrecios{
-  margin: 10px 3px;
+  margin: 6px 0px;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .flexRowContent--botones{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .flexRowContent--botones .stretchChildrenWidth:first-child {
+    width: 100% !important;
+  }
+  
+  .flexRowContent--botones .stretchChildrenWidth:last-child {
+    background:black;
+    width: auto !important;
+    border-radius: 7px 7px 7px 7px;
+    border-left: 2px solid white;
+    height: 43px;
+    
+  }
+  :global(.vtex-add-to-cart-button-0-x-buttonText--botonComprar){
+    font-family: 'Baskervville-Regular';
+    font-size: 13px !important;
+    padding: 10px 0px;
+    font-weight: bold;
+    
+  }
+  .flexRowContent--contenidoPrecios{
+    display: flex;
+  }
+  :global(.vtex-product-summary-2-x-containerNormal--related-shelf-home ){
+    background: white;
+    box-shadow: #b7b7cb;
+    margin-right: 8px;
+  }
+ 
 }

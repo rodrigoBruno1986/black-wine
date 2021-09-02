@@ -10,15 +10,20 @@
     "children": [
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
-      "product-summary-name",
+      "product-brand",
       "product-description",
       "flex-layout.row#price",  
-      "flex-layout.row#botones",
-      "product-installments"
+      "flex-layout.row#botones"
       
     ],
     "props": {
       "blockClass": "related-shelf-home"
+    }
+  },
+
+  "product-brand": {
+    "props": {
+      "displayMode": "text"
     }
   },
 
@@ -60,20 +65,20 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 3,
+        "tablet": 2,
         "phone": 2
       },
       "showNavigationArrows": "desktopOnly",
       "navigationStep": 1,
       "arrowSize":25,
-      "showPaginationDots": false,
-      "autoplay": {
-          "timeout": 5000,
-          "stopOnHover": true
-      },
+      "showPaginationDots": "mobileOnly",
+      // "autoplay": {
+      //     "timeout": 5000,
+      //     "stopOnHover": true
+      // },
       "fullWidth": false,
-      "infinite": true,
-      "blockClass": "shelf-default"
+      // "infinite": true,
+      "blockClass": ["shelf-default","sliderMasVendidos"]
     }
   },
   "product-specification-badges#baby": {
