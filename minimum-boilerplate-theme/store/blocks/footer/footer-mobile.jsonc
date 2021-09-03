@@ -21,7 +21,7 @@
     },
     "image#imagenLogoMobile": {
         "props": {
-          "src": "assets/ig.svg",
+          "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/c7324392-bcba-4b97-8e66-cea6215cd679___d7dc677592b00463809f883656070c0f.png",
           "blockClass": [
             "imgLogoFooterMobile"
           ]
