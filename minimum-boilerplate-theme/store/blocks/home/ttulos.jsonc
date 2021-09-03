@@ -22,7 +22,7 @@
   "flex-layout.row#bodegasDelMesTitulo":{
     "children":["rich-text#bodegas"],
     "props": {
-      "blockClass": "contenidoNovedades",
+      "blockClass": ["contenidoNovedades","contenidoBodegas"],
       "fullWidth":false
     }
   },
@@ -40,21 +40,21 @@
   "flex-layout.row#novedadesTitulo":{
     "children":["rich-text#novedades"],
     "props": {
-      "blockClass": "contenidoNovedades",
+      "blockClass": ["contenidoNovedades","novedadesMobileBarra"],
       "fullWidth":false
     }
   },
   "rich-text#novedades":{
     "props":{
       "text": "NOVEDADES  &nbsp;  ver más >",
-      "blockClass": "textNovedades"
+      "blockClass": ["textNovedades"]
     }
   },
   
   "flex-layout.row#especialesTitulo":{
     "children":["rich-text#especiales"],
     "props": {
-      "blockClass": "contenidoNovedades",
+      "blockClass": ["contenidoNovedades","EspecialesMobileBarra"],
       "fullWidth":false
     }
   },

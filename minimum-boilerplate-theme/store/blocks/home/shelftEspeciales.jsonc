@@ -1,0 +1,101 @@
+{
+    "list-context.product-list#Especiales": {
+      "blocks": ["product-summary.shelf#Especiales"],
+      "children": ["slider-layout#Especiales"],
+      "props": {
+        "collection": "138"
+      }
+    },
+    "product-summary.shelf#Especiales": {
+      "children": [
+        "product-summary-image",
+        "vtex.product-highlights@2.x:product-highlights#collection",
+        "product-brand#Especiales",
+        "product-description",
+        "flex-layout.row#priceEspeciales",  
+        "flex-layout.row#botonesEspeciales"
+        
+      ],
+      "props": {
+        "blockClass": "related-shelf-home"
+      }
+    },
+  
+    "product-brand#Especiales": {
+      "props": {
+        "displayMode": "text"
+      }
+    },
+  
+    "flex-layout.row#priceEspeciales":{
+      "children":[
+        "product-selling-price",
+        "product-list-price-range"
+      ],
+      "props":{
+        "blockClass": "contenidoPrecios",
+        "preventHorizontalStretch":true
+      }
+    },
+  
+    "flex-layout.row#botonesEspeciales":{
+      "children":[  
+        "add-to-cart-button#homeEspeciales",
+        "product-specification-badges#Especiales"
+      ],
+      "props": {
+        "blockClass": "botones"
+  
+      }
+  
+    },
+    
+    "add-to-cart-button#homeEspeciales":{
+      "props": {
+        "text": "COMPRAR",
+        "unavailableText": "SIN STOCK",
+        "blockClass": "botonComprar"
+      }
+    },
+  
+  
+  
+  
+      "slider-layout#Especiales": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 2,
+          "tablet": 2,
+          "phone": 2
+        },
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        // "autoplay": {
+        //     "timeout": 5000,
+        //     "stopOnHover": true
+        // },
+        "fullWidth": false,
+        // "infinite": true,
+        "blockClass": ["shelf-default","sliderBodegas1"]
+      }
+    },
+    "product-specification-badges#Especiales": {
+      "props": {
+        "specificationGroupName": "allSpecifications",
+        "specificationsOptions": [
+          {
+            "specificationName": "Producto de Preventa",
+            "displayValue": "SPECIFICATION_NAME",
+            "visibleWhen": ""
+          },
+          {
+            "specificationName": "envio gratis",
+            "displayValue": "envio gratis",
+            "visibleWhen": false
+          }
+        ],
+        "blockClass": "envioGratisContenido"
+      }
+    }
+  }
+  

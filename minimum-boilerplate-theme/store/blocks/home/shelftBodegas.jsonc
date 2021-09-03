@@ -1,0 +1,202 @@
+{
+    "list-context.product-list#bodegas": {
+      "blocks": ["product-summary.shelf#bodega"],
+      "children": ["slider-layout#bodega"],
+      "props": {
+        "collection": "138"
+      }
+    },
+    "product-summary.shelf#bodega": {
+      "children": [
+        "product-summary-image",
+        "vtex.product-highlights@2.x:product-highlights#collection",
+        "product-brand#bodega",
+        "product-description",
+        "flex-layout.row#priceBodega",  
+        "flex-layout.row#botonesBodega"
+        
+      ],
+      "props": {
+        "blockClass": "related-shelf-home"
+      }
+    },
+  
+    "product-brand#bodega": {
+      "props": {
+        "displayMode": "text"
+      }
+    },
+  
+    "flex-layout.row#priceBodega":{
+      "children":[
+        "product-selling-price",
+        "product-list-price-range"
+      ],
+      "props":{
+        "blockClass": "contenidoPrecios",
+        "preventHorizontalStretch":true
+      }
+    },
+  
+    "flex-layout.row#botonesBodega":{
+      "children":[  
+        "add-to-cart-button#homeBodega",
+        "product-specification-badges#bodega"
+      ],
+      "props": {
+        "blockClass": "botones"
+  
+      }
+  
+    },
+    
+    "add-to-cart-button#homeBodega":{
+      "props": {
+        "text": "COMPRAR",
+        "unavailableText": "SIN STOCK",
+        "blockClass": "botonComprar"
+      }
+    },
+  
+  
+  
+  
+      "slider-layout#bodega": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 2,
+          "tablet": 2,
+          "phone": 2
+        },
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        // "autoplay": {
+        //     "timeout": 5000,
+        //     "stopOnHover": true
+        // },
+        "fullWidth": false,
+        // "infinite": true,
+        "blockClass": ["shelf-default","sliderBodegas1"]
+      }
+    },
+    "product-specification-badges#bodega": {
+      "props": {
+        "specificationGroupName": "allSpecifications",
+        "specificationsOptions": [
+          {
+            "specificationName": "Producto de Preventa",
+            "displayValue": "SPECIFICATION_NAME",
+            "visibleWhen": ""
+          },
+          {
+            "specificationName": "envio gratis",
+            "displayValue": "envio gratis",
+            "visibleWhen": false
+          }
+        ],
+        "blockClass": "envioGratisContenido"
+      }
+    },
+
+    ////////bodegas2
+
+     "list-context.product-list#bodegasDos": {
+      "blocks": ["product-summary.shelf#bodegaDos"],
+      "children": ["slider-layout#bodegaDos"],
+      "props": {
+        "collection": "138"
+      }
+    },
+    "product-summary.shelf#bodegaDos": {
+      "children": [
+        "product-summary-image",
+        "vtex.product-highlights@2.x:product-highlights#collection",
+        "product-brand#bodegaDos",
+        "product-description",
+        "flex-layout.row#priceBodegaDos",  
+        "flex-layout.row#botonesBodegaDos"
+        
+      ],
+      "props": {
+        "blockClass": "related-shelf-home"
+      }
+    },
+  
+    "product-brand#bodegaDos": {
+      "props": {
+        "displayMode": "text"
+      }
+    },
+  
+    "flex-layout.row#priceBodegaDos":{
+      "children":[
+        "product-selling-price",
+        "product-list-price-range"
+      ],
+      "props":{
+        "blockClass": "contenidoPrecios",
+        "preventHorizontalStretch":true
+      }
+    },
+  
+    "flex-layout.row#botonesBodegaDos":{
+      "children":[  
+        "add-to-cart-button#homeBodegaDos",
+        "product-specification-badges#bodegaDos"
+      ],
+      "props": {
+        "blockClass": "botones"
+  
+      }
+  
+    },
+    
+    "add-to-cart-button#homeBodegaDos":{
+      "props": {
+        "text": "COMPRAR",
+        "unavailableText": "SIN STOCK",
+        "blockClass": "botonComprar"
+      }
+    },
+  
+  
+  
+  
+      "slider-layout#bodegaDos": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 2,
+          "tablet": 2,
+          "phone": 2
+        },
+        "showNavigationArrows": "never",
+        "showPaginationDots": "never",
+        // "autoplay": {
+        //     "timeout": 5000,
+        //     "stopOnHover": true
+        // },
+        "fullWidth": false,
+        // "infinite": true,
+        "blockClass": ["shelf-default","sliderBodegas1"]
+      }
+    },
+    "product-specification-badges#bodegaDos": {
+      "props": {
+        "specificationGroupName": "allSpecifications",
+        "specificationsOptions": [
+          {
+            "specificationName": "Producto de Preventa",
+            "displayValue": "SPECIFICATION_NAME",
+            "visibleWhen": ""
+          },
+          {
+            "specificationName": "envio gratis",
+            "displayValue": "envio gratis",
+            "visibleWhen": false
+          }
+        ],
+        "blockClass": "envioGratisContenido"
+      }
+    }
+  }
+  

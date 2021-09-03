@@ -103,6 +103,12 @@
     color: white;
     background-color: black;
   }
+  .flexRow--contenidoBodegas{
+    display: none;
+  }
+  .flexRow--bodegasContent{
+    display: none;
+  }
 }
 
 
@@ -250,18 +256,7 @@
 
 
 
-@media only screen and (max-width: 1025px) {
-  .flexRowContent--newsStyle{
-    flex-direction: column;
-  }
-  .flexRow--newsStyle {
-    border-top: 2px solid #b8aa85;
-    border-bottom: 2px solid #b8aa85;
-    display: flex;
-    margin-bottom: 20px;
-    padding: 30px;
-}
-}
+
 
 
 
@@ -283,3 +278,61 @@
   margin-left: 60px;
 }
 
+
+/* BLOQUE BODEGA */
+
+
+.flexRow--bodegasContent{
+  margin-top: 40px;
+  display:flex;
+}
+
+.flexRow--EspecialesContent{
+  margin-top: 40px;
+  display:flex;
+}
+
+.flexRow--novedadesMobileBarra{
+  margin-bottom: 40px;
+}
+
+
+
+.flexRowContent--ContentBannerMobile{
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 1025px) {
+ 
+  .flexRowContent--newsStyle{
+    flex-direction: column;
+  }
+  .flexRow--newsStyle {
+    border-top: 2px solid #b8aa85;
+    border-bottom: 2px solid #b8aa85;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.flexRowContent--ContentBannerMobile{
+  display: block !important;
+  padding: 20px;
+}
+.flexRow--EspecialesMobileBarra{
+  display: none;
+}
+.flexRow--bodegasContent{
+  display: none;
+}
+.flexRow--EspecialesContent{
+  display: none;
+}
+.flexRow--ContentBannerBodegaMobile{
+  padding: 30px;
+}
+.flexRow--novedadesMobileBarra{
+  display: none;
+}
+}

@@ -568,10 +568,15 @@
 
 
 @media only screen and (max-width:1025px) {
+
  .paragraph--textNovedades{
-   color :white;
+   color :black;
    padding: 0px 13px;
  }
+
+ .container--novedadesMobileBarra{
+  display: none;
+}
 
   
 }

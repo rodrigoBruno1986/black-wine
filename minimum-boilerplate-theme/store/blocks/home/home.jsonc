@@ -6,13 +6,15 @@
       "flex-layout.row#tiendas",
       "flex-layout.row#masVendidosTitulo", //mas vendidos titulo
       "list-context.product-list#mas-vendidos",
+      "flex-layout.row#bannerMobile",
       "flex-layout.row#bodegasDelMesTitulo",//mas bondegas titulo
-      "list-context.product-list#mas-vendidos",
+      "flex-layout.row#bodegasDelMes",
       "flex-layout.row#novedadesTitulo",//mas novedades titulo
-      "list-context.product-list#mas-vendidos",
+      "list-context.product-list#novedades",
       "flex-layout.row#especialesTitulo",//mas especiales titulo
-      "list-context.product-list#mas-vendidos",
+      "flex-layout.row#Especiales",
       "flex-layout.row#vinosSlider",
+      "flex-layout.row#bannerMobileBodega",
       "flex-layout.row#destacadosTitulo",//mas destacados titulo
       "flex-layout.row#banners",
       "flex-layout.row#marcasTitulo",//mas marcas titulo
@@ -115,6 +117,64 @@
   }
 },
 
+//BLOQUE BODEGAS DEL MES
+
+"flex-layout.row#bodegasDelMes":{
+  "children":[
+    "image#exampleBodega","flex-layout.col#ShelfBodegas"
+  ],
+  "props":{
+    "blockClass":["bodegasContent"],
+    "colSizing": "auto"
+  }
+},
+
+"image#exampleBodega":{
+  "props": {
+    "src": "https://winesupply.vteximg.com.br/arquivos/banner1.png",
+    "blockClass": "bannerBodega"
+  }
+},
+"flex-layout.col#ShelfBodegas":{
+  "children":[
+    "list-context.product-list#bodegas",
+    "list-context.product-list#bodegasDos"
+  ],
+  "props": {
+    "blockClass": "shelfbodegas"
+  }
+},
+
+//BLOQUE ESPECIALES 
+
+
+
+"flex-layout.row#Especiales":{
+  "children":[
+    "image#exampleEspeciales","flex-layout.col#ShelfEspeciales"
+  ],
+  "props":{
+    "blockClass":["EspecialesContent"],
+    "colSizing": "auto"
+  }
+},
+
+"image#exampleEspeciales":{
+  "props": {
+    "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+    "blockClass": "bannerEspeciales"
+  }
+},
+"flex-layout.col#ShelfEspeciales":{
+  "children":[
+    "list-context.product-list#Especiales"
+  ],
+  "props": {
+    "blockClass": "shelfEspeciales"
+  }
+},
+
+
  // BLOQUE MARCAS
 
  "flex-layout.row#marcas":{
@@ -182,6 +242,36 @@
   "props": {
     "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
     "blockClass": "imgINSTAGRAM"
+  }
+},
+
+"flex-layout.row#bannerMobile":{
+  "children":[
+    "image#banerMobile"
+  ],
+  "props":{
+    "blockClass":["ContentBannerMobile"]
+  }
+},
+"image#banerMobile":{
+  "props":{
+    "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+    "blockClass":["imgbannerMobile"]
+  }
+},
+
+"flex-layout.row#bannerMobileBodega":{
+  "children":[
+    "image#bodegaMobile"
+  ],
+  "props": {
+    "blockClass": "ContentBannerBodegaMobile"
+  }
+},
+"image#bodegaMobile":{
+  "props": {
+    "src": "https://winesupply.vteximg.com.br/arquivos/banner1.png",
+    "blockClass": "bannerBodegaMobile"
   }
 },
 
