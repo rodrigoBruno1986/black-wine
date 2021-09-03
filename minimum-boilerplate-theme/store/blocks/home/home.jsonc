@@ -4,22 +4,24 @@
       "list-context.image-list#home",
       "flex-layout.row#medios",
       "flex-layout.row#tiendas",
-      "flex-layout.row#masVendidosTitulo", //mas vendidos titulo
+      "flex-layout.row#masVendidosTitulo", 
       "list-context.product-list#mas-vendidos",
       "flex-layout.row#bannerMobile",
-      "flex-layout.row#bodegasDelMesTitulo",//mas bondegas titulo
+      "flex-layout.row#bodegasDelMesTitulo",
       "flex-layout.row#bodegasDelMes",
-      "flex-layout.row#novedadesTitulo",//mas novedades titulo
+      "flex-layout.row#novedadesTitulo",
       "list-context.product-list#novedades",
-      "flex-layout.row#especialesTitulo",//mas especiales titulo
+      "flex-layout.row#especialesTitulo",
       "flex-layout.row#Especiales",
       "flex-layout.row#vinosSlider",
       "flex-layout.row#bannerMobileBodega",
-      "flex-layout.row#destacadosTitulo",//mas destacados titulo
+      "flex-layout.row#destacadosTitulo",
+      "list-context.product-list#Destacados",
+      "flex-layout.row#DestacadosDos",
       "flex-layout.row#banners",
-      "flex-layout.row#marcasTitulo",//mas marcas titulo
+      "flex-layout.row#marcasTitulo",
       "flex-layout.row#marcas",
-      "flex-layout.row#linea",//mas marcas titulo
+      "flex-layout.row#linea",
       "flex-layout.row#blogs",
       "flex-layout.row#blogsMobile",
       "flex-layout.row#newsletter"
@@ -144,6 +146,18 @@
     "blockClass": "shelfbodegas"
   }
 },
+// BLOQUE DESTACADOS
+
+"flex-layout.row#DestacadosDos":{
+  "children":[
+    "list-context.product-list#DestacadosDos"
+  ],
+  "props":{
+    "blockClass":"destacadosDos"
+  }
+},
+
+
 
 //BLOQUE ESPECIALES 
 
