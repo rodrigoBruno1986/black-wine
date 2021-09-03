@@ -68,7 +68,7 @@
   "flex-layout.row#destacadosTitulo":{
     "children":["rich-text#destacados"],
     "props": {
-      "blockClass": "contenidoNovedades",
+      "blockClass": ["contenidoNovedades", "contenidoDestacados"],
       "fullWidth":false
     }
   },

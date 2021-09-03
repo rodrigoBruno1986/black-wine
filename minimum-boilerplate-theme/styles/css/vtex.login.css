@@ -2,3 +2,7 @@
 :global(.vtex-store__template){
     background: #F3F2F2;
 }
+
+:global(.vtex-store .b--action-primary){
+    background-color: #000 !important;
+}

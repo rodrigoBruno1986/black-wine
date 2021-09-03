@@ -10,7 +10,7 @@
     align-items: center;
     /* width: 86%; */
     margin: auto;
-    justify-content: center;
+    justify-content: space-around;
    
   font-family: "Nunito-Regular";
   }

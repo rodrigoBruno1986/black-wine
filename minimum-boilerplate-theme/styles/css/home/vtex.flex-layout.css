@@ -83,6 +83,12 @@
   margin: auto; 
   border-bottom: 2px solid black;
 }
+.flexRow--contenidoDestacados{
+  margin-bottom: 40px;
+}
+.flexRow--destacadosDos{
+  margin-top: 20px;
+}
 
 .flexRow--contenidoMarcasLideres{
   width:90%;
@@ -102,11 +108,15 @@
     margin: auto; 
     color: white;
     background-color: black;
+    display: none;
   }
   .flexRow--contenidoBodegas{
     display: none;
   }
   .flexRow--bodegasContent{
+    display: none;
+  }
+  .flexRow--destacadosDos{
     display: none;
   }
 }

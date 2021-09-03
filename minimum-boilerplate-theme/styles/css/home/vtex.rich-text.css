@@ -570,7 +570,8 @@
 @media only screen and (max-width:1025px) {
 
  .paragraph--textNovedades{
-   color :black;
+   color :white;
+   font-weight: normal;
    padding: 0px 13px;
  }
 

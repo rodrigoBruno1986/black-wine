@@ -1,0 +1,104 @@
+{
+    "list-context.product-list#Destacados": {
+      "blocks": ["product-summary.shelf#Destacados"],
+      "children": ["slider-layout#Destacados"],
+      "props": {
+        "collection": "138"
+        
+      }
+    },
+    "product-summary.shelf#Destacados": {
+      "children": [
+        "product-summary-image",
+        "vtex.product-highlights@2.x:product-highlights#collection",
+        "product-brand#Destacados",
+        "product-description",
+        "flex-layout.row#priceDestacados",  
+        "flex-layout.row#botonesDestacados"
+        
+      ],
+      "props": {
+        "blockClass": "related-shelf-home"
+      }
+    },
+  
+    "product-brand#Destacados": {
+      "props": {
+        "displayMode": "text"
+      }
+    },
+  
+    "flex-layout.row#priceDestacados":{
+      "children":[
+        "product-selling-price",
+        "product-list-price-range"
+      ],
+      "props":{
+        "blockClass": "contenidoPrecios",
+        "preventHorizontalStretch":true
+      }
+    },
+  
+    "flex-layout.row#botonesDestacados":{
+      "children":[  
+        "add-to-cart-button#homeDestacados",
+        "product-specification-badges#Destacados"
+      ],
+      "props": {
+        "blockClass": "botones"
+  
+      }
+  
+    },
+    
+    "add-to-cart-button#homeDestacados":{
+      "props": {
+        "text": "COMPRAR",
+        "unavailableText": "SIN STOCK",
+        "blockClass": "botonComprar"
+      }
+    },
+  
+  
+  
+  
+      "slider-layout#Destacados": {
+        "props": {
+            "itemsPerPage": {
+              "desktop": 4,
+              "tablet": 2,
+              "phone": 2
+            },
+            "showNavigationArrows": "desktopOnly",
+            "navigationStep": 1,
+            "arrowSize":25,
+            "showPaginationDots": "mobileOnly",
+            // "autoplay": {
+            //     "timeout": 5000,
+            //     "stopOnHover": true
+            // },
+            "fullWidth": false,
+            // "infinite": true,
+            "blockClass": ["shelf-default"]
+          }
+    },
+    "product-specification-badges#Destacados": {
+      "props": {
+        "specificationGroupName": "allSpecifications",
+        "specificationsOptions": [
+          {
+            "specificationName": "Producto de Preventa",
+            "displayValue": "SPECIFICATION_NAME",
+            "visibleWhen": ""
+          },
+          {
+            "specificationName": "envio gratis",
+            "displayValue": "envio gratis",
+            "visibleWhen": false
+          }
+        ],
+        "blockClass": "envioGratisContenido"
+      }
+    }
+  }
+  
