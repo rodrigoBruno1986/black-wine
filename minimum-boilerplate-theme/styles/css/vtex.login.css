@@ -6,3 +6,6 @@
 :global(.vtex-store .b--action-primary){
     background-color: #000 !important;
 }
+.b--action-primary{
+    background-color: #000 !important;
+}

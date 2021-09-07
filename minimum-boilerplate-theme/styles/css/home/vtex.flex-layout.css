@@ -24,6 +24,10 @@
   background:url(assets/Line7.svg) bottom right no-repeat;
 }
 
+.flexCol--contenidoTexto{
+  margin-left: 20px;
+}
+
 
 
 .flexRow--contenidoMediosdepago .stretchChildrenWidth{
