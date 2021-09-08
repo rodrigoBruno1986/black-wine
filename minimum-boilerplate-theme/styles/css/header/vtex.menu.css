@@ -36,6 +36,9 @@
     margin: auto;
     border: 1px solid rgba(209, 207, 207, 0.37);
   }
+
+
+
   .menuItem:hover {
     background: #F3F2F2;
     
@@ -163,3 +166,11 @@
   .limpioonline-limpioonline-components-1-x-MenuHorizontal{
     background: #0283d8 !important;
   }
+
+
+  .vtex-menu-2-x-menuItem:hover {
+    background: white;
+  }
+
+
+

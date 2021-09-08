@@ -1,0 +1,31 @@
+{
+    "vtex.menu@2.x:submenu.accordion#descrition": {
+        "children": [
+            "vtex.menu@2.x:menu#descrition-accordion"
+        ]
+    },
+    "vtex.menu@2.x:menu#descrition-accordion": {
+        "children": [
+            "product-description",
+            "flex-layout.row#especificaciones"
+        ],
+        "props": {
+            "blockClass": [
+                "contenedorDescripcionDos"
+            ]
+        }
+    },
+    "flex-layout.row#especificaciones": {
+        "children": [
+            "rich-text#tituloEspecificaciones"
+        ]
+    },
+    "rich-text#tituloEspecificaciones": {
+        "props": {
+            "text": "Especificaciones",
+            "blockClass": [
+                "tituloEspe"
+            ]
+        }
+    }
+}

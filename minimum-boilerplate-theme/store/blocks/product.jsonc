@@ -2,7 +2,8 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "flex-layout.row#product-main"
+      "flex-layout.row#product-main",
+      "flex-layout.row#descripcion"
     ],
     "props":{
       "blockClass": ["bgLightGray","contenidoFicha"]
@@ -23,22 +24,38 @@
     },
     "children": [
        "flex-layout.col#product-image",
-      "flex-layout.col#right-col"
+       "flex-layout.col#right-col"
     ]
   },
 
+  "flex-layout.row#descripcion":{
+    "children": [
+      "menu-item#payment-methods"
+   ],
+   "props":{
+     "blockClass":"contenidoDescription"
+   }
+  },
+  "menu-item#payment-methods": {
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#descrition"
+    ],
+    "props": {
+        "id": "payment-methods",
+        "blockClass": "product-page-menu-item",
+        "type": "custom",
+        "iconId": null,
+        "itemProps": {
+            "tagTitle": "Descripción",
+            "text": "Descripción"
+        }
+    }
+},
 
 
-  "product-name#mobile":{
-    "props":{
-      "blockClass": "product-title-mobile"
-    }
-  },
-  "product-price#product-details-mobile":{
-    "props":{
-      "blockClass": "product-details-mobile"
-    }
-  },
+
+
+
   "flex-layout.col#product-image": {
     "props": {
       "rowGap": 0

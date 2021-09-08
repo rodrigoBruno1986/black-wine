@@ -743,4 +743,9 @@
   font-family: 'Nunito-Bold';
 }
 
+.wrapper--tituloEspe :global(.vtex-rich-text-0-x-paragraph){
+  font-family: 'BodoniFLF-Bold';
+  font-size: 30px;
+}
+
 

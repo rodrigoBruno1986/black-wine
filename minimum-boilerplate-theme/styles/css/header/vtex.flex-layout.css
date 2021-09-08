@@ -827,3 +827,21 @@
     }
   }
   
+  .flexRowContent--contenidoDescription :global(.vtex-menu-2-x-menuItem ):hover{
+    background:white !important;
+  }
+
+
+
+  .flexRowContent--contenidoDescription :global(.vtex-menu-2-x-styledLinkContent):hover{
+    background: white !important;
+  
+  }
+
+  .flexRowContent--contenidoDescription :global(.vtex-menu-2-x-styledLinkContent){
+    background: white !important;
+    font-family: 'BodoniFLF-Bold';
+    font-size: 33px;
+  }
+   
+
