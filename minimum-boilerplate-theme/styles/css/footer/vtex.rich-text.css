@@ -14,9 +14,11 @@
   .paragraph--textNewsuno{
    font-size: 13px;
    justify-content: center !important;
+   margin: auto !important;
   }
   .wrapper--textNewsuno{
     margin: auto;
+    margin: 20px !important;
   }
 
 }

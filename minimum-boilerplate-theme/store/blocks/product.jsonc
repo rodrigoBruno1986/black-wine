@@ -3,7 +3,12 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "flex-layout.row#descripcion"
+      "flex-layout.row#descripcion",
+      "flex-layout.row#Tituloquienes",
+      "list-context.product-list#interesados",
+      "flex-layout.row#TituloComplementarios",
+      "list-context.product-list#complementarios",
+      "flex-layout.row#newsletterFicha"
     ],
     "props":{
       "blockClass": ["bgLightGray","contenidoFicha"]
@@ -186,6 +191,67 @@
     "children":["shelf.relatedProducts"],
     "props": {
       "blockClass": "shelf-related"
+    }
+  },
+
+
+  "flex-layout.row#Tituloquienes":{
+    "children":[
+      "rich-text#quienes"
+    ],
+    "props": {
+      "blockClass": "contenedorTituloFicha"
+    }
+
+  },
+  "rich-text#quienes": {
+    "props": {
+      "text": "Quienes compraron este producto también se interesaron en:",
+      "blockClass": "tituloFichaTodo"
+    }
+  },
+  "flex-layout.row#TituloComplementarios":{
+    "children":[
+      "rich-text#complementarios"
+    ],
+    "props": {
+      "blockClass": "contenedorTituloFicha"
+    }
+
+  },
+  "rich-text#complementarios": {
+    "props": {
+      "text": "Prodcutos complementarios",
+      "blockClass": "tituloFichaTodo"
+    }
+  },
+
+  "flex-layout.row#newsletterFicha":{
+    "children": ["flex-layout.col#NewsTextFicha","newsletter"
+    ],
+    "props":{
+      "blockClass": ["newsStyle","newsFicha"],
+      "preventHorizontalStretch":true
+    }
+  },
+  "flex-layout.col#NewsTextFicha":{
+    "children":["rich-text#newsTop","rich-text#newsBotton"]
+  },
+  "rich-text#newsTop":{
+    "props":{
+      "text": "ENTÉRATE DE LAS PROMOCIONES Y NOVEDADES.",
+      "blockClass": "textNewsuno"
+    }
+  },
+  "rich-text#newsBotton":{
+    "props":{
+      "text": "Suscribite a nuestro Newsletter",
+      "blockClass": "textNewsDos"
+    }
+  },
+  "newsletter":{
+    "props":{
+      "submit":"SUSCRIBIRME"
     }
   }
 

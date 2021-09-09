@@ -1,0 +1,104 @@
+{
+    "list-context.product-list#complementarios": {
+      "blocks": ["product-summary.shelf#complementarios"],
+      "children": ["slider-layout#complementarios"],
+      "props": {
+        "collection": "138"
+        
+      }
+    },
+    "product-summary.shelf#complementarios": {
+      "children": [
+        "product-summary-image",
+        "vtex.product-highlights@2.x:product-highlights#collection",
+        "product-brand#complementarios",
+        "product-description",
+        "flex-layout.row#pricecomplementarios",  
+        "flex-layout.row#botonescomplementarios"
+        
+      ],
+      "props": {
+        "blockClass": "related-shelf-home"
+      }
+    },
+  
+    "product-brand#complementarios": {
+      "props": {
+        "displayMode": "text"
+      }
+    },
+  
+    "flex-layout.row#pricecomplementarios":{
+      "children":[
+        "product-selling-price",
+        "product-list-price-range"
+      ],
+      "props":{
+        "blockClass": "contenidoPrecios",
+        "preventHorizontalStretch":true
+      }
+    },
+  
+    "flex-layout.row#botonescomplementarios":{
+      "children":[  
+        "add-to-cart-button#homecomplementarios",
+        "product-specification-badges#complementarios"
+      ],
+      "props": {
+        "blockClass": "botones"
+  
+      }
+  
+    },
+    
+    "add-to-cart-button#homecomplementarios":{
+      "props": {
+        "text": "COMPRAR",
+        "unavailableText": "SIN STOCK",
+        "blockClass": "botonComprar"
+      }
+    },
+  
+  
+  
+  
+      "slider-layout#complementarios": {
+        "props": {
+            "itemsPerPage": {
+              "desktop": 4,
+              "tablet": 2,
+              "phone": 2
+            },
+            "showNavigationArrows": "desktopOnly",
+            "navigationStep": 1,
+            "arrowSize":25,
+            "showPaginationDots": "mobileOnly",
+            // "autoplay": {
+            //     "timeout": 5000,
+            //     "stopOnHover": true
+            // },
+            "fullWidth": false,
+            // "infinite": true,
+            "blockClass": ["shelf-default"]
+          }
+    },
+    "product-specification-badges#complementarios": {
+      "props": {
+        "specificationGroupName": "allSpecifications",
+        "specificationsOptions": [
+          {
+            "specificationName": "Producto de Preventa",
+            "displayValue": "SPECIFICATION_NAME",
+            "visibleWhen": ""
+          },
+          {
+            "specificationName": "envio gratis",
+            "displayValue": "envio gratis",
+            "visibleWhen": false
+          }
+        ],
+        "blockClass": "envioGratisContenido"
+      }
+    }
+  }
+  

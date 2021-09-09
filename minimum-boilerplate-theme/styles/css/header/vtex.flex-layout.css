@@ -831,8 +831,7 @@
     background:white !important;
   }
 
-
-
+ 
   .flexRowContent--contenidoDescription :global(.vtex-menu-2-x-styledLinkContent):hover{
     background: white !important;
   
@@ -844,4 +843,5 @@
     font-size: 33px;
   }
    
+
 
