@@ -563,6 +563,7 @@
   font-weight: bold;
   font-family: "MuseoSans_500" !important;
   color: black;
+  margin: inherit
 }
 
 
@@ -591,6 +592,7 @@
 
 .wrapper--fuenteUnoVinos .paragraph{
   font-weight: bold;
+  margin-top: 30px;
 }
 
 
@@ -745,6 +747,7 @@
 .wrapper--tituloEspe :global(.vtex-rich-text-0-x-paragraph){
   font-family: 'BodoniFLF-Bold';
   font-size: 30px;
+  text-align: center;
 }
 
 

@@ -29,17 +29,6 @@
  
 }
 
-.flexRow--contenidoFichaMedios :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
-  border-right: 1px solid black;
-
-}
-
-
-
-.flexRow--contenidoFichaMedios :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
-  border-left: 1px solid black;
-}
-
 
 
 
