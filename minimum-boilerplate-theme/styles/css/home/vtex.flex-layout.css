@@ -101,6 +101,10 @@
   align-items: center;
   justify-content: center;
 }
+.flexRowContent--contenidoTienda :global(.vtex-rich-text-0-x-wrapper){
+  text-align: center;
+  width: 300px;
+}
 
 
 /* FIN BLOQUE TIENDA */
@@ -126,6 +130,10 @@
   width:90%;
   margin: auto; 
   border-top: 2px solid black;
+}
+
+.flexRow--contenidoMarcasLideres :global(.vtex-rich-text-0-x-container--textNovedades){
+  margin-top: 20px;
 }
 
 .flexRow--styleContenido :global(.vtex-slider-layout-0-x-paginationDotsContainer){
