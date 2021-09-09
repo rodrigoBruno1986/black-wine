@@ -196,7 +196,7 @@
     "slider-layout#marcas"
   ],
   "props":{
-    "blockClass":["contenidoSlider","styleContenido"]
+    "blockClass":["contenidoSlider","styleContenido","styleContenidoMarcas"]
   }
 },
 

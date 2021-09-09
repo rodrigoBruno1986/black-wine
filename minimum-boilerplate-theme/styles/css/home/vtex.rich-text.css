@@ -437,7 +437,7 @@
   .paragraph--infopagos {
     text-align: center;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 8px;
   }
   .paragraph--textoAlternativoInfopagos{
     font-size: 12px;
@@ -459,7 +459,6 @@
   .paragraph--infopagos {
     text-align: center;
     font-size: 11px;
-    margin-top: 20px;
   }
   
   .paragraph--textoAlternativoInfopagos{

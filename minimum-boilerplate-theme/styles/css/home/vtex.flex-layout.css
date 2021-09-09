@@ -13,25 +13,41 @@
 .flexRowContent--mediosDePagos{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .flexRowContent--estilosHablemos{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.flexRow--mediosDePagos {
+/* .flexRow--mediosDePagos {
   background:url(assets/Line7.svg) bottom right no-repeat;
-}
+} */
 
-.flexCol--contenidoTexto{
+.flexRow--mediosDePagos :global(.vtex-flex-layout-0-x-flexCol--contenidoTexto){
   margin-left: 20px;
 }
 
 
 
+
 .flexRow--contenidoMediosdepago .stretchChildrenWidth{
   padding: 28px;
+}
+
+.flexRowContent--contenidoMediosdepago  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd){
+  background:url(assets/Line7.svg) bottom right no-repeat;
+  background-position: right;
+}
+.flexRowContent--contenidoMediosdepago  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even){
+  background:url(assets/Line7.svg) bottom right no-repeat;
+  background-position: right;
+}
+
+.flexRowContent--contenidoMediosdepago  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+ background:transparent;
 }
 
 
@@ -56,6 +72,18 @@
     padding: 0px;
   }
 
+  .flexRow--mediosDePagos :global(.vtex-flex-layout-0-x-flexCol--contenidoTexto){
+    margin-left: 0px;
+  }
+
+  .flexRowContent--contenidoMediosdepago  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd){
+    background:transparent !important;
+    background-position: right;
+  }
+  .flexRowContent--contenidoMediosdepago  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even){
+    background:transparent !important;
+    background-position: right;
+  }
 
 }
 
@@ -151,7 +179,7 @@
   margin-bottom: 20px;
 }
 
-.flexRow--contenidoSlider {
+.flexRow--styleContenidoMarcas {
   margin: 5px 0px 73px 0px;
 }
 .flexRow--contenidoSeguinos{
