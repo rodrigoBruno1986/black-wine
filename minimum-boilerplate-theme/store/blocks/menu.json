@@ -19,7 +19,7 @@
         "children": [
             "rich-text#tituloEspecificaciones",
             "product-brand#Ficha",
-            "product-specification-group"
+            "flex-layout.col#detail"
         ]
     },
     "rich-text#tituloEspecificaciones": {
@@ -38,39 +38,12 @@
             ]
         }
     },
-    "product-specification-group": {
+    "flex-layout.col#detail": {
         "children": [
-            "product-specification-text#group",
-            "product-specification"
-        ],
-        "props": {
-            "blockClass": [
-                "contenidoGrupoTecnica"
-            ]
-        }
-    },
-    "product-specification": {
-        "children": [
-            "product-specification-text#specification",
-            "product-specification-values"
+            "FilterDetails"
         ]
     },
-    "product-specification-values": {
-        "children": [
-            "product-specification-text#value"
-        ]
-    },
-    "product-specification-text#group": {
+    "FilterDetails": {
         "props": {}
-    },
-    "product-specification-text#specification": {
-        "props": {
-            "isFirstSpecificationValue": false
-        }
-    },
-    "product-specification-text#value": {
-        "props": {
-            "message": "{specificationValue}"
-        }
     }
 }
