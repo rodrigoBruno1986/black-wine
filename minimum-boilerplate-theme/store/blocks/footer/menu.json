@@ -16,9 +16,7 @@
   "flex-layout.row#menu-1-1": {
     "children": [
       "image#imagenLogo",
-      "flex-layout.row#seguinosContentIzquierda",
-      "rich-text#newsletter-titleLogos",
-      "flex-layout.row#redes-sociales-logos"
+      "flex-layout.row#seguinosContentIzquierda"
     ],
     "props": {
       "blockClass": [
@@ -29,14 +27,6 @@
   },
   "flex-layout.row#seguinosContentIzquierda": {
     "children": []
-  },
-  "rich-text#newsletter-titleLogos": {
-    "props": {
-      "text": "Seguinos en:",
-      "blockClass": [
-        "seguinosStyleLogos"
-      ]
-    }
   },
   "image#imagenLogo": {
     "props": {

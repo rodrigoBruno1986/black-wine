@@ -76,7 +76,7 @@
         // },
         "fullWidth": false,
         // "infinite": true,
-        "blockClass": ["shelf-default"]
+        "blockClass": ["shelf-default","sliderNovedades"]
       }
     },
     "product-specification-badges#Novedades": {

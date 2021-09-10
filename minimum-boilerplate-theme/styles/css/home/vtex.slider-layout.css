@@ -2,12 +2,19 @@
    display: none;
 }
 
+
+
 .sliderLayoutContainer--sliderMasVendidos{
-    margin: 40px 0px;
+    margin: 20px auto;
+    margin-bottom: 20px;
+ 
 }
 
-
-
+.sliderLayoutContainer--sliderNovedades{
+    margin: 20px auto;
+    margin-bottom: 20px;
+  
+}
 
 
 @media only screen and (max-width: 1025px) {
@@ -41,5 +48,9 @@
 .sliderLayoutContainer--sliderBodegas1{
     margin-bottom: 20px;
     margin-right: 25px;
+}
+
+.paginationDotsContainer :global(.vtex-slider-layout-0-x-paginationDot--dotMarcas ){
+    display: block !important;
 }
 

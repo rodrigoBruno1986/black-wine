@@ -103,7 +103,7 @@
 }
 .flexRowContent--contenidoTienda :global(.vtex-rich-text-0-x-wrapper){
   text-align: center;
-  width: 300px;
+  width: 320px;
 }
 
 
@@ -159,7 +159,12 @@
   .flexRow--destacadosDos{
     display: none;
   }
+  .flexRowContent--contenidoTienda :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    text-align: center;
+    width: 50% !important;
+  }
 }
+
 
 
 
@@ -168,10 +173,17 @@
 
 
 /* BLOQUE INFOCARDT */
+.flexRowContent--contenedorInfoCart{
+ margin: auto;
+ justify-content: center;
+}
+.flexRowContent--contenedorInfoCart :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  width: 45% !important;
+}
 
 
 .flexRowContent--contenedorInfoCart{
-  padding: 30px;
+  padding: 45px;
 }
 
 @media only screen and (max-width: 1025px) {
@@ -180,6 +192,10 @@
     flex-direction: column;
     padding: 0px;
    align-items: center;
+}
+
+.flexRowContent--contenedorInfoCart :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  width: 100% !important;
 }
 
 .flexRowContent--contenedorInfoCart{
@@ -243,11 +259,8 @@
  background: #BABABA;
 }
 
-.flexColContent--contenidoBlog {
-  padding: 15px;
-}
 .flexRowContent--contenidoBlog{
-  margin-bottom: 40px;
+  padding: 0px 50px;
 }
 
 
@@ -301,6 +314,7 @@
   border-top: 2px solid #BABABA;
   border-bottom: 2px solid #BABABA;
   display: flex;
+  margin-bottom: 20px;
 }
 
 

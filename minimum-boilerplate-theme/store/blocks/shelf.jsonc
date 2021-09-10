@@ -64,7 +64,7 @@
     "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop":4,
         "tablet": 2,
         "phone": 2
       },
