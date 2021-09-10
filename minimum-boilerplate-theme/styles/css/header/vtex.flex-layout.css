@@ -727,6 +727,11 @@
     margin: auto;
     padding: 1rem 0;
   }
+  .flexRow--contenedorPreguntas{
+    background: white;
+    padding: 30px;
+  }
+
   @media only screen and (max-width: 600px) {
     .flexRow--landing-row--container {
       width: 100%;

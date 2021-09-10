@@ -12,7 +12,7 @@
             "flex-layout.col#faq"
         ],
         "props": {
-            "blockClass": "landing-row--container"
+            "blockClass": ["landing-row--container","contenedorPreguntas"]
         }
     },
     "flex-layout.col#faq": {
@@ -36,13 +36,10 @@
             "rich-text#faq-4",
             "rich-text#faq-5",
             "rich-text#faq-6",
-            "rich-text#faq-7",
             "rich-text#faq-8",
             "rich-text#faq-9",
-            "rich-text#faq-10",
             "rich-text#faq-11",
             "rich-text#faq-12",
-            "rich-text#faq-13",
             "rich-text#faq-14",
             "rich-text#faq-15",
             "rich-text#faq-16",
@@ -51,7 +48,6 @@
             "rich-text#faq-19",
             "rich-text#faq-20",
             "rich-text#faq-21",
-            "rich-text#faq-22",
             "rich-text#faq-23",
             "rich-text#faq-24",
             "rich-text#faq-25"
@@ -109,15 +105,7 @@
             ]
         }
     },
-    "rich-text#faq-7": {
-        "props": {
-            "text": "##### b) Selección de productos: \n Necesito un producto en específico, pero no lo encuentro. \n Nuestra web cuenta con una barra de búsqueda en la parte superior donde podrá escribir el nombre del producto que necesita; la página le mostrará el mismo u opciones similares. Si no encuentra el producto puede ser que no haya disponibilidad de stock por el momento, o que no lo comercializamos.",
-            "blockClass": [
-                "faq",
-                "t-body"
-            ]
-        }
-    },
+
     "rich-text#faq-8": {
         "props": {
             "text": "####  ¿Manejan lista de precios al mayor? \n No, somos una tienda online; todos nuestros productos y precios están publicados.",
@@ -136,15 +124,7 @@
             ]
         }
     },
-    "rich-text#faq-10": {
-        "props": {
-            "text": "##### c) Pago del pedido: \n #### ¿Cuáles son las opciones de pago? \n 1. Mercado Pago: Débito, crédito, efectivo en Pago Fácil o Rapipago. \n 2. Transferencia bancaria: Los datos para realizar la transferencia llegarán al mail registrado junto con el importe a abonar; deberá responder el mismo adjuntando el comprobante de pago.",
-            "blockClass": [
-                "faq",
-                "t-body"
-            ]
-        }
-    },
+
     "rich-text#faq-11": {
         "props": {
             "text": "#### ¿Puedo pagar mi pedido contra entrega? \n No, los pagos son únicamente por el sitio web para proteger tanto a los clientes como a nuestro personal.",
@@ -163,15 +143,7 @@
             ]
         }
     },
-    "rich-text#faq-13": {
-        "props": {
-            "text": "##### d) Seleccionar opción de entrega: 1 Envío:",
-            "blockClass": [
-                "faq",
-                "t-body"
-            ]
-        }
-    },
+
     "rich-text#faq-14": {
         "props": {
             "text": "#### ¿Cuándo estará llegando mi envío? \n Su pedido será procesado dentro de nuestro horario administrativo de 10:00 a 16:30 hrs para ser despachado en 24 a 48 horas hábiles.",
@@ -244,15 +216,7 @@
             ]
         }
     },
-    "rich-text#faq-22": {
-        "props": {
-            "text": "##### e) Cancelar o devolver / Información válida para la sección Botón de devolución. \n #### ¿Qué sucede con mi pago si cancelo mi pedido? \n En caso de que posterior a la compra esta sea cancelada, ya sea por Limpionline o por el usuario, la devolución se procesará de forma instantánea. Sin embargo, el reintegro depende de los tiempos estipulados según las políticas de cada institución emisora de la tarjeta. No aplica con transferencias bancarias: en este caso puede tener una demora de 24 a 48 hrs hábiles. ",
-            "blockClass": [
-                "faq",
-                "t-body"
-            ]
-        }
-    },
+
     "rich-text#faq-23": {
         "props": {
             "text": "#### En caso de equivocarme con algún producto de mi pedido, ¿cómo lo cambio o devuelvo? \n Si tuvo alguna incidencia con su compra debido a que no era lo que necesitaba o esperaba, debe informarnos por medio de WhatsApp o email para indicarle cómo proceder. Recuerde que el producto debe de estar en perfecto estado y sin uso. Si la compra se realizó bajo la modalidad de retiro o envío a domicilio, deberá acercarse en forma presencial a nuestro depósito.",
