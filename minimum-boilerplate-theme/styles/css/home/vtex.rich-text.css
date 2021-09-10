@@ -294,8 +294,8 @@
 }
 
 .paragraph--landing-row--title {
-  color: #0283d8;
-  font-family: "Nunito-Bold";
+  color: black;
+  font-family: 'Baskervville-Regular';
   margin: 0;
   font-size: 2rem;
 }
@@ -336,10 +336,19 @@
 .headingLevel4--terminos {
   margin: 0;
   font-size: 1.2rem;
-  font-family: "Nunito-Bold";
-  color: #0283d8;
+  font-family: 'Baskervville-Regular';
+  font-weight: bold;
+  color: black;
 }
 
+.headingLevel6--faq,
+.headingLevel6--terminos {
+  margin: 0;
+  font-size: 1.2rem;
+  font-family: 'Baskervville-Regular';
+  font-weight: bold;
+  color: black;
+}
 .headingLevel4--terminos {
   font-size: 1rem;
 }
@@ -394,7 +403,7 @@
 }
 
 .link--envios-text {
-  color: #0283d8;
+  color: black;
 }
 
 .headingLevel5--envios-important, .paragraph--envios-important {

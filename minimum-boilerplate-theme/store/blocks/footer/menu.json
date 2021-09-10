@@ -142,7 +142,7 @@
       ],
       "itemProps": {
         "type": "internal",
-        "href": "/preguntas-frecuentes/cat",
+        "href": "",
         "noFollow": true,
         "tagTitle": "3221-6860",
         "text": "3221-6860"
@@ -452,7 +452,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "/preguntas-frecuentes",
         "noFollow": true,
         "tagTitle": "Preguntas frecuentes",
         "text": "Preguntas frecuentes"
