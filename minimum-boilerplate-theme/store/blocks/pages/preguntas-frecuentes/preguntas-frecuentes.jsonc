@@ -32,11 +32,6 @@
         "children": [
             "rich-text#faq-1",
             "rich-text#faq-2",
-            "rich-text#faq-3",
-            "rich-text#faq-4",
-            "rich-text#faq-5",
-            "rich-text#faq-6",
-            "rich-text#faq-8",
             "rich-text#faq-9",
             "rich-text#faq-11",
             "rich-text#faq-12",
@@ -69,52 +64,7 @@
             "blockClass": "faq"
         }
     },
-    "rich-text#faq-3": {
-        "props": {
-            "text": "#### ¿Puedo realizar mi compra en un local físico? \n No tenemos local físico, por lo tanto, no contamos con atención al público. Las compras únicamente se pueden realizar en el sitio web. \n ##### Consultas durante el proceso de compra: \n ##### a) Registro: ",
-            "blockClass": [
-                "faq",
-                "t-body"
-            ]
-        }
-    },
-    "rich-text#faq-4": {
-        "props": {
-            "text": "#### ¿Puedo navegar en el sitio web sin registrarme? \n Para navegar en Limpionline no es necesario realizar el registro.",
-            "blockClass": [
-                "faq",
-                "t-body"
-            ]
-        }
-    },
-    "rich-text#faq-5": {
-        "props": {
-            "text": "#### ¿Debo registrarme para realizar una compra? \n Sí, debes estar registrado. Necesitamos todos los datos que se le solicitan para identificar su pedido de forma tal que su compra sea más segura y sin contratiempos.",
-            "blockClass": [
-                "faq",
-                "t-body"
-            ]
-        }
-    },
-    "rich-text#faq-6": {
-        "props": {
-            "text": "#### ¿Qué datos debo añadir al registrarme en el sitio web? \n Se pedirán datos básicos como nombre, apellido, correo electrónico y contraseña para poder finalizar la compra. El registro es libre y gratuito. La información personal ingresada es confidencial, se mantendrá de forma estricta entre el usuario y Limpionline, y en ningún caso será entregada a terceros. ",
-            "blockClass": [
-                "faq",
-                "t-body"
-            ]
-        }
-    },
 
-    "rich-text#faq-8": {
-        "props": {
-            "text": "####  ¿Manejan lista de precios al mayor? \n No, somos una tienda online; todos nuestros productos y precios están publicados.",
-            "blockClass": [
-                "faq",
-                "t-body"
-            ]
-        }
-    },
     "rich-text#faq-9": {
         "props": {
             "text": "####  ¿Manejan lista de precios al mayor? \n No, somos una tienda online; todos nuestros productos y precios están publicados.",
