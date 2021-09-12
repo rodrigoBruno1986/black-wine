@@ -1,0 +1,23 @@
+
+.container--landing-row--title--giftCard{
+  border-bottom: 2px solid black;
+  margin: 0px auto 0px auto;
+}
+
+.paragraph--landing-row--title--giftCard{
+  font-family: 'Baskervville-Regular' !important;
+  font-size: 20px;
+}
+.paragraph--landing-row--parrafo-gift-card{
+  font-size: 19px;
+  font-family: 'Baskervville-Regular' !important;
+  color:black;
+  text-align: justify;
+ 
+
+}
+
+.wrapper--landing-row--parrafo-gift-card{
+  border-bottom: 2px solid black;
+  margin: 0px auto 30px auto;
+}

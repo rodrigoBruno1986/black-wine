@@ -1,5 +1,8 @@
 {
   "store.custom#preguntas-frecuentes": {
     "path": "/preguntas-frecuentes"
+  },
+  "store.custom#giftcard": {
+    "path": "/gift-card"
   }
 }

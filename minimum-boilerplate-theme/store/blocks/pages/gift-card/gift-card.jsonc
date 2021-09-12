@@ -1,0 +1,161 @@
+{
+    "store.custom#giftcard": {
+        "blocks": [
+            "list-context.image-list#giftCard",
+            "flex-layout.row#gift--container"
+
+        ]
+    },
+    "list-context.image-list#giftCard": {
+        "children": [
+          "slider-layout#giftCard-images"
+        ],
+        "props": {
+          "height": 650,
+          "images": [
+            {
+              "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+              "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+              "description": "descuentos"
+            },
+            {
+              "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+              "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+              "description": "descuentos"
+            }
+          ]
+        }
+      },
+      "slider-layout#giftCard-images": {
+        "props": {
+          "autoplay": {
+            "timeout": 7000,
+            "stopOnHover": true
+          },
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showPaginationDots": "never",
+          "showNavigationArrows": "always",
+          "fullWidth": true
+        }
+      },
+    "flex-layout.row#gift--container": {
+        "children": [
+            "flex-layout.col#gift"
+        ],
+        "props": {
+            "blockClass": ["landing-row--container","contenedorGiftCard"]
+        }
+    },
+    "flex-layout.col#gift": {
+        "children": [
+            "rich-text#gift-title",
+            "rich-text#gift-texto",
+            "list-context.product-list#Gift"
+          
+        ]
+    },
+    "rich-text#gift-title": {
+        "props": {
+            "text": "GIFT CARD",
+            "blockClass": "landing-row--title--giftCard"
+        }
+    },
+
+    "rich-text#gift-texto": {
+        "props": {
+            "text": "Con la cosecha inaugural 1997, el Nicolás #CatenaZapata se convirtió en el primer cuvée de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visión de Nicolás Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por su gran complejidad, remite a frutos negros maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hierbas y pimienta.",
+            "font": "t-heading-1",
+            "blockClass": "landing-row--parrafo-gift-card"
+        }
+    },
+
+    "list-context.product-list#Gift": {
+        "blocks": ["product-summary.shelf#Destacados"],
+        "children": ["slider-layout#Destacados"],
+        "props": {
+          "categoty": "101"
+          
+        }
+      },
+      "product-summary.shelf#Destacados": {
+        "children": [
+          "product-summary-image",
+          "vtex.product-highlights@2.x:product-highlights#collection",
+          "product-brand#Destacados",
+          "product-description",
+          "flex-layout.row#priceDestacados",  
+          "flex-layout.row#botonesDestacados"
+          
+        ],
+        "props": {
+          "blockClass": "related-shelf-home"
+        }
+      },
+    
+      "product-brand#Destacados": {
+        "props": {
+          "displayMode": "text"
+        }
+      },
+    
+      "flex-layout.row#priceDestacados":{
+        "children":[
+          "product-selling-price",
+          "product-list-price-range"
+        ],
+        "props":{
+          "blockClass": "contenidoPrecios",
+          "preventHorizontalStretch":true
+        }
+      },
+    
+      "flex-layout.row#botonesDestacados":{
+        "children":[  
+          "add-to-cart-button#homeDestacados",
+          "product-specification-badges#Destacados"
+        ],
+        "props": {
+          "blockClass": "botones"
+    
+        }
+    
+      },
+      
+      "add-to-cart-button#homeDestacados":{
+        "props": {
+          "text": "COMPRAR",
+          "unavailableText": "SIN STOCK",
+          "blockClass": "botonComprar"
+        }
+      },
+    
+    
+    
+    
+        "slider-layout#Destacados": {
+          "props": {
+              "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+              },
+              "showNavigationArrows": "desktopOnly",
+              "navigationStep": 1,
+              "arrowSize":25,
+              "showPaginationDots": "mobileOnly",
+              // "autoplay": {
+              //     "timeout": 5000,
+              //     "stopOnHover": true
+              // },
+              "fullWidth": false,
+              // "infinite": true,
+              "blockClass": ["shelf-default"]
+            }
+      }
+   
+}
