@@ -103,8 +103,33 @@
 }
 .flexRowContent--contenidoTienda :global(.vtex-rich-text-0-x-wrapper){
   text-align: center;
-  width: 320px;
+  width: 390px;
 }
+
+.flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteUno){
+  font-size: 21px;
+}
+.flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteSecundariaUno){
+  font-size: 19px;
+}
+.flexRow--contenidoSliderTiendas{
+  margin: 35px auto;
+}
+.flexRow--contenidoSliderTiendas :global(.vtex-slider-layout-0-x-sliderLeftArrow--carousel){
+  left: -35px;
+}
+.flexRow--contenidoSliderTiendas :global(.vtex-slider-layout-0-x-sliderRightArrow--carousel){
+  right: -35px;
+}
+
+.flexRow--contenidoVinosSlider :global(.vtex-slider-layout-0-x-sliderLeftArrow--carousel){
+  left: -35px;
+}
+.flexRow--contenidoVinosSlider :global(.vtex-slider-layout-0-x-sliderRightArrow--carousel){
+  right: -35px;
+}
+
+
 
 
 /* FIN BLOQUE TIENDA */
@@ -115,9 +140,11 @@
 
 
 .flexRow--contenidoNovedades{
-  width:90%;
+  width:91%;
   margin: auto; 
   border-bottom: 2px solid black;
+  margin-bottom: 30px;
+
 }
 .flexRow--contenidoDestacados{
   margin-bottom: 40px;
@@ -162,6 +189,10 @@
   .flexRowContent--contenidoTienda :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     text-align: center;
     width: 50% !important;
+  }
+  .flexRowContent--contenidoTienda :global(.vtex-rich-text-0-x-wrapper){
+    text-align: center;
+    width: 320px;
   }
 }
 
@@ -350,6 +381,7 @@
 .flexRow--bodegasContent{
   margin-top: 40px;
   display:flex;
+  margin-bottom: 40px;
 }
 
 .flexRow--EspecialesContent{
@@ -399,5 +431,8 @@
 }
 .flexRow--novedadesMobileBarra{
   display: none;
+}
+.flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteSecundariaUno){
+  font-size: 13px;
 }
 }
