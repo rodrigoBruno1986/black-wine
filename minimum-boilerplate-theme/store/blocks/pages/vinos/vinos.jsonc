@@ -1,0 +1,67 @@
+{
+    "store.custom#vinos": {
+        "blocks": [
+            "list-context.image-list#vinos",
+            "flex-layout.row#vinos--container"
+        ]
+    },
+    "list-context.image-list#vinos": {
+        "children": [
+          "slider-layout#vinos-images"
+        ],
+        "props": {
+          "height": 650,
+          "images": [
+            {
+              "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+              "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+              "description": "descuentos"
+            },
+            {
+              "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+              "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+              "description": "descuentos"
+            }
+          ]
+        }
+      },
+      "slider-layout#vinos-images": {
+        "props": {
+          "autoplay": {
+            "timeout": 7000,
+            "stopOnHover": true
+          },
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showPaginationDots": "never",
+          "showNavigationArrows": "always",
+          "fullWidth": true
+        }
+      },
+
+    "flex-layout.row#vinos--container": {
+        "children": [
+            "flex-layout.col#vinos"
+        ],
+        "props": {
+            "blockClass": "landing-row--container"
+        }
+    },
+
+    "flex-layout.col#vinos":{
+        "children":[
+            "rich-text#faq-tituloMalvec"
+        ]
+    },
+    "rich-text#faq-tituloMalvec":{
+        "props":{
+            "text": "MALBEC >",
+            "blockClass": "TitulosVino"
+        }
+    }
+   
+}

@@ -1,12 +1,49 @@
 {
     "store.custom#preguntas-frecuentes": {
         "blocks": [
-            "list-context.image-list#home",
+            "list-context.image-list#preguntas-frecuentes",
             "flex-layout.row#faq--container",
             "flex-layout.row#newsletter"
 
         ]
     },
+    "list-context.image-list#preguntas-frecuentes": {
+        "children": [
+          "slider-layout#preguntas-frecuentes-images"
+        ],
+        "props": {
+          "height": 650,
+          "images": [
+            {
+              "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+              "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+              "description": "descuentos"
+            },
+            {
+              "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+              "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+              "description": "descuentos"
+            }
+          ]
+        }
+      },
+      "slider-layout#preguntas-frecuentes-images": {
+        "props": {
+          "autoplay": {
+            "timeout": 7000,
+            "stopOnHover": true
+          },
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showPaginationDots": "never",
+          "showNavigationArrows": "always",
+          "fullWidth": true
+        }
+      },
     "flex-layout.row#faq--container": {
         "children": [
             "flex-layout.col#faq"
