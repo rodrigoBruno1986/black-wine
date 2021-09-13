@@ -6,13 +6,14 @@
 
 .sliderLayoutContainer--sliderMasVendidos{
     margin: 20px auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
  
 }
 
 .sliderLayoutContainer--sliderNovedades{
     margin: 20px auto;
     margin-bottom: 20px;
+    margin-bottom: 40px;
   
 }
 
@@ -34,6 +35,7 @@
         padding-left: 4px !important;
         padding-right: 4px !important;
     }
+    
 }
 
 

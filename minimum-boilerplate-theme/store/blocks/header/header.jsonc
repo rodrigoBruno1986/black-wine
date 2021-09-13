@@ -121,16 +121,8 @@
       "blurOnSubmit": true
     }
   },
-  "login": {
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile":true
-    }
-  },
+
+  
 
   "header-layout.mobile": {
     "children": [
@@ -149,7 +141,8 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile":true
+      "showIconProfile":true,
+      "logInButtonBehavior" :"link"
     }
   },
   "flex-layout.row#mobile": {

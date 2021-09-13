@@ -553,6 +553,7 @@
     margin-top: -30px;
   }
   
+  
 }
 
 /* FIN BLOQUE TIENDAS */
@@ -572,7 +573,9 @@
   font-weight: bold;
   font-family: "MuseoSans_500" !important;
   color: black;
-  margin: inherit
+  margin: inherit;
+  font-size:20px;
+  margin-bottom: 20px;
 }
 
 

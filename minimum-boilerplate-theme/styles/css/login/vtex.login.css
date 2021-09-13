@@ -1,0 +1,7 @@
+.loginOptionsContainer{
+  display: none;
+}
+.emailAndPassword{
+  display: block;
+  padding: 80px;
+}

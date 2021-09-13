@@ -234,6 +234,11 @@
   display: none;
 }
 
+.imageElement--imgHablemos{
+  margin-right: 20px;
+}
+
+
 @media only screen and (max-width: 1025px) {
   .imageElement--imgINSTAGRAM {
     margin: auto;
@@ -253,6 +258,9 @@
 
   .imageElement--bannerBodegaMobile{
     display: block;
+  }
+  .imageElement--imgHablemos{
+    margin-right: 0px;
   }
 }
 
@@ -296,10 +304,10 @@
 
 
 .imageElement--bannerBodega{
-  max-height: 945px;
+  max-height: 915px;
 }
 .imageElement--bannerEspeciales{
-  max-height: 470px;
+  max-height: 450px;
 }
 
 

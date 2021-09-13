@@ -11,14 +11,55 @@
   },
 
   "store.login": {
-    "blocks": ["login-content#default"]
+    "blocks": ["list-context.image-list#login","login-content#default"]
   },
+
+  "list-context.image-list#login": {
+    "children": [
+      "slider-layout#login"
+    ],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+          "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+          "description": "descuentos"
+        },
+        {
+          "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+          "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+          "description": "descuentos"
+        }
+      ]
+    }
+  },
+  "slider-layout#login": {
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always",
+      "fullWidth": true
+    }
+  },
+
 
   "login-content#default": {
     "props": {
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true
+      "showPasswordVerificationIntoTooltip": true,
+      "hideIconLabel":true
+     
     }
   },
 
