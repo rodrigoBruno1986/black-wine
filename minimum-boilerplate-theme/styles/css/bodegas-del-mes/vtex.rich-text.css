@@ -1,0 +1,31 @@
+
+.container--landing-row--title--bodegas-del-mes{
+  border-bottom: 2px solid black;
+  margin: 0px auto 0px auto;
+}
+
+.paragraph--landing-row--title--bodegas-del-mes{
+  font-family: 'Baskervville-Regular' !important;
+  font-size: 20px;
+}
+.paragraph--landing-row--parrafo-bodegas-del-mes{
+  font-size: 19px;
+  font-family: 'Baskervville-Regular' !important;
+  color:black;
+  text-align: justify;
+  font-weight: 500;
+ 
+
+}
+
+.wrapper--landing-row--parrafo-bodegas-del-mes{
+  border-bottom: 2px solid black;
+  margin: 0px auto 30px auto;
+}
+
+.paragraph--infoBodegas{
+  justify-content: center;
+  align-items: center;
+  font-size: 14px !important;
+  text-align: center;
+}
