@@ -3,7 +3,7 @@
   
   "flex-layout.row#medios":{
     "children": [
-      "flex-layout.row#mediosdepago",
+      "flex-layout.row#mediosC",
       "flex-layout.row#cuotas",
       "flex-layout.row#envios",
       "flex-layout.row#hablemos"
@@ -16,10 +16,10 @@
     }
   },
 
-"flex-layout.row#mediosdepago": {
+"flex-layout.row#mediosC": {
     "children": [
-      "image#card1",
-      "flex-layout.col#info"
+      "image#medios",
+      "flex-layout.col#medios"
     ],
     "props": {
       "blockClass": "mediosDePagos",
@@ -28,28 +28,28 @@
     }
   },
 
-  "flex-layout.col#info":{
-    "children":["rich-text#card1",
-      "rich-text#card2"],
+  "flex-layout.col#medios":{
+    "children":["rich-text#medios",
+      "rich-text#medios2"],
       "props": {
         "blockClass": "contenidoTexto",
         "fullWidth":true
       }
   },
-  "image#card1": {
+  "image#medios": {
     "props": {
       "blockClass": ["mediosDePagos--image","imgPgos"],
       "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
       "link": "#"
     }
   },
-  "rich-text#card1": {
+  "rich-text#medios": {
     "props": {
-      "text": "Medios de pago",
+      "text": "Medios de pagos",
       "blockClass": "infopagos"
     }
   },
-  "rich-text#card2": {
+  "rich-text#medios2": {
     "props": {
       "text": "tarjetas de crédito, débito o transferencia",
       "blockClass": "textoAlternativoInfopagos"
@@ -103,7 +103,7 @@
   "flex-layout.row#envios": {
     "children": [
       "image#card1envios",
-      "flex-layout.col#infoenvios"
+      "flex-layout.col#colEnvios"
     ],
     "props": {
       "blockClass": "mediosDePagos",
@@ -112,9 +112,9 @@
     }
   },
 
-  "flex-layout.col#infoenvios":{
-    "children":["rich-text#card1envios",
-      "rich-text#card2envios"],
+  "flex-layout.col#colEnvios":{
+    "children":["rich-text#envios",
+      "rich-text#envios2"],
       "props": {
         "blockClass": "contenidoTexto",
         "fullWidth":true
@@ -127,13 +127,13 @@
       "link": "#"
     }
   },
-  "rich-text#card1envios": {
+  "rich-text#envios": {
     "props": {
       "text": "Medios de pago",
       "blockClass": "infopagos"
     }
   },
-  "rich-text#card2envios": {
+  "rich-text#envios2": {
     "props": {
       "text": "tarjetas de crédito, débito o transferencia",
       "blockClass": "textoAlternativoInfopagos"
