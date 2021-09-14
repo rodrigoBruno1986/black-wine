@@ -1,0 +1,16 @@
+.flexRow--contenedorbodegas-del-mes{
+  width: 90% !important;
+}
+.flexRowContent--contenidoBarraBodegas{
+  height: 85px !important;
+}
+
+
+.flexRowContent--galeriaBodega :global(.vtex-search-result-3-x-searchResultContainer--search-desktop){
+  justify-content: center;
+  display: flex;
+}
+
+.flexRowContent--galeriaBodega :global(.vtex-search-result-3-x-gallery){
+  justify-content: space-between;
+}
