@@ -15,50 +15,50 @@
         "children": ["flex-layout.row#post1","flex-layout.row#post2","flex-layout.row#post3","flex-layout.row#post4","flex-layout.row#post5","flex-layout.row#post6","flex-layout.row#post7"]
       },
       
-      
       "flex-layout.row#post1":{
         "children": [
-          "image#uno",
-          "flex-layout.col#textouno"
+          "image#post1",
+          "flex-layout.col#post1"
         ],
         "props":{
           "blockClass":["contenidoTienda"]
         }
       },
-      "flex-layout.col#textouno":{
-        "children":["rich-text#uno",
-          "rich-text#dos"],
+      "flex-layout.col#post1":{
+        "children":["rich-text#post1",
+          "rich-text#post11"],
           "props": {
             "fullWidth":true,
             "preventVerticalStretch":true
           }
       },
-      "image#uno": {
+      "image#post1": {
         "props": {
           "blockClass": ["imgUno"],
           "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
           "link": "#"
         }
       },
-      "rich-text#uno": {
+      "rich-text#post1": {
         "props": {
           "text": "Tienda Exclusiva",
           "blockClass": "fuenteUno"
         }
       },
-      "rich-text#dos": {
+      "rich-text#post11": {
         "props": {
           "text": "Johnnie Walker",
           "blockClass": "fuenteSecundariaUno"
         }
       },
 
-    //   ---------------
+       //   ---------------
+  
 
 
       "flex-layout.row#post2":{
         "children": [
-          "image#uno",
+          "image#post2",
           "flex-layout.col#post2"
         ],
         "props":{
@@ -98,7 +98,7 @@
 
        "flex-layout.row#post3":{
         "children": [
-          "image#uno",
+          "image#post3",
           "flex-layout.col#post3"
         ],
         "props":{
@@ -139,7 +139,7 @@
 
     "flex-layout.row#post4":{
         "children": [
-            "image#uno",
+            "image#post4",
             "flex-layout.col#post4"
         ],
             "props":{
@@ -180,7 +180,7 @@
 
          "flex-layout.row#post5":{
             "children": [
-                "image#uno",
+                "image#post5",
                 "flex-layout.col#post5"
             ],
                 "props":{
@@ -221,7 +221,7 @@
 
             "flex-layout.row#post6":{
                 "children": [
-                    "image#uno",
+                    "image#post6",
                     "flex-layout.col#post6"
                 ],
                     "props":{
@@ -258,7 +258,7 @@
 
                 "flex-layout.row#post7":{
                   "children": [
-                      "image#uno",
+                      "image#post7",
                       "flex-layout.col#post7"
                   ],
                       "props":{

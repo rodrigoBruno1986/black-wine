@@ -35,17 +35,17 @@
             "rich-text#faq-9",
             "rich-text#faq-11",
             "rich-text#faq-12",
-            "rich-text#faq-14",
-            "rich-text#faq-15",
-            "rich-text#faq-16",
-            "rich-text#faq-17",
-            "rich-text#faq-18",
-            "rich-text#faq-19",
-            "rich-text#faq-20",
-            "rich-text#faq-21",
-            "rich-text#faq-23",
-            "rich-text#faq-24",
-            "rich-text#faq-25"
+            "rich-text#faq-14"
+            // "rich-text#faq-15",
+            // "rich-text#faq-16",
+            // "rich-text#faq-17",
+            // "rich-text#faq-18",
+            // "rich-text#faq-19",
+            // "rich-text#faq-20",
+            // "rich-text#faq-21",
+            // "rich-text#faq-23",
+            // "rich-text#faq-24",
+            // "rich-text#faq-25"
 
         ],
         "props": {
