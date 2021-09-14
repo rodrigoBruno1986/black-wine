@@ -35,6 +35,10 @@
         padding-left: 4px !important;
         padding-right: 4px !important;
     }
+
+    .paginationDotsContainer{
+        bottom: -25px;
+    }
     
 }
 

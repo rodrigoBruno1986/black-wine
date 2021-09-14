@@ -244,7 +244,7 @@
   }
 },
 "flex-layout.col#instaMobile":{
-  "children":["rich-text#instaMobile","image#instaHome2Mbobile"] 
+  "children":["rich-text#instaMobile","image#instaHome2Mbobile","image#instaHome3Mbobile","image#instaHome4Mbobile"] 
 },
 "rich-text#instaMobile":{
   "props":{
@@ -256,6 +256,18 @@
   "props": {
     "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
     "blockClass": "imgINSTAGRAM"
+  }
+},
+"image#instaHome3Mbobile": {
+  "props": {
+    "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/a9b83a4d-d8ec-4c9f-8a3c-1d003405fe5e___94ccefc111703784b80b3bbc66ede285.png",
+    "blockClass": "imgINSTAGRAM2"
+  }
+},
+"image#instaHome4Mbobile": {
+  "props": {
+    "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/a9b83a4d-d8ec-4c9f-8a3c-1d003405fe5e___94ccefc111703784b80b3bbc66ede285.png",
+    "blockClass": "imgINSTAGRAM3"
   }
 },
 

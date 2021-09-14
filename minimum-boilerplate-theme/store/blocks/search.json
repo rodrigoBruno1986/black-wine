@@ -102,7 +102,9 @@
     ],
     "props": {
       "preventHorizontalStretch": true,
-      "blockClass": "contenidoGaleria"
+      "blockClass": [
+        "contenidoGaleria"
+      ]
     }
   },
   "flex-layout.col#content": {

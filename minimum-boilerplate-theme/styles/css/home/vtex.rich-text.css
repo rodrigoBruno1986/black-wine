@@ -471,9 +471,7 @@
   }
   
   .paragraph--textoAlternativoInfopagos{
-    font-size: 9px;
-    margin: auto;
-    text-align: center !important;
+   display: none
   }
   .container--infopagos{
     justify-content: center;
@@ -701,7 +699,7 @@
 @media only screen and (max-width:1025px) {
   .paragraph--tituloblog{
     font-size: 16px;
-    padding: 11px 16px;
+    padding: 11px 32px;
   }
 }
 
