@@ -1,5 +1,8 @@
 {
   "store.custom#preguntas-frecuentes": {
     "path": "/preguntas-frecuentes"
+  },
+  "store.custom#colecciones": {
+    "path": "/colecciones"
   }
 }
