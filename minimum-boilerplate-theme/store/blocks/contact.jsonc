@@ -1,0 +1,62 @@
+
+{
+    "store.custom#contact": {
+    "blocks": [
+    "flex-layout.row#wrapper-contact"
+    ]
+    },
+    "flex-layout.row#wrapper-contact": {
+    "children": [
+    "flex-layout.col#container-form"
+    ],
+    "props": {
+    "blockClass": "contactWrapper",
+    "preventHorizontalStretch": true
+    }
+    },
+    "flex-layout.col#container-form": {
+    "children": [
+    "rich-text#title-hello",
+    "rich-text#subtitle-msg",
+    "flex-layout.row#form"
+    ],
+    "props": {
+    "blockClass": "containerContactForm"
+    }
+    },
+    "rich-text#title-hello": {
+    "props": {
+    "text": "Hola!",
+    "textAligment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "titleContact",
+    "font": "t-heading-2"
+    }
+    },
+    "rich-text#subtitle-msg": {
+    "props": {
+    "text": "Ponete en contacto con nosotros!",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "subtitleContact",
+    "font": "t-heading-5"
+    }
+    },
+    "flex-layout.row#form": {
+        "children": [
+          "flex-layout.col#form"
+        ]
+      },
+      "flex-layout.col#form": {
+        "children": [
+          "form"
+        ]
+      },
+      "form": {
+        "props": {
+          "entity": "clients",
+          "schema": "person"
+        }
+      }
+    }
+    
