@@ -4,6 +4,10 @@
   
     font-family: "Nunito-Regular";
   }
+
+  .styledLinkIcon--header-menu-title{
+    display: none;
+  }
   
   .menuContainer {
     display: flex;

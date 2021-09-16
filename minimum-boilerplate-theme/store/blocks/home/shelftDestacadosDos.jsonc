@@ -79,7 +79,7 @@
             // },
             "fullWidth": false,
             // "infinite": true,
-            "blockClass": ["shelf-default"]
+            "blockClass": ["shelf-default","slider-destacados2"]
           }
     },
     "product-specification-badges#DestacadosDos": {

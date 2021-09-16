@@ -76,7 +76,7 @@
         // },
         "fullWidth": false,
         // "infinite": true,
-        "blockClass": ["shelf-default","sliderBodegas1"]
+        "blockClass": ["shelf-default","sliderEspeciales"]
       }
     },
     "product-specification-badges#Especiales": {

@@ -1,12 +1,12 @@
 {
   "list-context.product-list#mas-vendidos": {
-    "blocks": ["product-summary.shelf#default"],
+    "blocks": ["product-summary.shelf#mas-vendidos"],
     "children": ["slider-layout#demo-products"],
     "props": {
       "collection": "138"
     }
   },
-  "product-summary.shelf#default": {
+  "product-summary.shelf#mas-vendidos": {
     "children": [
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",

@@ -177,7 +177,7 @@
         // },
         "fullWidth": false,
         // "infinite": true,
-        "blockClass": ["shelf-default","sliderBodegas1"]
+        "blockClass": ["shelf-default","sliderBodegas2"]
       }
     },
     "product-specification-badges#bodegaDos": {
