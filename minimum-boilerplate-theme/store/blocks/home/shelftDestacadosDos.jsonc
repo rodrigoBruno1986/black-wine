@@ -65,7 +65,7 @@
       "slider-layout#DestacadosDos": {
         "props": {
             "itemsPerPage": {
-              "desktop": 5,
+              "desktop": 4,
               "tablet": 2,
               "phone": 2
             },
@@ -79,7 +79,7 @@
             // },
             "fullWidth": false,
             // "infinite": true,
-            "blockClass": ["shelf-default","slider-destacados2"]
+            "blockClass": ["shelf-default","sliderdestacados2"]
           }
     },
     "product-specification-badges#DestacadosDos": {

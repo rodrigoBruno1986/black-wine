@@ -64,16 +64,14 @@
       "slider-layout#Novedades": {
       "props": {
         "itemsPerPage": {
-          "desktop": 5,
+          "desktop": 4,
           "tablet": 2,
           "phone": 2
         },
-        "showNavigationArrows": "never",
-        "showPaginationDots": "never",
-        // "autoplay": {
-        //     "timeout": 5000,
-        //     "stopOnHover": true
-        // },
+        "showNavigationArrows": "desktopOnly",
+        "navigationStep": 1,
+        "arrowSize":25,
+        "showPaginationDots": "mobileOnly",
         "fullWidth": false,
         // "infinite": true,
         "blockClass": ["shelf-default","sliderNovedades"]

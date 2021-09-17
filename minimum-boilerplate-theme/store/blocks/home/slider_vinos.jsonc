@@ -9,7 +9,7 @@
           },
           "infinite": true,
           "showNavigationArrows": "desktopOnly",
-          "blockClass": "carousel",
+          "blockClass": ["carousel","contenidoVinos"],
           "navigationStep":1
         },
         "children": [
