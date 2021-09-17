@@ -36,6 +36,10 @@
   
 }
 
+.paginationDot--isActive {
+    background-color: grey !important;
+}
+
 
 
 @media only screen and (max-width: 1025px) {
@@ -45,7 +49,7 @@
      }
      
     .paginationDot--isActive {
-        background-color: grey;
+        background-color: grey !important;
     }
 }
 
