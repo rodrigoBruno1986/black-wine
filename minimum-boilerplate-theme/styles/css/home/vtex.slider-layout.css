@@ -92,7 +92,10 @@
     margin-bottom: 20px;
     margin-right: 25px;
 }
-
+.sliderLayoutContainer--sliderEspeciales{
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
 .paginationDotsContainer :global(.vtex-slider-layout-0-x-paginationDot--dotMarcas ){
     display: block !important;
 }
