@@ -3,7 +3,7 @@
       "blocks": ["product-summary.shelf#Destacados"],
       "children": ["slider-layout#Destacados"],
       "props": {
-        "collection": "138"
+        "collection": "158"
         
       }
     },
@@ -65,7 +65,7 @@
       "slider-layout#Destacados": {
         "props": {
             "itemsPerPage": {
-              "desktop": 4,
+              "desktop": 5,
               "tablet": 2,
               "phone": 2
             },

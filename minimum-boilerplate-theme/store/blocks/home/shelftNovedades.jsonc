@@ -3,7 +3,7 @@
       "blocks": ["product-summary.shelf#Novedades"],
       "children": ["slider-layout#Novedades"],
       "props": {
-        "collection": "138"
+        "collection": "158"
       }
     },
     "product-summary.shelf#Novedades": {
@@ -64,7 +64,7 @@
       "slider-layout#Novedades": {
       "props": {
         "itemsPerPage": {
-          "desktop": 4,
+          "desktop": 5,
           "tablet": 2,
           "phone": 2
         },

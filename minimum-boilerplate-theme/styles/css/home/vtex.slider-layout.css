@@ -7,8 +7,7 @@
 .sliderLayoutContainer--sliderMasVendidos{
     margin: 20px auto;
     margin-bottom: 40px;
-    width: 85%;
- 
+    width: 95% !important;
 }
 
 
@@ -17,7 +16,7 @@
     margin: 20px auto;
     margin-bottom: 20px;
     margin-bottom: 40px;
-    width: 85%;
+    width: 95%;
   
 }
 
@@ -25,14 +24,15 @@
     margin: 20px auto;
     margin-bottom: 20px;
     margin-bottom: 40px;
-    width: 85%;
+    width: 95%;
   
 }
 
 .sliderLayoutContainer--sliderdestacados2{
-    margin: -33px auto !important;
-    width: 85% !important;
-    margin-bottom: 17px !important;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+    width: 95%;
   
 }
 
@@ -40,6 +40,19 @@
     background-color: grey !important;
 }
 
+
+
+@media only screen and (min-width: 1442px) {
+    .sliderLayoutContainer--sliderMasVendidos{
+        margin: 20px auto;
+        margin-bottom: 40px;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+  
+}
 
 
 @media only screen and (max-width: 1025px) {

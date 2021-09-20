@@ -421,6 +421,11 @@
 
 
 
+
+
+
+
+
 @media only screen and (max-width: 1025px) {
  
   .flexRowContent--newsStyle{
@@ -455,4 +460,42 @@
 .flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteSecundariaUno){
   font-size: 13px;
 }
+}
+
+.flexRow--contenidoSliderTiendas{
+  width: 90% !important;
+}
+
+
+
+@media only screen and (min-width: 1442px) {
+  .flexRowContent--contenidoMediosdepago{
+    width: 96% !important;
+  }
+  .flexRow--contenidoSliderTiendas{
+    width: 80%;
+  }
+  .flexRow--contenidoNovedades{
+    width: 85% !important;
+  }
+  .flexRowContent--bodegasContent{
+    align-items: center;
+  }
+  .flexRow--bodegasContent:global(.vtex-store-components-3-x-imageElement--bannerBodega){
+    max-height: 1130px !important;
+  }
+
+  .flexRow--contenidoVinosSlider{
+    width: 80%;
+  }
+ 
+}
+
+@media only screen and (max-width: 1440px) {
+  .flexRow--contenidoNovedades{
+    width: 87% !important;
+  }
+  .flexRowContent--bodegasContent{
+    align-items: center;
+  }
 }
