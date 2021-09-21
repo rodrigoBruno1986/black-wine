@@ -1,0 +1,53 @@
+
+.infoCardTextContainer--info-colecciones{
+  width: 100%;
+}
+.infoCardHeadline--info-colecciones {
+  color :white;
+  font-family: 'Nunito-Regular';
+  font-size: 16px;
+}
+
+.infoCardSubhead--info-colecciones {
+  color :white;
+  font-size: 13px;
+}
+
+
+
+.infoCardCallActionContainer--info-colecciones :global(.vtex-button),
+.infoCardCallActionContainer--info-colecciones :global(.vtex-button) {
+    outline: none;
+    border-color: transparent;
+    background-color: #bcac42 !important;
+    color: white;
+    width: 130px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.infoCardCallActionContainer--info-colecciones :global(.vtex-button):focus,
+.infoCardCallActionContainer--info-colecciones :global(.vtex-button):hover {
+    outline: none;
+    border-color:transparent;
+    background-color: black !important ;
+    color: white;
+}
+
+.infoCardHeadline--colecciones-card{
+  color: transparent !important;
+}
+.infoCardSubhead--colecciones-card{
+  color: transparent !important;
+}
+
+.infoCardCallActionContainer--colecciones-card{
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .infoCardTextContainer--colecciones-card{
+    min-height: 180px;
+  }
+
+}
