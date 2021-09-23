@@ -338,11 +338,18 @@
 
 
 
+
+
 .imageElement--bannerBodega{
-  max-height: 915px;
+  max-height: 980px !important;
 }
 .imageElement--bannerEspeciales{
-  max-height: 450px;
+  max-height: 500px;
 }
 
+@media only screen and (min-width: 1442px) {
+  .imageElement--bannerBodega{
+    max-height: 1205px;
+  }
+}
 

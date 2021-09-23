@@ -17,7 +17,7 @@
       "flex-layout.row#bannerMobileBodega",
       "flex-layout.row#destacadosTitulo",
       "list-context.product-list#Destacados",
-      "flex-layout.row#DestacadosDos",
+      "list-context.product-list#DestacadosDos",
       "flex-layout.row#banners",
       "flex-layout.row#marcasTitulo",
       "flex-layout.row#marcas",
@@ -90,19 +90,13 @@
 },
 
 "flex-layout.row#banners": {
-  "children": ["image#example","info-card#test"],
+  "children": ["info-card#colecciones","info-card#test"],
   "props": {
     "blockClass": ["contenedorInfoCart"]
 
   }
 },
-"image#example": {
-  "props": {
-    "src": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-    "blockClass": ["imagenRodri"],
-    "maxHeight": 250
-  }
-},
+
 "info-card#test": {
   "props": {
     "id": "info-card-test",

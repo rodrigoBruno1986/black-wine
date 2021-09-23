@@ -15,11 +15,11 @@
 }
 
 .flexRowContent--botones .stretchChildrenWidth:last-child {
-  background:black;
-  width: auto !important;
-  border-radius: 7px 7px 7px 7px;
-  border-left: 2px solid white;
-  height: 43px;
+  background: black;
+  width: auto!important;
+  border-radius: 0px 7px 7px 0px;
+  border-left: 1px solid white;
+  height: 41px;
   
 }
 
@@ -27,7 +27,7 @@
 
 :global(.vtex-add-to-cart-button-0-x-buttonText--botonComprar){
   font-family: 'Baskervville-Regular';
-  font-size: 22px;
+  font-size: 20px;
   padding: 6px;
   font-weight: bold;
   

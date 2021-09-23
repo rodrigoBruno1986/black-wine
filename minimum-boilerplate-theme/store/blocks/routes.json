@@ -2,12 +2,13 @@
   "store.custom#preguntas-frecuentes": {
     "path": "/preguntas-frecuentes"
   },
-<<<<<<< HEAD
   "store.custom#bodegas-del-mes": {
     "path": "/bodegas-del-mes"
-=======
+  },
   "store.custom#colecciones": {
     "path": "/colecciones"
->>>>>>> master
+  },
+  "store.custom#vinos-de-la-semana": {
+    "path": "/vinos-de-la-semana"
   }
 }

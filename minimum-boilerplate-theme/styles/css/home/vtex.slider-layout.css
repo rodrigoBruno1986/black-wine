@@ -7,13 +7,50 @@
 .sliderLayoutContainer--sliderMasVendidos{
     margin: 20px auto;
     margin-bottom: 40px;
- 
+    width: 95% !important;
 }
+
+
 
 .sliderLayoutContainer--sliderNovedades{
     margin: 20px auto;
     margin-bottom: 20px;
     margin-bottom: 40px;
+    width: 95%;
+  
+}
+
+.sliderLayoutContainer--sliderDestacados{
+    margin: 20px auto;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+    width: 95%;
+  
+}
+
+.sliderLayoutContainer--sliderdestacados2{
+    margin: 20px auto;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+    width: 95%;
+  
+}
+
+.paginationDot--isActive {
+    background-color: grey !important;
+}
+
+
+
+@media only screen and (min-width: 1442px) {
+    .sliderLayoutContainer--sliderMasVendidos{
+        margin: 20px auto;
+        margin-bottom: 40px;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
   
 }
 
@@ -25,7 +62,7 @@
      }
      
     .paginationDot--isActive {
-        background-color: grey;
+        background-color: grey !important;
     }
 }
 
@@ -55,7 +92,10 @@
     margin-bottom: 20px;
     margin-right: 25px;
 }
-
+.sliderLayoutContainer--sliderEspeciales{
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
 .paginationDotsContainer :global(.vtex-slider-layout-0-x-paginationDot--dotMarcas ){
     display: block !important;
 }

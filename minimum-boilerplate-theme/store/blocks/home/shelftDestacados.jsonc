@@ -3,7 +3,7 @@
       "blocks": ["product-summary.shelf#Destacados"],
       "children": ["slider-layout#Destacados"],
       "props": {
-        "collection": "138"
+        "collection": "158"
         
       }
     },
