@@ -37,7 +37,7 @@
           "phone": 1
         },
         "infinite": true,
-        "showNavigationArrows": "always",
+        "showNavigationArrows": "never",
         "fullWidth": true
       }
     },
@@ -51,7 +51,9 @@
             "flex-layout.row#newsletterNordes",
             "flex-layout.row#recetaNordesUno" ,
             "flex-layout.row#recetaNordesDos",
-            "flex-layout.row#recetaNordesHistoriaNordes"
+            "flex-layout.row#recetaNordesHistoriaNordes",
+            "flex-layout.row#giftNordes",
+            "list-context.product-list#nordesuno"
             
         ],
         "props":{
@@ -269,6 +271,20 @@
 "image#recetasHistoriaNordes": {
   "props": {
     "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+  }
+},
+
+
+"flex-layout.row#giftNordes":{
+  "children":[
+    "rich-text#gift"
+  ]
+},
+
+"rich-text#gift":{
+  "props":{
+    "text": "GIFTCARD",
+    "blockClass": "textoRecetas"
   }
 }
  

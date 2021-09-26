@@ -21,8 +21,9 @@
 }
 
 .flexRowContent--imagenTextoCol :global(.vtex-store-components-3-x-imageElement){
-    min-width: 180px;
+    width: 280px;
 }
+
 
 .flexRowContent--vimeo-home{
     position: relative !important;
