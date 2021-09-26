@@ -48,7 +48,7 @@
             "flex-layout.col#gift"
         ],
         "props": {
-            "blockClass": ["landing-row--container","contenedorGiftCard"]
+            "blockClass": ["contenedorGiftCard"]
         }
     },
     "flex-layout.col#gift": {
