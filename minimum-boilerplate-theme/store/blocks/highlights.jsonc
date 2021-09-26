@@ -19,15 +19,16 @@
     "props": {
       "message": "{highlightName}"
     }
-  },
-  "vtex.product-highlights@2.x:product-highlights#limpioTips": {
-    "props": {
-      "type": "collection",
-      "filter": {
-        "type": "show",
-        "highlightNames": ["Limpio Tips"]
-      }
-    },
-    "children": ["image#card1"]
   }
+  // },
+  // "vtex.product-highlights@2.x:product-highlights#limpioTips": {
+  //   "props": {
+  //     "type": "collection",
+  //     "filter": {
+  //       "type": "show",
+  //       "highlightNames": ["Limpio Tips"]
+  //     }
+  //   },
+  //   "children": ["image#card1"]
+  // }
 }

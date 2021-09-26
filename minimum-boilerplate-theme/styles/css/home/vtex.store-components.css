@@ -238,17 +238,25 @@
   margin-right: 20px;
 }
 
+.imageElement--imgINSTAGRAM2 {
+ display: none;
+}
+.imageElement--imgINSTAGRAM3 {
+  display: none;
+}
+
 
 @media only screen and (max-width: 1025px) {
   .imageElement--imgINSTAGRAM {
     margin: auto;
     display: block;
     position: absolute;
-    left: 9px;
+    left: 30px;
     top: 65px;
-    width: 95%;
+    width: 85%;
   
   }
+
   .imageElement--bannerEspeciales{
     display: none;
   }
@@ -299,15 +307,49 @@
   .imageElement--bannerBodega{
     display: none;
   }
+  .imageElement--imgINSTAGRAM {
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 24px;
+    top: 65px;
+    width: 85%;
+  
+  }
+  .imageElement--imgINSTAGRAM2 {
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 24px;
+    top: 147px;
+    width: 85%;
+  }
+  .imageElement--imgINSTAGRAM3 {
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 24px;
+    top: 230px;
+    width: 85%;
+  }
+
+
 }
+
+
 
 
 
 .imageElement--bannerBodega{
-  max-height: 915px;
+  max-height: 980px !important;
 }
 .imageElement--bannerEspeciales{
-  max-height: 450px;
+  max-height: 500px;
 }
 
+@media only screen and (min-width: 1442px) {
+  .imageElement--bannerBodega{
+    max-height: 1205px;
+  }
+}
 

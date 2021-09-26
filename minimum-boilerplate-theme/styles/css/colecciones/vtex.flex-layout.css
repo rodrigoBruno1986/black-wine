@@ -1,0 +1,26 @@
+.flexRow--contenedorColecciones{
+  width: 85%;
+  margin: auto;
+}
+
+.flexRow--contenedorInfoCartColecciones{
+  padding: 40px;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+  .flexRowContent--contenedorInfoCartColecciones{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .flexRow--contenedorColecciones :global(.vtex-slider-layout-0-x-paginationDotsContainer--shelf-default){
+    bottom: -33px;
+  }
+  
+}
+

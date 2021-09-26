@@ -3,7 +3,7 @@
       "blocks": ["product-summary.shelf#Novedades"],
       "children": ["slider-layout#Novedades"],
       "props": {
-        "collection": "138"
+        "collection": "158"
       }
     },
     "product-summary.shelf#Novedades": {
@@ -68,12 +68,10 @@
           "tablet": 2,
           "phone": 2
         },
-        "showNavigationArrows": "never",
-        "showPaginationDots": "never",
-        // "autoplay": {
-        //     "timeout": 5000,
-        //     "stopOnHover": true
-        // },
+        "showNavigationArrows": "desktopOnly",
+        "navigationStep": 1,
+        "arrowSize":25,
+        "showPaginationDots": "mobileOnly",
         "fullWidth": false,
         // "infinite": true,
         "blockClass": ["shelf-default","sliderNovedades"]

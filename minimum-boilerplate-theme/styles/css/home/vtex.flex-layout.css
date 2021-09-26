@@ -103,8 +103,10 @@
 }
 .flexRowContent--contenidoTienda :global(.vtex-rich-text-0-x-wrapper){
   text-align: center;
-  width: 390px;
+  width: 350px;
 }
+
+
 
 .flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteUno){
   font-size: 21px;
@@ -114,6 +116,7 @@
 }
 .flexRow--contenidoSliderTiendas{
   margin: 35px auto;
+  width: 90%;
 }
 .flexRow--contenidoSliderTiendas :global(.vtex-slider-layout-0-x-sliderLeftArrow--carousel){
   left: -35px;
@@ -129,7 +132,13 @@
   right: -35px;
 }
 
+.flexRow--contenidoVinosSlider{
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
+}
 
 
 /* FIN BLOQUE TIENDA */
@@ -192,7 +201,7 @@
   }
   .flexRowContent--contenidoTienda :global(.vtex-rich-text-0-x-wrapper){
     text-align: center;
-    width: 320px;
+    width: 270px;
   }
 }
 
@@ -209,13 +218,24 @@
  justify-content: center;
 }
 .flexRowContent--contenedorInfoCart :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
-  width: 45% !important;
+  width: 46% !important;
 }
 
 
 .flexRowContent--contenedorInfoCart{
   padding: 45px;
 }
+@media only screen and (max-width: 1390px) {
+  .flexRowContent--contenedorInfoCart :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    width: 53% !important;
+  }
+}
+@media only screen and (max-width: 1227px) {
+  .flexRowContent--contenedorInfoCart :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    width: 61% !important;
+  }
+}
+
 
 @media only screen and (max-width: 1025px) {
   .flexRowContent--contenedorInfoCart{
@@ -230,7 +250,7 @@
 }
 
 .flexRowContent--contenedorInfoCart{
-  margin-top: 20px;
+  margin-top: 32px;
   margin-bottom: 20px;
 }
 
@@ -401,6 +421,11 @@
 
 
 
+
+
+
+
+
 @media only screen and (max-width: 1025px) {
  
   .flexRowContent--newsStyle{
@@ -435,4 +460,45 @@
 .flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteSecundariaUno){
   font-size: 13px;
 }
+}
+
+.flexRow--contenidoSliderTiendas{
+  width: 90% !important;
+}
+
+.flexRowContent--EspecialesContent{
+  align-items: center;
+}
+
+
+@media only screen and (min-width: 1442px) {
+  .flexRowContent--contenidoMediosdepago{
+    width: 96% !important;
+  }
+  .flexRow--contenidoSliderTiendas{
+    width: 80%;
+  }
+  .flexRow--contenidoNovedades{
+    width: 85% !important;
+  }
+  .flexRowContent--bodegasContent{
+    align-items: center;
+  }
+  .flexRow--bodegasContent:global(.vtex-store-components-3-x-imageElement--bannerBodega){
+    max-height: 1130px !important;
+  }
+
+  .flexRow--contenidoVinosSlider{
+    width: 80%;
+  }
+ 
+}
+
+@media only screen and (max-width: 1440px) {
+  .flexRow--contenidoNovedades{
+    width: 87% !important;
+  }
+  .flexRowContent--bodegasContent{
+    align-items: center;
+  }
 }

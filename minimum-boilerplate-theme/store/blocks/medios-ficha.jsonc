@@ -33,7 +33,7 @@
     
       "flex-layout.col#infoenviosFicha":{
         "children":[
-          "rich-text#card2envios"],
+          "rich-text#envioFicha"],
           "props": {
             "blockClass": "contenidoTexto",
             "fullWidth":true
@@ -47,9 +47,9 @@
         }
       },
     
-      "rich-text#card2envios": {
+      "rich-text#envioFicha": {
         "props": {
-          "text": "tarjetas de crédito, débito o transferencia",
+          "text": "Ver costos de envío",
           "blockClass": "textoAlternativoInfopagos"
         }
       },
@@ -57,8 +57,8 @@
   
   "flex-layout.row#mediosdepagoFicha": {
       "children": [
-        "image#card1",
-        "flex-layout.col#info"
+        "image#pagos",
+        "flex-layout.col#pagos"
       ],
       "props": {
         "blockClass": ["estilosFicha","borderElementosiz"],
@@ -67,22 +67,22 @@
       }
     },
   
-    "flex-layout.col#info":{
+    "flex-layout.col#pagos":{
       "children":[
-        "rich-text#card2"],
+        "rich-text#pagos"],
         "props": {
           "blockClass": "contenidoTexto",
           "fullWidth":true
         }
     },
-    "image#card1": {
+    "image#pagos": {
       "props": {
         "blockClass": ["mediosDePagos--image","imgPgos"],
         "src": "https://limpioonline.vteximg.com.br/arquivos/ml_logo.png",
         "link": "#"
       }
     },
-    "rich-text#card2": {
+    "rich-text#pagos": {
       "props": {
         "text": "tarjetas asdto o s",
         "blockClass": "textoAlternativoInfopagos"

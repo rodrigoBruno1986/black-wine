@@ -4,5 +4,11 @@
   },
   "store.custom#giftcard": {
     "path": "/gift-card"
+  },
+  "store.custom#colecciones": {
+    "path": "/colecciones"
+  },
+  "store.custom#vinos-de-la-semana": {
+    "path": "/vinos-de-la-semana"
   }
 }
