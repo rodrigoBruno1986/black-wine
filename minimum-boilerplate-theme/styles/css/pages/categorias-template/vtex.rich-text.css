@@ -1,0 +1,32 @@
+.paragraph--textoDescripcion{
+  font-size: 19px;
+  font-family: 'Baskervville-Regular'!important;
+  color: black;
+  text-align: justify;
+  font-weight: 500;
+}
+.wrapper--textoDescripcion{
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  margin-top: 30px;
+} 
+
+.container--textNordesCirculos{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.paragraph--textNordesCirculos{
+  font-family: 'Baskervville-Regular'!important;
+  color: black;
+  font-weight: 900;
+}
+.paragraph--tituloRecetas{
+  font-family: 'BodoniFLF-Bold'!important;
+  font-size: 22px;
+}
+.paragraph--textoRecetas{
+  font-family: 'Baskervville-Regular';
+  font-size: 20px;
+}

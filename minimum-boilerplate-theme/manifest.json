@@ -54,7 +54,8 @@
     "vtex.store-image": "0.x",
     "vtex.product-price": "1.x",
     "limpioonline.limpioonline-components": "1.x",
-    "vtex.product-specifications": "1.x"
+    "vtex.product-specifications": "1.x",
+    "winesupply.winesupply-components": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
