@@ -46,7 +46,7 @@
         "children":[
             "rich-text#descripcion",
             "flex-layout.row#circulos",
-            "VideoPlayer#vimeo-home",
+            // "VideoPlayer#vimeo-home",
             "list-context.product-list#nordesuno",
             "flex-layout.row#newsletterNordes",
             "flex-layout.row#recetaNordesUno" ,
@@ -81,15 +81,15 @@
 
 
 
-    "VideoPlayer#vimeo-home": {
-    "props": {
-        "plataforma": "Vimeo",
-        "idVideo": "591158040",
-        "isFullWidth": true,
-        "isAutoplay": true,
-        "className": "vimeo-home"
-    }
-    },
+    // "VideoPlayer#vimeo-home": {
+    // "props": {
+    //     "plataforma": "Vimeo",
+    //     "idVideo": "591158040",
+    //     "isFullWidth": true,
+    //     "isAutoplay": true,
+    //     "className": "vimeo-home"
+    // }
+    // },
 
     // NEWS LETTER
 
