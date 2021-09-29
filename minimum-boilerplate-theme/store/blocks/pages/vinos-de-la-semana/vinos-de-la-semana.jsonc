@@ -96,7 +96,7 @@
         ]
       },
 
-      "search-content": {
+      "search-content#error": {
         "blocks": [
         "gallery#test",
           "not-found"
