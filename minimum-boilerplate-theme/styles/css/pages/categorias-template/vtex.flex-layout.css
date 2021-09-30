@@ -1,0 +1,55 @@
+.flexRow--contedido-nordes{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+.flexRowContent--contenidoSliderCirculos{
+    margin: 40px 0px;
+}
+.flexRow--contenidoSliderCirculos{
+    margin: auto;
+}
+.flexRowContent--contedido-nordes{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--imagenTextoCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexRowContent--imagenTextoCol :global(.vtex-store-components-3-x-imageElement){
+    width: 280px;
+}
+
+
+.flexRowContent--vimeo-home{
+    position: relative !important;
+}
+
+.flexRowContent--ContenedorBannerNordes:global(.vtex-store-components-3-x-imageElement--imagenBannerNordes){
+    width: 400px;
+    background: red;
+}
+
+.flexRow--styleTemplate{
+    width: 100%;
+    margin: auto;
+}
+
+.flexRowContent--styleTemplate{
+    justify-content: center;
+}
+
+.flexCol--contenidoInfoRecetas{
+    padding: 10px;
+}
+
+.flexRowContent--contenidoRecetas{
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin:  20px  0px 10px 0px;
+}

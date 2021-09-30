@@ -188,8 +188,7 @@
     ],
     "props": {
       "blockClass": [
-        "related-shelf-home",
-        "rodrigotest"
+        "related-shelf-home"
       ]
     }
   },

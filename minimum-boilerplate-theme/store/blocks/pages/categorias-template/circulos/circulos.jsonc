@@ -1,0 +1,42 @@
+{
+
+  "slider-layout#circulosNordes": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "navigationStep":1,
+      "blockClass": ["carousel","circulos"]
+    },
+    "children": ["flex-layout.row#circulo1Nordes", "flex-layout.row#circulo1Nordes","flex-layout.row#circulo1Nordes","flex-layout.row#circulo1Nordes"]
+  },
+
+  "flex-layout.row#circulo1Nordes":{
+    "children": [
+      "image#circulo1Nordes",
+      "rich-text#nordes"
+    ],
+    "props":{
+      "blockClass":["imagenTextoCol"]
+    }
+  },
+  "image#circulo1Nordes": {
+    "props": {
+      "blockClass": [""],
+      "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+      "link": "#"
+    }
+  },
+  "rich-text#nordes": {
+    "props": {
+      "text": "Cockteles",
+      "blockClass": ["textNordesCirculos"]
+    }
+  }
+
+
+}
