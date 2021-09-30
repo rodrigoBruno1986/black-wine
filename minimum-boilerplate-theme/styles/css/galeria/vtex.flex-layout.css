@@ -1,3 +1,11 @@
+
+.flexRowContent--contenidoGaleria{
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+
+
 .flexRow--flex-search-above :global(.vtex-breadcrumb-1-x-homeLink){
   display: none;
 }
@@ -7,6 +15,9 @@
 .flexRowContent--flex-search-above{
   display: flex;
   flex-direction: column-reverse;
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
 }
 
 @media only screen and (max-width: 1025px) {
