@@ -22,8 +22,6 @@
 
 .sliderLayoutContainer--sliderDestacados{
     margin: 20px auto;
-    margin-bottom: 20px;
-    margin-bottom: 40px;
     width: 95%;
   
 }
@@ -90,7 +88,7 @@
 
 .sliderLayoutContainer--sliderBodegas1{
     margin-bottom: 20px;
-    margin-right: 25px;
+    margin-right: 3rem;
 }
 .sliderLayoutContainer--sliderEspeciales{
     margin-bottom: 20px;

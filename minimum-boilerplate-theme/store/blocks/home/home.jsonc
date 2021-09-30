@@ -3,8 +3,15 @@
     "blocks": [
       "list-context.image-list#home",
       "flex-layout.row#medios",
+      "flex-layout.row#home--container"
+
+    ]
+  },
+
+  "flex-layout.row#home--container":{
+    "children":[
       "flex-layout.row#tiendas",
-      "flex-layout.row#masVendidosTitulo", 
+      "flex-layout.row#masVendidosTitulo",
       "list-context.product-list#mas-vendidos",
       "flex-layout.row#bannerMobile",
       "flex-layout.row#bodegasDelMesTitulo",
@@ -17,18 +24,24 @@
       "flex-layout.row#bannerMobileBodega",
       "flex-layout.row#destacadosTitulo",
       "list-context.product-list#Destacados",
-      "list-context.product-list#DestacadosDos",
+       "list-context.product-list#DestacadosDos",
       "flex-layout.row#banners",
       "flex-layout.row#marcasTitulo",
       "flex-layout.row#marcas",
-      "flex-layout.row#linea",
+       "flex-layout.row#linea",
       "flex-layout.row#blogs",
       "flex-layout.row#blogsMobile",
       "flex-layout.row#newsletter"
-      
-      
-    ]
+    ],
+    "props":{
+      "blockClass":[
+        "contenedor-home"
+      ],
+      "preventHorizontalStretch":true
+    }
   },
+  
+
   "list-context.image-list#home": {
     "children": [
       "slider-layout#home-images"
