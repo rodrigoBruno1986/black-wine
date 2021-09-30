@@ -1,6 +1,8 @@
 .searchResultContainer--search-desktop{
-    max-width: 80rem;
+    max-width: 90rem;
 }
+
+
 
 .galleryItem {
     flex-basis: 33.3% !important;
@@ -101,6 +103,12 @@
     color: white;
 }
 
+@media only screen and (max-width: 1024px) {
+    .gallery{
+        justify-content: center;
+    }
+  }
+
 @media only screen and (max-width: 768px) {
     .gallery {
         display: flex;
@@ -111,4 +119,18 @@
         flex-basis: 50%!important;
         max-width: 50%!important;
     }
-  }
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .galleryItem {
+       
+        max-width: 100%!important;
+    }
+}
+
+

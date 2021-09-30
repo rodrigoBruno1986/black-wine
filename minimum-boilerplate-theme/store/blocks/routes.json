@@ -10,5 +10,8 @@
   },
   "store.custom#vinos-de-la-semana": {
     "path": "/vinos-de-la-semana"
+  },
+  "store.custom#nordes": {
+    "path": "/nordes"
   }
 }

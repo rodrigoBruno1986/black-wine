@@ -164,7 +164,7 @@
   },
   "gallery": {
     "blocks": [
-      "product-summary.shelf#category"
+      "product-summary.shelf#home"
     ]
   },
   "product-summary-sku-selector": {
@@ -177,7 +177,7 @@
       ]
     }
   },
-  "product-summary.shelf#category": {
+  "product-summary.shelf#home": {
     "children": [
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
@@ -187,7 +187,14 @@
       "flex-layout.row#botones"
     ],
     "props": {
-      "blockClass": "related-shelf-home"
+      "blockClass": [
+        "related-shelf-home"
+      ]
+    }
+  },
+  "product-brand": {
+    "props": {
+      "displayMode": "text"
     }
   }
 }

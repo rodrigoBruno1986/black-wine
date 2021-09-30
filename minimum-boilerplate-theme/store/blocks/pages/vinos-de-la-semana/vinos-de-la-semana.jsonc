@@ -96,10 +96,10 @@
         ]
       },
 
-      "search-content": {
+      "search-content#error": {
         "blocks": [
         "gallery#test",
-          "not-found"
+        "not-found"
         ]
       },
       "gallery#test": {
@@ -109,16 +109,16 @@
       },
       "product-summary.shelf#vinossemana": {
         "children": [
-          "flex-layout.row#infoProducto",
-          "flex-layout.row#price",
-          "flex-layout.row#contenedorBotones"
+          "flex-layout.row#infoProductoVino",
+          "flex-layout.row#priceVino",
+          "flex-layout.row#contenedorBotonesVino"
         ],
         "props": {
-          "blockClass": "related-shelf-vinos-de-la-semana"
+          "blockClass":["related-shelf-vinos-de-la-semana"]
         }
       },
 
-      "flex-layout.row#infoProducto":{
+      "flex-layout.row#infoProductoVino":{
         "children":[
           "flex-layout.row#contenedorImageInfo"
         ],
@@ -179,7 +179,7 @@
         }
       },
     
-      "flex-layout.row#price":{
+      "flex-layout.row#priceVino":{
         "children":[
           "product-selling-price",
           "product-list-price-range"
@@ -190,7 +190,7 @@
         }
       },
     
-      "flex-layout.row#botones":{
+      "flex-layout.row#contenedorBotonesVino":{
         "children":[  
           "add-to-cart-button#home",
           "product-specification-badges#baby"
