@@ -341,7 +341,8 @@
 
 
 .imageElement--bannerBodega{
-  max-height: 980px !important;
+  max-height: 830px !important;
+  border-radius: 15px;
 }
 .imageElement--bannerEspeciales{
   max-height: 500px;

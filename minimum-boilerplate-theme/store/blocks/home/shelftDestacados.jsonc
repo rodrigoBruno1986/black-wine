@@ -65,7 +65,7 @@
       "slider-layout#Destacados": {
         "props": {
             "itemsPerPage": {
-              "desktop": 5,
+              "desktop": 4,
               "tablet": 2,
               "phone": 2
             },
