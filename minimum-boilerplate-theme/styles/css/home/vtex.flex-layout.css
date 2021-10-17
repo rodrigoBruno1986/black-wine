@@ -150,10 +150,9 @@
 .flexRow--contenidoVinosSlider{
   width: 90%;
   margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-
+  margin-bottom: 80px;
 }
+
 
 
 /* FIN BLOQUE TIENDA */
@@ -426,12 +425,13 @@
 
 .flexRow--bodegasContent{
   display:flex;
-  margin: 30px auto;
+  margin: auto;
+  margin-bottom: 80px;
 }
 
 .flexRow--EspecialesContent{
-  margin-top: 40px;
   display:flex;
+  margin-bottom: 80px;
 }
 
 .flexRow--novedadesMobileBarra{

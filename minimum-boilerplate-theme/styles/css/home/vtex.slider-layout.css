@@ -5,17 +5,16 @@
 
 
 .sliderLayoutContainer--sliderMasVendidos{
-    margin: 20px auto;
-    margin-bottom: 40px;
+    margin: auto;
+    margin-bottom: 90px;
     width: 95% !important;
 }
 
 
 
 .sliderLayoutContainer--sliderNovedades{
-    margin: 20px auto;
-    margin-bottom: 20px;
-    margin-bottom: 40px;
+    margin:auto;
+    margin-bottom: 80px;
     width: 95%;
   
 }
