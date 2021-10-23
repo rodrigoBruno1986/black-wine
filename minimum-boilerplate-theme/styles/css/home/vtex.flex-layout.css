@@ -430,8 +430,9 @@
 }
 
 .flexRow--EspecialesContent{
+  width: 92%;
+  margin: 0 auto 80px auto;
   display:flex;
-  margin-bottom: 80px;
 }
 
 .flexRow--novedadesMobileBarra{
@@ -494,7 +495,7 @@
 }
 
 .flexRowContent--EspecialesContent{
-  align-items: center;
+  align-items: flex-start;
 }
 
 
@@ -506,7 +507,7 @@
     width: 80%;
   }
   .flexRow--contenidoNovedades{
-    width: 85% !important;
+    width: 92% !important;
   }
   .flexRowContent--bodegasContent{
     align-items: center;

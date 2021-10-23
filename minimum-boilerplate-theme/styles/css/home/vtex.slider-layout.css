@@ -88,6 +88,10 @@
 .sliderLayoutContainer--sliderBodegas1{
     margin-bottom: 20px;
     margin-right: 3rem;
+    padding-right: 0!important;
+}
+.sliderLayoutContainer--sliderBodegas2{
+    padding-right: 0!important;
 }
 .sliderLayoutContainer--sliderEspeciales{
     margin-bottom: 20px;
