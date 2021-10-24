@@ -46,7 +46,7 @@
         "children":[
             "rich-text#descripcion",
             "flex-layout.row#circulos",
-            // "VideoPlayer#vimeo-home",
+            "flex-layout.row#shelf-and-video",
             "list-context.product-list#nordesuno",
             "flex-layout.row#newsletterNordes",
             "flex-layout.row#recetaNordesUno" ,
@@ -80,16 +80,69 @@
     },
 
 
+    //// seccion del video
+    
+    "flex-layout.row#shelf-and-video":{
+      "children":[
+        "image#shelf",
+        "modal-trigger#example"
+      ],
+      "props":{
+        "blockClass": "shelf-and-video"
+      }
+    },
+    "image#shelf":{
+      "props": {
+        "src": "https://winesupply.vteximg.com.br/arquivos/shelf-prueba.png",
+        "blockClass":[
+          "image-shelf",
+          "especial-nordes"
+        ]
+      }
+    },
+    
 
-    // "VideoPlayer#vimeo-home": {
-    // "props": {
-    //     "plataforma": "Vimeo",
-    //     "idVideo": "591158040",
-    //     "isFullWidth": true,
-    //     "isAutoplay": true,
-    //     "className": "vimeo-home"
-    // }
-    // },
+    "modal-trigger#example": {
+      "children": [
+        "image#video",
+        "modal-layout#example"
+      ],
+      "props":{
+        "blockClass": [
+          "video",
+          "especial-nordes"
+        ]
+      }
+    },
+    "image#video":{
+      "props": {
+        "src": "https://winesupply.vteximg.com.br/arquivos/prueba-video.jpg",
+        "blockClass": [
+          "video",
+          "especial-nordes"
+        ]
+      }
+    },
+    "modal-layout#example": {
+      "children": [
+        "video#background"
+      ],
+      "props":{
+        "blockClass": "video"
+      }
+    },
+    "video#background": {
+      "props": {
+        "width": "100%",
+        "height": "600px",
+        "loop": false,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://www.youtube.com/watch?v=xcJtL7QggTI&t=3s",
+        "blockClass": "videoEl"
+      }
+    },
+
 
     // NEWS LETTER
 
