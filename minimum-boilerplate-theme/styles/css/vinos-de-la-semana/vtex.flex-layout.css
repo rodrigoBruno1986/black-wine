@@ -7,6 +7,16 @@
     max-width: 50%!important;
 }
 
+.flexRowContent--contenedorVinoSemana{
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+  flex-direction: column;
+}
+.flexRowContent--contenedorVinoSemana :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 100% !important;
+}
+
 
 
 

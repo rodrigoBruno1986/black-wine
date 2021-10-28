@@ -2,7 +2,6 @@
     "store.custom#vinos-de-la-semana": {
         "blocks": [
             "list-context.image-list#vinosdelasemana",
-            "rich-text#vino-title",
             "flex-layout.row#vinosdelasemana--container",
             "flex-layout.row#banners"
 
@@ -50,8 +49,8 @@
 
     "flex-layout.row#vinosdelasemana--container": {
         "children": [
+            "rich-text#vino-title",
             "flex-layout.row#vinosdelasemana"
-            
         ],
         "props": {
             "blockClass": ["contenedorVinoSemana"]
@@ -89,10 +88,15 @@
           }
         },
         "blocks": [
-          "search-result-layout.desktop",
+          "search-result-layout.desktop#vinosdelasemana",
           "search-result-layout.mobile",
           "search-not-found-layout"
           
+        ]
+      },
+      "search-result-layout.desktop#vinosdelasemana":{
+        "children":[
+          "search-content#error"
         ]
       },
 
