@@ -93,3 +93,43 @@
   color: #0283d8;
   text-transform: uppercase;
 }
+
+.linkContainer{
+  background: black !important;
+}
+
+.isActive{
+  background: none !important;
+}
+
+.linkText{
+  color: white !important;
+  font-size: 12px;
+}
+
+.arrow{
+  border-right: 1.6px solid white !important;
+  border-top: 1.6px solid white !important;
+}
+
+.SubMenuHeading {
+    border-bottom: 1px  solid white;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    align-items: center;
+    display: flex;
+}
+.SubMenuTitle{
+  color: white !important;
+  font-size: 13px !important;
+}
+.AsideNav{
+  background-color: black;
+}
+.SubMenuContainer{
+  background: black;
+}
+
+.subMenuItem .linkContainer{
+  background: transparent !important;
+}
