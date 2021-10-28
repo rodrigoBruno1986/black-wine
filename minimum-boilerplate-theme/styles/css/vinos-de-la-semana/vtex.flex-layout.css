@@ -26,6 +26,28 @@
   position: relative;
 }
 
+.flexRow--botones{
+  margin-right: 7px;
+}
+
+
+.flexRow--contenedorVinoSemana :global(.vtex-store-components-3-x-discountInsideContainer){
+  left: 471px !important;
+}
+
+
+.flexRowContent--botones :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  justify-content:end !important;
+}
+
+
+
+
+
+.flexRow--contenedorVinoSemana :global(.vtex-button){
+  width: 40% !important;
+}
+
 .flexRow--contenedorVinoSemana :global(.vtex-product-summary-2-x-containerNormal){
   background: white;
   max-width: 100%!important;
