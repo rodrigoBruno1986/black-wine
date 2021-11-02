@@ -96,6 +96,7 @@
 .sliderLayoutContainer--sliderEspeciales{
     margin-bottom: 20px;
     margin-right: 25px;
+    padding-right: 0 !important;
 }
 .paginationDotsContainer :global(.vtex-slider-layout-0-x-paginationDot--dotMarcas ){
     display: block !important;
