@@ -20,6 +20,11 @@
   display: none;
 }
 
+.underlineAnimation::before {
+  content: "";
+  background: black !important;
+}
+
 .linkText.underlineAnimation::before {
   margin-top: 0.8px;
 }
@@ -27,7 +32,9 @@
 .subMenuChildrenItem .linkText {
   font-family: "Nunito-Regular";
   font-size: 0.9rem;
-}
+  margin-left: 0rem !important;
+  }
+
 
 .titleAccordion {
   margin: 0;
@@ -104,7 +111,7 @@
 
 .linkText{
   color: white !important;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .arrow{
@@ -115,13 +122,16 @@
 .SubMenuHeading {
     border-bottom: 1px  solid white;
     padding-bottom: 1rem;
-    padding-left: 2rem;
+    padding-left: 0rem;
     align-items: center;
     display: flex;
 }
+.SubMenuItemWrapper{
+  padding-left: 0px !important;
+}
 .SubMenuTitle{
   color: white !important;
-  font-size: 13px !important;
+  font-size: 18px !important;
 }
 .AsideNav{
   background-color: black;
@@ -130,6 +140,20 @@
   background: black;
 }
 
+
 .subMenuItem .linkContainer{
   background: transparent !important;
 }
+
+.menu--father{
+  background: black !important;
+}
+
+.linkText:hover{
+  border: none !important;
+}
+
+.linkText{
+  margin: 0;
+}
+
