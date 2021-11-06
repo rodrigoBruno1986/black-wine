@@ -3,7 +3,7 @@
     "blocks": ["product-summary.shelf#mas-vendidos"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "collection": "138"
+      "collection": ""
     }
   },
   "product-summary.shelf#mas-vendidos": {

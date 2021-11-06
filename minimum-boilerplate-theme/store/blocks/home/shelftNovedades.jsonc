@@ -3,7 +3,7 @@
       "blocks": ["product-summary.shelf#Novedades"],
       "children": ["slider-layout#Novedades"],
       "props": {
-        "collection": "158"
+        "collection": ""
       }
     },
     "product-summary.shelf#Novedades": {
