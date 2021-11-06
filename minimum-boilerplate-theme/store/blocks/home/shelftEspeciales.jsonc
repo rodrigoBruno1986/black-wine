@@ -3,7 +3,7 @@
       "blocks": ["product-summary.shelf#Especiales"],
       "children": ["slider-layout#Especiales"],
       "props": {
-        "collection": "138"
+        "collection": ""
       }
     },
     "product-summary.shelf#Especiales": {

@@ -3,7 +3,7 @@
       "blocks": ["product-summary.shelf#bodega"],
       "children": ["slider-layout#bodega"],
       "props": {
-        "collection": "138"
+        "collection": ""
       }
     },
     "product-summary.shelf#bodega": {

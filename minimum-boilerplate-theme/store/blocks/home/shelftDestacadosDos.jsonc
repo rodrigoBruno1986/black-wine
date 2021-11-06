@@ -3,7 +3,7 @@
       "blocks": ["product-summary.shelf#DestacadosDos"],
       "children": ["slider-layout#DestacadosDos"],
       "props": {
-        "collection": "138",
+        "collection": "",
         "blockClass": "contentDestacadosDos"
       }
     },
