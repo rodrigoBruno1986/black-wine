@@ -10,5 +10,8 @@
   },
   "store.custom#nordes": {
     "path": "/nordes"
+  },
+  "store.custom#flordecana": {
+    "path": "/flordecana"
   }
 }

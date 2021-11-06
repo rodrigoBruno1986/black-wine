@@ -13,7 +13,7 @@
 
 .container--textNordesCirculos{
   display: flex;
-  justify-content: center;
+  justify-content: center !important
   
 }
 
@@ -29,4 +29,16 @@
 .paragraph--textoRecetas{
   font-family: 'Baskervville-Regular';
   font-size: 20px;
+}
+
+.container--textFlorCirculos{
+  justify-content: center;
+}
+
+.paragraph--textFlorCirculos{
+  font-family: 'Baskervville-Regular'!important;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
 }
