@@ -96,3 +96,8 @@
 .paragraph--keep-walking{
   margin-top: 0;
 }
+
+.wrapper--keep-walking{
+  border-top: 2px solid #000;
+  margin-top: 2rem;
+}
