@@ -77,3 +77,22 @@
     padding-right: 0rem;
   }
 }
+
+/*Keep walking*/
+.container--keep-walking-4{
+  margin-bottom: unset;
+  border-bottom: none;
+}
+.container--keep-walking-4 .paragraph--keep-walking-4{
+  margin-top: 0;
+  color: #fff;
+  padding-right: 0;
+  padding: .7rem 5rem;
+}
+
+.container--keep-walking{
+  border-bottom: none;
+}
+.paragraph--keep-walking{
+  margin-top: 0;
+}

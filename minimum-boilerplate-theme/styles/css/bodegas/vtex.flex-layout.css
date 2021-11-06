@@ -206,3 +206,35 @@
     margin: 0 auto;
   }
 }
+
+/*keep-walking*/
+.flexRow--keep-walking-4 :global(.vtex-store-components-3-x-container){
+  width: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.flexRowContent--keep-walking-2{
+  border-bottom: none;
+  margin: 4rem auto 0 auto;
+}
+
+.flexRowContent--keep-walking-bloques{
+  border-top: none;
+  border-bottom: none;
+}
+
+.flexRowContent--keep-walking-4 {
+  margin: unset;
+  width: 100%;
+  max-width: unset;
+  background-color: #000;
+  margin-bottom: 3rem;
+}
+.flexRow--contenedor-1 .flexRowContent--keep-walking{
+  padding-bottom: 2rem;
+}
+
+.flexRowContent--keep-walking-2 :global(.vtex-modal-layout-0-x-triggerContainer--video){
+  cursor: pointer;
+}
