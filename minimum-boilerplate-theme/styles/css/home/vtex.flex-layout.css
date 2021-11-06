@@ -427,10 +427,16 @@
   display:flex;
   margin: auto;
   margin-bottom: 80px;
+  width: 85%;
+}
+
+.flexRowContent--bodegasContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  height: 100%;
 }
 
 .flexRow--EspecialesContent{
-  width: 92%;
+  max-width: 1200px;
+  width:85%;
   margin: 0 auto 80px auto;
   display:flex;
 }
@@ -444,8 +450,6 @@
 .flexRowContent--ContentBannerMobile{
   display: none;
 }
-
-
 
 .flexRowContent--newsStyle{
   justify-content: center;
@@ -526,4 +530,9 @@
   .flexRowContent--bodegasContent{
     align-items: center;
   }
+}
+
+.flexRowContent--EspecialesContent .stretchChildrenWidth:first-child{
+  height: 100% !important;
+  max-height: 410px;
 }

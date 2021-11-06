@@ -1,6 +1,7 @@
 .flexRow--contenedorColecciones{
-  width: 85%;
+  max-width: 1200px;
   margin: auto;
+  width: 90%;
 }
 
 .flexRow--contenedorInfoCartColecciones{
