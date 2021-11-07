@@ -48,12 +48,12 @@
             "flex-layout.row#circulos",
             "flex-layout.row#shelf-and-video",
             "list-context.product-list#nordesuno",
-            "flex-layout.row#newsletterNordes",
             "flex-layout.row#recetaNordesUno" ,
             "flex-layout.row#recetaNordesDos",
             "flex-layout.row#recetaNordesHistoriaNordes",
             "flex-layout.row#giftNordes",
-            "list-context.product-list#nordesuno"
+            "list-context.product-list#nordesuno",
+            "flex-layout.row#newsletterNordes"
             
         ],
         "props":{
