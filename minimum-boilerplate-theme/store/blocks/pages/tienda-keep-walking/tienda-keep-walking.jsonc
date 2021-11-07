@@ -90,7 +90,7 @@
     "rich-text#tienda-keep-walking-title": {
         "props": {
             "text": "Colecciones",
-            "blockClass": ["landing-row--title--bodegas-del-mes", "keep-walking"]
+            "blockClass": ["landing-row--title--bodegas-del-mes", "keep-walking-colecciones"]
         }
     },
     /// tip 1
@@ -255,7 +255,8 @@
         "props":{
           "blockClass": [
             "video",
-            "especial-nordes"
+            "especial-nordes",
+            "keep-walking"
           ]
         }
       },
@@ -387,15 +388,16 @@
               "flex-layout.col#col-imagen-3"
           ],
           "props":{
-              "blockClass": "contendor-bloque"
+              "blockClass": ["contendor-bloque", "bloque-video"]
           }
       },
         "flex-layout.col#col-imagen-3":{
             "children":[
-              "modal-trigger#bloque-3"
+                "video#background"
+            //   "modal-trigger#bloque-3"
             ],
             "props":{
-                "blockClass": "imagenes-bloques"
+                "blockClass": ["imagenes-bloques", "bloque-video"]
             }
         },
         "modal-trigger#bloque-3": {

@@ -238,3 +238,17 @@
 .flexRowContent--keep-walking-2 :global(.vtex-modal-layout-0-x-triggerContainer--video){
   cursor: pointer;
 }
+
+.flexCol--imagenes-bloques .flexColChild--bloque-video{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+
+.flexRow--bloque-video .flexRowContent--bloque-video .stretchChildrenWidth{
+  flex: unset;
+}
+
+:global(.vtex-modal-layout-0-x-triggerContainer--keep-walking){
+  justify-content: flex-end;
+}
