@@ -249,6 +249,3 @@
   flex: unset;
 }
 
-:global(.vtex-modal-layout-0-x-triggerContainer--keep-walking){
-  justify-content: flex-end;
-}
