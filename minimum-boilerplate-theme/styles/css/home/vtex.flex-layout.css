@@ -125,6 +125,7 @@
 
 .flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteUno){
   font-size: 15px;
+  margin-bottom: 0;
 }
 .flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteSecundariaUno){
   font-size: 19px;
@@ -535,4 +536,9 @@
 .flexRowContent--EspecialesContent .stretchChildrenWidth:first-child{
   height: 100% !important;
   max-height: 410px;
+}
+
+.flexRowContent--contenidoTienda :global(.vtex-store-components-3-x-imageElement--imgUno){
+  max-width: 145px;
+  max-height: 145px;
 }
