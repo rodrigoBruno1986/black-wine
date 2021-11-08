@@ -54,7 +54,7 @@
             "list-context.product-list#flordecanaslider1",
             "flex-layout.row#contenedor-cocktel",
             "flex-layout.row#gift-embajador",
-            "flex-layout.row#video",
+            "flex-layout.col#col-imagen-3",
             "flex-layout.row#contenedor-regalos"
            
             
@@ -67,17 +67,51 @@
             "preventHorizontalStretch":true
         }
     },
-    "flex-layout.row#gift-bemberg":{
+    "flex-layout.col#col-imagen-3":{
       "children":[
-        "rich-text#gift-bemberg"
-      ]
-    },
-    "rich-text#gift-bemberg":{
+        "modal-trigger#bloque-3"
+      ],
       "props":{
-        "text": "GIFT CARD",
-        "blockClass": ["gift-bemberg"]
+          "blockClass": "imagenes-bloques"
       }
-    },
+  },
+  "modal-trigger#bloque-3": {
+    "children": [
+      "image#bloques-3",
+      "modal-layout#bloque-3"
+    ],
+    "props":{
+      "blockClass": [
+        "video",
+        "especial-nordes"
+      ]
+    }
+  },
+  "image#bloques-3":{
+    "props":{
+        "src":"https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+    }
+},
+
+  "modal-layout#bloque-3-video": {
+    "children": [
+      "video#background-video"
+    ],
+    "props":{
+      "blockClass": "video"
+    }
+  },
+  "video#background-video": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=nzBVXkSFD10&ab_channel=DarioIdoateFilm",
+      "blockClass": "videoEl"
+    }
+  },
     "flex-layout.row#gift-embajador":{
       "children":[
         "rich-text#embajador"
@@ -85,7 +119,7 @@
     },
     "rich-text#embajador":{
       "props":{
-        "text": "Embajador",
+        "text": "Embajador vinos",
         "blockClass": ["gift-bemberg"]
       }
     },
