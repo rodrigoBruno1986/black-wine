@@ -102,3 +102,7 @@
     display: block !important;
 }
 
+.sliderArrows--sliderEspeciales{
+    right: -50px;
+}
+
