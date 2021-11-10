@@ -16,5 +16,8 @@
   },
   "store.custom#oficial-bar-en-casa": {
     "path": "/bar-en-casa"
+  },
+  "store.custom#vinos-por-caja": {
+    "path": "/vinos-por-caja"
   }
 }

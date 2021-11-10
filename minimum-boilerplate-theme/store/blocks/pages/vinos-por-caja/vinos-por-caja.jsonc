@@ -1,0 +1,80 @@
+{
+    "store.custom#vinos-por-caja": {
+        "blocks": [
+            "list-context.image-list#tienda-keep-walking",
+            "flex-layout.row#wrapper-vinos-por-caja"
+        ]
+    },
+    "flex-layout.row#wrapper-vinos-por-caja": {
+        "children": [
+            "flex-layout.row#contenedor-tips",
+            "rich-text#titulo-variedad",
+            "flex-layout.row#banner-shelf",
+            "rich-text#titulo-bodega",
+            "flex-layout.row#banner-shelf",
+            "rich-text#titulo-combinados",
+            "flex-layout.row#banner-shelf",
+            "rich-text#titulo-vacio",
+            "flex-layout.row#banner-shelf"
+        ],
+        "props": {
+            "blockClass": "wrapperLandings"
+        }
+    },
+    "rich-text#titulo-variedad":{
+        "props":{
+          "text": "VARIEDAD",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "tituloVariedad"
+        }
+    },
+    "flex-layout.row#banner-shelf":{
+        "children":[
+            "image#banner-simulado-vinos-por-caja",
+            "flex-layout.col#shelf-vinos-por-caja"
+        ],
+        "props":{
+            "blockClass": "bannerShelf",
+            "preventHorizontalStretch": true
+        }
+    },
+    "image#banner-simulado-vinos-por-caja":{
+        "props": {
+          "src": "https://winesupply.vteximg.com.br/arquivos/banner_ej_vinos.png",
+          "blockClass": "bannerVinosXCaja"
+        }
+    },
+    "flex-layout.col#shelf-vinos-por-caja":{
+        "children":[
+          "list-context.product-list#vinos-por-caja"
+        ],
+        "props": {
+          "blockClass": "shelfEspeciales"
+        }
+    },
+    "rich-text#titulo-bodega":{
+        "props":{
+          "text": "BODEGA",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "tituloVariedad"
+        }
+    },
+    "rich-text#titulo-combinados":{
+        "props":{
+          "text": "COMBINADOS",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "tituloVariedad"
+        }
+    },
+    "rich-text#titulo-vacio":{
+        "props":{
+          "text": "",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "tituloVariedad"
+        }
+    }
+}

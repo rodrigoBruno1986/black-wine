@@ -1,0 +1,81 @@
+{
+  "list-context.product-list#vinos-por-caja": {
+    "blocks": ["product-summary.shelf#vinos-por-cajas"],
+    "children": ["slider-layout#vinos-por-cajas"],
+    "props": {
+      "collection": ""
+    }
+  },
+  "product-summary.shelf#vinos-por-cajas": {
+    "children": [
+      "product-summary-image",
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "product-brand#vinos-por-cajas",
+      "product-description",
+      "flex-layout.row#price-vinos-por-cajas",
+      "flex-layout.row#botones-vinos-por-cajas"
+    ],
+    "props": {
+      "blockClass": ["related-shelf-home", "summaryVinosXCajas"]
+    }
+  },
+  "product-brand#vinos-por-cajas": {
+    "props": {
+      "displayMode": "text"
+    }
+  },
+  "flex-layout.row#price-vinos-por-cajas": {
+    "children": ["product-selling-price", "product-list-price-range"],
+    "props": {
+      "blockClass": "contenidoPrecios",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#botones-vinos-por-cajas": {
+    "children": [
+      "add-to-cart-button#vinos-por-cajas",
+      "product-specification-badges#vinos-por-cajas"
+    ],
+    "props": {
+      "blockClass": "botones"
+    }
+  },
+  "add-to-cart-button#vinos-por-cajas": {
+    "props": {
+      "text": "COMPRAR",
+      "unavailableText": "SIN STOCK",
+      "blockClass": "botonComprar"
+    }
+  },
+  "slider-layout#vinos-por-cajas": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 2
+      },
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "fullWidth": false,
+      "blockClass": "sliderVinosXCajas"
+    }
+  },
+  "product-specification-badges#vinos-por-cajas": {
+    "props": {
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "Producto de Preventa",
+          "displayValue": "SPECIFICATION_NAME",
+          "visibleWhen": ""
+        },
+        {
+          "specificationName": "envio gratis",
+          "displayValue": "envio gratis",
+          "visibleWhen": false
+        }
+      ],
+      "blockClass": "envioGratisContenido"
+    }
+  }
+}

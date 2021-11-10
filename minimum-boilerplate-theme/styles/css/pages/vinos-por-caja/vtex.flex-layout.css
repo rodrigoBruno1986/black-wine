@@ -1,0 +1,27 @@
+.flexRow--wrapperLandings {
+    max-width: 1200px;
+    width: 85%;
+    margin: auto;
+}
+
+.flexRowContent--wrapperLandings {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--wrapperLandings :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even),
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd) {
+    width: 100% !important;
+} 
+
+.flexRow--contenedor-tips {
+    margin: 2rem 0;
+}
+
+.flexRowContent--bannerShelf {
+    max-height: 356px;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+

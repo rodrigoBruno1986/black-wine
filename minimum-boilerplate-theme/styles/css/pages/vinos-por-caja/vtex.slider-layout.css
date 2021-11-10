@@ -1,0 +1,8 @@
+.sliderLayoutContainer--sliderVinosXCajas {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+:global(.vtex-product-summary-2-x-element--summaryVinosXCajas) {
+    margin: 0 2rem;
+}
