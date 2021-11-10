@@ -168,6 +168,11 @@
   max-height: 410px;
 }
 
+.flexRowContent--primer-shelf .stretchChildrenWidth:nth-child(3n){
+  max-height: 410px;
+  width: 100% !important;
+}
+
 .flexRowContent--contenedor-6{
   flex-direction: column;
   max-width: 1380px;
