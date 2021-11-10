@@ -249,3 +249,26 @@
   flex: unset;
 }
 
+/*bodehas del mes*/
+.flexRowContent--texto-principal-bodega{
+  flex-direction: column;
+}
+
+.flexRow--texto-principal-bodega{
+  max-width: 1380px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.flexRowContent--texto-principal-bodega .stretchChildrenWidth{
+  width: 100% !important;
+}
+
+.flexRowContent--contenedor-bodegas{
+  margin: 2rem auto;
+  width: 95%;
+}
+.flexRowContent--contenedor-bodegas-1 {
+  margin-top: 3rem;
+}
+

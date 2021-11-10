@@ -109,6 +109,12 @@
   width: 95%;
 }
 
+@media (max-width: 768px){
+  .flexRow--contenidoSlider{
+    padding: 0;
+  }
+}
+
 
 .flexRowContent--contenidoTienda{
   display: flex;
