@@ -108,6 +108,11 @@
   margin: auto;
   width: 95%;
 }
+@media (max-width: 768px){
+  .flexRow--contenidoSlider{
+    padding: 0;
+  }
+}
 
 
 .flexRowContent--contenidoTienda{
@@ -433,6 +438,8 @@
 
 .flexRowContent--bodegasContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
   height: 100%;
+  max-height: 828px;
+  max-width: 550px;
 }
 
 .flexRow--EspecialesContent{
@@ -485,7 +492,7 @@
   display: none;
 }
 .flexRow--ContentBannerBodegaMobile{
-  padding: 30px;
+  padding: 15px 21px 15px 15px;
 }
 .flexRow--novedadesMobileBarra{
   display: none;
@@ -536,6 +543,9 @@
 .flexRowContent--EspecialesContent .stretchChildrenWidth:first-child{
   height: 100% !important;
   max-height: 410px;
+}
+.flexRowContent--EspecialesContent .stretchChildrenWidth{
+  width: 50% !important;
 }
 
 .flexRowContent--contenidoTienda :global(.vtex-store-components-3-x-imageElement--imgUno){

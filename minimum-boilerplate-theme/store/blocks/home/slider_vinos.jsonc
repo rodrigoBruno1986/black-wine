@@ -19,8 +19,14 @@
             "flex-layout.row#vinosPost4",
             "flex-layout.row#vinosPost5",
             "flex-layout.row#vinosPost6",
-            "flex-layout.row#vinosPost7"
-            ]
+            "flex-layout.row#vinosPost7",
+            "flex-layout.row#vinosPost8",
+            "flex-layout.row#vinosPost9",
+            "flex-layout.row#vinosPost10",
+            "flex-layout.row#vinosPost11",
+            "flex-layout.row#vinosPost12",
+            "flex-layout.row#vinosPost13"
+        ]
       },
       
       
@@ -256,7 +262,206 @@
                           "text": "Tienda Exclusiva",
                           "blockClass": "fuenteUnoVinos"
                       }
-                  }
+                  },
+                  "flex-layout.row#vinosPost8":{
+                    "children": [
+                      "image#8Vinos",
+                      "flex-layout.col#texto8Vinos"
+                    ],
+                    "props":{
+                      "blockClass":["contenidoTienda"]
+                    }
+                  },
+                  "flex-layout.col#texto8Vinos":{
+                    "children":["rich-text#unoVinos"],
+                      "props": {
+                        "preventVerticalStretch":true
+                      }
+                  },
+                  "image#8Vinos": {
+                    "props": {
+                      "blockClass": ["imgUno"],
+                      "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+                      "link": "#"
+                    }
+                  },
+                  "rich-text#8Vinos": {
+                    "props": {
+                      "text": "Tienda Exclusiva",
+                      "blockClass": "fuenteUnoVinos"
+                    }
+                  },
+                
+            
+                //   ---------------
+            
+            
+                  "flex-layout.row#vinosPost9":{
+                    "children": [
+                      "image#9Vinos",
+                      "flex-layout.col#post9Vinos"
+                    ],
+                    "props":{
+                      "blockClass":["contenidoTienda"]
+                    }
+                  },
+                  "flex-layout.col#post9Vinos":{
+                    "children":["rich-text#post9Vinos"],
+                      "props": {
+                        "fullWidth":true,
+                        "preventVerticalStretch":true
+                      }
+                  },
+                  "image#9Vinos": {
+                    "props": {
+                      "blockClass": ["imgUno"],
+                      "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+                      "link": "#"
+                    }
+                  },
+                  "rich-text#post9Vinos": {
+                    "props": {
+                      "text": "Tienda Exclusiva",
+                      "blockClass": "fuenteUnoVinos"
+                    }
+                  },
+                 
+            
+                   //   ---------------
+                   
+            
+                   "flex-layout.row#vinosPost10":{
+                    "children": [
+                      "image#10Vinos",
+                      "flex-layout.col#post10Vinos"
+                    ],
+                    "props":{
+                      "blockClass":["contenidoTienda"]
+                    }
+                  },
+                  "flex-layout.col#post10Vinos":{
+                    "children":["rich-text#post10Vinos"],
+                      "props": {
+                        "fullWidth":true,
+                        "preventVerticalStretch":true
+                      }
+                  },
+                  "image#10Vinos": {
+                    "props": {
+                      "blockClass": ["imgUno"],
+                      "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+                      "link": "#"
+                    }
+                  },
+                  "rich-text#post10Vinos": {
+                    "props": {
+                      "text": "Tienda Exclusiva",
+                      "blockClass": "fuenteUnoVinos"
+                    }
+                  },
+                 
+            
+                    //   ---------------
+            
+            
+                "flex-layout.row#vinosPost11":{
+                    "children": [
+                        "image#11Vinos",
+                        "flex-layout.col#post11Vinos"
+                    ],
+                        "props":{
+                            "blockClass":["contenidoTienda"]
+                        }
+                    },
+                    "flex-layout.col#post11Vinos":{
+                    "children":["rich-text#post11Vinos"],
+                            "props": {
+                            "fullWidth":true,
+                            "preventVerticalStretch":true
+                            }
+                    },
+                    "image#11Vinos": {
+                        "props": {
+                            "blockClass": ["imgUno"],
+                            "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+                            "link": "#"
+                        }
+                    },
+                    "rich-text#post11Vinos": {
+                        "props": {
+                            "text": "Tienda Exclusiva",
+                            "blockClass": "fuenteUnoVinos"
+                        }
+                    },
+            
+            
+            
+                     //   ---------------
+            
+            
+                     "flex-layout.row#vinosPost12":{
+                        "children": [
+                            "image#12Vinos",
+                            "flex-layout.col#post12Vinos"
+                        ],
+                            "props":{
+                                "blockClass":["contenidoTienda"]
+                            }
+                        },
+                        "flex-layout.col#post12Vinos":{
+                        "children":["rich-text#post12Vinos"],
+                                "props": {
+                                "fullWidth":true,
+                                "preventVerticalStretch":true
+                                }
+                        },
+                        "image#12Vinos": {
+                            "props": {
+                                "blockClass": ["imgUno"],
+                                "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+                                "link": "#"
+                            }
+                        },
+                        "rich-text#post12Vinos": {
+                            "props": {
+                                "text": "Tienda Exclusiva",
+                                "blockClass": "fuenteUnoVinos"
+                            }
+                        },
+                      
+            
+                        //   ---------------
+            
+            
+                        "flex-layout.row#vinosPost13":{
+                            "children": [
+                                "image#13Vinos",
+                                "flex-layout.col#post13Vinos"
+                            ],
+                                "props":{
+                                    "blockClass":["contenidoTienda"]
+                                }
+                            },
+                            "flex-layout.col#post13Vinos":{
+                            "children":["rich-text#post13Vinos"],
+                                    "props": {
+                                    "fullWidth":true,
+                                    "preventVerticalStretch":true
+                                    }
+                            },
+                            "image#13Vinos": {
+                                "props": {
+                                    "blockClass": ["imgUno"],
+                                    "src": "https://winesupply.vteximg.com.br/arquivos/imgtienda.png",
+                                    "link": "#"
+                                }
+                            },
+                            "rich-text#post13Vinos": {
+                                "props": {
+                                    "text": "Tienda Exclusiva",
+                                    "blockClass": "fuenteUnoVinos"
+                                }
+                            }
 
 
 }
