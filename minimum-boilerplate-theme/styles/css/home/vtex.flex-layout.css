@@ -491,6 +491,10 @@
 .flexRow--EspecialesContent{
   display: none;
 }
+.flexRow--EspecialesContentBarEnCasa{
+  display: block !important;
+}
+
 .flexRow--ContentBannerBodegaMobile{
   padding: 15px 21px 15px 15px;
 }
@@ -510,6 +514,9 @@
   align-items: flex-start;
 }
 
+.flexRowContent--row-reverse-bar{
+  flex-direction: row-reverse !important;
+}
 
 @media only screen and (min-width: 1442px) {
   .flexRowContent--contenidoMediosdepago{
@@ -538,6 +545,8 @@
   .flexRowContent--bodegasContent{
     align-items: center;
   }
+
+  
 }
 
 .flexRowContent--EspecialesContent .stretchChildrenWidth:first-child{
@@ -551,4 +560,16 @@
 .flexRowContent--contenidoTienda :global(.vtex-store-components-3-x-imageElement--imgUno){
   max-width: 145px;
   max-height: 145px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .flexRowContent--EspecialesContentBarEnCasa .stretchChildrenWidth{
+    width: 100% !important;
+  }
+  .flexRowContent--EspecialesContentBarEnCasa{
+    flex-direction: column !important;
+  }
+  .flexRow--EspecialesContentBarEnCasa :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderEspeciales){
+    padding: 0px!important;
+  }
 }

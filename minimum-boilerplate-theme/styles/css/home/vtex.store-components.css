@@ -260,6 +260,10 @@
   .imageElement--bannerEspeciales{
     display: none;
   }
+  .imageElement--bannerEspeciales-barencasa{
+    display: block !important;
+    height: 100% !important;
+  }
   .imageElement--bannerBodega{
     display: none;
   }
