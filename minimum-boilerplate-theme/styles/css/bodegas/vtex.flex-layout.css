@@ -164,9 +164,21 @@
   width: 55% !important;
 }
 
+@media(max-width: 768px){
+  .flexRowContent--primer-shelf :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+    width: 100% !important;
+  }
+}
+
 .flexRowContent--primer-shelf{
   width: 92%;
   margin: 0 auto;
+}
+
+@media (max-width: 768px){
+  .flexRowContent--primer-shelf{
+    width: 84%;
+  }
 }
 
 .flexRowContent--primer-shelf .stretchChildrenWidth:first-child{
@@ -246,8 +258,22 @@
   width: 69%;
 }
 
+
 .flexRowContent--contenedor-5 :global(.vtex-store-components-3-x-imageElement--bannerEspeciales){
   height: 405px;
+}
+
+@media (max-width: 768px){
+  .flexRowContent--keep-walking-2 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--oficial-bemberg){
+    width: 100%!important;
+  }
+
+  .flexRowContent--contenedor-5 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderDestacados){
+    width: 90% !important;
+  }
+  .flexRowContent--contenedor-5 :global(.vtex-store-components-3-x-imageElement--bannerEspeciales){
+    height: 309px;
+  }
 }
 
 .flexRowContent--keep-walking-bloques{
@@ -261,6 +287,12 @@
   max-width: unset;
   background-color: #000;
   margin: 0 auto 3rem auto;
+}
+
+@media (max-width: 768px){
+  .flexRowContent--keep-walking-4 {
+    width: 100%;
+  }
 }
 .flexRow--contenedor-1 .flexRowContent--keep-walking{
   padding-bottom: 2rem;
