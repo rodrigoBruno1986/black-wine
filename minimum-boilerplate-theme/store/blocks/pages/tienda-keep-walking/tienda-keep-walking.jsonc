@@ -175,12 +175,12 @@
     "slider-layout#tienda-keep-walking": {
       "props": {
         "itemsPerPage": {
-          "desktop":5,
+          "desktop":4,
           "tablet": 2,
           "phone": 2
         },
         "showNavigationArrows": "never",
-        "navigationStep": 1,
+        "navigationStep": 4,
         "arrowSize":25,
         "showPaginationDots": "never",
         // "autoplay": {
@@ -455,6 +455,7 @@
         "flex-layout.row#contenedor-5":{
             "children":[
               "flex-layout.row#primer-shelf",
+              "flex-layout.row#segundo-shelf",
               "flex-layout.row#segundo-shelf"
             ],
             "props":{
@@ -489,12 +490,12 @@
         "slider-layout#segundo-shelf": {
           "props": {
               "itemsPerPage": {
-                "desktop": 5,
+                "desktop": 4,
                 "tablet": 2,
                 "phone": 2
               },
-              "showNavigationArrows": "never",
-              "navigationStep": 1,
+              "showNavigationArrows": "desktopOnly",
+              "navigationStep": 4,
               "arrowSize":25,
               "showPaginationDots": "never",
               // "autoplay": {
@@ -516,12 +517,12 @@
         "slider-layout#gift-bemberg": {
           "props": {
             "itemsPerPage": {
-              "desktop":5,
+              "desktop":4,
               "tablet": 2,
               "phone": 2
             },
-            "showNavigationArrows": "never",
-            "navigationStep": 1,
+            "showNavigationArrows": "desktopOnly",
+            "navigationStep": 5,
             "arrowSize":25,
             "showPaginationDots": "never",
             // "autoplay": {
