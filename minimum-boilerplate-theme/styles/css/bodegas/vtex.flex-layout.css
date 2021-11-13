@@ -177,7 +177,7 @@
 
 @media (max-width: 768px){
   .flexRowContent--primer-shelf{
-    width: 84%;
+    width: 84% !important;
   }
 }
 
