@@ -40,13 +40,6 @@
   font-weight: bold;
 }
 
-.flexRowContent--contenedor-2{
-  flex-direction: column;
-  max-width: 1380px;
-  margin: 4rem auto;
-  border-bottom: 1px solid;
-}
-
 .flexRowContent--contenedor-2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
   width: 100% !important;
 }
@@ -90,7 +83,8 @@
 }
 
 .flexRow--contenedor-2 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderMasVendidos){
-  margin-top: 4rem;
+  margin-top: 3rem;
+  padding: 0 !important;
 }
 
 /*css bloques*/
@@ -271,4 +265,25 @@
 .flexRowContent--contenedor-bodegas-1 {
   margin-top: 3rem;
 }
+
+.flexRowContent--contenedor-2{
+  flex-direction: column;
+  max-width: 1380px;
+  margin: 2rem auto;
+  width: 66%;
+  border-bottom: 1px solid;
+}
+
+.flexRow--contenedor-2 .stretchChildrenWidth {
+width: 100% !important;
+}
+
+.flexRow--contenedor-2 :global(.vtex-slider-layout-0-x-sliderLeftArrow--sliderMasVendidos) {
+  left: -50px;
+}
+
+.flexRow--contenedor-2 :global(.vtex-slider-layout-0-x-sliderRightArrow--sliderMasVendidos ) {
+  right: -50px;
+}
+
 
