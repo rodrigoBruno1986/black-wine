@@ -774,7 +774,7 @@
 
 "flex-layout.row#contenedor-regalos":{
   "children":[
-    "flex-layout.row#primer-shelf-regalos",
+    "flex-layout.row#Especiales",
     "flex-layout.row#segundo-shelf-regalos"
   ],
   "props":{
