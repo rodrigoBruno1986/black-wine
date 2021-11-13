@@ -257,10 +257,10 @@
 
 .flexRowContent--keep-walking-4 {
   margin: unset;
-  width: 100%;
+  width: 67%;
   max-width: unset;
   background-color: #000;
-  margin-bottom: 3rem;
+  margin: 0 auto 3rem auto;
 }
 .flexRow--contenedor-1 .flexRowContent--keep-walking{
   padding-bottom: 2rem;
