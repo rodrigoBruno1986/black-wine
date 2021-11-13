@@ -70,6 +70,7 @@
 }
 .flexRowContent--contenedor-informacion :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
   height: initial;
+  max-height: 632px;
 }
 
 .flexCol--col-izq{
@@ -97,7 +98,7 @@
 .flexRowContent--contenedor-bloques{
   flex-direction: column;
   max-width: 1380px;
-  width: 95%;
+  width: 84%;
   margin: 0rem auto;
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -157,6 +158,10 @@
 }
 .flexRowContent--contenedor-5 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
   width: 100% !important;
+}
+
+.flexRowContent--primer-shelf :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+  width: 55% !important;
 }
 
 .flexRowContent--primer-shelf{
@@ -220,8 +225,29 @@
 }
 
 .flexRowContent--keep-walking-2{
+  width: 84%;
   border-bottom: none;
   margin: 4rem auto 0 auto;
+}
+
+.flexRowContent--keep-walking-2 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--oficial-bemberg){
+  width: 82%!important;
+}
+
+.flexRow--keep-walking-bloques :global(.vtex-slider-layout-0-x-sliderLayoutContainer--oficial-bemberg){
+  width: 82%!important;
+}
+
+.flexRowContent--contenedor-5 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderDestacados){
+  width: 77% !important;
+}
+
+.flexRowContent--contenedor-5 .flexRowContent--primer-shelf {
+  width: 69%;
+}
+
+.flexRowContent--contenedor-5 :global(.vtex-store-components-3-x-imageElement--bannerEspeciales){
+  height: 405px;
 }
 
 .flexRowContent--keep-walking-bloques{
