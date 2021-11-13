@@ -156,7 +156,7 @@
 .flexRow--contenidoVinosSlider{
   width: 90%;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom:35px;
 }
 
 
@@ -173,11 +173,11 @@
   margin: auto;
   width: 85%;
   border-bottom: 2px solid black;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 
 }
 .flexRow--contenidoDestacados{
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 .flexRow--destacadosDos{
   margin-top: 20px;
@@ -244,7 +244,7 @@
 
 
 .flexRowContent--contenedorInfoCart{
-  padding: 45px;
+  padding: 35px 45px;
 }
 @media only screen and (max-width: 1390px) {
   .flexRowContent--contenedorInfoCart :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
@@ -271,15 +271,14 @@
 }
 
 .flexRowContent--contenedorInfoCart{
-  margin-top: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .flexRow--styleContenidoMarcas {
   margin: 5px 0px 73px 0px;
 }
 .flexRow--contenidoSeguinos{
-  margin: 25px 0px 55px 0px;
+  margin: 25px 0px 0px 0px;
 }
   
 }
@@ -432,7 +431,7 @@
 .flexRow--bodegasContent{
   display:flex;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom:35px;
   width: 85%;
 }
 
@@ -445,12 +444,12 @@
 .flexRow--EspecialesContent{
   max-width: 1200px;
   width:85%;
-  margin: 0 auto 80px auto;
+  margin: 0 auto 35px auto;
   display:flex;
 }
 
 .flexRow--novedadesMobileBarra{
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 
