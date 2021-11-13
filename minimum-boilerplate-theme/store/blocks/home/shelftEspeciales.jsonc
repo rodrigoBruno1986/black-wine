@@ -11,7 +11,7 @@
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#Especiales",
-        "product-description",
+        "product-summary-name",
         "flex-layout.row#priceEspeciales",  
         "flex-layout.row#botonesEspeciales"
         
