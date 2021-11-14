@@ -37,6 +37,16 @@
   margin: 0;
   text-transform: uppercase;
 }
+.paragraph--titulohistoriflor{
+  font-size: 2rem;
+  margin: 0;
+  text-transform: capitalize !important;
+  font-family: 'BodoniFLF-Bold' !important;
+  color: black !important;
+}
+.paragraph--texto-bloques-flor{
+  font-size: 20px !important;
+}
 .container--textos-bloques .paragraph--textos-bloques{
   font-size: 1.5rem;
   margin-top: 0.5rem;
@@ -114,4 +124,15 @@
 .paragraph--keep-walking-colecciones{
   margin: 0;
   margin-bottom: .8rem;
+}
+.wrapper--titulosFlorRecetas{
+  text-transform: capitalize!important;
+  font-family: 'BodoniFLF-Bold'!important;
+}
+.paragraph--titulosFlorRecetas{
+  color: white !important;
+  text-transform: capitalize!important;
+  font-family: 'BodoniFLF-Bold'!important;
+  font-size: 30px;
+  margin: 22px;
 }

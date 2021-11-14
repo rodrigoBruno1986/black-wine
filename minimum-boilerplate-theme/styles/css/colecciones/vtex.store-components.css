@@ -51,3 +51,54 @@
   }
 
 }
+
+.infoCardContainer--info-card-asesoramiento {
+  height: 500px;
+  position: relative;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+
+
+.infoCardTextContainer--info-card-asesoramiento {
+  width: 100%;
+}
+
+.infoCardHeadline--info-card-asesoramiento {
+  color: #2f4396;
+  font-size: 12px;
+  z-index: 999;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+.infoCardSubhead--info-card-asesoramiento {
+  color: #2f4396;
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 6px;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.infoCardCallActionContainer--info-card-asesoramiento :global(.vtex-button) {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: transparent;
+  border: none;
+  color: transparent;
+}
+
+.infoCardCallActionContainer--info-card-asesoramiento :global(.vtex-button):focus,
+.infoCardCallActionContainer--info-card-asesoramiento :global(.vtex-button):hover {
+  outline: none;
+  border-color: transparent;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}

@@ -2,7 +2,13 @@
     "store.custom#flordecana": {
         "blocks": [
             "list-context.image-list#flordecana",
-            "flex-layout.row#flordecana--container"
+            "flex-layout.row#flordecana--container-descripcion",
+            "flex-layout.row#flordecana--circulos",
+            "flex-layout.row#flordecana--container-shelf-banners",
+            "flex-layout.row#flordecana--news-contenido",
+            "flex-layout.row#flordecana--historia-contenido",
+            "flex-layout.row#flordecana--recetas-contenido",
+            "flex-layout.row#flordecana--regalos"
         ]
     },
     "list-context.image-list#flordecana": {
@@ -42,28 +48,28 @@
       }
     },
 
-    "flex-layout.row#flordecana--container":{
+    "flex-layout.row#flordecana--container-descripcion":{
+      "children":[
+        "rich-text#descripcionFlordeCana"
+      ],
+      "props":{
+        "blockClass":
+          ["contenido-flordecana"],
+          "preventHorizontalStretch":true
+      }
+    },
+
+    "flex-layout.row#flordecana--container-shelf-banners":{
         "children":[
-            "rich-text#descripcionFlordeCana",
-            "flex-layout.row#circulosFlordecana",
-            "list-context.product-list#flordecanaslider1",
-            "flex-layout.row#contenedor-banner-texto-gift",
-            "flex-layout.row#newsletterflordecana",
-            "flex-layout.row#contenedor-historia",
-            "flex-layout.row#gift-bemberg",
-            "list-context.product-list#flordecanaslider1",
-            "flex-layout.row#contenedor-cocktel",
-            "flex-layout.row#gift-embajador",
-            "flex-layout.col#col-imagen-3",
-            "flex-layout.row#contenedor-regalos"
            
-            
+            "list-context.product-list#flordecanaslider1",
+            "flex-layout.row#infoCards"       
+           
             
         ],
         "props":{
-            "blockClass":[
-              "contedido-nordes"
-            ],
+            "blockClass":
+              ["contenido-flordecana"],
             "preventHorizontalStretch":true
         }
     },
@@ -93,25 +99,82 @@
     }
 },
 
-  "modal-layout#bloque-3-video": {
-    "children": [
-      "video#background-video"
-    ],
-    "props":{
-      "blockClass": "video"
-    }
-  },
-  "video#background-video": {
-    "props": {
-      "width": "100%",
-      "height": "600px",
-      "loop": false,
-      "autoPlay": true,
-      "muted": false,
-      "src": "https://www.youtube.com/watch?v=nzBVXkSFD10&ab_channel=DarioIdoateFilm",
-      "blockClass": "videoEl"
-    }
-  },
+"flex-layout.row#infoCards":{
+  "children":[
+    "flex-layout.row#uno",
+    "flex-layout.row#dos"
+
+  ],
+  "props":{
+      "blockClass": "contenido-cards"
+  }
+},
+"flex-layout.row#uno":{
+  "children":[
+    "info-card#grande"
+  ],
+  "props":{
+    "blockClass": "info-cardgrande"
+}
+},
+"flex-layout.row#dos":{
+  "children":[     
+    "info-card#medio1",
+    "info-card#medio2"
+  ],
+  "props":{
+    "blockClass": "info-carddos"
+}
+},
+
+"info-card#grande": {
+  "props": {
+ 
+      "textPosition": "center",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+   
+      "callToActionUrl": "https://mv1390--lacardeuse.myvtex.com/asesoramiento",
+      "blockClass": ["info-card-asesoramiento","infocard-grande"],
+      "textAlignment": "center",
+      "isFullModeStyle":true
+  }
+},
+"info-card#medio1": {
+  "props": {
+  "textPosition": "center",
+  "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+
+  "callToActionUrl": "https://mv1390--lacardeuse.myvtex.com/asesoramiento",
+  "blockClass": ["info-card-asesoramiento","dos"],
+  "textAlignment": "center",
+  "isFullModeStyle":true
+}
+},
+"info-card#medio2": {
+  "props": {
+  "textPosition": "center",
+  "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+  "callToActionUrl": "https://mv1390--lacardeuse.myvtex.com/asesoramiento",
+  "blockClass": ["info-card-asesoramiento","dos"],
+  "textAlignment": "center",
+  "isFullModeStyle":true
+}
+},
+
+"flex-layout.row#flordecana--historia-contenido":{
+  "children":[
+    "flex-layout.row#contenedor-historia-flor",
+    "list-context.product-list#flordecanaslider1"
+    
+  ],
+  "props":{
+    "blockClass":
+      ["contenido-flordecana"],
+    "preventHorizontalStretch":true
+  }
+},
+
+
     "flex-layout.row#gift-embajador":{
       "children":[
         "rich-text#embajador"
@@ -125,18 +188,81 @@
     },
     "rich-text#descripcionFlordeCana": {
         "props": {
-          "text": "Con la cosecha inaugural 1997, el Nicolás #CatenaZapata se convirtió en el primer cuvée de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visión de Nicolás Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por su gran complejidad, remite a frutos negros maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hierbas y pimienta.",
-          "blockClass": "textoDescripcion"
+          "text": "Flor de Caña, el ron premium de Nicaragua, ha sido nombrado Mejor Productor de Ron del Mundo en el International Wine and Spirit Competition (IWSC) en Londres. <br><br>Este certamen, que cuenta con un jurado compuesto por más de 400 expertos que evalúan muestras de más de 90 países, premia cada año la excelencia en el sector global de los destilados.<br><br>Esta distinción, la más alta a nivel global en la industria de los destilados, avala la calidad de este ron nicaragüense con más de 125 años de historia.",
+          "blockClass": "textoDescripcion-flordecana"
         }
     },
-    "flex-layout.row#circulosFlordecana":{
+     // NEWS
+    "flex-layout.row#flordecana--news-contenido":{
         "children":[
-            "slider-layout#circulosflordecana"
+          "flex-layout.row#flordecana---news"
         ],
         "props":{
-          "blockClass":["contenidoSliderCirculos"]
+          "blockClass":["contenidonNewsFlordecana"], 
+          "preventHorizontalStretch":true
         }
     },
+    "flex-layout.row#flordecana---news":{
+      "children":[
+        "flex-layout.row#newsletter"
+      ],
+      "props":{
+        "blockClass":["news-flordecana"]
+      }
+    },
+
+   
+
+    "flex-layout.row#flordecana--circulos":{
+      "children":[
+        "flex-layout.row#flordecana--contenido-slider-circulos"
+      ],
+      "props":{
+        "blockClass":["contenidoSliderCirculos-flordecana"], 
+        "preventHorizontalStretch":true
+      }
+  },
+  "flex-layout.row#flordecana--contenido-slider-circulos":{
+    "children":[
+      "slider-layout#circulosflordecana"
+    ],
+    "props":{
+      "blockClass":["circulos-flordecana"]
+    }
+  },
+
+  "flex-layout.row#flordecana--recetas-contenido":{
+    "children":[
+      "rich-text#titulorecetas",
+      "flex-layout.row#contenedor-receta1",
+      "flex-layout.row#contenedor-receta2",
+      "flex-layout.row#contenedor-receta3",
+      "flex-layout.col#col-imagen-3",
+      "rich-text#tituloRegalos"
+
+    ],
+    "props":{
+      "blockClass":
+        ["contenido-flordecana"],
+        "preventHorizontalStretch":true
+  }
+  },
+
+  "rich-text#titulorecetas":{
+    "props":{
+      "text": "Cocktails - Recetas",
+      "blockClass": [ "titulosFlorRecetas"]
+    }
+  },
+  "rich-text#tituloRegalos":{
+    "props":{
+      "text": "Regalos Exclusivos",
+      "blockClass": [ "titulosFlorRecetas"]
+    }
+  },
+
+
+
 
     "list-context.product-list#flordecanaslider1": {
       "blocks": ["product-summary.shelf#nordesuno"],
@@ -236,43 +362,7 @@
       }
     },
 
-    "flex-layout.row#contenedor-banner-texto-gift":{
-      "children":[
-        "flex-layout.row#primer-shelf-flor"
-      ],
-      "props":{
-          "blockClass": "contenedor-5"
-      }
-  },
-  "flex-layout.row#primer-shelf-flor":{
-    "children":[
-        "image#exampleEspeciales-flord",
-        "rich-text#textoR",
-        "image#exampleEspeciales-gift"
-      ],
-      "props":{
-          "blockClass": "primer-shelf"
-      }
-  },
-  "rich-text#textoR":{
-    "props":{
-      "text": "ENTÉRATE DE LAS PROMOCIONES Y NOVEDADES.",
-      "blockClass": "textNewsuno"
-    }
-  },
 
-  "image#exampleEspeciales-flord":{
-    "props": {
-      "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
-      "blockClass": "bannerEspeciales"
-    }
-  },
-  "image#exampleEspeciales-gift":{
-    "props": {
-      "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
-      "blockClass": "bannerEspeciales"
-    }
-  },
   "flex-layout.col#ShelfEspeciales-flor":{
     "children":[
       "list-context.product-list#Especiales-flor"
@@ -523,7 +613,7 @@
 
 
 
-"flex-layout.row#contenedor-historia":{
+"flex-layout.row#contenedor-historia-flor":{
   "children":[
     "flex-layout.row#bloque-1-flor"
   ]
@@ -534,7 +624,7 @@
       "flex-layout.col#col-imagen-flor"
   ],
   "props":{
-      "blockClass": "contendor-bloque"
+      "blockClass": ["contendor-bloque","contenedor-bloque-flordecasa"]
   }
 },
 "flex-layout.col#col-imagen-flor":{
@@ -559,24 +649,31 @@
   "rich-text#texto-bloque-flor"
 ],
 "props":{
-    "blockClass": "textos-bloques"
+    "blockClass": ["textos-bloques","bloque-texto-flor"]
 }
 },
 "rich-text#titulo-bloque-flor":{
 "props":{
-    "text": "Johnnie walker",
-    "blockClass": "titulos-bloques"
+    "text": "Historia de Flor de Caña",
+    "blockClass": ["titulos-bloques","titulohistoriflor"]
 }
 },
 
 "rich-text#texto-bloque-flor":{
       "props":{
-          "text": "#Historia y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz",
-          "blockClass": "textos-bloques"
+          "text": "Flor de Caña, el ron premium de Nicaragua, ha sido nombrado Mejor Productor de Ron del Mundo en el International Wine and Spirit Competition (IWSC) en Londres. <br>Esta distinción, la más alta a nivel global en la industria de los destilados, avala la calidad de este ron nicaragüense con más de 125 años de historia.",
+          "blockClass": ["textos-bloques","texto-bloques-flor"]
       }
 },
 
-"flex-layout.row#contenedor-5":{
+"flex-layout.row#flordecana--regalos":{
+  "children":[
+    "flex-layout.row#contenedor-5-regalos"
+  ]
+},
+
+
+"flex-layout.row#contenedor-5-regalos":{
   "children":[
     "flex-layout.row#primer-shelf",
     "flex-layout.row#segundo-shelf"
@@ -601,6 +698,14 @@
   "props":{
       "blockClass": "segundo-shelf"
   }
+},
+"list-context.product-list#segundo-shelf": {
+"blocks": ["product-summary.shelf#Destacados"],
+"children": ["slider-layout#segundo-shelf"],
+"props": {
+  "collection": ""
+  
+}
 },
 
 
@@ -774,8 +879,7 @@
 
 "flex-layout.row#contenedor-regalos":{
   "children":[
-    "flex-layout.row#Especiales",
-    "flex-layout.row#segundo-shelf-regalos"
+    "flex-layout.row#Especiales"
   ],
   "props":{
       "blockClass": ["contenedor-5","contenedorRegalos"]
@@ -790,14 +894,7 @@
       "blockClass": "primer-shelf"
   }
 },
-"flex-layout.row#segundo-shelf-regalos":{
-"children":[
-    "list-context.product-list#segundo-shelf-regalos"
-  ],
-  "props":{
-      "blockClass": "segundo-shelf"
-  }
-},
+
 "list-context.product-list#segundo-shelf-regalos": {
 "blocks": ["product-summary.shelf#Destacados"],
 "children": ["slider-layout#segundo-shelf-regalos"],
