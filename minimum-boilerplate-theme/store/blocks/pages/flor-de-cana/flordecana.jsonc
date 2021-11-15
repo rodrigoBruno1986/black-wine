@@ -60,12 +60,11 @@
     },
 
     "flex-layout.row#flordecana--container-shelf-banners":{
-        "children":[
-           
+        "children":[        
             "list-context.product-list#flordecanaslider1",
-            "flex-layout.row#infoCards"       
-           
-            
+            "flex-layout.row#infoCards",
+            "flex-layout.row#infoCards-mobile"     
+
         ],
         "props":{
             "blockClass":
@@ -99,6 +98,26 @@
     }
 },
 
+"flex-layout.row#infoCards-mobile":{
+  "children":[
+    "image#example"
+  ],
+  "props":{
+    "props":{
+      "blockClass": [
+        "bloqueMobileBanners"
+      ],
+      "preventHorizontalStretch":true
+    }
+      
+  }
+},
+"image#example": {
+  "props": {
+    "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+  }
+},
+
 "flex-layout.row#infoCards":{
   "children":[
     "flex-layout.row#uno",
@@ -106,7 +125,7 @@
 
   ],
   "props":{
-      "blockClass": "contenido-cards"
+      "blockClass": ["contenido-cards","cards-desktop"]
   }
 },
 "flex-layout.row#uno":{
@@ -134,7 +153,7 @@
       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
    
       "callToActionUrl": "https://mv1390--lacardeuse.myvtex.com/asesoramiento",
-      "blockClass": ["info-card-asesoramiento","infocard-grande"],
+      "blockClass": ["info-card-asesoramiento","infocard-grande","infocard-grande-mobile"],
       "textAlignment": "center",
       "isFullModeStyle":true
   }

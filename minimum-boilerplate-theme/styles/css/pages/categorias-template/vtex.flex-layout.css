@@ -45,6 +45,25 @@
 .flexRowContent--info-carddos{
     width: 515px !important;
 }
+
+
+.flexRow--cards-desktop{
+    display: block;
+}
+
+
+@media (max-width: 1024px){
+    .flexRow--info-cardgrande{
+        width: 500px !important;
+    }
+    .flexRowContent--info-carddos{
+        width: 515px !important;
+    }
+    .flexRow--cards-desktop{
+        display: none;
+    }
+}
+
 .flexRowContent--contenidonNewsFlordecana{
     justify-content: center;
 }
@@ -136,5 +155,5 @@
     .flexCol--bloque-texto-flor{
         padding: 0px 0px;
     }
-  }
+}
   
