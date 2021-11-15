@@ -23,6 +23,7 @@
     max-width: 1200px;
     margin: auto;
     width: 90%;
+    justify-content: center;
 }
 .flexRow--contenidoSliderCirculos-flordecana{
     background:#E4E4E4 ;
@@ -46,11 +47,17 @@
     width: 515px !important;
 }
 
+.flexRowContent--bloqueMobileBanners{
+    display: none;
+}
 
 .flexRow--cards-desktop{
     display: block;
 }
 
+.flexRow--bloqueMobileBanners{
+    margin: auto;
+}
 
 @media (max-width: 1024px){
     .flexRow--info-cardgrande{
@@ -59,10 +66,24 @@
     .flexRowContent--info-carddos{
         width: 515px !important;
     }
+    .flexRowContent--bloqueMobileBanners{
+        display: block;
+    }
     .flexRow--cards-desktop{
         display: none;
     }
+    .flexRowContent--contenedor-bloque-flordecasa :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+        width: 100% !important;
+    }
+    
 }
+@media (max-width: 728px){
+    .flexColChild--imagenes-bloques{
+        max-height: 450px !important;
+        margin: auto !important;
+    }
+}
+
 
 .flexRowContent--contenidonNewsFlordecana{
     justify-content: center;

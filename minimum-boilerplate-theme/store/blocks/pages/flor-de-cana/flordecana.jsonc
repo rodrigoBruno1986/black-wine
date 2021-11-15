@@ -100,19 +100,28 @@
 
 "flex-layout.row#infoCards-mobile":{
   "children":[
-    "image#example"
+    "image#grandeMobile",
+    "image#hostoriaMobile",
+    "image#25mobile"
   ],
   "props":{
-    "props":{
-      "blockClass": [
-        "bloqueMobileBanners"
-      ],
-      "preventHorizontalStretch":true
-    }
-      
+    "blockClass": [
+      "bloqueMobileBanners"
+    ],
+    "preventHorizontalStretch":true
   }
 },
-"image#example": {
+"image#grandeMobile": {
+  "props": {
+    "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+  }
+},
+"image#hostoriaMobile": {
+  "props": {
+    "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+  }
+},
+"image#25mobile": {
   "props": {
     "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
   }

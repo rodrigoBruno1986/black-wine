@@ -86,6 +86,16 @@
     font-size: 1.2rem;
     padding-right: 0rem;
   }
+  .paragraph--titulohistoriflor{
+    font-size: 1.5rem !important;
+    margin: 0;
+    text-transform: capitalize !important;
+    font-family: 'BodoniFLF-Bold' !important;
+    color: black !important;
+  }
+  .paragraph--titulosFlorRecetas{
+    font-size: 20px !important;
+  }
 }
 
 /*Keep walking*/
