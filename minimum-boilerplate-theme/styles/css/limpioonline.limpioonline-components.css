@@ -63,6 +63,9 @@
   opacity: 0.5;
   border-radius: 4px;
 }
+.menu--category{
+  color: white;
+}
 
 .accordion {
   display: flex;
