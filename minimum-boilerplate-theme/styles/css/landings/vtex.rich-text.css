@@ -90,6 +90,12 @@
   padding: .7rem 5rem;
 }
 
+@media (max-width: 768px) {
+  .container--keep-walking-4 .paragraph--keep-walking-4{
+    font-size: .9rem;
+    padding: .7rem 2rem;
+  }
+}
 .container--keep-walking{
   border-bottom: none;
 }

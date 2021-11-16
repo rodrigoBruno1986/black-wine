@@ -10,5 +10,11 @@
   },
   "store.custom#nordes": {
     "path": "/nordes"
+  },
+  "store.custom#flordecana": {
+    "path": "/flordecana"
+  },
+  "store.custom#oficial-bar-en-casa": {
+    "path": "/bar-en-casa"
   }
 }

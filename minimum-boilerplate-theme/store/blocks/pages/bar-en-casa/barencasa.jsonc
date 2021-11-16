@@ -1,38 +1,28 @@
 {
-  "store.custom#oficial-bemberg": {
+  "store.custom#oficial-bar-en-casa": {
       "blocks": [
-          "list-context.image-list#oficial-bemberg",
-          "flex-layout.row#contenedor-1",
-          "flex-layout.row#contenedor-2",
-          "flex-layout.row#contenedor-3",
-          "flex-layout.row#contenedor-4",
-          "flex-layout.row#contenedor-5",
-          "flex-layout.row#contenedor-6"
+          "list-context.image-list#oficial-bar-en-casa",
+          "flex-layout.row#contenedor-bar"
       ]
   },
 
   /// banner de imagenes
-  "list-context.image-list#oficial-bemberg": {
+  "list-context.image-list#oficial-bar-en-casa": {
       "children": [
-        "slider-layout#oficial-bemberg-images"
+        "slider-layout#oficial-bar-en-casa-images"
       ],
       "props": {
         "height": 650,
         "images": [
           {
-            "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
-            "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
-            "description": "descuentos"
-          },
-          {
-            "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
-            "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+            "image": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/4397a02e-23ad-448a-9eeb-c276a9ad563e___292a18dbc6441f4e5a642777c84f8a0d.jpg",
+            "mobileImage": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/4397a02e-23ad-448a-9eeb-c276a9ad563e___292a18dbc6441f4e5a642777c84f8a0d.jpg",
             "description": "descuentos"
           }
         ]
       }
     },
-    "slider-layout#oficial-bemberg-images": {
+    "slider-layout#oficial-bar-en-casa-images": {
       "props": {
         "autoplay": {
           "timeout": 7000,
@@ -49,31 +39,209 @@
         "fullWidth": true
       }
     },
-    "flex-layout.row#contenedor-1":{
+
+  
+
+
+      "flex-layout.row#contenedor-bar":{
         "children":[
-          "flex-layout.col#oficial-bemberg",
-          "flex-layout.row#contenedor-tips"
+          "rich-text#titulo1bar",
+          "flex-layout.row#contenedor-bar-1",
+          "rich-text#titulo2bar",
+          "flex-layout.row#contenedor-bar-2",
+          "rich-text#titulo3bar",
+          "flex-layout.row#contenedor-bar-3"
         ],
         "props":{
-          "blockClass": "contenedor-1"
+          "blockClass": ["contenidotest","contenedor-1"]
         }
     },
 
+    "rich-text#titulo1bar":{
+        "props":{
+          "text": "TRUWEYS",
+          "blockClass": ["textNovedades", "titulosBar"]
+        }
+    },
+
+      "flex-layout.row#contenedor-bar-1":{
+        "children":[
+            "flex-layout.row#TRUWEYS"
+        ],
+        "props":{
+            "blockClass": ["contenedor-5","contenedor-barencasa"]
+        }
+    },
+    "flex-layout.row#TRUWEYS":{
+        "children":[
+          "image#TRUWEYS","flex-layout.col#TRUWEYS"
+        ],
+        "props":{
+          "blockClass":["EspecialesContent","EspecialesContentBarEnCasa"],
+          "colSizing": "auto"
+        }
+      },
+      
+      "image#TRUWEYS":{
+        "props": {
+          "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+          "blockClass": "bannerEspeciales" 
+        }
+      },
+      "flex-layout.col#TRUWEYS":{
+        "children":[
+          "flex-layout.row#bannerMobile-barencasa-trueweys",
+          "list-context.product-list#Especiales"
+        ],
+        "props": {
+          "blockClass": "shelfEspeciales"
+        }
+      },
+
+      "flex-layout.row#bannerMobile-barencasa-trueweys":{
+        "children":[
+          "image#banerMobile-barencasa-trueweys"
+        ],
+        "props":{
+          "blockClass":["ContentBannerMobile","contentBannerEspecialBarEnCasa"]
+        }
+      },
+      "image#banerMobile-barencasa-trueweys":{
+        "props":{
+          "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+          "blockClass":["imgbannerMobile"]
+        }
+      },
+      
+    "rich-text#titulo2bar":{
+        "props":{
+          "text": "TRUNKS",
+          "blockClass": ["textNovedades", "titulosBar"]
+        }
+    },
+
+    "flex-layout.row#contenedor-bar-2":{
+        "children":[
+            "flex-layout.row#TRUNKS"
+        ],
+        "props":{
+            "blockClass": "contenedor-5"
+        }
+    },
+    "flex-layout.row#TRUNKS":{
+        "children":[
+          "image#TRUNKS","flex-layout.col#TRUNKS"
+        ],
+        "props":{
+          "blockClass":["EspecialesContent","EspecialesContentBarEnCasa","row-reverse-bar"],
+          "colSizing": "auto"
+        }
+      },
+      
+      "image#TRUNKS":{
+        "props": {
+          "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+          "blockClass": "bannerEspeciales" 
+        }
+      },
+      "flex-layout.col#TRUNKS":{
+        "children":[
+          "flex-layout.row#bannerMobile-barencasa-trunks",
+          "list-context.product-list#Especiales"
+        ],
+        "props": {
+          "blockClass": "shelfEspeciales"
+        }
+      },
+      
+
+      
+      "flex-layout.row#bannerMobile-barencasa-trunks":{
+        "children":[
+          "image#banerMobile-barencasa-trunks"
+        ],
+        "props":{
+          "blockClass":["ContentBannerMobile","contentBannerEspecialBarEnCasa"]
+        }
+      },
+      "image#banerMobile-barencasa-trunks":{
+        "props":{
+          "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+          "blockClass":["imgbannerMobile"]
+        }
+      },
+    
+    "rich-text#titulo3bar":{
+        "props":{
+          "text": "BOLSOS Y MOCHILAS",
+          "blockClass": ["textNovedades", "titulosBar"]
+        }
+    },
+
+    "flex-layout.row#contenedor-bar-3":{
+        "children":[
+            "flex-layout.row#ARTICULOS"
+        ],
+        "props":{
+            "blockClass": "contenedor-5"
+        }
+    },
+    "flex-layout.row#ARTICULOS":{
+        "children":[
+          "image#ARTICULOS","flex-layout.col#ARTICULOS"
+        ],
+        "props":{
+          "blockClass":["EspecialesContent","EspecialesContentBarEnCasa"],
+          "colSizing": "auto"
+        }
+      },
+      
+      "image#ARTICULOS":{
+        "props": {
+          "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+          "blockClass": "bannerEspeciales" 
+        }
+      },
+      "flex-layout.col#ARTICULOS":{
+        "children":[
+          "flex-layout.row#bannerMobile-barencasa-ARTICULOS",
+          "list-context.product-list#Especiales"
+        ],
+        "props": {
+          "blockClass": "shelfEspeciales"
+        }
+      },
+
+      "flex-layout.row#bannerMobile-barencasa-ARTICULOS":{
+        "children":[
+          "image#banerMobile-barencasa-ARTICULOS"
+        ],
+        "props":{
+          "blockClass":["ContentBannerMobile","contentBannerEspecialBarEnCasa"]
+        }
+      },
+      "image#banerMobile-barencasa-ARTICULOS":{
+        "props":{
+          "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+          "blockClass":["imgbannerMobile"]
+        }
+      },
+
     /// texto principal
-  "flex-layout.col#oficial-bemberg": {
+  "flex-layout.col#oficial-bar-en-casa": {
       "children": [
-          "rich-text#oficial-bemberg-title",
-          "rich-text#oficial-bemberg-texto"
+          "rich-text#oficial-bar-en-casa-title",
+          "rich-text#oficial-bar-en-casa-texto"
       ]
   },
-  "rich-text#oficial-bemberg-title": {
+  "rich-text#oficial-bar-en-casa-title": {
       "props": {
           "text": "Un blend con historia",
           "blockClass": "landing-row--title--bodegas-del-mes"
       }
   },
 
-  "rich-text#oficial-bemberg-texto": {
+  "rich-text#oficial-bar-en-casa-texto": {
       "props": {
           "text": "Con la cosecha inaugural 1997, el Nicolás #CatenaZapata se convirtió en el primer cuvée de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visión de Nicolás Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por su gran complejidad, remite a frutos negros maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hierbas y pimienta.",
           "font": "t-heading-1",
@@ -178,28 +346,28 @@
   "flex-layout.row#contenedor-2":{
       "children":[
           "flex-layout.row#contenedor-informacion",
-          "list-context.product-list#oficial-bemberg"
+          "list-context.product-list#oficial-bar-en-casa"
       ],
       "props":{
           "blockClass": "contenedor-2"
       }
   },
-  "list-context.product-list#oficial-bemberg": {
+  "list-context.product-list#oficial-bar-en-casa": {
     "blocks": ["product-summary.shelf#mas-vendidos"],
-    "children": ["slider-layout#oficial-bemberg"],
+    "children": ["slider-layout#oficial-bar-en-casa"],
     "props": {
       "collection": ""
     }
   },
-  "slider-layout#oficial-bemberg": {
+  "slider-layout#oficial-bar-en-casa": {
     "props": {
       "itemsPerPage": {
-        "desktop":4,
+        "desktop":5,
         "tablet": 2,
         "phone": 2
       },
-      "showNavigationArrows": "desktopOnly",
-      "navigationStep": 4,
+      "showNavigationArrows": "never",
+      "navigationStep": 1,
       "arrowSize":25,
       "showPaginationDots": "never",
       // "autoplay": {
@@ -208,7 +376,7 @@
       // },
       "fullWidth": false,
       // "infinite": true,
-      "blockClass": ["shelf-default","sliderMasVendidos", "oficial-bemberg"]
+      "blockClass": ["shelf-default","sliderMasVendidos", "oficial-bar-en-casa"]
     }
   },
   "flex-layout.row#contenedor-informacion":{
@@ -602,9 +770,9 @@
     "flex-layout.row#contenedor-6":{
         "children":[
             "rich-text#titulo-mapa",
-            "list-context.image-list#mapa-bemberg",
-            "flex-layout.row#gift-bemberg",
-            "list-context.product-list#gift-bemberg"
+            "list-context.image-list#mapa-bar-en-casa",
+            "flex-layout.row#gift-bar-en-casa",
+            "list-context.product-list#gift-bar-en-casa"
         ],
         "props":{
             "blockClass": "contenedor-6"
@@ -616,9 +784,9 @@
             "blockClass": "texto-maps"
         }
     },
-    "list-context.image-list#mapa-bemberg": {
+    "list-context.image-list#mapa-bar-en-casa": {
         "children": [
-          "slider-layout#mapa-bemberg-images"
+          "slider-layout#mapa-bar-en-casa-images"
         ],
         "props": {
           "height": 650,
@@ -631,7 +799,7 @@
           ]
         }
       },
-      "slider-layout#mapa-bemberg-images": {
+      "slider-layout#mapa-bar-en-casa-images": {
         "props": {
           "itemsPerPage": {
             "desktop": 1,
@@ -644,33 +812,33 @@
           "fullWidth": true
         }
       },
-      "flex-layout.row#gift-bemberg":{
+      "flex-layout.row#gift-bar-en-casa":{
         "children":[
-          "rich-text#gift-bemberg"
+          "rich-text#gift-bar-en-casa"
         ]
       },
       
-      "rich-text#gift-bemberg":{
+      "rich-text#gift-bar-en-casa":{
         "props":{
           "text": "GIFT CARD",
-          "blockClass": ["gift-bemberg"]
+          "blockClass": ["gift-bar-en-casa"]
         }
       },
-      "list-context.product-list#gift-bemberg": {
+      "list-context.product-list#gift-bar-en-casa": {
         "blocks": ["product-summary.shelf#mas-vendidos"],
-        "children": ["slider-layout#oficial-bemberg"],
+        "children": ["slider-layout#oficial-bar-en-casa"],
         "props": {
           "collection": ""
         }
       },
-      "slider-layout#gift-bemberg": {
+      "slider-layout#gift-bar-en-casa": {
         "props": {
           "itemsPerPage": {
-            "desktop":4,
+            "desktop":5,
             "tablet": 2,
             "phone": 2
           },
-          "showNavigationArrows": "desktopOnly",
+          "showNavigationArrows": "never",
           "navigationStep": 1,
           "arrowSize":25,
           "showPaginationDots": "never",
@@ -680,7 +848,7 @@
           // },
           "fullWidth": false,
           // "infinite": true,
-          "blockClass": ["shelf-default","sliderMasVendidos", "gift-bemberg"]
+          "blockClass": ["shelf-default","sliderMasVendidos", "gift-bar-en-casa"]
         }
       }
 }

@@ -68,7 +68,7 @@
           "tablet": 2,
           "phone": 2
         },
-        "showNavigationArrows": "never",
+        "showNavigationArrows": "desktopOnly",
         "showPaginationDots": "never",
         // "autoplay": {
         //     "timeout": 5000,

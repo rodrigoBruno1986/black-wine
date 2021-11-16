@@ -260,6 +260,10 @@
   .imageElement--bannerEspeciales{
     display: none;
   }
+  .imageElement--bannerEspeciales-barencasa{
+    display: block !important;
+    height: 100% !important;
+  }
   .imageElement--bannerBodega{
     display: none;
   }
@@ -270,6 +274,12 @@
   .imageElement--imgHablemos{
     margin-right: 0px;
   }
+}
+.imageElement--bannerEspeciales{
+  max-width: 475px;
+  max-height: 405px;
+  width: 100%;
+  height: 100%;
 }
 
 /* NEWS*/
@@ -335,6 +345,7 @@
 }
 .imageElement--bannerBodega{
   height: 100%;
+  width: 100%;
   border-radius: 15px;
 }
 
