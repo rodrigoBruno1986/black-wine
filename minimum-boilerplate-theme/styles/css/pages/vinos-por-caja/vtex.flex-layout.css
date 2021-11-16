@@ -1,7 +1,7 @@
 .flexRow--wrapperLandings {
     max-width: 1200px;
-    width: 85%;
     margin: auto;
+    width: 90%;
 }
 
 .flexRowContent--wrapperLandings {
@@ -14,14 +14,19 @@
     width: 100% !important;
 } 
 
-.flexRow--contenedor-tips {
+.flexRow--tipsVinosXCaja {
+    background-color: transparent !important;
     margin: 2rem 0;
 }
 
-.flexRowContent--bannerShelf {
-    max-height: 356px;
-    margin-bottom: 2rem;
+.flexRow--bannerShelf {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto 35px auto;
     display: flex;
-    justify-content: center;
 }
 
+.flexRowContent--VinosXCajaContent .stretchChildrenWidth{
+    width: 80% !important;
+    max-height: 405px !important;
+  }

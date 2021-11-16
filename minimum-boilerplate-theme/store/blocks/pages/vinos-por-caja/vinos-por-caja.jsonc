@@ -2,12 +2,12 @@
     "store.custom#vinos-por-caja": {
         "blocks": [
             "list-context.image-list#tienda-keep-walking",
+            "flex-layout.row#tips",
             "flex-layout.row#wrapper-vinos-por-caja"
         ]
     },
     "flex-layout.row#wrapper-vinos-por-caja": {
         "children": [
-            "flex-layout.row#contenedor-tips",
             "rich-text#titulo-variedad",
             "flex-layout.row#banner-shelf",
             "rich-text#titulo-bodega",
@@ -18,7 +18,16 @@
             "flex-layout.row#banner-shelf"
         ],
         "props": {
-            "blockClass": "wrapperLandings"
+            "preventHorizontalStretch":true,
+            "blockClass": "contenedor-home"
+        }
+    },
+    "flex-layout.row#tips":{
+        "children":[
+          "flex-layout.row#contenedor-tips"
+        ],
+        "props":{
+          "blockClass": ["contenedor-1", "tipsVinosXCaja"]
         }
     },
     "rich-text#titulo-variedad":{
@@ -32,11 +41,11 @@
     "flex-layout.row#banner-shelf":{
         "children":[
             "image#banner-simulado-vinos-por-caja",
-            "flex-layout.row#shelf-vinos-por-caja"
+            "flex-layout.col#shelf-vinos-por-caja"
         ],
         "props":{
-            "blockClass": "bannerShelf",
-            "preventHorizontalStretch": true
+            "blockClass":["EspecialesContent", "VinosXCajaContent"],
+            "colSizing": "auto" 
         }
     },
     "image#banner-simulado-vinos-por-caja":{
@@ -45,12 +54,12 @@
           "blockClass": "bannerVinosXCaja"
         }
     },
-    "flex-layout.row#shelf-vinos-por-caja":{
+    "flex-layout.col#shelf-vinos-por-caja":{
         "children":[
           "list-context.product-list#vinos-por-caja"
         ],
         "props": {
-          "blockClass": "shelfVinosXCaja"
+          "blockClass": "shelfEspeciales"
         }
     },
     "rich-text#titulo-bodega":{

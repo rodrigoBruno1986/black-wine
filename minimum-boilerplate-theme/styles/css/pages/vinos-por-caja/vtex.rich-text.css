@@ -1,6 +1,7 @@
 .container--tituloVariedad {
     border-bottom: 2px solid #000;
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 .paragraph--tituloVariedad {

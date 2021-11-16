@@ -16,7 +16,7 @@
       "flex-layout.row#botones-vinos-por-caja"
     ],
     "props": {
-      "blockClass": ["related-shelf-home", "summaryVinosXCaja"]
+      "blockClass": ["related-shelf-home"]
     }
   },
   "product-brand#vinos-por-caja": {
@@ -58,7 +58,7 @@
       "showNavigationArrows": "desktopOnly",
       "navigationStep": 1,
       "fullWidth": false,
-      "blockClass": "sliderVinosXCaja"
+      "blockClass":  ["shelf-default","sliderEspeciales"]
     }
   },
   "product-specification-badges#vinos-por-caja": {
