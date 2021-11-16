@@ -32,7 +32,7 @@
     "flex-layout.row#banner-shelf":{
         "children":[
             "image#banner-simulado-vinos-por-caja",
-            "flex-layout.col#shelf-vinos-por-caja"
+            "flex-layout.row#shelf-vinos-por-caja"
         ],
         "props":{
             "blockClass": "bannerShelf",
@@ -45,12 +45,12 @@
           "blockClass": "bannerVinosXCaja"
         }
     },
-    "flex-layout.col#shelf-vinos-por-caja":{
+    "flex-layout.row#shelf-vinos-por-caja":{
         "children":[
           "list-context.product-list#vinos-por-caja"
         ],
         "props": {
-          "blockClass": "shelfEspeciales"
+          "blockClass": "shelfVinosXCaja"
         }
     },
     "rich-text#titulo-bodega":{
@@ -71,7 +71,7 @@
     },
     "rich-text#titulo-vacio":{
         "props":{
-          "text": "",
+          "text": "SIN DEFINIR",
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "blockClass": "tituloVariedad"
