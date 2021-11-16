@@ -15,13 +15,8 @@
         "height": 650,
         "images": [
           {
-            "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
-            "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
-            "description": "descuentos"
-          },
-          {
-            "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
-            "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+            "image": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/4397a02e-23ad-448a-9eeb-c276a9ad563e___292a18dbc6441f4e5a642777c84f8a0d.jpg",
+            "mobileImage": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/4397a02e-23ad-448a-9eeb-c276a9ad563e___292a18dbc6441f4e5a642777c84f8a0d.jpg",
             "description": "descuentos"
           }
         ]
@@ -58,7 +53,7 @@
           "flex-layout.row#contenedor-bar-3"
         ],
         "props":{
-          "blockClass": "contenedor-1"
+          "blockClass": ["contenidotest","contenedor-1"]
         }
     },
 
@@ -71,29 +66,53 @@
 
       "flex-layout.row#contenedor-bar-1":{
         "children":[
-          "flex-layout.row#primer-shelf-bar"
+            "flex-layout.row#TRUWEYS"
         ],
         "props":{
-            "blockClass": "contenedor-5"
+            "blockClass": ["contenedor-5","contenedor-barencasa"]
         }
     },
-    "flex-layout.row#primer-shelf-bar":{
-      "children":[
-          "image#exampleEspeciales-bar",
-          "flex-layout.col#ShelfEspeciales"
+    "flex-layout.row#TRUWEYS":{
+        "children":[
+          "image#TRUWEYS","flex-layout.col#TRUWEYS"
         ],
         "props":{
-            "blockClass": "primer-shelf"
+          "blockClass":["EspecialesContent","EspecialesContentBarEnCasa"],
+          "colSizing": "auto"
         }
-    },
-
-    "image#exampleEspeciales-bar":{
+      },
+      
+      "image#TRUWEYS":{
         "props": {
           "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
-          "blockClass": "bannerEspeciales"
+          "blockClass": "bannerEspeciales" 
         }
-    },
+      },
+      "flex-layout.col#TRUWEYS":{
+        "children":[
+          "flex-layout.row#bannerMobile-barencasa-trueweys",
+          "list-context.product-list#Especiales"
+        ],
+        "props": {
+          "blockClass": "shelfEspeciales"
+        }
+      },
 
+      "flex-layout.row#bannerMobile-barencasa-trueweys":{
+        "children":[
+          "image#banerMobile-barencasa-trueweys"
+        ],
+        "props":{
+          "blockClass":["ContentBannerMobile","contentBannerEspecialBarEnCasa"]
+        }
+      },
+      "image#banerMobile-barencasa-trueweys":{
+        "props":{
+          "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+          "blockClass":["imgbannerMobile"]
+        }
+      },
+      
     "rich-text#titulo2bar":{
         "props":{
           "text": "TRUNKS",
@@ -103,30 +122,54 @@
 
     "flex-layout.row#contenedor-bar-2":{
         "children":[
-          "flex-layout.row#primer-shelf-bar-2"
+            "flex-layout.row#TRUNKS"
         ],
         "props":{
             "blockClass": "contenedor-5"
         }
     },
-    "flex-layout.row#primer-shelf-bar-2":{
-      "children":[
-         "image#exampleEspeciales-bar-2",
-         "flex-layout.col#ShelfEspeciales"
-          
+    "flex-layout.row#TRUNKS":{
+        "children":[
+          "image#TRUNKS","flex-layout.col#TRUNKS"
         ],
         "props":{
-            "blockClass": "primer-shelf"
+          "blockClass":["EspecialesContent","EspecialesContentBarEnCasa","row-reverse-bar"],
+          "colSizing": "auto"
         }
-
-    },
-
-    "image#exampleEspeciales-bar-2":{
+      },
+      
+      "image#TRUNKS":{
         "props": {
           "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
-          "blockClass": "bannerEspeciales"
+          "blockClass": "bannerEspeciales" 
         }
-    },
+      },
+      "flex-layout.col#TRUNKS":{
+        "children":[
+          "flex-layout.row#bannerMobile-barencasa-trunks",
+          "list-context.product-list#Especiales"
+        ],
+        "props": {
+          "blockClass": "shelfEspeciales"
+        }
+      },
+      
+
+      
+      "flex-layout.row#bannerMobile-barencasa-trunks":{
+        "children":[
+          "image#banerMobile-barencasa-trunks"
+        ],
+        "props":{
+          "blockClass":["ContentBannerMobile","contentBannerEspecialBarEnCasa"]
+        }
+      },
+      "image#banerMobile-barencasa-trunks":{
+        "props":{
+          "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+          "blockClass":["imgbannerMobile"]
+        }
+      },
     
     "rich-text#titulo3bar":{
         "props":{
@@ -137,31 +180,52 @@
 
     "flex-layout.row#contenedor-bar-3":{
         "children":[
-          "flex-layout.row#primer-shelf-bar-3"
+            "flex-layout.row#ARTICULOS"
         ],
         "props":{
             "blockClass": "contenedor-5"
         }
     },
-    "flex-layout.row#primer-shelf-bar-3":{
-      "children":[
-         "image#exampleEspeciales-bar-3",
-         "flex-layout.col#ShelfEspeciales"
-          
+    "flex-layout.row#ARTICULOS":{
+        "children":[
+          "image#ARTICULOS","flex-layout.col#ARTICULOS"
         ],
         "props":{
-            "blockClass": "primer-shelf"
+          "blockClass":["EspecialesContent","EspecialesContentBarEnCasa"],
+          "colSizing": "auto"
         }
-
-    },
-
-    "image#exampleEspeciales-bar-3":{
+      },
+      
+      "image#ARTICULOS":{
         "props": {
           "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
-          "blockClass": "bannerEspeciales"
+          "blockClass": "bannerEspeciales" 
         }
-    },
+      },
+      "flex-layout.col#ARTICULOS":{
+        "children":[
+          "flex-layout.row#bannerMobile-barencasa-ARTICULOS",
+          "list-context.product-list#Especiales"
+        ],
+        "props": {
+          "blockClass": "shelfEspeciales"
+        }
+      },
 
+      "flex-layout.row#bannerMobile-barencasa-ARTICULOS":{
+        "children":[
+          "image#banerMobile-barencasa-ARTICULOS"
+        ],
+        "props":{
+          "blockClass":["ContentBannerMobile","contentBannerEspecialBarEnCasa"]
+        }
+      },
+      "image#banerMobile-barencasa-ARTICULOS":{
+        "props":{
+          "src": "https://winesupply.vteximg.com.br/arquivos/bannerMobile.png",
+          "blockClass":["imgbannerMobile"]
+        }
+      },
 
     /// texto principal
   "flex-layout.col#oficial-bar-en-casa": {

@@ -194,12 +194,12 @@
   "slider-layout#oficial-bemberg": {
     "props": {
       "itemsPerPage": {
-        "desktop":5,
+        "desktop":4,
         "tablet": 2,
         "phone": 2
       },
-      "showNavigationArrows": "never",
-      "navigationStep": 1,
+      "showNavigationArrows": "desktopOnly",
+      "navigationStep": 4,
       "arrowSize":25,
       "showPaginationDots": "never",
       // "autoplay": {
@@ -666,11 +666,11 @@
       "slider-layout#gift-bemberg": {
         "props": {
           "itemsPerPage": {
-            "desktop":5,
+            "desktop":4,
             "tablet": 2,
             "phone": 2
           },
-          "showNavigationArrows": "never",
+          "showNavigationArrows": "desktopOnly",
           "navigationStep": 1,
           "arrowSize":25,
           "showPaginationDots": "never",

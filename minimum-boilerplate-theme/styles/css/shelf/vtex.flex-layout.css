@@ -36,6 +36,7 @@
 :global(.vtex-product-summary-2-x-containerNormal--related-shelf-home ){
   background: white;
   box-shadow: 1px 1px 6px #b7b7cb;
+  height: auto!important;
 }
 
 :global(.vtex-product-specification-badges-0-x-badgeContainer--envio-gratis){
@@ -87,7 +88,7 @@
   .flexRowContent--contenidoPrecios{
     display: flex;
   }
-  :global(.vtex-product-summary-2-x-containerNormal--related-shelf-home ){
+  :global(.vtex-product-summary-2-x-containerNormal--related-shelf-home){
     background: white;
     box-shadow: #b7b7cb;
     margin-right: 8px;

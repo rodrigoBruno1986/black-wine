@@ -29,4 +29,10 @@
   margin:40px 0px !important;
 }
 
+@media only screen and (min-width: 1024px) {
 
+  .flexRow--row-reverse-bar :global(.vtex-flex-layout-0-x-flexCol--shelfEspeciales){
+    margin-right: 80px;
+  }
+
+}
