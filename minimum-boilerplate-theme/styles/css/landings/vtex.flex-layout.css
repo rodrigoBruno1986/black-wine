@@ -333,12 +333,17 @@
   margin-top: 3rem;
 }
 
-.flexRowContent--contenedor-2{
+.flexRow--contenedor-bodegas .flexRowContent--contenedor-2{
   flex-direction: column;
   max-width: 1380px;
   margin: 2rem auto;
   width: 66%;
-  border-bottom: 1px solid;
+}
+
+.flexRowContent--contenedor-bodegas :global(.vtex-rich-text-0-x-container--titulo-texto){
+  border-bottom: 1px solid #000;
+  padding-bottom: .5rem;
+  margin-right: .7rem;
 }
 
 .flexRow--contenedor-2 .stretchChildrenWidth {
@@ -351,6 +356,13 @@ width: 100% !important;
 
 .flexRow--contenedor-2 :global(.vtex-slider-layout-0-x-sliderRightArrow--sliderMasVendidos ) {
   right: -50px;
+}
+
+.flexRowContent--contenidoRecetas .flexRowContent--recetas-imagen {
+  flex-direction: column;
+}
+.flexRowContent--recetas-imagen .stretchChildrenWidth{
+  width: 100% !important;
 }
 
 

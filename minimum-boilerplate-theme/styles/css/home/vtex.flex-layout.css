@@ -441,6 +441,16 @@
   width: 85%;
 }
 
+.flexRow--bodegasContent .stretchChildrenWidth:last-child{
+  width: 54% !important;
+}
+
+.flexRowContent--bodegasContent :global(.vtex-slider-layout-0-x-sliderRightArrow--sliderBodegas1){
+  right: -50px;
+}
+.flexRowContent--bodegasContent :global(.vtex-slider-layout-0-x-sliderLeftArrow--sliderBodegas1){
+  left: 2px;
+}
 .flexRowContent--bodegasContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
   height: 100%;
   max-height: 828px;
