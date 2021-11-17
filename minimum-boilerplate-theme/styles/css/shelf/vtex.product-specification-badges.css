@@ -1,0 +1,96 @@
+.groupContainer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.badgeContainer {
+    max-width: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.badgeText {
+    visibility: hidden;
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas.Escocia.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas.Rusia.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Alemania.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Argentina.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Belgica.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Brasil.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Chile.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-EEUU.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-España.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Francia.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Guatemala.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Irlanda.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Italia.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Mexico.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Nicaragua.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Peru.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Portugal.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Reinounido.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Sudafrica.jpg);
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Uruguay.jpg);
+}
