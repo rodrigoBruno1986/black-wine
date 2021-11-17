@@ -40,13 +40,6 @@
   font-weight: bold;
 }
 
-.flexRowContent--contenedor-2{
-  flex-direction: column;
-  max-width: 1380px;
-  margin: 4rem auto;
-  border-bottom: 1px solid;
-}
-
 .flexRowContent--contenedor-2 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
   width: 100% !important;
 }
@@ -91,7 +84,8 @@
 }
 
 .flexRow--contenedor-2 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderMasVendidos){
-  margin-top: 4rem;
+  margin-top: 3rem;
+  padding: 0 !important;
 }
 
 /*css bloques*/
@@ -240,10 +234,11 @@
   width: 84%;
   border-bottom: none;
   margin: 4rem auto 0 auto;
+  flex-direction: column;
 }
 
 .flexRowContent--keep-walking-2 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--oficial-bemberg){
-  width: 82%!important;
+  width: 73%!important;
 }
 
 .flexRow--keep-walking-bloques :global(.vtex-slider-layout-0-x-sliderLayoutContainer--oficial-bemberg){
@@ -315,4 +310,60 @@
 .flexRow--bloque-video .flexRowContent--bloque-video .stretchChildrenWidth{
   flex: unset;
 }
+
+/*bodehas del mes*/
+.flexRowContent--texto-principal-bodega{
+  flex-direction: column;
+}
+
+.flexRow--texto-principal-bodega{
+  max-width: 1380px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.flexRowContent--texto-principal-bodega .stretchChildrenWidth{
+  width: 100% !important;
+}
+
+.flexRowContent--contenedor-bodegas{
+  margin: 2rem auto;
+  width: 95%;
+}
+.flexRowContent--contenedor-bodegas-1 {
+  margin-top: 3rem;
+}
+
+.flexRow--contenedor-bodegas .flexRowContent--contenedor-2{
+  flex-direction: column;
+  max-width: 1380px;
+  margin: 2rem auto;
+  width: 66%;
+}
+
+.flexRowContent--contenedor-bodegas :global(.vtex-rich-text-0-x-container--titulo-texto){
+  border-bottom: 1px solid #000;
+  padding-bottom: .5rem;
+  margin-right: .7rem;
+}
+
+.flexRow--contenedor-2 .stretchChildrenWidth {
+width: 100% !important;
+}
+
+.flexRow--contenedor-2 :global(.vtex-slider-layout-0-x-sliderLeftArrow--sliderMasVendidos) {
+  left: -50px;
+}
+
+.flexRow--contenedor-2 :global(.vtex-slider-layout-0-x-sliderRightArrow--sliderMasVendidos ) {
+  right: -50px;
+}
+
+.flexRowContent--contenidoRecetas .flexRowContent--recetas-imagen {
+  flex-direction: column;
+}
+.flexRowContent--recetas-imagen .stretchChildrenWidth{
+  width: 100% !important;
+}
+
 
