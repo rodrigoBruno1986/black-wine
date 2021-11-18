@@ -1,0 +1,11 @@
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+.formSubmitButton  {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 0 7rem 0;
+}
+

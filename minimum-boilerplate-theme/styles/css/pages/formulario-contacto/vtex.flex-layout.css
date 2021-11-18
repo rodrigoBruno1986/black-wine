@@ -1,0 +1,16 @@
+.flexRow--wrapper-contacto {
+    max-width: 1200px;
+    margin: auto;
+    width: 70%;
+}
+
+.flexRowContent--wrapper-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    border: 1px solid #d3d3d3;
+    background: #fff;
+}
+
