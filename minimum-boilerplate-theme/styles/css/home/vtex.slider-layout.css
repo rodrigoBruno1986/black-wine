@@ -5,32 +5,29 @@
 
 
 .sliderLayoutContainer--sliderMasVendidos{
-    margin: 20px auto;
-    margin-bottom: 40px;
-    width: 95% !important;
+    margin: auto;
+    margin-bottom: 35px;
+    width: 92% !important;
 }
 
 
 
 .sliderLayoutContainer--sliderNovedades{
-    margin: 20px auto;
-    margin-bottom: 20px;
-    margin-bottom: 40px;
-    width: 95%;
+    margin:auto;
+    margin-bottom: 35px;
+    width: 87%;
   
 }
 
 .sliderLayoutContainer--sliderDestacados{
-    margin: 20px auto;
-    width: 95%;
+    margin: 0px auto 35px auto;
+    width: 87%;
   
 }
 
 .sliderLayoutContainer--sliderdestacados2{
-    margin: 20px auto;
-    margin-bottom: 20px;
-    margin-bottom: 40px;
-    width: 95%;
+    margin: 0px auto 35px auto;
+    width: 87%;
   
 }
 
@@ -42,8 +39,7 @@
 
 @media only screen and (min-width: 1442px) {
     .sliderLayoutContainer--sliderMasVendidos{
-        margin: 20px auto;
-        margin-bottom: 40px;
+        margin-bottom: 35px;
         width: 85%;
     }
 }
@@ -89,12 +85,23 @@
 .sliderLayoutContainer--sliderBodegas1{
     margin-bottom: 20px;
     margin-right: 3rem;
+    padding-right: 0!important;
+    max-width: 95% !important;
+}
+.sliderLayoutContainer--sliderBodegas2{
+    padding-right: 0!important;
+    max-width: 95% !important;
 }
 .sliderLayoutContainer--sliderEspeciales{
     margin-bottom: 20px;
     margin-right: 25px;
+    padding-right: 0 !important;
 }
 .paginationDotsContainer :global(.vtex-slider-layout-0-x-paginationDot--dotMarcas ){
     display: block !important;
+}
+
+.sliderArrows--sliderEspeciales{
+    right: -50px;
 }
 

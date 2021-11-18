@@ -1,0 +1,97 @@
+.groupContainer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.badgeContainer {
+    max-width: 54px;
+    height: 54px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.badgeText {
+    visibility: hidden;
+}
+
+.badgeContainer--banderas--escocia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas.Escocia.jpg);
+}
+
+.badgeContainer--banderas--rusia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas.Rusia.jpg);
+}
+
+.badgeContainer--banderas--alemania {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Alemania.jpg);
+}
+
+.badgeContainer--banderas--argentina {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Argentina.jpg);
+}
+
+.badgeContainer--banderas--belgica {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Belgica.jpg);
+}
+
+.badgeContainer--banderas--brasil {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Brasil.jpg);
+}
+
+.badgeContainer--banderas--chile {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Chile.jpg);
+}
+
+.badgeContainer--banderas--eeuu {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-EEUU.jpg);
+}
+
+.badgeContainer--banderas--españa {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-España.jpg);
+}
+
+.badgeContainer--banderas--francia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Francia.jpg);
+}
+
+.badgeContainer--banderas--guatemala {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Guatemala.jpg);
+}
+
+.badgeContainer--banderas--irlanda {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Irlanda.jpg);
+}
+
+.badgeContainer--banderas--italia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Italia.jpg);
+}
+
+.badgeContainer--banderas--mexico {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Mexico.jpg);
+}
+
+.badgeContainer--banderas--nicaragua {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Nicaragua.jpg);
+}
+
+.badgeContainer--banderas--peru {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Peru.jpg);
+}
+
+.badgeContainer--banderas--portugal {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Portugal.jpg);
+}
+
+.badgeContainer--banderas--reinounido {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Reinounido.jpg);
+}
+
+.badgeContainer--banderas--sudafrica {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Sudafrica.jpg);
+}
+
+.badgeContainer--banderas--uruguay {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Uruguay.jpg);
+}

@@ -24,7 +24,6 @@
   },
   "flex-layout.col#menu-container": {
     "children": [
-      "flex-layout.row#top",
       "flex-layout.row#desktop",
       "flex-layout.row#categories-menu"
     
@@ -94,7 +93,7 @@
     "props": {
       "blockClass": "header-account-cart"
     },
-    "children": ["login", "minicart.v2"]
+    "children": ["flex-layout.row#redes","login", "minicart.v2"]
   },
   "flex-layout.col#spacer": {
     "props": {

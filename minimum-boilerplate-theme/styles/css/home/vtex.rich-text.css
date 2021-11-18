@@ -603,6 +603,7 @@
 .wrapper--fuenteUnoVinos .paragraph{
   font-weight: bold;
   margin-top: 30px;
+  margin-bottom: 0;
 }
 
 

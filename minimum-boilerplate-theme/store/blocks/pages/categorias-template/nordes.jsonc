@@ -46,14 +46,14 @@
         "children":[
             "rich-text#descripcion",
             "flex-layout.row#circulos",
-            // "VideoPlayer#vimeo-home",
+            "flex-layout.row#shelf-and-video",
             "list-context.product-list#nordesuno",
-            "flex-layout.row#newsletterNordes",
             "flex-layout.row#recetaNordesUno" ,
             "flex-layout.row#recetaNordesDos",
             "flex-layout.row#recetaNordesHistoriaNordes",
             "flex-layout.row#giftNordes",
-            "list-context.product-list#nordesuno"
+            "list-context.product-list#nordesuno",
+            "flex-layout.row#newsletterNordes"
             
         ],
         "props":{
@@ -80,16 +80,69 @@
     },
 
 
+    //// seccion del video
+    
+    "flex-layout.row#shelf-and-video":{
+      "children":[
+        "image#shelf",
+        "modal-trigger#example"
+      ],
+      "props":{
+        "blockClass": "shelf-and-video"
+      }
+    },
+    "image#shelf":{
+      "props": {
+        "src": "https://winesupply.vteximg.com.br/arquivos/shelf-prueba.png",
+        "blockClass":[
+          "image-shelf",
+          "especial-nordes"
+        ]
+      }
+    },
+    
 
-    // "VideoPlayer#vimeo-home": {
-    // "props": {
-    //     "plataforma": "Vimeo",
-    //     "idVideo": "591158040",
-    //     "isFullWidth": true,
-    //     "isAutoplay": true,
-    //     "className": "vimeo-home"
-    // }
-    // },
+    "modal-trigger#example": {
+      "children": [
+        "image#video",
+        "modal-layout#example"
+      ],
+      "props":{
+        "blockClass": [
+          "video",
+          "especial-nordes"
+        ]
+      }
+    },
+    "image#video":{
+      "props": {
+        "src": "https://winesupply.vteximg.com.br/arquivos/prueba-video.jpg",
+        "blockClass": [
+          "video",
+          "especial-nordes"
+        ]
+      }
+    },
+    "modal-layout#example": {
+      "children": [
+        "video#background"
+      ],
+      "props":{
+        "blockClass": "video"
+      }
+    },
+    "video#background": {
+      "props": {
+        "width": "100%",
+        "height": "600px",
+        "loop": false,
+        "autoPlay": true,
+        "muted": false,
+        "src": "https://www.youtube.com/watch?v=xcJtL7QggTI&t=3s",
+        "blockClass": "videoEl"
+      }
+    },
+
 
     // NEWS LETTER
 
@@ -162,15 +215,61 @@
 
   "flex-layout.row#imgRecetasUno":{
       "children":[
-        "image#recetasUno"
-      ]
+        "image#recetas1",
+        "image#recetas2",
+        "image#recetas3",
+        "image#recetas4",
+        "image#recetas5",
+        "image#recetas6",
+        "image#recetas7",
+        "image#recetas8"
+      ],
+      "props":{
+        "blockClass": "recetas-imagen"
+      }
   },
 
-  "image#recetasUno": {
+  "image#recetas1": {
     "props": {
       "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
     }
   },
+  "image#recetas2": {
+    "props": {
+      "src": ""
+    }
+  },
+  "image#recetas3": {
+    "props": {
+      "src": ""
+    }
+  },
+  "image#recetas4": {
+    "props": {
+      "src": ""
+    }
+  },
+  "image#recetas5": {
+    "props": {
+      "src": ""
+    }
+  },
+  "image#recetas6": {
+    "props": {
+      "src": ""
+    }
+  },
+  "image#recetas7": {
+    "props": {
+      "src": ""
+    }
+  },
+  "image#recetas8": {
+    "props": {
+      "src": ""
+    }
+  },
+  
   
   /////////////
 
@@ -213,8 +312,20 @@
 
 "flex-layout.row#imgRecetasDos":{
     "children":[
-      "image#recetasDos"
-    ]
+        "image#recetas1",
+        "image#recetas2",
+        "image#recetas3",
+        "image#recetas4",
+        "image#recetas5",
+        "image#recetas6",
+        "image#recetas7",
+        "image#recetas8"
+    ],
+    "props":{
+      "blockClass":[
+        "recetas-imagen"
+      ]
+    }
 },
 
 "image#recetasDos": {
@@ -264,16 +375,21 @@
 
 "flex-layout.row#imgRecetasHistoriaNordes":{
     "children":[
-      "image#recetasHistoriaNordes"
-    ]
+        "image#recetas1",
+        "image#recetas2",
+        "image#recetas3",
+        "image#recetas4",
+        "image#recetas5",
+        "image#recetas6",
+        "image#recetas7",
+        "image#recetas8"
+    ],
+    "props":{
+      "blockClass":[
+        "recetas-imagen"
+      ]
+    }
 },
-
-"image#recetasHistoriaNordes": {
-  "props": {
-    "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
-  }
-},
-
 
 "flex-layout.row#giftNordes":{
   "children":[

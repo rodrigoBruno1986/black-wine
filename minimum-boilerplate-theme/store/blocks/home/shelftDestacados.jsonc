@@ -3,12 +3,13 @@
       "blocks": ["product-summary.shelf#Destacados"],
       "children": ["slider-layout#Destacados"],
       "props": {
-        "collection": "158"
+        "collection": ""
         
       }
     },
     "product-summary.shelf#Destacados": {
       "children": [
+        "product-specification-badges#banderas",
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#Destacados",

@@ -3,11 +3,12 @@
       "blocks": ["product-summary.shelf#Especiales"],
       "children": ["slider-layout#Especiales"],
       "props": {
-        "collection": "138"
+        "collection": ""
       }
     },
     "product-summary.shelf#Especiales": {
       "children": [
+        "product-specification-badges#banderas",
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#Especiales",
@@ -68,7 +69,7 @@
           "tablet": 2,
           "phone": 2
         },
-        "showNavigationArrows": "never",
+        "showNavigationArrows": "desktopOnly",
         "showPaginationDots": "never",
         // "autoplay": {
         //     "timeout": 5000,

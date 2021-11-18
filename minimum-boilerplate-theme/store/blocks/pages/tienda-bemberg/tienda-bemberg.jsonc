@@ -1,0 +1,686 @@
+{
+  "store.custom#oficial-bemberg": {
+      "blocks": [
+          "list-context.image-list#oficial-bemberg",
+          "flex-layout.row#contenedor-1",
+          "flex-layout.row#contenedor-2",
+          "flex-layout.row#contenedor-3",
+          "flex-layout.row#contenedor-4",
+          "flex-layout.row#contenedor-5",
+          "flex-layout.row#contenedor-6"
+      ]
+  },
+
+  /// banner de imagenes
+  "list-context.image-list#oficial-bemberg": {
+      "children": [
+        "slider-layout#oficial-bemberg-images"
+      ],
+      "props": {
+        "height": 650,
+        "images": [
+          {
+            "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+            "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+            "description": "descuentos"
+          },
+          {
+            "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+            "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+            "description": "descuentos"
+          }
+        ]
+      }
+    },
+    "slider-layout#oficial-bemberg-images": {
+      "props": {
+        "autoplay": {
+          "timeout": 7000,
+          "stopOnHover": true
+        },
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showPaginationDots": "never",
+        "showNavigationArrows": "always",
+        "fullWidth": true
+      }
+    },
+    "flex-layout.row#contenedor-1":{
+        "children":[
+          "flex-layout.col#oficial-bemberg",
+          "flex-layout.row#contenedor-tips"
+        ],
+        "props":{
+          "blockClass": "contenedor-1"
+        }
+    },
+
+    /// texto principal
+  "flex-layout.col#oficial-bemberg": {
+      "children": [
+          "rich-text#oficial-bemberg-title",
+          "rich-text#oficial-bemberg-texto"
+      ]
+  },
+  "rich-text#oficial-bemberg-title": {
+      "props": {
+          "text": "Un blend con historia",
+          "blockClass": "landing-row--title--bodegas-del-mes"
+      }
+  },
+
+  "rich-text#oficial-bemberg-texto": {
+      "props": {
+          "text": "Con la cosecha inaugural 1997, el Nicolás #CatenaZapata se convirtió en el primer cuvée de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visión de Nicolás Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por su gran complejidad, remite a frutos negros maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hierbas y pimienta.",
+          "font": "t-heading-1",
+          "blockClass": "landing-row--parrafo-bodegas-del-mes"
+      }
+  },
+
+  /// burbujas tips
+  "flex-layout.row#contenedor-tips":{
+      "children":[
+          "flex-layout.col#tips-1",
+          "flex-layout.col#tips-2",
+          "flex-layout.col#tips-3",
+          "flex-layout.col#tips-4"
+      ],
+      "props":{
+          "blockClass": "contenedor-tips"
+      }
+  },
+  /// tip 1
+  "flex-layout.col#tips-1":{
+      "children":[
+          "image#tip-1",
+          "rich-text#tip-1"
+      ],
+      "props":{
+          "blockClass": "col-tips"
+      }
+  },
+  "image#tip-1": {
+      "props": {
+          "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+      }
+  },
+  "rich-text#tip-1":{
+      "props":{
+          "text": "Maridajes"
+      }
+  },
+  // tip 2
+  "flex-layout.col#tips-2":{
+      "children":[
+          "image#tip-2",
+          "rich-text#tip-2"
+      ],
+      "props":{
+          "blockClass": "col-tips"
+      }
+  },
+  "image#tip-2": {
+      "props": {
+          "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+      }
+  },
+  "rich-text#tip-2":{
+      "props":{
+          "text": "Maridajes"
+      }
+  },
+  // tip 3
+  "flex-layout.col#tips-3":{
+      "children":[
+          "image#tip-3",
+          "rich-text#tip-3"
+      ],
+      "props":{
+          "blockClass": "col-tips"
+      }
+  },
+  "image#tip-3": {
+      "props": {
+          "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+      }
+  },
+  "rich-text#tip-3":{
+      "props":{
+          "text": "Maridajes"
+      }
+  },
+  // tip 4
+  "flex-layout.col#tips-4":{
+      "children":[
+          "image#tip-4",
+          "rich-text#tip-4"
+      ],
+      "props":{
+          "blockClass": "col-tips"
+      }
+  },
+  "image#tip-4": {
+      "props": {
+          "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+      }
+  },
+  "rich-text#tip-4":{
+      "props":{
+          "text": "Maridajes"
+      }
+  },
+
+  ///Biografia y carrusel de productos
+  "flex-layout.row#contenedor-2":{
+      "children":[
+          "flex-layout.row#contenedor-informacion",
+          "list-context.product-list#oficial-bemberg"
+      ],
+      "props":{
+          "blockClass": "contenedor-2"
+      }
+  },
+  "list-context.product-list#oficial-bemberg": {
+    "blocks": ["product-summary.shelf#mas-vendidos"],
+    "children": ["slider-layout#oficial-bemberg"],
+    "props": {
+      "collection": ""
+    }
+  },
+  "slider-layout#oficial-bemberg": {
+    "props": {
+      "itemsPerPage": {
+        "desktop":4,
+        "tablet": 2,
+        "phone": 2
+      },
+      "showNavigationArrows": "desktopOnly",
+      "navigationStep": 4,
+      "arrowSize":25,
+      "showPaginationDots": "never",
+      // "autoplay": {
+      //     "timeout": 5000,
+      //     "stopOnHover": true
+      // },
+      "fullWidth": false,
+      // "infinite": true,
+      "blockClass": ["shelf-default","sliderMasVendidos", "oficial-bemberg"]
+    }
+  },
+  "flex-layout.row#contenedor-informacion":{
+      "children":[
+          "flex-layout.col#col-izq",
+          "flex-layout.row#row-der"
+      ],
+      "props":{
+          "blockClass": "contenedor-informacion"
+      }
+  },
+  "flex-layout.col#col-izq":{
+      "children":[
+          "rich-text#biografia-titulo",
+          "rich-text#biografia-text"
+      ],
+      "props":{
+          "blockClass": "col-izq"
+      }
+  },
+  "rich-text#biografia-titulo":{
+      "props":{
+          "text": "### Nuestra Historia"
+      }
+  },
+  "rich-text#biografia-text":{
+      "props":{
+          "text": "**Familia Catena** nace con la cosecha inagural 1997, el Nicolós #CatenaZapata se convirtio en el primer cuvhe de lujo de #Argentina en ser exportado al mundo entero. Este corte de #Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate."
+      }
+  },
+  "flex-layout.row#row-der":{
+      "children":[
+          "image#biografia-1",
+          "image#biografia-2",
+          "image#biografia-3",
+          "image#biografia-4"
+      ],
+      "props":{
+          "blockClass": "row-der"
+      }
+  },
+  "image#biografia-1": {
+      "props": {
+          "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+      }
+  },
+  "image#biografia-2": {
+      "props": {
+          "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+      }
+  },
+  "image#biografia-3": {
+      "props": {
+          "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+          "blockClass": "m-none"
+      }
+  },
+  "image#biografia-4": {
+      "props": {
+          "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+          "blockClass": "m-none"
+      }
+  },
+  "flex-layout.row#contenedor-3":{
+      "children":[
+          "flex-layout.row#bloque-1",
+          "flex-layout.row#bloque-2",
+          "flex-layout.row#bloque-3"
+      ],
+      "props":{
+          "blockClass": "contenedor-bloques"
+      }
+  },
+  "flex-layout.row#bloque-1":{
+      "children":[
+          "flex-layout.col#col-texto-1",
+          "flex-layout.col#col-imagen-1"
+      ],
+      "props":{
+          "blockClass": "contendor-bloque"
+      }
+  },
+  "flex-layout.col#col-texto-1":{
+      "children":[
+        "rich-text#titulo-bloque-1",
+        "rich-text#texto-bloque-1"
+      ],
+      "props":{
+          "blockClass": "textos-bloques"
+      }
+  },
+  "rich-text#titulo-bloque-1":{
+      "props":{
+          "text": "Johnnie walker",
+          "blockClass": "titulos-bloques"
+      }
+  },
+  "rich-text#texto-bloque-1":{
+        "props":{
+            "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+            "blockClass": "textos-bloques"
+        }
+    },
+    "flex-layout.col#col-imagen-1":{
+        "children":[
+            "image#bloques-1"
+        ],
+        "props":{
+            "blockClass": "imagenes-bloques"
+        }
+    },
+    "image#bloques-1":{
+        "props":{
+            "src":"https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+    "flex-layout.row#bloque-2":{
+        "children":[
+            "flex-layout.col#col-texto-2",
+            "flex-layout.col#col-imagen-2"
+        ],
+        "props":{
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-2":{
+        "children":[
+          "rich-text#titulo-bloque-2",
+          "rich-text#texto-bloque-2"
+        ],
+        "props":{
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-2":{
+        "props":{
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-2":{
+          "props":{
+              "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+              "blockClass": "textos-bloques"
+          }
+      },
+      "flex-layout.col#col-imagen-2":{
+          "children":[
+              "image#bloques-2"
+          ],
+          "props":{
+              "blockClass": "imagenes-bloques"
+          }
+      },
+      "image#bloques-2":{
+          "props":{
+              "src":"https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+          }
+      },
+      "flex-layout.row#bloque-3":{
+        "children":[
+            "flex-layout.col#col-texto-3",
+            "flex-layout.col#col-imagen-3"
+        ],
+        "props":{
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-3":{
+        "children":[
+          "rich-text#titulo-bloque-3",
+          "rich-text#texto-bloque-3"
+        ],
+        "props":{
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-3":{
+        "props":{
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-3":{
+          "props":{
+              "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+              "blockClass": "textos-bloques"
+          }
+      },
+      "flex-layout.col#col-imagen-3":{
+          "children":[
+            "modal-trigger#bloque-3"
+          ],
+          "props":{
+              "blockClass": "imagenes-bloques"
+          }
+      },
+      "modal-trigger#bloque-3": {
+        "children": [
+          "image#bloques-3",
+          "modal-layout#bloque-3"
+        ],
+        "props":{
+          "blockClass": [
+            "video",
+            "especial-nordes"
+          ]
+        }
+      },
+      "image#bloques-3":{
+        "props":{
+            "src":"https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+        }
+    },
+
+      "modal-layout#bloque-3": {
+        "children": [
+          "video#background"
+        ],
+        "props":{
+          "blockClass": "video"
+        }
+      },
+      "video#background": {
+        "props": {
+          "width": "100%",
+          "height": "600px",
+          "loop": false,
+          "autoPlay": true,
+          "muted": false,
+          "src": "https://www.youtube.com/watch?v=xcJtL7QggTI&t=3s",
+          "blockClass": "videoEl"
+        }
+      },
+      "flex-layout.row#contenedor-4":{
+          "children":[
+            "rich-text#titulo-contenedor",
+            "flex-layout.row#bloque-1",
+            "flex-layout.row#bloque-2"
+          ],
+          "props":{
+              "blockClass": "contenedor-bloques-4"
+          }
+      },
+      "rich-text#titulo-contenedor":{
+        "props":{
+            "text": "Score",
+            "blockClass": ["textos-bloques", "cuarto-bloque"]
+        }
+    },
+      "flex-layout.row#bloque-4":{
+        "children":[
+            "flex-layout.col#col-texto-4",
+            "flex-layout.col#col-imagen-4"
+        ],
+        "props":{
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-4":{
+        "children":[
+          "rich-text#titulo-bloque-4",
+          "rich-text#texto-bloque-4"
+        ],
+        "props":{
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-4":{
+        "props":{
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-4":{
+          "props":{
+              "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+              "blockClass": "textos-bloques"
+          }
+      },
+      "flex-layout.col#col-imagen-4":{
+          "children":[
+              "image#bloques-4"
+          ],
+          "props":{
+              "blockClass": "imagenes-bloques"
+          }
+      },
+      "image#bloques-4":{
+          "props":{
+              "src":"https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+          }
+      },
+      "flex-layout.row#bloque-5":{
+        "children":[
+            "flex-layout.col#col-texto-5",
+            "flex-layout.col#col-imagen-5"
+        ],
+        "props":{
+            "blockClass": "contendor-bloque"
+        }
+    },
+    "flex-layout.col#col-texto-5":{
+        "children":[
+          "rich-text#titulo-bloque-5",
+          "rich-text#texto-bloque-5"
+        ],
+        "props":{
+            "blockClass": "textos-bloques"
+        }
+    },
+    "rich-text#titulo-bloque-5":{
+        "props":{
+            "text": "Johnnie walker",
+            "blockClass": "titulos-bloques"
+        }
+    },
+    "rich-text#texto-bloque-5":{
+          "props":{
+              "text": "#Malbec y #CabernetSauvignon constituye la cima de la visiyn de Nicolós Catena Zapata: un vino sudamericano a la altura de los mejores del mundo. Se destaca por si gran complejidad, remite a frutos negros, maduros, chocolate amargo y regaliz, suavemente entrelazados con notas minerales, a violetas, hiervas y mimienta. Del mundo. Se destaca por su gran complejidad, remite a frutos nregos maduros, chocolate.",
+              "blockClass": "textos-bloques"
+          }
+      },
+      "flex-layout.col#col-imagen-5":{
+          "children":[
+              "image#bloques-5"
+          ],
+          "props":{
+              "blockClass": "imagenes-bloques"
+          }
+      },
+      "image#bloques-5":{
+          "props":{
+              "src":"https://limpioonline.vteximg.com.br/arquivos/2.jpg"
+          }
+      },
+      "flex-layout.row#contenedor-5":{
+          "children":[
+            "flex-layout.row#primer-shelf",
+            "flex-layout.row#segundo-shelf"
+          ],
+          "props":{
+              "blockClass": "contenedor-5"
+          }
+      },
+      "flex-layout.row#primer-shelf":{
+        "children":[
+            "image#exampleEspeciales",
+            "flex-layout.col#ShelfEspeciales"
+          ],
+          "props":{
+              "blockClass": "primer-shelf"
+          }
+      },
+      "flex-layout.row#segundo-shelf":{
+        "children":[
+            "list-context.product-list#segundo-shelf"
+          ],
+          "props":{
+              "blockClass": "segundo-shelf"
+          }
+      },
+      "list-context.product-list#segundo-shelf": {
+        "blocks": ["product-summary.shelf#Destacados"],
+        "children": ["slider-layout#segundo-shelf"],
+        "props": {
+          "collection": ""
+          
+        }
+      },
+      "slider-layout#segundo-shelf": {
+        "props": {
+            "itemsPerPage": {
+              "desktop": 5,
+              "tablet": 2,
+              "phone": 2
+            },
+            "showNavigationArrows": "never",
+            "navigationStep": 1,
+            "arrowSize":25,
+            "showPaginationDots": "never",
+            // "autoplay": {
+            //     "timeout": 5000,
+            //     "stopOnHover": true
+            // },
+            "fullWidth": false,
+            // "infinite": true,
+            "blockClass": ["shelf-default","sliderDestacados"]
+          }
+    },
+    "flex-layout.row#contenedor-6":{
+        "children":[
+            "rich-text#titulo-mapa",
+            "list-context.image-list#mapa-bemberg",
+            "flex-layout.row#gift-bemberg",
+            "list-context.product-list#gift-bemberg"
+        ],
+        "props":{
+            "blockClass": "contenedor-6"
+        }
+    },
+    "rich-text#titulo-mapa":{
+        "props":{
+            "text": "Mapas",
+            "blockClass": "texto-maps"
+        }
+    },
+    "list-context.image-list#mapa-bemberg": {
+        "children": [
+          "slider-layout#mapa-bemberg-images"
+        ],
+        "props": {
+          "height": 650,
+          "images": [
+            {
+              "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+              "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+              "description": "descuentos"
+            }
+          ]
+        }
+      },
+      "slider-layout#mapa-bemberg-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": false,
+          "showPaginationDots": "never",
+          "showNavigationArrows": "always",
+          "fullWidth": true
+        }
+      },
+      "flex-layout.row#gift-bemberg":{
+        "children":[
+          "rich-text#gift-bemberg"
+        ]
+      },
+      
+      "rich-text#gift-bemberg":{
+        "props":{
+          "text": "GIFT CARD",
+          "blockClass": ["gift-bemberg"]
+        }
+      },
+      "list-context.product-list#gift-bemberg": {
+        "blocks": ["product-summary.shelf#mas-vendidos"],
+        "children": ["slider-layout#oficial-bemberg"],
+        "props": {
+          "collection": ""
+        }
+      },
+      "slider-layout#gift-bemberg": {
+        "props": {
+          "itemsPerPage": {
+            "desktop":4,
+            "tablet": 2,
+            "phone": 2
+          },
+          "showNavigationArrows": "desktopOnly",
+          "navigationStep": 1,
+          "arrowSize":25,
+          "showPaginationDots": "never",
+          // "autoplay": {
+          //     "timeout": 5000,
+          //     "stopOnHover": true
+          // },
+          "fullWidth": false,
+          // "infinite": true,
+          "blockClass": ["shelf-default","sliderMasVendidos", "gift-bemberg"]
+        }
+      }
+}

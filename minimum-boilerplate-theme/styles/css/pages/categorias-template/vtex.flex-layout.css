@@ -53,3 +53,24 @@
     border-radius: 10px;
     margin:  20px  0px 10px 0px;
 }
+
+.flexRow--shelf-and-video{
+    width: 92%;
+    margin: 0 auto;
+}
+
+.flexRow--contenedorRegalos{
+    margin: 50px auto;
+}
+
+.flexRowContent--contenidotest{
+    max-width: 1200px;
+    width: 85%;
+    margin: auto auto 30px;
+    flex-direction: column;
+   
+}
+
+.flexRow--contenidotest{
+    background-color: #F3F2F2 !important;
+}

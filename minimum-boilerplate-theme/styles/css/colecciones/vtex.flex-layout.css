@@ -1,8 +1,11 @@
 .flexRow--contenedorColecciones{
-  width: 85%;
+  max-width: 1200px;
   margin: auto;
+  width: 90%;
 }
-
+.flexRow--contenedorInfoCart{
+  width: 100%;
+}
 .flexRow--contenedorInfoCartColecciones{
   padding: 40px;
 }
@@ -24,3 +27,14 @@
   
 }
 
+.flexRow--florcanabloquenews{
+  margin:40px 0px !important;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .flexRow--row-reverse-bar :global(.vtex-flex-layout-0-x-flexCol--shelfEspeciales){
+    margin-right: 80px;
+  }
+
+}
