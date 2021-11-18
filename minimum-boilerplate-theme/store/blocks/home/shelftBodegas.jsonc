@@ -8,6 +8,7 @@
     },
     "product-summary.shelf#bodega": {
       "children": [
+        "product-specification-badges#banderas",
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#bodega",
