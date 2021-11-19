@@ -19,5 +19,8 @@
   },
   "store.custom#vinos-por-caja": {
     "path": "/vinos-por-caja"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
   }
 }
