@@ -9,10 +9,10 @@
     flex-direction: column;
 }
 
-.flexRowContent--wrapperLandings :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even),
+/* .flexRowContent--wrapperLandings :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even),
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd) {
     width: 100% !important;
-} 
+}  */
 
 .flexRow--tipsVinosXCaja {
     background-color: transparent !important;
