@@ -10,7 +10,7 @@
         "children": [
             "rich-text#titulo-variedad",
             "flex-layout.row#banner-shelf",
-            "rich-text#titulo-bodega",
+            "rich-text#titulo-bodega-vinos",
             "flex-layout.row#banner-shelf",
             "rich-text#titulo-combinados",
             "flex-layout.row#banner-shelf",
@@ -62,7 +62,7 @@
           "blockClass": "shelfEspeciales"
         }
     },
-    "rich-text#titulo-bodega":{
+    "rich-text#titulo-bodega-vinos":{
         "props":{
           "text": "BODEGA",
           "textAlignment": "LEFT",

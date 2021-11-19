@@ -4,6 +4,7 @@
     font-weight: 700;
     line-height: 1;
     margin: 0;
+    letter-spacing: 1px;
 }
 
 .paragraph--subtitulo-contacto {
@@ -13,4 +14,9 @@
 .paragraph--campos-obligatorios {
     margin: 0;
     font-size: .6rem;
+}
+
+.paragraph--politica-datos-personales {
+    font-size: .5rem;
+    line-height: 1.3;
 }

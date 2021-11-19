@@ -8,9 +8,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
     border: 1px solid #d3d3d3;
     background: #fff;
+    padding: 1.5rem 15% 2rem 15%;
 }
 
+.flexRow--contact-form {
+    margin-top: 3.5rem;
+}
+
+.flexCol--col1-contact-form {
+    margin-right: .8rem;
+}
+
+.flexCol--col1-contact-form {
+    margin-left: .8rem;
+}
+
+.flexColChild--col1-contact-form {
+    margin-bottom: 1rem;
+}
