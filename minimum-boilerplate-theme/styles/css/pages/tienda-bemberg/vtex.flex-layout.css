@@ -1,0 +1,27 @@
+.flexRow--tips-bemberg {
+    background: #E4E4E4;
+    margin-bottom: 3rem;
+    padding: 2.5rem 0;
+}
+
+.flexCol--col-izq-bemberg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRow--contenedor-informacion-bemberg {
+    margin-bottom: 3rem;
+}
+
+.flexRowContent--row-der-bemberg {
+    justify-content: flex-end;
+}
+
+.flexRow--contenedor-informacion-bemberg :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    height: auto !important;
+}
+
+.flexRow--row-der-1-bemberg {
+    margin-bottom: 1rem;
+}

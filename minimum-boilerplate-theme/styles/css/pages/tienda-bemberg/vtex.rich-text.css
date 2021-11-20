@@ -1,0 +1,12 @@
+.container--parrafo-principal-bemberg {
+    margin: 4rem 0;
+}
+
+.strong--biografia-titulo-bemberg {
+    font-family: 'BodoniFLF-Bold';
+}
+
+.paragraph--biografia-text-bemberg {
+    font-size: 1.2rem !important;
+    font-family: "Nunito-light";
+}

@@ -1,0 +1,13 @@
+.imageElement--burbuja-tips {
+    box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.25);
+}
+
+.imageElement--biografia-image-bemberg {
+    margin-bottom: 0 !important;
+}
+
+.imageElement--biografia-image-impar-bemberg {
+    margin-right: .5rem;
+}

@@ -237,10 +237,6 @@
   flex-direction: column;
 }
 
-.flexRowContent--keep-walking-2 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--oficial-bemberg){
-  width: 73%!important;
-}
-
 .flexRow--keep-walking-bloques :global(.vtex-slider-layout-0-x-sliderLayoutContainer--oficial-bemberg){
   width: 82%!important;
 }
