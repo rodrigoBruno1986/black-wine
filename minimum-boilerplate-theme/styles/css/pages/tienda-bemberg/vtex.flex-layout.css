@@ -8,6 +8,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: .5rem;
+    box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.25);
 }
 
 .flexRow--contenedor-informacion-bemberg {
@@ -24,4 +28,43 @@
 
 .flexRow--row-der-1-bemberg {
     margin-bottom: 1rem;
+}
+
+.flexRowContent--newsletter-bemberg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.flexRow--newsletter-bemberg {
+    background: #161615;
+    margin: 3rem 0;
+    padding: 1rem 0;
+}
+
+.flexRow--newsletter-bemberg :global(.vtex-store-components-3-x-container) {
+    display: flex;
+    justify-content: center;
+}
+
+.flexRow--info-marca-bemberg :global(.vtex-store-components-3-x-container) {
+    max-width: 80%;
+}
+
+.flexRowContent--info-marca-bemberg {
+    background: #fff;
+    margin: 3rem 0;
+    border-radius: 10px;
+    box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
+    -moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.25);
+}
+
+.flexRowContent--info-marca-bemberg :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    justify-content: flex-end !important;
+}
+
+.flexCol--texto-marca-bemberg {
+    margin-left: 2.5rem;
 }

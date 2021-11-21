@@ -4,9 +4,10 @@
             "list-context.image-list#oficial-bemberg",
             "rich-text#parrafo-principal-bemberg",
             "flex-layout.row#tips-bemberg",
-            //"flex-layout.row#wrapper-bemberg"
-            "flex-layout.row#contenedor-2-bemberg"
-            //"flex-layout.row#contenedor-3",
+            "flex-layout.row#contenedor-2-bemberg",
+            "flex-layout.row#newsletter-bemberg",
+            "flex-layout.row#info-marca-bemberg"
+            //"flex-layout.row#contenedor-3"
             //"flex-layout.row#contenedor-4",
             //"flex-layout.row#contenedor-5",
             //"flex-layout.row#contenedor-6"
@@ -173,10 +174,7 @@
             "navigationStep": 4,
             "arrowSize": 25,
             "showPaginationDots": "never",
-            "blockClass": [
-                "shelf-default",
-                "oficial-bemberg"
-            ]
+            "blockClass": ["shelf-default", "oficial-bemberg"]
         }
     },
     "flex-layout.row#contenedor-informacion-bemberg": {
@@ -240,17 +238,20 @@
         }
     },
     "flex-layout.row#row-der-2-bemberg": {
-      "children": [
-        "image#biografia-image-3-bemberg",
-        "image#biografia-image-4-bemberg"
-      ],
-      "props": {
-        "blockClass": ["row-der-2-bemberg"]
-      }
+        "children": [
+            "image#biografia-image-3-bemberg",
+            "image#biografia-image-4-bemberg"
+        ],
+        "props": {
+            "blockClass": ["row-der-2-bemberg"]
+        }
     },
     "image#biografia-image-1-bemberg": {
         "props": {
-            "blockClass": ["biografia-image-bemberg", "biografia-image-impar-bemberg"],
+            "blockClass": [
+                "biografia-image-bemberg",
+                "biografia-image-impar-bemberg"
+            ],
             "src": "https://winesupply.vteximg.com.br/arquivos/2.jpg"
         }
     },
@@ -262,7 +263,10 @@
     },
     "image#biografia-image-3-bemberg": {
         "props": {
-            "blockClass": ["biografia-image-bemberg", "biografia-image-impar-bemberg"],
+            "blockClass": [
+                "biografia-image-bemberg",
+                "biografia-image-impar-bemberg"
+            ],
             "src": "https://winesupply.vteximg.com.br/arquivos/2.jpg"
         }
     },
@@ -641,6 +645,78 @@
             "fullWidth": false,
             // "infinite": true,
             "blockClass": ["shelf-default", "sliderMasVendidos", "gift-bemberg"]
+        }
+    },
+
+    "flex-layout.row#newsletter-bemberg": {
+        "children": ["flex-layout.col#NewsText-bemberg", "newsletter#bemberg"],
+        "props": {
+            "blockClass": ["newsletter-bemberg"]
+        }
+    },
+    "flex-layout.col#NewsText-bemberg": {
+        "children": [
+            "rich-text#newsTop-bemberg",
+            "rich-text#newsBotton-bemberg"
+        ],
+        "props": {
+            "blockClass": "NewsText-bemberg"
+        }
+    },
+    "rich-text#newsTop-bemberg": {
+        "props": {
+            "text": "ENTÉRATE DE LAS PROMOCIONES Y NOVEDADES.",
+            "blockClass": ["textNewsuno", "newsTop-bemberg"]
+        }
+    },
+    "rich-text#newsBotton-bemberg": {
+        "props": {
+            "text": "Suscribite a nuestro Newsletter",
+            "blockClass": ["textNewsDos", "newsBotton-bemberg"]
+        }
+    },
+    "newsletter#bemberg": {
+        "props": {
+            "submit": "SUSCRIBIRME",
+            "placeholder": "Ingresá tu e-mail...",
+            "blockClass": "newsletter-bemberg"
+        }
+    },
+
+    "flex-layout.row#info-marca-bemberg": {
+      "children": [
+        "flex-layout.col#texto-marca-bemberg", "image#imagen-marca-bemberg"
+      ],
+      "props": {
+        "blockClass": ["info-marca-bemberg"]
+      }
+    },
+    "flex-layout.col#texto-marca-bemberg": {
+      "children": [
+        "rich-text#titulo-marca-bemberg", "rich-text#parrafo-marca-bemberg"
+      ],
+      "props": {
+        "blockClass": ["texto-marca-bemberg"]
+      }
+    },
+    "rich-text#titulo-marca-bemberg": {
+      "props": {
+        "blockClass": ["titulo-marca-bemberg"],
+        "text": "Información sobre la marca",
+        "textAlignment": "LEFT"
+      }
+    },
+    "rich-text#parrafo-marca-bemberg": {
+      "props": {
+        "blockClass": ["parrafo-marca-bemberg"],
+        "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+        "textAlignment": "LEFT"
+      }
+    },
+    "image#imagen-marca-bemberg": {
+        "props": {
+            "blockClass": ["imagen-marca-bemberg"],
+            "src": "https://winesupply.vteximg.com.br/arquivos/info_marca_bemberg.png"
         }
     }
 }
