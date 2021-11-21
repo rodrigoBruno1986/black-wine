@@ -22,3 +22,7 @@
 .imageElement--imagen-marca-bemberg {
     border-radius: 0 10px 10px 0;
 }
+
+.imageElement--imagen-linterna-bemberg {
+    border-radius: 10px 0 0 10px;
+}

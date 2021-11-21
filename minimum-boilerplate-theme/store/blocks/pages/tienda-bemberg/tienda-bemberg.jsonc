@@ -6,11 +6,21 @@
             "flex-layout.row#tips-bemberg",
             "flex-layout.row#contenedor-2-bemberg",
             "flex-layout.row#newsletter-bemberg",
-            "flex-layout.row#info-marca-bemberg"
-            //"flex-layout.row#contenedor-3"
-            //"flex-layout.row#contenedor-4",
-            //"flex-layout.row#contenedor-5",
-            //"flex-layout.row#contenedor-6"
+            "flex-layout.row#info-marca-bemberg",
+            "flex-layout.row#linterna-bemberg",
+            "flex-layout.row#pionero-bemberg",
+            "flex-layout.row#scores-bemberg",
+            "flex-layout.row#comentarios-bemberg",
+            "flex-layout.row#separador-recetas-bemberg",
+            "flex-layout.row#receta1-bemberg",
+            "flex-layout.row#receta2-bemberg",
+            "flex-layout.row#receta3-bemberg",
+            "flex-layout.row#separador-regala-bemberg",
+            "flex-layout.row#contenedor-5"
+/* 
+            "flex-layout.row#contenedor-3",
+            "flex-layout.row#contenedor-4",
+            "flex-layout.row#contenedor-6" */ 
         ]
     },
 
@@ -535,38 +545,12 @@
         }
     },
     "flex-layout.row#segundo-shelf": {
-        "children": ["list-context.product-list#segundo-shelf"],
+        "children": ["list-context.product-list#oficial-bemberg"],
         "props": {
             "blockClass": "segundo-shelf"
         }
     },
-    "list-context.product-list#segundo-shelf": {
-        "blocks": ["product-summary.shelf#Destacados"],
-        "children": ["slider-layout#segundo-shelf"],
-        "props": {
-            "collection": ""
-        }
-    },
-    "slider-layout#segundo-shelf": {
-        "props": {
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 2,
-                "phone": 2
-            },
-            "showNavigationArrows": "never",
-            "navigationStep": 1,
-            "arrowSize": 25,
-            "showPaginationDots": "never",
-            // "autoplay": {
-            //     "timeout": 5000,
-            //     "stopOnHover": true
-            // },
-            "fullWidth": false,
-            // "infinite": true,
-            "blockClass": ["shelf-default", "sliderDestacados"]
-        }
-    },
+   
     "flex-layout.row#contenedor-6": {
         "children": [
             "rich-text#titulo-mapa",
@@ -718,5 +702,276 @@
             "blockClass": ["imagen-marca-bemberg"],
             "src": "https://winesupply.vteximg.com.br/arquivos/info_marca_bemberg.png"
         }
-    }
+    },
+
+    "flex-layout.row#linterna-bemberg": {
+        "children": [
+            "image#imagen-linterna-bemberg", "flex-layout.col#texto-linterna-bemberg"
+        ],
+        "props": {
+          "blockClass": ["linterna-bemberg"]
+        }
+      },
+      "flex-layout.col#texto-linterna-bemberg": {
+        "children": [
+          "rich-text#titulo-linterna-bemberg", "rich-text#parrafo-linterna-bemberg"
+        ],
+        "props": {
+          "blockClass": ["texto-marca-bemberg"]
+        }
+      },
+      "rich-text#titulo-linterna-bemberg": {
+        "props": {
+          "blockClass": ["titulo-marca-bemberg"],
+          "text": "La Linterna",
+          "textAlignment": "LEFT"
+        }
+      },
+      "rich-text#parrafo-linterna-bemberg": {
+        "props": {
+          "blockClass": ["parrafo-marca-bemberg"],
+          "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+          "textAlignment": "LEFT"
+        }
+      },
+      "image#imagen-linterna-bemberg": {
+          "props": {
+              "blockClass": ["imagen-linterna-bemberg"],
+              "src": "https://winesupply.vteximg.com.br/arquivos/linterna.png"
+          }
+      },
+
+      "flex-layout.row#pionero-bemberg": {
+        "children": [
+          "flex-layout.col#texto-pionero-bemberg", "image#imagen-pionero-bemberg"
+        ],
+        "props": {
+          "blockClass": ["info-marca-bemberg"]
+        }
+      },
+      "flex-layout.col#texto-pionero-bemberg": {
+        "children": [
+          "rich-text#titulo-pionero-bemberg", "rich-text#parrafo-pionero-bemberg"
+        ],
+        "props": {
+          "blockClass": ["texto-marca-bemberg"]
+        }
+      },
+      "rich-text#titulo-pionero-bemberg": {
+        "props": {
+          "blockClass": ["titulo-marca-bemberg"],
+          "text": "Pionero",
+          "textAlignment": "LEFT"
+        }
+      },
+      "rich-text#parrafo-pionero-bemberg": {
+        "props": {
+          "blockClass": ["parrafo-marca-bemberg"],
+          "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+          "textAlignment": "LEFT"
+        }
+      },
+      "image#imagen-pionero-bemberg": {
+          "props": {
+              "blockClass": ["imagen-marca-bemberg"],
+              "src": "https://winesupply.vteximg.com.br/arquivos/pionero.png"
+          }
+      },
+
+      "flex-layout.row#scores-bemberg": {
+        "children": ["link#btn-scores-bemberg"],
+        "props": {
+          "blockClass": ["scores-bemberg"]
+        }
+      },
+      "link#btn-scores-bemberg": {
+        "props": {
+          "href": "/",
+          "label": "Scores",
+          "blockClass": "btn-scores-bemberg"
+        }
+      },
+
+      "flex-layout.row#comentarios-bemberg": {
+        "children": [
+          "flex-layout.col#texto-comentarios-bemberg", "image#imagen-comentarios-bemberg"
+        ],
+        "props": {
+          "blockClass": ["info-marca-bemberg"]
+        }
+      },
+      "flex-layout.col#texto-comentarios-bemberg": {
+        "children": [
+          "rich-text#titulo-comentarios-bemberg", "rich-text#parrafo-comentarios-bemberg"
+        ],
+        "props": {
+          "blockClass": ["texto-marca-bemberg"]
+        }
+      },
+      "rich-text#titulo-comentarios-bemberg": {
+        "props": {
+          "blockClass": ["titulo-marca-bemberg"],
+          "text": "Comentarios de Wine makers\ny enólogos.",
+          "textAlignment": "LEFT"
+        }
+      },
+      "rich-text#parrafo-comentarios-bemberg": {
+        "props": {
+          "blockClass": ["parrafo-marca-bemberg"],
+          "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+          "textAlignment": "LEFT"
+        }
+      },
+      "image#imagen-comentarios-bemberg": {
+          "props": {
+              "blockClass": ["imagen-marca-bemberg"],
+              "src": "https://winesupply.vteximg.com.br/arquivos/comentarios_bemberg.png"
+          }
+      },
+
+      "flex-layout.row#separador-recetas-bemberg": {
+        "children": ["rich-text#separador-recetas-bemberg"],
+        "props": {
+          "blockClass": ["separador-recetas-bemberg"]
+        }
+      },
+      "rich-text#separador-recetas-bemberg": {
+        "props": {
+          "blockClass": ["titulo-separador-recetas-bemberg"],
+          "text": "Maridaje Recetas",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      },
+
+      
+    "flex-layout.row#receta1-bemberg": {
+        "children": [
+            "image#imagen-receta1-bemberg", "flex-layout.col#texto-receta1-bemberg"
+        ],
+        "props": {
+          "blockClass": ["linterna-bemberg"]
+        }
+      },
+      "flex-layout.col#texto-receta1-bemberg": {
+        "children": [
+          "rich-text#titulo-receta1-bemberg", "rich-text#parrafo-receta1-bemberg"
+        ],
+        "props": {
+          "blockClass": ["texto-marca-bemberg"]
+        }
+      },
+      "rich-text#titulo-receta1-bemberg": {
+        "props": {
+          "blockClass": ["titulo-marca-bemberg"],
+          "text": "Maridaje Recetas # 1",
+          "textAlignment": "LEFT"
+        }
+      },
+      "rich-text#parrafo-receta1-bemberg": {
+        "props": {
+          "blockClass": ["parrafo-marca-bemberg"],
+          "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+          "textAlignment": "LEFT"
+        }
+      },
+      "image#imagen-receta1-bemberg": {
+          "props": {
+              "blockClass": ["imagen-linterna-bemberg"],
+              "src": "https://winesupply.vteximg.com.br/arquivos/receta1_bembeerg.png"
+          }
+      },
+
+      
+      "flex-layout.row#receta2-bemberg": {
+        "children": [
+          "flex-layout.col#texto-receta2-bemberg", "image#imagen-receta2-bemberg"
+        ],
+        "props": {
+          "blockClass": ["info-marca-bemberg"]
+        }
+      },
+      "flex-layout.col#texto-receta2-bemberg": {
+        "children": [
+          "rich-text#titulo-receta2-bemberg", "rich-text#parrafo-receta2-bemberg"
+        ],
+        "props": {
+          "blockClass": ["texto-marca-bemberg"]
+        }
+      },
+      "rich-text#titulo-receta2-bemberg": {
+        "props": {
+          "blockClass": ["titulo-marca-bemberg"],
+          "text": "Maridaje Recetas # 2",
+          "textAlignment": "LEFT"
+        }
+      },
+      "rich-text#parrafo-receta2-bemberg": {
+        "props": {
+          "blockClass": ["parrafo-marca-bemberg"],
+          "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+          "textAlignment": "LEFT"
+        }
+      },
+      "image#imagen-receta2-bemberg": {
+          "props": {
+              "blockClass": ["imagen-marca-bemberg"],
+              "src": "https://winesupply.vteximg.com.br/arquivos/receta2_bembeerg.png"
+          }
+      },
+
+         
+    "flex-layout.row#receta3-bemberg": {
+        "children": [
+            "image#imagen-receta3-bemberg", "flex-layout.col#texto-receta3-bemberg"
+        ],
+        "props": {
+          "blockClass": ["linterna-bemberg"]
+        }
+      },
+      "flex-layout.col#texto-receta3-bemberg": {
+        "children": [
+          "rich-text#titulo-receta3-bemberg", "rich-text#parrafo-receta3-bemberg"
+        ],
+        "props": {
+          "blockClass": ["texto-marca-bemberg"]
+        }
+      },
+      "rich-text#titulo-receta3-bemberg": {
+        "props": {
+          "blockClass": ["titulo-marca-bemberg"],
+          "text": "Maridaje Recetas # 3",
+          "textAlignment": "LEFT"
+        }
+      },
+      "rich-text#parrafo-receta3-bemberg": {
+        "props": {
+          "blockClass": ["parrafo-marca-bemberg"],
+          "text": "Flor de Caña, el ron premium de Nucaragua, ha sido\nnombrado Mejor Productor de Ron del Mundo en el\nInternational Wine and Spirit Competition (IWSC) en Londres.\n\nEsta distinción, ''la más alta de nivel global en la industria de\nlos destilados'', avala la calidad de este ron nicaragüense\ncon más de 125 años de historia.",
+          "textAlignment": "LEFT"
+        }
+      },
+      "image#imagen-receta3-bemberg": {
+          "props": {
+              "blockClass": ["imagen-linterna-bemberg"],
+              "src": "https://winesupply.vteximg.com.br/arquivos/receta3_bembeerg.png"
+          }
+      },
+
+      "flex-layout.row#separador-regala-bemberg": {
+        "children": ["rich-text#separador-regala-bemberg"],
+        "props": {
+          "blockClass": ["separador-recetas-bemberg"]
+        }
+      },
+      "rich-text#separador-regala-bemberg": {
+        "props": {
+          "blockClass": ["titulo-separador-recetas-bemberg"],
+          "text": "Regala lo mejor de Bemberg",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+      }
+
+
 }

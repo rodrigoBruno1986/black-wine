@@ -1,0 +1,16 @@
+.link--btn-scores-bemberg {
+    text-decoration: none;
+    width: 225px !important;
+    height: 49px;
+    border-radius: 15px;
+    background: #CEA16A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label--btn-scores-bemberg {
+    font-family: 'BodoniFLF-Bold';
+    font-size: 2rem;
+    color: #fff;
+}
