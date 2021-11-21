@@ -125,3 +125,7 @@
         font-weight: 500;
     }
 }
+
+:global(.vtex-menu-2-x-menuItem--product-page-menu-item--isOpen) :global(.overflow-hidden){
+    height: auto !important;
+}

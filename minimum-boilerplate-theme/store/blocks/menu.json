@@ -19,7 +19,7 @@
         "children": [
             "rich-text#tituloEspecificaciones",
             "product-brand#Ficha",
-            "product-specification-group"
+            "wine-specification-group"
         ]
     },
     "rich-text#tituloEspecificaciones": {
