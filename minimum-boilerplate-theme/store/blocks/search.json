@@ -6,7 +6,8 @@
     "props": {
       "context": {
         "orderByField": "OrderByTopSaleDESC",
-        "maxItemsPerPage": 50
+        "maxItemsPerPage": 50,
+        "simulationBehavior": "default"
       }
     }
   },
@@ -18,7 +19,8 @@
       "context": {
         "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 50
+        "maxItemsPerPage": 50,
+        "simulationBehavior": "default"
       }
     }
   },
@@ -29,7 +31,8 @@
     "props": {
       "context": {
         "orderByField": "OrderByTopSaleDESC",
-        "maxItemsPerPage": 50
+        "maxItemsPerPage": 50,
+        "simulationBehavior": "default"
       }
     }
   },
@@ -40,7 +43,8 @@
     "props": {
       "context": {
         "orderByField": "OrderByTopSaleDESC",
-        "maxItemsPerPage": 50
+        "maxItemsPerPage": 50,
+        "simulationBehavior": "default"
       }
     }
   },

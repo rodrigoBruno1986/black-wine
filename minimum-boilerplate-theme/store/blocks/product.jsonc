@@ -88,7 +88,7 @@
     },
     "children": [
       "product-brand",
-      "product-description",
+      "wine-short-description",
       "flex-layout.row#priceFicha",
       "flex-layout.row#quantity",
       "flex-layout.row#botonesFicha",

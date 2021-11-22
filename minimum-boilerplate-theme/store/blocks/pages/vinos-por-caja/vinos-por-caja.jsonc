@@ -9,13 +9,13 @@
     "flex-layout.row#wrapper-vinos-por-caja": {
         "children": [
             "rich-text#titulo-variedad",
-            "flex-layout.row#banner-shelf",
-            "rich-text#titulo-bodega",
-            "flex-layout.row#banner-shelf",
+            "flex-layout.row#banner-shelf-uno",
+            "rich-text#titulo-bodega-vinos",
+            "flex-layout.row#banner-shelf-dos",
             "rich-text#titulo-combinados",
-            "flex-layout.row#banner-shelf",
+            "flex-layout.row#banner-shelf-tres",
             "rich-text#titulo-vacio",
-            "flex-layout.row#banner-shelf"
+            "flex-layout.row#banner-shelf-cuatro"
         ],
         "props": {
             "preventHorizontalStretch":true,
@@ -38,31 +38,107 @@
           "blockClass": "tituloVariedad"
         }
     },
-    "flex-layout.row#banner-shelf":{
+    "flex-layout.row#banner-shelf-uno":{
         "children":[
-            "image#banner-simulado-vinos-por-caja",
-            "flex-layout.col#shelf-vinos-por-caja"
+            "image#banner-simulado-vinos-por-caja-uno",
+            "flex-layout.col#shelf-vinos-por-caja-uno"
         ],
         "props":{
             "blockClass":["EspecialesContent", "VinosXCajaContent"],
             "colSizing": "auto" 
         }
     },
-    "image#banner-simulado-vinos-por-caja":{
+    "image#banner-simulado-vinos-por-caja-uno":{
         "props": {
           "src": "https://winesupply.vteximg.com.br/arquivos/banner_ej_vinos.png",
           "blockClass": "bannerVinosXCaja"
         }
     },
-    "flex-layout.col#shelf-vinos-por-caja":{
+    "flex-layout.col#shelf-vinos-por-caja-uno":{
         "children":[
-          "list-context.product-list#vinos-por-caja"
+          "list-context.product-list#vinos-por-caja-uno"
         ],
         "props": {
           "blockClass": "shelfEspeciales"
         }
     },
-    "rich-text#titulo-bodega":{
+    "flex-layout.row#banner-shelf-dos":{
+      "children":[
+          "image#banner-simulado-vinos-por-caja-dos",
+          "flex-layout.col#shelf-vinos-por-caja-dos"
+      ],
+      "props":{
+          "blockClass":["EspecialesContent", "VinosXCajaContent"],
+          "colSizing": "auto" 
+      }
+  },
+  "image#banner-simulado-vinos-por-caja-dos":{
+      "props": {
+        "src": "https://winesupply.vteximg.com.br/arquivos/banner_ej_vinos.png",
+        "blockClass": "bannerVinosXCaja"
+      }
+  },
+  "flex-layout.col#shelf-vinos-por-caja-dos":{
+      "children":[
+        "list-context.product-list#vinos-por-caja-dos"
+      ],
+      "props": {
+        "blockClass": "shelfEspeciales"
+      }
+  },
+
+
+  "flex-layout.row#banner-shelf-tres":{
+    "children":[
+        "image#banner-simulado-vinos-por-caja-tres",
+        "flex-layout.col#shelf-vinos-por-caja-tres"
+    ],
+    "props":{
+        "blockClass":["EspecialesContent", "VinosXCajaContent"],
+        "colSizing": "auto" 
+    }
+},
+"image#banner-simulado-vinos-por-caja-tres":{
+    "props": {
+      "src": "https://winesupply.vteximg.com.br/arquivos/banner_ej_vinos.png",
+      "blockClass": "bannerVinosXCaja"
+    }
+},
+"flex-layout.col#shelf-vinos-por-caja-tres":{
+    "children":[
+      "list-context.product-list#vinos-por-caja-tres"
+    ],
+    "props": {
+      "blockClass": "shelfEspeciales"
+    }
+},
+
+
+"flex-layout.row#banner-shelf-cuatro":{
+  "children":[
+      "image#banner-simulado-vinos-por-caja-cuatro",
+      "flex-layout.col#shelf-vinos-por-caja-cuatro"
+  ],
+  "props":{
+      "blockClass":["EspecialesContent", "VinosXCajaContent"],
+      "colSizing": "auto" 
+  }
+},
+"image#banner-simulado-vinos-por-caja-cuatro":{
+  "props": {
+    "src": "https://winesupply.vteximg.com.br/arquivos/banner_ej_vinos.png",
+    "blockClass": "bannerVinosXCaja"
+  }
+},
+"flex-layout.col#shelf-vinos-por-caja-cuatro":{
+  "children":[
+    "list-context.product-list#vinos-por-caja-cuatro"
+  ],
+  "props": {
+    "blockClass": "shelfEspeciales"
+  }
+},
+    "rich-text#titulo-bodega-vinos":{
         "props":{
           "text": "BODEGA",
           "textAlignment": "LEFT",
