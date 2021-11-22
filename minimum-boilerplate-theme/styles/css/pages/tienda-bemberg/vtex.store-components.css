@@ -6,6 +6,7 @@
 
 .imageElement--biografia-image-bemberg {
     margin-bottom: 0 !important;
+    border-radius: 10px;
     box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
     -webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
     -moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.25);
@@ -25,4 +26,8 @@
 
 .imageElement--imagen-linterna-bemberg {
     border-radius: 10px 0 0 10px;
+}
+
+.imageElement--mapa-bemberg {
+    margin: 3rem 0;
 }

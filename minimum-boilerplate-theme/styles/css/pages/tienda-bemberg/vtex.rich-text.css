@@ -4,6 +4,7 @@
 
 .strong--biografia-titulo-bemberg {
     font-family: 'BodoniFLF-Bold';
+    color: #fff;
 }
 
 .paragraph--biografia-text-bemberg,
@@ -12,6 +13,7 @@
     font-family: "Nunito-light";
 }
 
+.paragraph--biografia-text-bemberg,
 .paragraph--newsTop-bemberg,
 .paragraph--newsBotton-bemberg {
     color: #fff !important;
