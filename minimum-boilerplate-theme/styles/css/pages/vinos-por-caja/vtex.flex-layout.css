@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .flexRow--wrapperLandings {
     max-width: 1200px;
     margin: auto;
@@ -10,13 +9,7 @@
     flex-direction: column;
 }
 
-/* .flexRowContent--wrapperLandings :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(even),
-:global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(odd) {
-    width: 100% !important;
-}  */
 
-=======
->>>>>>> master
 .flexRow--tipsVinosXCaja {
     background-color: transparent !important;
     margin: 2rem 0;
@@ -32,4 +25,5 @@
 .flexRowContent--VinosXCajaContent .stretchChildrenWidth{
     width: 80% !important;
     max-height: 405px !important;
-  }
+}
+
