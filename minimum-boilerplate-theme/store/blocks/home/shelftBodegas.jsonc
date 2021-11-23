@@ -12,7 +12,7 @@
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#bodega",
-        "product-description",
+        "product-name",
         "flex-layout.row#priceBodega",  
         "flex-layout.row#botonesBodega"
         
@@ -113,7 +113,7 @@
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#bodegaDos",
-        "product-description",
+        "product-name",
         "flex-layout.row#priceBodegaDos",  
         "flex-layout.row#botonesBodegaDos"
         

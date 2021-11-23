@@ -484,8 +484,8 @@
     flex-direction: column;
   }
   .flexRow--newsStyle {
-    border-top: 2px solid #b8aa85;
-    border-bottom: 2px solid #b8aa85;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     display: flex;
     margin-bottom: 20px;
     padding: 30px;

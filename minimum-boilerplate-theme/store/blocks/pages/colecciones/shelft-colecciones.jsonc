@@ -11,7 +11,7 @@
       "children": [
         "product-summary-image",
         "product-brand#malbec",
-        "product-description",
+        "product-name",
         "flex-layout.row#pricemalbec",  
         "flex-layout.row#botonesmalbec"
         
@@ -114,7 +114,7 @@
       "children": [
         "product-summary-image",
         "product-brand#cabernet-franc",
-        "product-description",
+        "product-name",
         "flex-layout.row#pricecabernet-franc",  
         "flex-layout.row#botonescabernet-franc"
         
@@ -217,7 +217,7 @@
       "children": [
         "product-summary-image",
         "product-brand#blend-tintos",
-        "product-description",
+        "product-name",
         "flex-layout.row#priceblend-tintos",  
         "flex-layout.row#botonesblend-tintos"
         
@@ -320,7 +320,7 @@
       "children": [
         "product-summary-image",
         "product-brand#variedades",
-        "product-description",
+        "product-name",
         "flex-layout.row#pricevariedades",  
         "flex-layout.row#botonesvariedades"
         

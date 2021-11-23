@@ -72,7 +72,7 @@
 }
 
 .inputContainerEmail::before{
-    content: "Direcciion dl correo electronico";
+    content: "Direccion del correo electronico";
     font-size: 12px;
     font-family: 'Baskervville-Regular';
     align-items: center;

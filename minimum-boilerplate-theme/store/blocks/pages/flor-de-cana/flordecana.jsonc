@@ -304,7 +304,7 @@
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand",
-        "product-description",
+        "product-name",
         "flex-layout.row#price",  
         "flex-layout.row#botones"
         
@@ -412,7 +412,7 @@
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-brand#Especiales",
-      "product-description",
+      "product-name",
       "flex-layout.row#priceEspeciales",  
       "flex-layout.row#botonesEspeciales"
       

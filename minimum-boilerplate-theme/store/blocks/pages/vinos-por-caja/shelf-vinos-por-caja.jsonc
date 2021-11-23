@@ -12,7 +12,7 @@
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-brand#vinos-por-caja",
-      "product-description",
+      "product-name",
       "flex-layout.row#price-vinos-por-caja-uno",
       "flex-layout.row#botones-vinos-por-caja-uno"
     ],
