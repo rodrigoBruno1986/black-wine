@@ -92,6 +92,9 @@
     padding-right: 0!important;
     max-width: 95% !important;
 }
+.sliderRightArrow--sliderBodegas2{
+    right: -50px;
+}
 .sliderLayoutContainer--sliderEspeciales{
     margin-bottom: 20px;
     margin-right: 25px;

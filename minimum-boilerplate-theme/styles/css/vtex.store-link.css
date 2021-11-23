@@ -1,0 +1,21 @@
+.link--whatsapp{
+    position: fixed;
+    z-index: 999;
+    right: 2%;
+    left: 94%;
+    bottom: 10%;
+    top: 90%;
+    width: 60px;
+    height: 60px;
+    background-image: url('https://winesupply.vteximg.com.br/arquivos/whatsapp.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .link--whatsapp{
+        left: unset;
+    }
+}

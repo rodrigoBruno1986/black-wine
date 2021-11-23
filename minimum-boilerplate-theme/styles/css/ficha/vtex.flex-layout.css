@@ -24,9 +24,15 @@
 
 .flexRow--product-wrapper{
   background: white;
-  width: 70%;
+  max-width: 1200px;
   margin: auto;
+  width: 90%;
  
+}
+.flexRow--contenidointeresados{
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
 }
 
 
@@ -61,7 +67,7 @@
 .flexRowContent--estilosFicha :global(.vtex-rich-text-0-x-paragraph--textoAlternativoInfopagos){
   margin: auto;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'MuseoSans_500';
 }
 
@@ -96,8 +102,9 @@
 
 .flexRow--contenidoDescription{
     background: white;
-    width: 70%;
+    max-width: 1200px;
     margin: auto;
+    width: 90%;
     margin-top: 30px;
 }
 

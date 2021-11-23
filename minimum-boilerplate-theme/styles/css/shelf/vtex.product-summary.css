@@ -15,8 +15,3 @@
     }
 }
 
-@media (max-width: 768px){
-    :global(.vtex-product-summary-2-x-element--related-shelf-home){
-        max-height: 309px;
-    }
-}

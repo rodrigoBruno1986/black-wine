@@ -6,7 +6,14 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": ["sticky-layout#desktop","wine-componente-modal"]
+    "children": ["sticky-layout#desktop","wine-componente-modal", "link#ws"]
+  },
+  "link#ws": {
+    "props": {
+      "href": "https://wa.me/5491135607400?text=Hola! Escribo desde la pagina web!",
+      "label": "",
+      "blockClass": "whatsapp"
+    }
   },
   "sticky-layout#desktop": {
     "props": {
@@ -125,9 +132,11 @@
 
   "header-layout.mobile": {
     "children": [
+      "link#ws",
       "flex-layout.row#top", 
       "sticky-layout#mobile",
       "wine-componente-modal"
+      
     ]
   },
   "sticky-layout#mobile": {
