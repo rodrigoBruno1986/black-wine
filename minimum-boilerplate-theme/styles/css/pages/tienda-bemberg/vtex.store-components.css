@@ -32,3 +32,16 @@
     margin: 3rem 0;
     width: 100%;
 }
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .imageElement--biografia-image-bemberg {
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .imageElement--imagen-marca-bemberg,
+    .imageElement--imagen-linterna-bemberg {
+        border-radius: 10px 10px 0 0;
+    }
+}

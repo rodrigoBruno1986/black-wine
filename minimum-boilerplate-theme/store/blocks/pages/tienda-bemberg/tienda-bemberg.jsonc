@@ -54,7 +54,7 @@
             },
             "infinite": true,
             "showPaginationDots": "never",
-            "showNavigationArrows": "always",
+            "showNavigationArrows": "never",
             "fullWidth": true
         }
     },
@@ -281,7 +281,7 @@
             "showNavigationArrows": "never",
             "navigationStep": 4,
             "arrowSize": 25,
-            "showPaginationDots": "never",
+            "showPaginationDots": "mobileOnly",
             "blockClass": ["shelf-default", "oficial-bemberg"]
         }
     },
@@ -453,7 +453,7 @@
             "showNavigationArrows": "desktopOnly",
             "navigationStep": 1,
             "arrowSize": 25,
-            "showPaginationDots": "never",
+            "showPaginationDots": "mobileOnly",
             // "autoplay": {
             //     "timeout": 5000,
             //     "stopOnHover": true

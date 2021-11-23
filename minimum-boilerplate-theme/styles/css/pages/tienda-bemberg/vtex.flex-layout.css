@@ -12,7 +12,7 @@
     box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
     -webkit-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.29);
     -moz-box-shadow: 1px 12px 11px -7px rgba(0,0,0,0.25);
-    background-image: url(https://winesupply.vteximg.com.br/arquivos/info_bemberg.jpg);
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/info_back.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -116,4 +116,39 @@
 
 .flexRow--contenedor-gift-bemberg {
     margin: 3rem 0 5rem 0;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .flexCol--col-izq-bemberg {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .flexRow--row-der-1-bemberg {
+        margin-bottom: 0;
+    }
+
+    .flexRowContent--newsletter-bemberg {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .flexCol--texto-marca-bemberg {
+        margin-left: 0;
+        padding: .9rem;
+    }
+
+    .flexRowContent--info-marca-bemberg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .flexRow--scores-bemberg :global(.vtex-store-components-3-x-container) {
+        height: 90px;
+    }
+
+    .flexRowContent--primer-shelf-bemberg :global(.vtex-store-components-3-x-imageElement--bannerEspeciales) {
+        height: 222px;
+    }
 }

@@ -31,3 +31,27 @@
     font-size: 2rem;
     margin-left: 1.5rem;
 }
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .container--parrafo-principal-bemberg {
+        padding: 0 1rem;
+        font-size: 1.3rem;
+    }
+
+    .paragraph--newsBotton-bemberg {
+        margin-bottom: 0;
+    }
+
+    .paragraph--titulo-marca-bemberg {
+        font-size: 1.5rem;
+    }
+
+    .paragraph--parrafo-marca-bemberg {
+        font-size: .95rem !important;
+    }
+
+    .paragraph--titulo-separador-recetas-bemberg {
+        font-size: 1.5rem;
+    }
+}

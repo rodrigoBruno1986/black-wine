@@ -14,3 +14,15 @@
     font-size: 2rem;
     color: #fff;
 }
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .link--btn-scores-bemberg {
+        width: 170px !important;
+        height: 30px;
+        border-radius: 8px;
+    }
+    .label--btn-scores-bemberg {
+        font-size: 1.3rem;
+    }
+}
