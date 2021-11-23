@@ -213,27 +213,10 @@
           "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
           "link": "#"
         }
-      },
+      }
 
       
-      ////////////////////////
-
-      "flex-layout.row#marca11":{
-        "children": [
-          "image#Marca11"
-        ],
-        "props":{
-          "blockClass":["contenidoMarca"]
-        }
-      },
-    
-      "image#Marca11": {
-        "props": {
-          "blockClass": ["imgMarca"],
-          "src": "https://winesupply.vtexassets.com/assets/vtex.file-manager-graphql/images/18d0fb0a-b805-4a3d-b873-dc4908df33f8___4e825f0f462c7914cc7802f0178af00f.png",
-          "link": "#"
-        }
-      }
+  
 
   
 

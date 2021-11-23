@@ -132,9 +132,11 @@
 
   "header-layout.mobile": {
     "children": [
+      "link#ws",
       "flex-layout.row#top", 
       "sticky-layout#mobile",
       "wine-componente-modal"
+      
     ]
   },
   "sticky-layout#mobile": {
