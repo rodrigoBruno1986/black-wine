@@ -1,7 +1,5 @@
 
-.flexRow--contenidoMediosdepago{
-  background: #C7C7C7;
-}
+
 
 .flexRow--contenedor-home{
   max-width: 1200px;
@@ -16,7 +14,6 @@
 
 
 .flexRowContent--contenidoMediosdepago{
-  background: #C7C7C7;
   height: 95px;
   display: flex;
   align-items: center;

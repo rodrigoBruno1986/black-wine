@@ -22,5 +22,8 @@
   },
   "store.custom#contacto": {
     "path": "/contacto"
+  },
+  "store.custom#oficial-bemberg": {
+    "path": "/tienda-oficial-bemberg"
   }
 }

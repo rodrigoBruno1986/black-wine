@@ -3,8 +3,8 @@
       "blocks": ["product-summary.shelf#interesados"],
       "children": ["slider-layout#interesados"],
       "props": {
-        "collection": "138"
-        
+        "collection": "138",
+        "blockClass":["contenedor-home"]
       }
     },
     "product-summary.shelf#interesados": {

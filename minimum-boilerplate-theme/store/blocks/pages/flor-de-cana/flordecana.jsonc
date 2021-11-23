@@ -736,7 +736,59 @@
 }
 },
 
+"flex-layout.row#contenedor-6": {
+  "children": [
+      "rich-text#titulo-mapa",
+      "list-context.image-list#mapa-bemberg",
+      "flex-layout.row#gift-bemberg",
+      "list-context.product-list#gift-bemberg"
+  ],
+  "props": {
+      "blockClass": "contenedor-6"
+  }
+},
+"rich-text#titulo-mapa": {
+  "props": {
+      "text": "Mapas",
+      "blockClass": "texto-maps"
+  }
+},
+"list-context.image-list#mapa-bemberg": {
+  "children": ["slider-layout#mapa-bemberg-images"],
+  "props": {
+      "height": 650,
+      "images": [
+          {
+              "image": "https://winesupply.vteximg.com.br/arquivos/1.jpg",
+              "mobileImage": "https://winesupply.vteximg.com.br/arquivos/1mobile.jpg",
+              "description": "descuentos"
+          }
+      ]
+  }
+},
+"slider-layout#mapa-bemberg-images": {
+  "props": {
+      "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+      },
+      "infinite": false,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always",
+      "fullWidth": true
+  }
+},
+"flex-layout.row#gift-bemberg": {
+  "children": ["rich-text#gift-bemberg"]
+},
 
+"rich-text#gift-bemberg": {
+  "props": {
+      "text": "GIFT CARD",
+      "blockClass": ["gift-bemberg"]
+  }
+},
 
 
 
