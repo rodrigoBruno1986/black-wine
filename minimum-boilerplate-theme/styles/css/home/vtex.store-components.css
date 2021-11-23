@@ -286,14 +286,14 @@
 
 
 .buttonContainer :global(.vtex-button){
- background: #BABABA;
+ background: #707070;
  border: none;
  border-radius: 0px 8px 8px 0px;
  margin-left: -14px;
 }
 
 .buttonContainer :global(.vtex-button__label){
-  color: black;
+  color: white;
   font-family: 'Nunito-ExtraBold';
   font-size: 12px;
 }
