@@ -7,7 +7,7 @@
 .sliderLayoutContainer--sliderMasVendidos{
     margin: auto;
     margin-bottom: 35px;
-    width: 87% !important;
+    width: 92% !important;
 }
 
 
@@ -91,6 +91,9 @@
 .sliderLayoutContainer--sliderBodegas2{
     padding-right: 0!important;
     max-width: 95% !important;
+}
+.sliderRightArrow--sliderBodegas2{
+    right: -50px;
 }
 .sliderLayoutContainer--sliderEspeciales{
     margin-bottom: 20px;

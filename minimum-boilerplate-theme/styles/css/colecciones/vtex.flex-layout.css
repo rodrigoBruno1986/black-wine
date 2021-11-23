@@ -3,7 +3,9 @@
   margin: auto;
   width: 90%;
 }
-
+.flexRow--contenedorInfoCart{
+  width: 100%;
+}
 .flexRow--contenedorInfoCartColecciones{
   padding: 40px;
 }

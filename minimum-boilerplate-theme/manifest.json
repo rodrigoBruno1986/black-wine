@@ -1,7 +1,7 @@
 {
   "vendor": "winesupply",
   "name": "winesupply",
-  "version": "1.0.58",
+  "version": "1.0.69",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -12,6 +12,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.store-link": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
@@ -55,7 +56,8 @@
     "vtex.product-price": "1.x",
     "limpioonline.limpioonline-components": "1.x",
     "vtex.product-specifications": "1.x",
-    "vtex.modal-layout": "0.x"
+    "vtex.modal-layout": "0.x",
+    "winesupply.componentes-wine": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
