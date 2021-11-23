@@ -49,7 +49,7 @@
   },
  
   "flex-layout.row#redes":{
-    "children":["image#insta","image#face"],
+    "children":["image#insta","image#face","image#link"],
     "props": {
       "blockClass":["contentImg"]
     }
@@ -67,6 +67,15 @@
     "props": {
       "src": "assets/face.svg",
       "maxHeight": 20
+      
+    
+    }
+  },
+  "image#link": {
+    "props": {
+      "src": "https://winesupply.vteximg.com.br/arquivos/in.svg",
+      "maxHeight": 21,
+      "link":"https://www.linkedin.com/company/blackwine"
       
     
     }

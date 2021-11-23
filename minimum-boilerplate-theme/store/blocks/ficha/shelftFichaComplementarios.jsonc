@@ -12,7 +12,7 @@
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#complementarios",
-        "product-description",
+        "product-name",
         "flex-layout.row#pricecomplementarios",  
         "flex-layout.row#botonescomplementarios"
         

@@ -13,7 +13,7 @@
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#DestacadosDos",
-        "product-description",
+        "product-name",
         "flex-layout.row#priceDestacadosDos",  
         "flex-layout.row#botonesDestacadosDos"
         

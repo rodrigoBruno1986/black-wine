@@ -12,7 +12,7 @@
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#interesados",
-        "product-description",
+        "product-name",
         "flex-layout.row#priceinteresados",  
         "flex-layout.row#botonesinteresados"
         
