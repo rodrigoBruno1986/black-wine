@@ -8,6 +8,10 @@
     width: 275px;
 }
 
+.element {
+    position: relative;
+}
+
 @media only screen and (max-width: 1025px) {
 
     :global(.vtex-product-summary-2-x-containerNormal){
