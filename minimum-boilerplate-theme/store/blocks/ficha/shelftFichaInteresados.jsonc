@@ -3,8 +3,8 @@
       "blocks": ["product-summary.shelf#interesados"],
       "children": ["slider-layout#interesados"],
       "props": {
-        "collection": "138"
-        
+        "collection": "138",
+        "blockClass":["contenedor-home"]
       }
     },
     "product-summary.shelf#interesados": {
@@ -12,7 +12,7 @@
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#interesados",
-        "product-description",
+        "product-name",
         "flex-layout.row#priceinteresados",  
         "flex-layout.row#botonesinteresados"
         

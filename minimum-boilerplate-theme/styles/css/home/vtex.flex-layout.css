@@ -1,7 +1,5 @@
 
-.flexRow--contenidoMediosdepago{
-  background: #C7C7C7;
-}
+
 
 .flexRow--contenedor-home{
   max-width: 1200px;
@@ -16,7 +14,6 @@
 
 
 .flexRowContent--contenidoMediosdepago{
-  background: #C7C7C7;
   height: 95px;
   display: flex;
   align-items: center;
@@ -108,6 +105,17 @@
   margin: auto;
   width: 95%;
 }
+@media (max-width: 768px){
+  .flexRow--contenidoSlider{
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px){
+  .flexRow--contenidoSlider{
+    padding: 0;
+  }
+}
 
 
 .flexRowContent--contenidoTienda{
@@ -125,6 +133,7 @@
 
 .flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteUno){
   font-size: 15px;
+  margin-bottom: 0;
 }
 .flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteSecundariaUno){
   font-size: 19px;
@@ -150,7 +159,7 @@
 .flexRow--contenidoVinosSlider{
   width: 90%;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom:35px;
 }
 
 
@@ -167,11 +176,11 @@
   margin: auto;
   width: 85%;
   border-bottom: 2px solid black;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 
 }
 .flexRow--contenidoDestacados{
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 .flexRow--destacadosDos{
   margin-top: 20px;
@@ -238,7 +247,7 @@
 
 
 .flexRowContent--contenedorInfoCart{
-  padding: 45px;
+  padding: 35px 45px;
 }
 @media only screen and (max-width: 1390px) {
   .flexRowContent--contenedorInfoCart :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
@@ -265,15 +274,14 @@
 }
 
 .flexRowContent--contenedorInfoCart{
-  margin-top: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .flexRow--styleContenidoMarcas {
   margin: 5px 0px 73px 0px;
 }
 .flexRow--contenidoSeguinos{
-  margin: 25px 0px 55px 0px;
+  margin: 25px 0px 0px 0px;
 }
   
 }
@@ -426,17 +434,35 @@
 .flexRow--bodegasContent{
   display:flex;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom:35px;
+  width: 85%;
+}
+
+.flexRow--bodegasContent .stretchChildrenWidth:last-child{
+  width: 54% !important;
+}
+
+.flexRowContent--bodegasContent :global(.vtex-slider-layout-0-x-sliderRightArrow--sliderBodegas1){
+  right: -50px;
+}
+.flexRowContent--bodegasContent :global(.vtex-slider-layout-0-x-sliderLeftArrow--sliderBodegas1){
+  left: 2px;
+}
+.flexRowContent--bodegasContent :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+  height: 100%;
+  max-height: 828px;
+  max-width: 550px;
 }
 
 .flexRow--EspecialesContent{
-  width: 92%;
-  margin: 0 auto 80px auto;
+  max-width: 1200px;
+  width:85%;
+  margin: 0 auto 35px auto;
   display:flex;
 }
 
 .flexRow--novedadesMobileBarra{
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 
@@ -444,8 +470,6 @@
 .flexRowContent--ContentBannerMobile{
   display: none;
 }
-
-
 
 .flexRowContent--newsStyle{
   justify-content: center;
@@ -460,8 +484,8 @@
     flex-direction: column;
   }
   .flexRow--newsStyle {
-    border-top: 2px solid #b8aa85;
-    border-bottom: 2px solid #b8aa85;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     display: flex;
     margin-bottom: 20px;
     padding: 30px;
@@ -479,8 +503,12 @@
 .flexRow--EspecialesContent{
   display: none;
 }
+.flexRow--EspecialesContentBarEnCasa{
+  display: block !important;
+}
+
 .flexRow--ContentBannerBodegaMobile{
-  padding: 30px;
+  padding: 15px 21px 15px 15px;
 }
 .flexRow--novedadesMobileBarra{
   display: none;
@@ -498,6 +526,9 @@
   align-items: flex-start;
 }
 
+.flexRowContent--row-reverse-bar{
+  flex-direction: row-reverse !important;
+}
 
 @media only screen and (min-width: 1442px) {
   .flexRowContent--contenidoMediosdepago{
@@ -525,5 +556,32 @@
 @media only screen and (max-width: 1440px) {
   .flexRowContent--bodegasContent{
     align-items: center;
+  }
+
+  
+}
+
+.flexRowContent--EspecialesContent .stretchChildrenWidth:first-child{
+  height: 100% !important;
+  max-height: 410px;
+}
+.flexRowContent--EspecialesContent .stretchChildrenWidth{
+  width: 50% !important;
+}
+
+.flexRowContent--contenidoTienda :global(.vtex-store-components-3-x-imageElement--imgUno){
+  max-width: 145px;
+  max-height: 145px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .flexRowContent--EspecialesContentBarEnCasa .stretchChildrenWidth{
+    width: 100% !important;
+  }
+  .flexRowContent--EspecialesContentBarEnCasa{
+    flex-direction: column !important;
+  }
+  .flexRow--EspecialesContentBarEnCasa :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderEspeciales){
+    padding: 0px!important;
   }
 }

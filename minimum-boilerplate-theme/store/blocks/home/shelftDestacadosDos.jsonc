@@ -3,16 +3,17 @@
       "blocks": ["product-summary.shelf#DestacadosDos"],
       "children": ["slider-layout#DestacadosDos"],
       "props": {
-        "collection": "138",
+        "collection": "",
         "blockClass": "contentDestacadosDos"
       }
     },
     "product-summary.shelf#DestacadosDos": {
       "children": [
+        "product-specification-badges#banderas",
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#DestacadosDos",
-        "product-description",
+        "product-name",
         "flex-layout.row#priceDestacadosDos",  
         "flex-layout.row#botonesDestacadosDos"
         

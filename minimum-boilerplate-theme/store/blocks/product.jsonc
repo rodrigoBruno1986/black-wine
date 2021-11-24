@@ -5,13 +5,14 @@
       "flex-layout.row#product-main",
       "flex-layout.row#descripcion",
       "flex-layout.row#Tituloquienes",
-      "list-context.product-list#interesados",
+      "flex-layout.row#interesados",
       "flex-layout.row#TituloComplementarios",
-      "list-context.product-list#complementarios",
+      "flex-layout.row#complementarios",
+
       "flex-layout.row#newsletterFicha"
     ],
     "props":{
-      "blockClass": ["bgLightGray","contenidoFicha"]
+      "blockClass": ["bgLightGray","contenidoFicha","contenidofichatodo"]
     }
   },
   "flex-layout.row#product-breadcrumb": {
@@ -87,7 +88,7 @@
     },
     "children": [
       "product-brand",
-      "product-description",
+      "wine-short-description",
       "flex-layout.row#priceFicha",
       "flex-layout.row#quantity",
       "flex-layout.row#botonesFicha",
@@ -208,6 +209,26 @@
     "props": {
       "text": "Quienes compraron este producto también se interesaron en:",
       "blockClass": "tituloFichaTodo"
+    }
+  },
+  "flex-layout.row#interesados":{
+    "children":[
+      "list-context.product-list#interesados"
+    ],
+    "props":{
+      "blockClass":[
+        "contenidointeresados"
+      ]
+    }
+  },
+  "flex-layout.row#complementarios":{
+    "children":[
+      "list-context.product-list#complementarios"
+    ],
+    "props":{
+      "blockClass":[
+        "contenidointeresados"
+      ]
     }
   },
   "flex-layout.row#TituloComplementarios":{

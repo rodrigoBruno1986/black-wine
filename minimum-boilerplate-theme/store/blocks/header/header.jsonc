@@ -6,7 +6,14 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": ["sticky-layout#desktop"]
+    "children": ["sticky-layout#desktop","wine-componente-modal", "link#ws"]
+  },
+  "link#ws": {
+    "props": {
+      "href": "https://wa.me/5491135607400?text=Hola! Escribo desde la pagina web!",
+      "label": "",
+      "blockClass": "whatsapp"
+    }
   },
   "sticky-layout#desktop": {
     "props": {
@@ -42,7 +49,7 @@
   },
  
   "flex-layout.row#redes":{
-    "children":["image#insta","image#face"],
+    "children":["image#insta","image#face","image#link"],
     "props": {
       "blockClass":["contentImg"]
     }
@@ -60,6 +67,15 @@
     "props": {
       "src": "assets/face.svg",
       "maxHeight": 20
+      
+    
+    }
+  },
+  "image#link": {
+    "props": {
+      "src": "https://winesupply.vteximg.com.br/arquivos/in.svg",
+      "maxHeight": 21,
+      "link":"https://www.linkedin.com/company/blackwine"
       
     
     }
@@ -125,8 +141,11 @@
 
   "header-layout.mobile": {
     "children": [
+      "link#ws",
       "flex-layout.row#top", 
-      "sticky-layout#mobile"
+      "sticky-layout#mobile",
+      "wine-componente-modal"
+      
     ]
   },
   "sticky-layout#mobile": {

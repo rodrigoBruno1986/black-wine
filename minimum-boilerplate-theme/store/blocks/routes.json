@@ -10,5 +10,20 @@
   },
   "store.custom#nordes": {
     "path": "/nordes"
+  },
+  "store.custom#flordecana": {
+    "path": "/flordecana"
+  },
+  "store.custom#oficial-bar-en-casa": {
+    "path": "/bar-en-casa"
+  },
+  "store.custom#vinos-por-caja": {
+    "path": "/vinos-por-caja"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#oficial-bemberg": {
+    "path": "/tienda-oficial-bemberg"
   }
 }

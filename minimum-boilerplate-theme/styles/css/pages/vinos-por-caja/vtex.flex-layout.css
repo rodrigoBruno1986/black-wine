@@ -1,0 +1,29 @@
+.flexRow--wrapperLandings {
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+
+.flexRowContent--wrapperLandings {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flexRow--tipsVinosXCaja {
+    background-color: transparent !important;
+    margin: 2rem 0;
+}
+
+.flexRow--bannerShelf {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto 35px auto;
+    display: flex;
+}
+
+.flexRowContent--VinosXCajaContent .stretchChildrenWidth{
+    width: 80% !important;
+    max-height: 405px !important;
+}
+

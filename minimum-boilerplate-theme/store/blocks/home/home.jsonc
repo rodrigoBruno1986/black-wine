@@ -220,7 +220,7 @@
 
 
 "flex-layout.col#insta":{
-  "children":["rich-text#insta","image#instaHome2"] ,
+  "children":["rich-text#insta"] ,
   "props": {
     "blockClass": ["card"],
     "preventVerticalStretch":true
@@ -330,7 +330,7 @@
 },
 "rich-text#texto":{
   "props":{
-    "text": "Bienvenido a Black Wine! Este es el espacio que construimos para conectarte con las marcas premium nacionales e internacionales de Spirits & Vinos, que te llevarán a vivir  una increíble experiencia de sentidos.<br><br> Queremos brindarte un proceso de compra simple, para que recibas los productos que necesitas desde la comodidad de tu casa, de manera fácil, rápida y segura. Queremos brindarte un proceso de compra simple, para que recibas los productos que necesitas desde la como.",
+    "text": "Bienvenido a Black Wine! Este es el espacio que construimos para conectarte con las marcas premium nacionales e internacionales de Spirits & Vinos, que te llevarán a vivir  una increíble experiencia de sentidos.<br>",
     "blockClass": "parrafo2Blog2"
   }
 },

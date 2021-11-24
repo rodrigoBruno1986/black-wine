@@ -21,6 +21,10 @@
   background: none !important;
 }
 
+.menuItem:hover{
+  height: auto!important;
+}
+
 .menuItem:hover  :global(.vtex-menu-2-x-styledLinkContent--footer-menu-item-title){
   background: none !important;
   color: white !important;

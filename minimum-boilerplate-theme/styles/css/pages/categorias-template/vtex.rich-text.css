@@ -5,6 +5,13 @@
   text-align: justify;
   font-weight: 500;
 }
+.paragraph--textoDescripcion-flordecana{
+  font-size: 21px;
+  font-family: 'MuseoSans_100'!important;
+  color: black;
+  text-align: center;
+  font-weight: 100;
+}
 .wrapper--textoDescripcion{
   border-bottom: 2px solid black;
   border-top: 2px solid black;
@@ -13,7 +20,7 @@
 
 .container--textNordesCirculos{
   display: flex;
-  justify-content: center;
+  justify-content: center !important
   
 }
 
@@ -29,4 +36,31 @@
 .paragraph--textoRecetas{
   font-family: 'Baskervville-Regular';
   font-size: 20px;
+}
+
+.container--textFlorCirculos{
+  justify-content: center;
+}
+
+.paragraph--textFlorCirculos{
+  font-family: 'MuseoSans_700'!important;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.container--titulosBar{
+  border-bottom: 2px solid black;
+  margin: 30px auto;
+  font-family: 'BodoniFLF-Bold'!important;
+ 
+}
+
+
+
+.container-titulosFlorRecetas{
+  background: black !important;
+  margin: 40px 0px !important;
 }
