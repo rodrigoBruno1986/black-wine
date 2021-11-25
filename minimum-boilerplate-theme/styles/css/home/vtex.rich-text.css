@@ -514,6 +514,11 @@
   font-family: 'BodoniFLF-Bold' !important;
 }
 
+.paragraph--fuenteUnoVinos{
+  font-family: 'BodoniFLF-Bold' !important;
+  font-size: 15px;
+}
+
 .paragraph--fuenteSecundariaUno{
   font-family: 'Baskervville-Regular' !important;
 }

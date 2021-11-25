@@ -584,4 +584,9 @@
   .flexRow--EspecialesContentBarEnCasa :global(.vtex-slider-layout-0-x-sliderLayoutContainer--sliderEspeciales){
     padding: 0px!important;
   }
+
+  .flexRowContent--contenidoTienda :global(.vtex-store-components-3-x-imageElement--imgUno){
+    max-width: 129px;
+    max-height: 129px;
+  }
 }

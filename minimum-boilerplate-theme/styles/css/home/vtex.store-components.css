@@ -203,6 +203,10 @@
     }
 }
 
+.infoCardCallActionContainer--info-card-test :global(.vtex-button) {
+    display: none;
+}
+
 /* BLOQUE BLOGS */
 
 .imageElement--imgINSTAGRAM {
@@ -321,6 +325,11 @@
         top: 230px;
         width: 85%;
     }
+    .productBrand {
+        font-size: 12px !important;
+        font-family: 'Baskervville-Regular';
+        line-height: 0.7em;
+    }
 }
 .imageElement--bannerBodega {
     height: 100%;
@@ -334,5 +343,6 @@
     line-height: 0.7em;
 }
 .productBrand {
-    font-size: 14px;
+    font-size: 18px;
+    font-family: 'Baskervville-Regular';
 }

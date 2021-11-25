@@ -6,7 +6,6 @@
     },
     "vtex.menu@2.x:menu#descrition-accordion": {
         "children": [
-            "product-description",
             "flex-layout.col#especificaciones"
         ],
         "props": {
