@@ -9,6 +9,7 @@
     },
     "product-summary.shelf#malbec": {
       "children": [
+        "product-specification-badges#banderas",
         "product-summary-image",
         "product-brand#malbec",
         "product-name",
@@ -112,6 +113,7 @@
     },
     "product-summary.shelf#cabernet-franc": {
       "children": [
+        "product-specification-badges#banderas",
         "product-summary-image",
         "product-brand#cabernet-franc",
         "product-name",
@@ -215,6 +217,7 @@
     },
     "product-summary.shelf#blend-tintos": {
       "children": [
+        "product-specification-badges#banderas",
         "product-summary-image",
         "product-brand#blend-tintos",
         "product-name",
@@ -318,6 +321,7 @@
     },
     "product-summary.shelf#variedades": {
       "children": [
+        "product-specification-badges#banderas",
         "product-summary-image",
         "product-brand#variedades",
         "product-name",
