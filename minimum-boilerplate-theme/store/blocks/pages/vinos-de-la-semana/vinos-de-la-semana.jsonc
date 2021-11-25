@@ -92,6 +92,7 @@
     },
     "product-summary.shelf#vinossemana": {
         "children": [
+            "product-specification-badges#banderas",
             "flex-layout.row#infoProductoVino",
             "flex-layout.row#priceVino",
             "flex-layout.row#contenedorBotonesVino"

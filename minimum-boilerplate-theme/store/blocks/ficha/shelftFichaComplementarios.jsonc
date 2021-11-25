@@ -9,6 +9,7 @@
     },
     "product-summary.shelf#complementarios": {
       "children": [
+        "product-specification-badges#banderas",
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#complementarios",

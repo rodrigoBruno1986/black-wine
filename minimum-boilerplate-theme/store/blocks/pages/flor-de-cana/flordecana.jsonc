@@ -301,6 +301,7 @@
     },
     "product-summary.shelf#floruno": {
       "children": [
+        "product-specification-badges#banderas",
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand",
@@ -409,6 +410,7 @@
   },
   "product-summary.shelf#Especiales-flor": {
     "children": [
+      "product-specification-badges#banderas",
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-brand#Especiales",
