@@ -2,70 +2,57 @@
     "store.custom#vinos-de-la-semana": {
         "blocks": [
             "list-context.image-list#vinosdelasemana",
-            "rich-text#vino-title",
             "flex-layout.row#vinosdelasemana--container",
-            "flex-layout.row#banners"
-
+            "flex-layout.row#banners-vinosdelasemana"
         ]
     },
 
     "list-context.image-list#vinosdelasemana": {
-        "children": [
-          "slider-layout#vinosdelasemana"
-        ],
+        "children": ["slider-layout#vinosdelasemana"],
         "props": {
-          "height": 650,
-          "images": [
-            {
-              "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
-              "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
-              "description": "descuentos"
+            "height": 650,
+            "images": [
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/1.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                },
+                {
+                    "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
+                    "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
+                    "description": "descuentos"
+                }
+            ]
+        }
+    },
+    "slider-layout#vinosdelasemana": {
+        "props": {
+            "autoplay": {
+                "timeout": 7000,
+                "stopOnHover": true
             },
-            {
-              "image": "https://limpioonline.vteximg.com.br/arquivos/2.jpg",
-              "mobileImage": "https://limpioonline.vteximg.com.br/arquivos/1mobile.jpg",
-              "description": "descuentos"
-            }
-          ]
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "always",
+            "fullWidth": true
         }
-      },
-      "slider-layout#vinosdelasemana": {
-        "props": {
-          "autoplay": {
-            "timeout": 7000,
-            "stopOnHover": true
-          },
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-          },
-          "infinite": true,
-          "showPaginationDots": "never",
-          "showNavigationArrows": "always",
-          "fullWidth": true
-        }
-      },
-
+    },
 
     "flex-layout.row#vinosdelasemana--container": {
-        "children": [
-            "flex-layout.row#vinosdelasemana"
-            
-        ],
+        "children": ["rich-text#vino-title", "flex-layout.row#vinosdelasemana"],
         "props": {
             "blockClass": ["contenedorVinoSemana"]
         }
     },
     "flex-layout.row#vinosdelasemana": {
-        "children": [
-            
-            "search-result-layout.customQuery#vinossemanales"
-        ],
-        "props":{
-            "blockClass":[
-                "contenedorRichGaleria"
-            ]
+        "children": ["search-result-layout.customQuery#vinossemanales"],
+        "props": {
+            "blockClass": ["contenedorRichGaleria", "galeria-vinos--semana"]
         }
     },
     "rich-text#vino-title": {
@@ -77,179 +64,158 @@
     },
     "search-result-layout.customQuery#vinossemanales": {
         "props": {
-          "querySchema": {
-            "orderByField": "OrderByScoreDESC",
-            "hideUnavailableItems": false,
-            "facetsBehavior": "Dynamic",
-            "maxItemsPerPage": 6,
-            "queryField": "152",
-            "mapField": "productClusterIds",
-            "skusFilter": "FIRST_AVAILABLE"
-  
-          }
+            "querySchema": {
+                "orderByField": "OrderByScoreDESC",
+                "hideUnavailableItems": false,
+                "facetsBehavior": "Dynamic",
+                "maxItemsPerPage": 6,
+                "queryField": "152",
+                "mapField": "productClusterIds",
+                "skusFilter": "FIRST_AVAILABLE"
+            }
         },
         "blocks": [
-          "search-result-layout.desktop",
-          "search-result-layout.mobile",
-          "search-not-found-layout"
-          
+            "search-result-layout.desktop#vinosdelasemana",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
         ]
-      },
+    },
+    "search-result-layout.desktop#vinosdelasemana": {
+        "children": ["search-content#error"]
+    },
 
-      "search-content#error": {
-        "blocks": [
-        "gallery#test",
-        "not-found"
-        ]
-      },
-      "gallery#test": {
-        "blocks": [
-          "product-summary.shelf#vinossemana"
-        ]
-      },
-      "product-summary.shelf#vinossemana": {
+    "search-content#error": {
+        "blocks": ["gallery#test", "not-found"]
+    },
+    "gallery#test": {
+        "blocks": ["product-summary.shelf#vinossemana"]
+    },
+    "product-summary.shelf#vinossemana": {
         "children": [
-          "flex-layout.row#infoProductoVino",
-          "flex-layout.row#priceVino",
-          "flex-layout.row#contenedorBotonesVino"
+            "flex-layout.row#infoProductoVino",
+            "flex-layout.row#priceVino",
+            "flex-layout.row#contenedorBotonesVino"
         ],
         "props": {
-          "blockClass":["related-shelf-vinos-de-la-semana"]
+            "blockClass": ["related-shelf-vinos-de-la-semana"]
         }
-      },
+    },
 
-      "flex-layout.row#infoProductoVino":{
-        "children":[
-          "flex-layout.row#contenedorImageInfo"
-        ],
-        "props":{
-          "blockClass":[
-            "contenidoInfo"
-          ],
-          "preventHorizontalStretch":true
+    "flex-layout.row#infoProductoVino": {
+        "children": ["flex-layout.row#contenedorImageInfo"],
+        "props": {
+            "blockClass": ["contenidoInfo"],
+            "preventHorizontalStretch": true
         }
-      },
+    },
 
-      "flex-layout.row#contenedorImageInfo":{
-        "children":[
-          "product-summary-image",
-          "flex-layout.row#datosproducto"
-        ],
-        "props":{
-          "blockClass":[
-            "contenedirImagaInfo"
-          ],
-          "preventHorizontalStretch":true
+    "flex-layout.row#contenedorImageInfo": {
+        "children": ["product-summary-image", "flex-layout.row#datosproducto"],
+        "props": {
+            "blockClass": ["contenedirImagaInfo"],
+            "preventHorizontalStretch": true
         }
-      },
+    },
 
-      "flex-layout.row#datosproducto":{
-        "children":[
-          "product-name#vinos",
-          "vtex.product-highlights@2.x:product-highlights#collection",
-          "product-description"
-          
+    "flex-layout.row#datosproducto": {
+        "children": [
+            "product-name#vinos",
+            "vtex.product-highlights@2.x:product-highlights#collection",
+            "product-description"
         ],
-        "props":{
-          "blockClass":[
-            "columnaInfo"
-          ],
-          "preventHorizontalStretch":true
+        "props": {
+            "blockClass": ["columnaInfo", "datos-producto-vinosSemana"],
+            "preventHorizontalStretch": true
         }
-      },
+    },
 
-      "flex-layout.row#contenedorBotones":{
-        "children":[
-         
-          "flex-layout.row#botones"
-        ],
+    "flex-layout.row#contenedorBotones": {
+        "children": ["flex-layout.row#botones"],
         "props": {
-          "blockClass": ["contenidoBotones"],
-          "preventHorizontalStretch":true
-        
+            "blockClass": ["contenidoBotones"],
+            "preventHorizontalStretch": true
         }
-      },
-      
-    
+    },
 
-      "product-name#vinos": {
+    "product-name#vinos": {
         "props": {
-          "showSKU": true,
-          "showBrandName": true
+            "showSKU": true,
+            "showBrandName": true
         }
-      },
-    
-      "flex-layout.row#priceVino":{
-        "children":[
-          "product-selling-price",
-          "product-list-price-range"
-        ],
-        "props":{
-          "blockClass": "contenidoPrecios",
-          "preventHorizontalStretch":true
-        }
-      },
-    
-      "flex-layout.row#contenedorBotonesVino":{
-        "children":[  
-          "add-to-cart-button#home",
-          "product-specification-badges#baby"
-        ],
-        "props": {
-          "blockClass": ["botones"]
-    
-        }
-    
-      },
-      
-      "add-to-cart-button#home":{
-        "props": {
-          "text": "COMPRAR",
-          "unavailableText": "SIN STOCK",
-          "blockClass": "botonComprar"
-        }
-      },
-      "product-specification-badges#baby": {
-        "props": {
-          "specificationGroupName": "allSpecifications",
-          "specificationsOptions": [
-            {
-              "specificationName": "Producto de Preventa",
-              "displayValue": "SPECIFICATION_NAME",
-              "visibleWhen": ""
-            },
-            {
-              "specificationName": "envio gratis",
-              "displayValue": "envio gratis",
-              "visibleWhen": false
-            }
-          ],
-          "blockClass": "envioGratisContenido"
-        }
-      },
+    },
 
-      "flex-layout.row#banners": {
-        "children": ["info-card#colecciones","info-card#test"],
+    "flex-layout.row#priceVino": {
+        "children": ["product-selling-price", "product-list-price-range"],
         "props": {
-          "blockClass": ["contenedorInfoCart"]
-      
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
         }
-      },
-      
-      "info-card#test": {
+    },
+
+    "flex-layout.row#contenedorBotonesVino": {
+        "children": [
+            "add-to-cart-button#home",
+            "product-specification-badges#baby"
+        ],
         "props": {
-          "id": "info-card-test",
-          "textPosition": "center",
-          "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-          "headline": "¿NO SAVES QUÉ VINO ELEGIR?",
-          "subhead": "Descubrí los vinos que conbinan con tus gustos con nuestro Test de Paladar",
-          "callToActionText": "Empezar Test",
-          "callToActionUrl": "/sale/d",
-          "blockClass": "info-card-test",
-          "textAlignment": "center",
-          "isFullModeStyle":true,
-          "maxHeight": 250
+            "blockClass": ["botones"]
         }
+    },
+
+    "add-to-cart-button#home": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+    "product-specification-badges#baby": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    "flex-layout.row#banners-vinosdelasemana": {
+        "children": ["image#banner1-vinos-semana", "info-card#banner2-vinos-semana"],
+        "props": {
+            "blockClass": ["banner-vinos-semana"]
+        }
+    },
+
+    "image#banner1-vinos-semana": {
+      "props": {
+        "blockClass": ["banner1-vinos-semana"],
+        "src": "https://winesupply.vteximg.com.br/arquivos/banner1_vinos_semana.png",
+        "maxHeight": 250
       }
-    
+    },
+
+    "info-card#banner2-vinos-semana": {
+        "props": {
+            "id": "info-card-banner2-vinos-semana",
+            "textPosition": "center",
+            "imageUrl": "https://winesupply.vteximg.com.br/arquivos/banner1_vinos_semana.png",
+            "headline": "¿NO SAVES QUÉ VINO ELEGIR?",
+            "subhead": "Descubrí los vinos que conbinan con tus gustos con nuestro Test de Paladar",
+            "callToActionText": "Empezar Test",
+            "callToActionUrl": "/sale/d",
+            "blockClass": "info-card-test",
+            "textAlignment": "center",
+            "isFullModeStyle": true,
+            "maxHeight": 250
+        }
+    }
 }
