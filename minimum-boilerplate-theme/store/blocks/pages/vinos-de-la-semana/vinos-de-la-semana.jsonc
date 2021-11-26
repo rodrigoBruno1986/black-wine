@@ -213,7 +213,7 @@
             "subhead": "Descubrí los vinos que conbinan con tus gustos con nuestro Test de Paladar",
             "callToActionText": "Empezar Test",
             "callToActionUrl": "/sale/d",
-            "blockClass": "info-card-test",
+            "blockClass": ["info-card-test", "infocard-vinos-semana"],
             "textAlignment": "center",
             "isFullModeStyle": true,
             "maxHeight": 250
