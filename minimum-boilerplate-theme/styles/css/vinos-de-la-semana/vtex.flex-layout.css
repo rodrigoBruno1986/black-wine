@@ -125,16 +125,16 @@
     display: none;
 }
 .flexRowContent--galeria-vinos--semana
-:global(.vtex-search-result-3-x-gallery) {
-  padding-left: 0;
+    :global(.vtex-search-result-3-x-gallery) {
+    padding-left: 0;
 }
 
 .flexRow--banner-vinos-semana {
-  margin: 2rem 0;
+    margin: 2rem 0;
 }
 
 .flexRow--banner-vinos-semana :global(.vtex-store-components-3-x-container) {
-  max-width: 1200px;
+    max-width: 1200px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -210,6 +210,10 @@
     .flexRow--contenedorVinoSemana
         :global(.vtex-flex-layout-0-x-flexRowContent--contenidoPrecios) {
         align-items: end;
+    }
+    .flexRow--galeria-vinos--semana :global(.vtex-product-summary-2-x-container) {
+        margin-right: 0;
+        margin-left: 3rem;
     }
 }
 
