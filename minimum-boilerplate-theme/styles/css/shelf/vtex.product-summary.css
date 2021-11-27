@@ -1,5 +1,4 @@
 
-
 :global(.vtex-product-summary-2-x-element--related-shelf-home){
     padding: 13px;
 }
@@ -12,8 +11,11 @@
     position: relative;
 }
 
-@media only screen and (max-width: 1025px) {
+.container {
+    height: 100% !important;
+}
 
+@media only screen and (max-width: 1025px) {
     :global(.vtex-product-summary-2-x-containerNormal){
       width: 100%;
     }
