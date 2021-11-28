@@ -1,6 +1,7 @@
 
 :global(.vtex-product-summary-2-x-element--related-shelf-home){
     padding: 13px;
+    justify-content: space-between;
 }
 
 :global(.vtex-product-summary-2-x-containerNormal){

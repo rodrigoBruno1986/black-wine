@@ -66,7 +66,7 @@
         "props": {
             "itemsPerPage": {
               "desktop": 4,
-              "tablet": 2,
+              "tablet": 3,
               "phone": 2
             },
             "showNavigationArrows": "desktopOnly",
@@ -170,7 +170,7 @@
         "props": {
             "itemsPerPage": {
               "desktop": 4,
-              "tablet": 2,
+              "tablet": 3,
               "phone": 2
             },
             "showNavigationArrows": "desktopOnly",
@@ -274,7 +274,7 @@
         "props": {
             "itemsPerPage": {
               "desktop": 4,
-              "tablet": 2,
+              "tablet": 3,
               "phone": 2
             },
             "showNavigationArrows": "desktopOnly",
@@ -313,7 +313,7 @@
 
     "list-context.product-list#colecciones-variedades": {
       "blocks": ["product-summary.shelf#variedades"],
-      "children": ["slider-layout#variedades"],
+      "children": ["slider-layout#variedades-colecciones"],
       "props": {
         "collection": "152"
         
@@ -374,11 +374,11 @@
   
   
   
-      "slider-layout#variedades": {
+      "slider-layout#variedades-colecciones": {
         "props": {
             "itemsPerPage": {
               "desktop": 4,
-              "tablet": 2,
+              "tablet": 3,
               "phone": 2
             },
             "showNavigationArrows": "desktopOnly",

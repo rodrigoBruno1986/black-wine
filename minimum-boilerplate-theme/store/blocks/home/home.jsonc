@@ -12,19 +12,19 @@
     "children":[
       "flex-layout.row#tiendas",
       "flex-layout.row#masVendidosTitulo",
-      "list-context.product-list#mas-vendidos",
-      "flex-layout.row#bannerMobile",
+      "list-context.product-list#mas-vendidos-home",
       "flex-layout.row#bodegasDelMesTitulo",
+      "flex-layout.row#bannerMobile",
       "flex-layout.row#bodegasDelMes",
       "flex-layout.row#novedadesTitulo",
-      "list-context.product-list#novedades",
+      "list-context.product-list#novedades-home",
       "flex-layout.row#especialesTitulo",
       "flex-layout.row#Especiales",
       "flex-layout.row#vinosSlider",
       "flex-layout.row#bannerMobileBodega",
       "flex-layout.row#destacadosTitulo",
-      "list-context.product-list#Destacados",
-       "list-context.product-list#DestacadosDos",
+      "list-context.product-list#Destacados-home",
+       "list-context.product-list#DestacadosDos-home",
       "flex-layout.row#banners",
       "flex-layout.row#marcasTitulo",
       "flex-layout.row#marcas",
@@ -157,7 +157,7 @@
 
 "flex-layout.row#DestacadosDos":{
   "children":[
-    "list-context.product-list#DestacadosDos"
+    "list-context.product-list#DestacadosDos-home"
   ],
   "props":{
     "blockClass":"destacadosDos"
