@@ -200,7 +200,7 @@
 
  "flex-layout.row#marcas":{
   "children":[
-    "slider-layout#marcas"
+    "slider-layout#marcasHome"
   ],
   "props":{
     "blockClass":["contenidoSlider","styleContenido","styleContenidoMarcas"]

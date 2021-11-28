@@ -500,9 +500,9 @@
 .flexRow--bodegasContent{
   display: none;
 }
-.flexRow--EspecialesContent{
+/* .flexRow--EspecialesContent{
   display: none;
-}
+} */
 .flexRow--EspecialesContentBarEnCasa{
   display: block !important;
 }

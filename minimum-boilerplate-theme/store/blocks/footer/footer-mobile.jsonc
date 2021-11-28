@@ -50,7 +50,8 @@
       "flex-layout.row#redes-sociales-mobile":{
           "children":[
             "image#faceFooterIzquierdaMobile",
-            "image#instaFooterIzquierdaMobile"
+            "image#instaFooterIzquierdaMobile",
+            "image#LinkFooterIzquierdaMobile"
           ],
           "props":{
               "blockClass":["faceinstamobile"],
@@ -70,6 +71,14 @@
           "src": "assets/face.svg",
           "blockClass": [
             "fcfooterIzqMobile"
+          ]
+        }
+      },
+      "image#LinkFooterIzquierdaMobile": {
+        "props": {
+          "src": "https://legatus.com.ar/images/ima/inkp.png",
+          "blockClass": [
+            "linkmobile"
           ]
         }
       },
@@ -539,7 +548,7 @@
           ],
           "itemProps": {
             "type": "internal",
-            "href": "",
+            "href": "/contacto",
             "noFollow": true,
             "tagTitle": "CONTACTO",
             "text": "CONTACTO"

@@ -11,6 +11,12 @@
   filter: invert(1);
 }
 
+.imageElement--inkfooter{
+  width: 28px;
+  margin-left: -6px
+;
+}
+
 
 
 
@@ -77,6 +83,11 @@
     width: 26px;
     margin-left: 10px;
     filter: invert(1);
+  }
+  .imageElement--linkmobile {
+    width: 26px;
+    margin-left: 12px;
+    margin-top:-4px;
   }
 }
 

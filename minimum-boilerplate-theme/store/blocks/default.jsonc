@@ -179,6 +179,11 @@
           "specificationName": "Uruguay",
           "displayValue": "Uruguay",
           "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "organico",
+          "displayValue": "organico",
+          "visibleWhen": "Si"
         }
       ]
     }
