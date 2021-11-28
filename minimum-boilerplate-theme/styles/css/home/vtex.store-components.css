@@ -162,7 +162,7 @@
     color: white;
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 768px) {
     .infoCardContainer--info-card-test {
         height: auto !important;
         border-radius: 10px;
@@ -256,9 +256,20 @@
 
     .imageElement--bannerBodegaMobile {
         display: block;
+        max-width: 694px;
+        width: 694px;
+        max-height: 814px;
     }
     .imageElement--imgHablemos {
         margin-right: 0px;
+    }
+}
+@media  (max-width: 768px){
+    .imageElement--bannerBodegaMobile {
+        display: block;
+        max-width: 307px;
+        width: auto;
+        max-height: 814px;
     }
 }
 .imageElement--bannerEspeciales {

@@ -1,5 +1,5 @@
 {
-    "list-context.product-list#DestacadosDos": {
+    "list-context.product-list#DestacadosDos-home": {
       "blocks": ["product-summary.shelf#DestacadosDos"],
       "children": ["slider-layout#DestacadosDos"],
       "props": {
@@ -67,7 +67,7 @@
         "props": {
             "itemsPerPage": {
               "desktop": 4,
-              "tablet": 2,
+              "tablet": 3,
               "phone": 2
             },
             "showNavigationArrows": "desktopOnly",

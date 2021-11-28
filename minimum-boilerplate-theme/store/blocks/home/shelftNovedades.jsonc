@@ -1,5 +1,5 @@
 {
-    "list-context.product-list#novedades": {
+    "list-context.product-list#novedades-home": {
       "blocks": ["product-summary.shelf#Novedades"],
       "children": ["slider-layout#Novedades"],
       "props": {
@@ -66,7 +66,7 @@
       "props": {
         "itemsPerPage": {
           "desktop": 4,
-          "tablet": 2,
+          "tablet": 3,
           "phone": 2
         },
         "showNavigationArrows": "desktopOnly",

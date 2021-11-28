@@ -202,7 +202,7 @@
 }
 
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 768px) {
   .flexRow--contenidoNovedades{
     width:100%;
     margin: auto; 
@@ -261,7 +261,7 @@
 }
 
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 768px) {
   .flexRowContent--contenedorInfoCart{
     display: flex;
     flex-direction: column;
@@ -490,9 +490,15 @@
     margin-bottom: 20px;
     padding: 30px;
 }
+.flexRow--ContentBannerMobile{
+  width: 100%;
+}
 .flexRowContent--ContentBannerMobile{
   display: block !important;
-  padding: 20px;
+  max-width: 694px;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto 1rem auto;
 }
 .flexRow--EspecialesMobileBarra{
   display: none;
@@ -508,7 +514,8 @@
 }
 
 .flexRow--ContentBannerBodegaMobile{
-  padding: 15px 21px 15px 15px;
+  padding: 0;
+  margin: 0 auto 1rem auto;
 }
 .flexRow--novedadesMobileBarra{
   display: none;
@@ -516,6 +523,16 @@
 .flexRow--contenidoSliderTiendas :global(.vtex-rich-text-0-x-paragraph--fuenteSecundariaUno){
   font-size: 13px;
 }
+}
+
+@media (max-width: 768px){
+  .flexRowContent--ContentBannerMobile{
+    display: block !important;
+    max-width:307px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto 1rem auto;
+  }
 }
 
 .flexRow--contenidoSliderTiendas{
