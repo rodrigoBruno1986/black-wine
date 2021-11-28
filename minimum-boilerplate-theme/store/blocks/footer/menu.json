@@ -103,8 +103,8 @@
         "footer-menu-item-title-header"
       ],
       "itemProps": {
-        "type": "internal",
-        "href": "",
+        "type": "external",
+        "href": "/contacto",
         "noFollow": true,
         "tagTitle": "Contacto",
         "text": "Contacto"
@@ -262,7 +262,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Categorías",
         "text": "Categorías"
@@ -280,7 +280,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Fútbol",
         "text": "Fútbol"
@@ -298,7 +298,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Clubes",
         "text": "Clubes"
@@ -316,7 +316,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Indumentaria",
         "text": "Indumentaria"
@@ -334,7 +334,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Línea Retro",
         "text": "Línea Retro"
@@ -352,7 +352,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Boletín de Promociones",
         "text": "Boletín de Promociones"
@@ -370,7 +370,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "SALE",
         "text": "SALE"
@@ -416,7 +416,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Ayuda",
         "text": "Ayuda"
@@ -434,7 +434,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Estado de mi pedido",
         "text": "Estado de mi pedido"
@@ -470,7 +470,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Términos y condiciones",
         "text": "Términos y condiciones"
@@ -488,7 +488,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Consultas Tienda Online",
         "text": "Consultas Tienda Online"
@@ -506,7 +506,7 @@
       ],
       "itemProps": {
         "type": "external",
-        "href": "https://tienda.umbro.com.ar",
+        "href": "",
         "noFollow": true,
         "tagTitle": "Otras Consultas",
         "text": "Otras Consultas"
@@ -544,7 +544,8 @@
   "flex-layout.row#redes-sociales": {
     "children": [
       "image#faceFooter",
-      "image#instaFooter"
+      "image#instaFooter",
+      "image#inks"
     ],
     "props": {
       "blockClass": "footer-desktop-redes"
@@ -563,6 +564,14 @@
       "src": "assets/face.svg",
       "blockClass": [
         "fcfooter"
+      ]
+    }
+  },
+  "image#inks": {
+    "props": {
+      "src": "https://legatus.com.ar/images/ima/inkp.png",
+      "blockClass": [
+        "inkfooter"
       ]
     }
   }

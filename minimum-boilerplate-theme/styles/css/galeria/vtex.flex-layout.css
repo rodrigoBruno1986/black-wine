@@ -5,6 +5,10 @@
   width: 90%;
 }
 
+.flexRow--contenidoGaleria{
+  margin-bottom: 150px;
+}
+
 
 .flexRow--flex-search-above :global(.vtex-breadcrumb-1-x-homeLink){
   display: none;
