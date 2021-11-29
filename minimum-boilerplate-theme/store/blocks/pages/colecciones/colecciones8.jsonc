@@ -54,7 +54,7 @@
   "flex-layout.col#colecciones": {
       "children": [
           "rich-text#colecciones-malbec",
-          "list-context.product-list#colecciones-varios1",
+          "list-context.product-list#colecciones-malbec",
           "rich-text#colecciones-cabernet",
           "list-context.product-list#colecciones-cabernet-franc",
           "rich-text#colecciones-blend-tintos",
