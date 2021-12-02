@@ -533,6 +533,12 @@
     padding: 0;
     margin: 0 auto 1rem auto;
   }
+   .flexRow--EspecialesContent{
+  display: black !important;
+} 
+ .flexRowContent--EspecialesContent{
+  display: none ;
+  } 
 }
 
 .flexRow--contenidoSliderTiendas{
