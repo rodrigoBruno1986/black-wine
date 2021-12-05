@@ -192,18 +192,21 @@
     },
 
     "flex-layout.row#banners-vinosdelasemana": {
-        "children": ["image#banner1-vinos-semana", "info-card#banner2-vinos-semana"],
+        "children": [
+            "image#banner1-vinos-semana",
+            "info-card#banner2-vinos-semana"
+        ],
         "props": {
             "blockClass": ["banner-vinos-semana"]
         }
     },
 
     "image#banner1-vinos-semana": {
-      "props": {
-        "blockClass": ["banner1-vinos-semana"],
-        "src": "https://winesupply.vteximg.com.br/arquivos/banner1_vinos_semana.png",
-        "maxHeight": 250
-      }
+        "props": {
+            "blockClass": ["banner1-vinos-semana"],
+            "src": "https://winesupply.vteximg.com.br/arquivos/banner1_vinos_semana.png",
+            "maxHeight": 250
+        }
     },
 
     "info-card#banner2-vinos-semana": {

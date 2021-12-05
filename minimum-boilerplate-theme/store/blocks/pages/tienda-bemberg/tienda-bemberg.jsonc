@@ -278,6 +278,7 @@
                 "tablet": 2,
                 "phone": 2
             },
+            "infinite": true,
             "showNavigationArrows": "never",
             "navigationStep": 4,
             "arrowSize": 25,
@@ -451,15 +452,10 @@
                 "phone": 2
             },
             "showNavigationArrows": "desktopOnly",
-            "navigationStep": 1,
             "arrowSize": 25,
             "showPaginationDots": "mobileOnly",
-            // "autoplay": {
-            //     "timeout": 5000,
-            //     "stopOnHover": true
-            // },
             "fullWidth": false,
-            // "infinite": true,
+            "infinite": true,
             "blockClass": ["shelf-default", "sliderMasVendidos", "gift-bemberg"]
         }
     },
