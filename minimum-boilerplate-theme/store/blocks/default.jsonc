@@ -179,7 +179,69 @@
           "specificationName": "Uruguay",
           "displayValue": "Uruguay",
           "visibleWhen": "Si"
+        }
+      ]
+    }
+  },
+
+  "product-specification-badges#descuentos": {
+    "props": {
+      "blockClass": "destaqueDescuentos",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "6x4",
+          "displayValue": "6x4",
+          "visibleWhen": "Si"
         },
+        {
+          "specificationName": "6x5",
+          "displayValue": "6x5",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "10off",
+          "displayValue": "10off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "15off",
+          "displayValue": "15off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "20off",
+          "displayValue": "20off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "25off",
+          "displayValue": "25off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "33off",
+          "displayValue": "33off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "50off",
+          "displayValue": "50off",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "newin",
+          "displayValue": "newin",
+          "visibleWhen": "Si"
+        }
+      ]
+    }
+  },
+  "product-specification-badges#organico": {
+    "props": {
+      "blockClass": "destaqueOrganico",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
         {
           "specificationName": "organico",
           "displayValue": "organico",

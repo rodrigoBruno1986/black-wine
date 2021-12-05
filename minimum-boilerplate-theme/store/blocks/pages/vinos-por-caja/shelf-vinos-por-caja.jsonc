@@ -9,6 +9,8 @@
   "product-summary.shelf#vinos-por-caja-uno": {
     "children": [
       "product-specification-badges#banderas",
+      "product-specification-badges#organico",
+      "product-specification-badges#descuentos",
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-brand#vinos-por-caja",
@@ -93,6 +95,8 @@
   "product-summary.shelf#vinos-por-caja-dos": {
     "children": [
       "product-specification-badges#banderas",
+      "product-specification-badges#organico",
+      "product-specification-badges#descuentos",
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-brand#vinos-por-caja-uno",
@@ -178,6 +182,8 @@
   "product-summary.shelf#vinos-por-caja-tres": {
     "children": [
       "product-specification-badges#banderas",
+      "product-specification-badges#organico",
+      "product-specification-badges#descuentos",
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-brand#vinos-por-caja",
@@ -265,6 +271,8 @@
   "product-summary.shelf#vinos-por-caja-cuatro": {
     "children": [
       "product-specification-badges#banderas",
+      "product-specification-badges#organico",
+      "product-specification-badges#descuentos",
       "product-summary-image",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "product-brand#vinos-por-caja",

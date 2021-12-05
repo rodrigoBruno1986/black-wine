@@ -9,6 +9,8 @@
     "product-summary.shelf#Novedades": {
       "children": [
         "product-specification-badges#banderas",
+        "product-specification-badges#organico",
+        "product-specification-badges#descuentos",
         "product-summary-image",
         "vtex.product-highlights@2.x:product-highlights#collection",
         "product-brand#Novedades",

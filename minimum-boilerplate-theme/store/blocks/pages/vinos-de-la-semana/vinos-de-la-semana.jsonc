@@ -93,6 +93,8 @@
     "product-summary.shelf#vinossemana": {
         "children": [
             "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
             "flex-layout.row#infoProductoVino",
             "flex-layout.row#priceVino",
             "flex-layout.row#contenedorBotonesVino"
