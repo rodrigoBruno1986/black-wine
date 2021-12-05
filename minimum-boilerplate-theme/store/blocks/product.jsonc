@@ -64,9 +64,13 @@
 
   "flex-layout.col#product-image": {
     "props": {
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "contenerdorImagenFP"
     },
     "children": [
+      "product-specification-badges#banderas",
+      "product-specification-badges#organico",
+      "product-specification-badges#descuentos",
       "product-images"
     ]
   },

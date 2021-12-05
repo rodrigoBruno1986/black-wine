@@ -1,19 +1,22 @@
-.groupContainer {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 10;
+.badgeText {
+    visibility: hidden;
 }
 
-.badgeContainer {
+.badgeContainer--banderas,
+.badgeContainer--destaqueDescuentos,
+.badgeContainer--destaqueOrganico--organico {
     max-width: 54px;
     height: 54px;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.badgeText {
-    visibility: hidden;
+/* Destaques Banderas */
+.groupContainer--banderas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
 }
 
 .badgeContainer--banderas--escocia {
@@ -94,4 +97,64 @@
 
 .badgeContainer--banderas--uruguay {
     background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Uruguay.jpg);
+}
+
+/* Destaque descuentos */
+.groupContainer--destaqueDescuentos {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.badgeContainer--destaqueDescuentos--6x4 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-6x4.png);
+}
+
+.badgeContainer--destaqueDescuentos--6x5 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-6x5.png);
+}
+
+.badgeContainer--destaqueDescuentos--10off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-10off.png);
+}
+
+.badgeContainer--destaqueDescuentos--15off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-15off.png);
+}
+
+.badgeContainer--destaqueDescuentos--20off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-20off.png);
+}
+
+.badgeContainer--destaqueDescuentos--25off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-25off.png);
+}
+
+.badgeContainer--destaqueDescuentos--33off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-33off.png);
+}
+
+.badgeContainer--destaqueDescuentos--50off {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-50off.png);
+}
+
+.badgeContainer--destaqueDescuentos--newin {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-Newin.png);
+}
+
+.badgeContainer--destaqueDescuentos--vacia {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-Vacia.png);
+}
+
+/* Destaque orgánico */
+.groupContainer--destaqueOrganico {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    z-index: 10;
+}
+
+.badgeContainer--destaqueOrganico--organico {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/orgnaico_destaque.png);
 }

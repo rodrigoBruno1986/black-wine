@@ -10,6 +10,8 @@
     "product-summary.shelf#malbec": {
       "children": [
         "product-specification-badges#banderas",
+        "product-specification-badges#organico",
+        "product-specification-badges#descuentos",
         "product-summary-image",
         "product-brand#malbec",
         "product-name",
@@ -114,6 +116,8 @@
     "product-summary.shelf#cabernet-franc": {
       "children": [
         "product-specification-badges#banderas",
+        "product-specification-badges#organico",
+        "product-specification-badges#descuentos",
         "product-summary-image",
         "product-brand#cabernet-franc",
         "product-name",
@@ -218,6 +222,8 @@
     "product-summary.shelf#blend-tintos": {
       "children": [
         "product-specification-badges#banderas",
+        "product-specification-badges#organico",
+        "product-specification-badges#descuentos",
         "product-summary-image",
         "product-brand#blend-tintos",
         "product-name",
@@ -322,6 +328,8 @@
     "product-summary.shelf#variedades": {
       "children": [
         "product-specification-badges#banderas",
+        "product-specification-badges#organico",
+        "product-specification-badges#descuentos",
         "product-summary-image",
         "product-brand#variedades",
         "product-name",
@@ -425,6 +433,8 @@
 "product-summary.shelf#varios1": {
   "children": [
     "product-specification-badges#banderas",
+    "product-specification-badges#organico",
+    "product-specification-badges#descuentos",
     "product-summary-image",
     "product-brand#varios1",
     "product-name",
@@ -530,6 +540,8 @@
 "product-summary.shelf#varios2": {
   "children": [
     "product-specification-badges#banderas",
+    "product-specification-badges#organico",
+    "product-specification-badges#descuentos",
     "product-summary-image",
     "product-brand#varios2",
     "product-name",
@@ -634,6 +646,8 @@
 "product-summary.shelf#varios3": {
   "children": [
     "product-specification-badges#banderas",
+    "product-specification-badges#organico",
+    "product-specification-badges#descuentos",
     "product-summary-image",
     "product-brand#varios3",
     "product-name",
@@ -738,6 +752,8 @@
 "product-summary.shelf#varios4": {
   "children": [
     "product-specification-badges#banderas",
+    "product-specification-badges#organico",
+    "product-specification-badges#descuentos",
     "product-summary-image",
     "product-brand#varios4",
     "product-name",
