@@ -179,6 +179,21 @@
           "specificationName": "Uruguay",
           "displayValue": "Uruguay",
           "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Dominicana",
+          "displayValue": "Dominicana",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Dominicana",
+          "displayValue": "Dominicana",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "Cuba",
+          "displayValue": "Cuba",
+          "visibleWhen": "Si"
         }
       ]
     }

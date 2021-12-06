@@ -110,7 +110,8 @@
             "blockClass": [
                 "contenedor-bodegas",
                 "contenedor-bodegas-1",
-                "contenedor-2"
+                "contenedor-2",
+                "contenedor-2-mobile"
             ]
         }
     },
@@ -153,7 +154,7 @@
             "list-context.product-list#bodega-del-mes"
         ],
         "props": {
-            "blockClass": ["contenedor-bodegas", "contenedor-2", "contenedor-3"]
+            "blockClass": ["contenedor-bodegas", "contenedor-2", "contenedor-3","contenedor-2-mobile"]
         }
     },
     "flex-layout.row#contenedor-bodegas-4": {
@@ -162,7 +163,7 @@
             "list-context.product-list#bodega-del-mes"
         ],
         "props": {
-            "blockClass": ["contenedor-bodegas", "contenedor-2", "contenedor-4"]
+            "blockClass": ["contenedor-bodegas", "contenedor-2", "contenedor-4","contenedor-2-mobile"]
         }
     }
 }
