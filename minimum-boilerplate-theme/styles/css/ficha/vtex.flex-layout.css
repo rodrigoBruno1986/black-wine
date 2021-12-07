@@ -201,3 +201,7 @@
   font-family: 'BodoniFLF-Bold';
   font-size: 30px;
 }
+
+.flexColChild--contenerdorImagenFP {
+  position: relative;
+}
