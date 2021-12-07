@@ -3,12 +3,12 @@
 }
 
 .badgeContainer--banderas,
-.badgeContainer--destaqueDescuentos,
-.badgeContainer--destaqueOrganico--organico {
+.badgeContainer--destaqueDescuentos {
     max-width: 54px;
     height: 54px;
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: transparent !important;
 }
 
 /* Destaques Banderas */
@@ -156,6 +156,14 @@
 }
 
 /* Destaque orgánico */
+.badgeContainer--destaqueOrganico--organico  {
+    max-width: 39px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent !important;
+}
+
 .groupContainer--destaqueOrganico {
     position: absolute;
     right: 0;
