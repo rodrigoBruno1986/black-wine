@@ -59,8 +59,5 @@
     "vtex.modal-layout": "0.x",
     "winesupply.componentes-wine": "0.x"
   },
-  "peerDependencies": {
-    "vtex.wordpress-integration": "2.x"
-  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
