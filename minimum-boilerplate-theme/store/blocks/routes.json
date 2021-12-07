@@ -28,8 +28,5 @@
   },
   "store.custom#oficial-bemberg": {
     "path": "/tienda-oficial-bemberg"
-  },
-  "store.blog-home": {
-    "path": "/blog"
   }
 }
