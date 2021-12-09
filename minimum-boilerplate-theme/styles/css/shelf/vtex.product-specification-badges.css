@@ -159,3 +159,38 @@
 .badgeContainer--destaqueOrganico--organico {
     background-image: url(https://winesupply.vteximg.com.br/arquivos/orgnaico_destaque.png);
 }
+
+/* Destaques Vinos */
+.badgeContainer--destaqueVinos {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.groupContainer--destaqueVinos {
+    position: absolute;
+    left: 0;
+    top: 70px;
+    z-index: 10;
+}
+
+.badgeText--destaqueVinos--x4 {
+    width: 30px;
+    height: 63px;
+    visibility: hidden;
+}
+
+.badgeContainer--destaqueVinos--x4 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/x4_vinos.png);
+}
+
+.badgeContainer--destaqueVinos--x6 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/x6_vinos.png);
+}
+
+.badgeContainer--destaqueVinos--x8 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/x8_vinos.png);
+}
+
+.badgeContainer--destaqueVinos--x12 {
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/x12_vinos.png);
+}
