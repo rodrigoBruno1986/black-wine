@@ -27,3 +27,13 @@
     max-height: 405px !important;
 }
 
+
+@media (max-width: 768px) {
+    .flexRowContent--VinosXCajaContent {
+        display: block !important;
+    }
+    .flexRowContent--VinosXCajaContent .stretchChildrenWidth:first-child{
+        height: auto !important;
+        max-height: 410px;
+    }
+}

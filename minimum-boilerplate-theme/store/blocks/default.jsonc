@@ -264,5 +264,34 @@
         }
       ]
     }
+  },
+
+  "product-specification-badges#destaques-vinos": {
+    "props": {
+      "blockClass": "destaqueVinos",
+      "specificationGroupName": "allSpecifications",
+      "specificationsOptions": [
+        {
+          "specificationName": "x4",
+          "displayValue": "x4",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "x6",
+          "displayValue": "x6",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "x8",
+          "displayValue": "x8",
+          "visibleWhen": "Si"
+        },
+        {
+          "specificationName": "x12",
+          "displayValue": "x12",
+          "visibleWhen": "Si"
+        }
+      ]
+    }
   }
 }
