@@ -150,7 +150,7 @@
     "flex-layout.row#recetaNordesUno": {
         "children": [
             "flex-layout.col#recetaNordesUno",
-            "flex-layout.row#imgRecetasUno"
+            "flex-layout.row#img-1"
         ],
         "props": {
             "blockClass": ["contenidoRecetas"]
@@ -180,7 +180,7 @@
         }
     },
 
-    "flex-layout.row#imgRecetasUno": {
+    "flex-layout.row#img-1": {
         "children": [
             "image#recetas1",
             "image#recetas2",
@@ -242,7 +242,7 @@
     "flex-layout.row#recetaNordesDos": {
         "children": [
             "flex-layout.col#recetaNordesDos",
-            "flex-layout.row#imgRecetasDos"
+            "flex-layout.row#img-2"
         ],
         "props": {
             "blockClass": ["contenidoRecetas"]
@@ -272,7 +272,7 @@
         }
     },
 
-    "flex-layout.row#imgRecetasDos": {
+    "flex-layout.row#img-2": {
         "children": [
             "image#recetas-dos-1",
             "image#recetas-dos-2",
@@ -334,7 +334,7 @@
     "flex-layout.row#recetaNordesHistoriaNordes": {
         "children": [
             "flex-layout.col#recetaNordesHistoriaNordes",
-            "flex-layout.row#imgRecetasHistoriaNordes"
+            "flex-layout.row#img-3"
         ],
         "props": {
             "blockClass": ["contenidoRecetas"]
@@ -364,7 +364,7 @@
         }
     },
 
-    "flex-layout.row#imgRecetasHistoriaNordes": {
+    "flex-layout.row#img-3": {
         "children": [
             "image#recetas-tres-1",
             "image#recetas-tres-2",
