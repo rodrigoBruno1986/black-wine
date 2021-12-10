@@ -274,23 +274,58 @@
 
     "flex-layout.row#imgRecetasDos": {
         "children": [
-            "image#recetas1",
-            "image#recetas2",
-            "image#recetas3",
-            "image#recetas4",
-            "image#recetas5",
-            "image#recetas6",
-            "image#recetas7",
-            "image#recetas8"
+            "image#recetas-dos-1",
+            "image#recetas-dos-2",
+            "image#recetas-dos-3",
+            "image#recetas-dos-4",
+            "image#recetas-dos-5",
+            "image#recetas-dos-6",
+            "image#recetas-dos-7",
+            "image#recetas-dos-8"
         ],
         "props": {
             "blockClass": ["recetas-imagen"]
         }
     },
 
-    "image#recetasDos": {
+    "image#recetas-dos-1": {
         "props": {
             "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+    "image#recetas-dos-2": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-3": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-4": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-5": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-6": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-7": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-dos-8": {
+        "props": {
+            "src": ""
         }
     },
 
@@ -331,17 +366,57 @@
 
     "flex-layout.row#imgRecetasHistoriaNordes": {
         "children": [
-            "image#recetas1",
-            "image#recetas2",
-            "image#recetas3",
-            "image#recetas4",
-            "image#recetas5",
-            "image#recetas6",
-            "image#recetas7",
-            "image#recetas8"
+            "image#recetas-tres-1",
+            "image#recetas-tres-2",
+            "image#recetas-tres-3",
+            "image#recetas-tres-4",
+            "image#recetas-tres-5",
+            "image#recetas-tres-6",
+            "image#recetas-tres-7",
+            "image#recetas-tres-8"
         ],
         "props": {
             "blockClass": ["recetas-imagen"]
+        }
+    },
+    "image#recetas-tres-1": {
+        "props": {
+            "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
+        }
+    },
+    "image#recetas-tres-2": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-3": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-4": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-5": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-6": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-7": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#recetas-tres-8": {
+        "props": {
+            "src": ""
         }
     },
 
