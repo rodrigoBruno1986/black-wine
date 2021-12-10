@@ -194,3 +194,13 @@
 .badgeContainer--destaqueVinos--x12 {
     background-image: url(https://winesupply.vteximg.com.br/arquivos/x12_vinos.png);
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .badgeContainer--banderas,
+    .badgeContainer--destaqueDescuentos,
+    .badgeContainer--destaqueOrganico--organico {
+    width: 45px;
+    height: 45px;
+    }
+}

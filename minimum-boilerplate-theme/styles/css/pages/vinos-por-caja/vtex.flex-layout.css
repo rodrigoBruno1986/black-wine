@@ -23,17 +23,22 @@
 }
 
 .flexRowContent--VinosXCajaContent .stretchChildrenWidth{
-    width: 80% !important;
+    width: 100% !important;
     max-height: 405px !important;
 }
 
-
+/* MOBILE */
 @media (max-width: 768px) {
     .flexRowContent--VinosXCajaContent {
         display: block !important;
     }
     .flexRowContent--VinosXCajaContent .stretchChildrenWidth:first-child{
         height: auto !important;
-        max-height: 410px;
+    }
+    .flexRowContent--VinosXCajaContent .stretchChildrenWidth{
+        max-height: unset;
+    }
+    :global(.vtex-store-components-3-x-imageElementLink--imgUno) {
+        width: 300px !important;
     }
 }
