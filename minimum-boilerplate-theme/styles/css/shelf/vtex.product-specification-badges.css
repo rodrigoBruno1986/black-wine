@@ -20,6 +20,12 @@
     display: none;
 }
 
+/* Shelf organicos-y-biodinamicos */
+:global(.vtex-product-summary-2-x-containerNormal--related-shelf-vinos-de-la-semana) .groupContainer--destaqueOrganico {
+    top: 10px;
+}
+
+/* Banderas */
 .badgeContainer--banderas--escocia {
     background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Escocia.png);
 }
