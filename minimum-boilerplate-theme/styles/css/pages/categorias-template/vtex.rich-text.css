@@ -1,6 +1,6 @@
 .paragraph--textoDescripcion{
   font-size: 19px;
-  font-family: 'Baskervville-Regular'!important;
+  font-family: 'Baskerville'!important;
   color: black;
   text-align: justify;
   font-weight: 500;
@@ -25,7 +25,7 @@
 }
 
 .paragraph--textNordesCirculos{
-  font-family: 'Baskervville-Regular'!important;
+  font-family: 'Baskerville'!important;
   color: black;
   font-weight: 900;
 }
@@ -34,7 +34,7 @@
   font-size: 22px;
 }
 .paragraph--textoRecetas{
-  font-family: 'Baskervville-Regular';
+  font-family: 'Baskerville';
   font-size: 20px;
 }
 

@@ -29,9 +29,7 @@
     position: relative;
 }
 
-.flexRow--botones {
-    margin-right: 7px;
-}
+
 
 .flexRow--contenedorVinoSemana
     :global(.vtex-store-components-3-x-discountInsideContainer) {
@@ -72,7 +70,7 @@
     :global(.vtex-store-components-3-x-productNameContainer) {
     font-size: 15px;
     text-align: left;
-    font-family: 'Baskervville-Regular';
+    font-family: 'Baskerville';
     margin-bottom: 20px;
 }
 

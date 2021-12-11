@@ -11,6 +11,10 @@
 
 /* BLOQUE TIENDAS */
 
+:global(.vtex-flex-layout-0-x-flexRowContent--contentImg) .imageElementLink{
+    text-align: center;
+}
+
 .imageElementLink--imgUno {
     width: 300px !important;
 }
@@ -337,8 +341,8 @@
         width: 85%;
     }
     .productBrand {
-        font-size: 12px !important;
-        font-family: 'Baskervville-Regular';
+        font-size: 10px !important;
+        font-family: 'Baskerville';
         line-height: 0.7em;
     }
 }
@@ -354,6 +358,6 @@
     line-height: 0.7em;
 }
 .productBrand {
-    font-size: 18px;
-    font-family: 'Baskervville-Regular';
+    font-size: 12px;
+    font-family: 'Baskerville';
 }

@@ -5,13 +5,13 @@
 }
 
 .paragraph--landing-row--title--bodegas-del-mes{
-  font-family: 'Baskervville-Regular' !important;
+  font-family: 'Baskerville' !important;
   font-size: 25px;
   font-weight: bold;
 }
 .paragraph--landing-row--parrafo-bodegas-del-mes{
   font-size: 19px;
-  font-family: 'Baskervville-Regular' !important;
+  font-family: 'Baskerville' !important;
   color:black;
   text-align: justify;
   font-weight: 500;
@@ -162,6 +162,7 @@
   margin: 0;
   font-size: 2rem;
   padding-left: 1.5rem;
+  font-family: "Baskerville";
 }
 
 @media (max-width: 768px){

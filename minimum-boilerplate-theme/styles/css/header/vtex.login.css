@@ -29,8 +29,12 @@
 
 @media only screen and (max-width: 1025px) {
  .buttonLink {
-   margin-left: 20px !important;
+   padding-left: 20px !important;
   }
+  .buttonLink :global(.vtex-button) {
+    display: flex;
+    align-items: center;
+   }
   .profileIcon{
     width: 20px;
     height: 20px;

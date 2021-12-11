@@ -74,3 +74,11 @@
     src: url(assets/fonts/BodoniFLF-Roman.ttf), url(assets/fonts/BodoniFLF-Roman.ttf);
 }
 
+
+
+@font-face {
+    font-family: 'Baskerville';
+    src: url(assets/fonts/Baskerville-Regular.ttf);
+}
+
+

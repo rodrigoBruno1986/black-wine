@@ -1,6 +1,6 @@
 .productDescriptionTitle{
     text-align: left;
-    font-family: 'Baskervville-Regular';
+    font-family: 'Baskerville';
     font-size: 17px;
 }
 :global(.vtex-store-components-3-x-content){
@@ -43,9 +43,9 @@
     
 }
 .productBrandName{
-    font-family: 'Baskervville-Regular';
+    font-family: 'Baskerville';
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     background-color: black;
     padding: 5px;
@@ -80,11 +80,11 @@
     }
     .productDescriptionTitle{
         text-align: left;
-        font-family: 'Baskervville-Regular';
+        font-family: 'Baskerville';
         font-size: 15px;
     }
     .productBrandName{
-        font-family: 'Baskervville-Regular';
+        font-family: 'Baskerville';
         text-align: left;
         font-size: 12px;
         font-weight: 700;

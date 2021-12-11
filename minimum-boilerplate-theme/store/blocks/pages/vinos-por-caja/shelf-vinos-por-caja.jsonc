@@ -101,7 +101,7 @@
             "product-summary-image",
             "vtex.product-highlights@2.x:product-highlights#collection",
             "product-brand#vinos-por-caja-uno",
-            "product-description",
+            "product-name",
             "flex-layout.row#price-vinos-por-caja-dos",
             "flex-layout.row#botones-vinos-por-caja-dos"
         ],
@@ -186,7 +186,7 @@
             "product-summary-image",
             "vtex.product-highlights@2.x:product-highlights#collection",
             "product-brand#vinos-por-caja",
-            "product-description",
+            "product-name",
             "flex-layout.row#price-vinos-por-caja-tres",
             "flex-layout.row#botones-vinos-por-caja-tres"
         ],
@@ -272,7 +272,7 @@
             "product-summary-image",
             "vtex.product-highlights@2.x:product-highlights#collection",
             "product-brand#vinos-por-caja",
-            "product-description",
+            "product-name",
             "flex-layout.row#price-vinos-por-caja-cuatro",
             "flex-layout.row#botones-vinos-por-caja-cuatro"
         ],

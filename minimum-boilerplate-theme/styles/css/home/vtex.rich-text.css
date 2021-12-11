@@ -295,7 +295,7 @@
 
 .paragraph--landing-row--title {
   color: black;
-  font-family: 'Baskervville-Regular';
+  font-family: 'Baskerville';
   margin: 0;
   font-size: 2rem;
 }
@@ -336,7 +336,7 @@
 .headingLevel4--terminos {
   margin: 0;
   font-size: 1.2rem;
-  font-family: 'Baskervville-Regular';
+  font-family: 'Baskerville';
   font-weight: bold;
   color: black;
 }
@@ -345,7 +345,7 @@
 .headingLevel6--terminos {
   margin: 0;
   font-size: 1.2rem;
-  font-family: 'Baskervville-Regular';
+  font-family: 'Baskerville';
   font-weight: bold;
   color: black;
 }
@@ -520,7 +520,7 @@
 }
 
 .paragraph--fuenteSecundariaUno{
-  font-family: 'Baskervville-Regular' !important;
+  font-family: 'Baskerville' !important;
 }
 
 .wrapper--fuenteUno {
@@ -540,7 +540,7 @@
 }
 
 .wrapper--fuenteSecundariaUno .paragraph{
-  font-family: 'Baskervville-Regular' !important;
+  font-family: 'Baskerville' !important;
 }
 
 @media only screen and (max-width:700px) {

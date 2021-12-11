@@ -1,6 +1,8 @@
 .flexRowContent--botones {
     justify-content: center;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .stretchChildrenWidth :global(.vtex-button) {
@@ -20,7 +22,7 @@
 }
 
 :global(.vtex-add-to-cart-button-0-x-buttonText--botonComprar) {
-    font-family: 'Baskervville-Regular';
+    font-family: 'Baskerville';
     font-size: 20px;
     padding: 6px;
     font-weight: bold;
@@ -54,6 +56,11 @@
         justify-content: center;
         align-items: center;
         display: flex;
+        width: 100%;
+    }
+    .flexRow--botones{
+        width: 75%;
+        margin: auto;
     }
     .flexRowContent--botones .stretchChildrenWidth:first-child {
         width: 100% !important;
@@ -67,8 +74,8 @@
         height: 43px;
     }
     :global(.vtex-add-to-cart-button-0-x-buttonText--botonComprar) {
-        font-family: 'Baskervville-Regular';
-        font-size: 13px !important;
+        font-family: 'Baskerville';
+        font-size: 10px !important;
         padding: 10px 0px;
         font-weight: bold;
     }
