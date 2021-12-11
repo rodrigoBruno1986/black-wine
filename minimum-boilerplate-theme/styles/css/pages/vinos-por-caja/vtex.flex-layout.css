@@ -41,4 +41,7 @@
     :global(.vtex-store-components-3-x-imageElementLink--imgUno) {
         width: 300px !important;
     }
+    :global(.vtex-store-components-3-x-imageElement--imgUno) {
+        border-radius: 50%;
+    }
 }
