@@ -10,7 +10,7 @@
       "flex-layout.row#tiendas-vinosporcaja": {
         "children": ["slider-layout#tienda-vinosporcaja"],
         "props": {
-            "blockClass": ["contenidoSlider", "contenidoSliderTiendas"]
+            "blockClass": ["contenidoSlider", "burbujas-VxC"]
         }
     },
     "slider-layout#tienda-vinosporcaja": {
@@ -19,6 +19,10 @@
               "desktop": 4,
               "tablet": 1,
               "phone": 2
+          },
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": true
           },
           "infinite": true,
           "showNavigationArrows": "desktopOnly",

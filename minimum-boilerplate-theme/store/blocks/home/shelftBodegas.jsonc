@@ -63,6 +63,10 @@
                 "tablet": 2,
                 "phone": 2
             },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
             "showNavigationArrows": "never",
             "showPaginationDots": "never",
             "fullWidth": false,
@@ -154,6 +158,10 @@
                 "desktop": 2,
                 "tablet": 2,
                 "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
             },
             "showNavigationArrows": "never",
             "showPaginationDots": "never",

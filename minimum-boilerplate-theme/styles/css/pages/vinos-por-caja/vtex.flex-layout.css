@@ -27,6 +27,14 @@
     max-height: 405px !important;
 }
 
+.flexRow--burbujas-VxC :global(.vtex-store-components-3-x-imageElementLink--imgUno) {
+    width: 100% !important;
+}
+
+.flexRow--burbujas-VxC :global(.vtex-store-components-3-x-imageElement--imgUno) {
+    border-radius: 50%;
+}
+
 /* MOBILE */
 @media (max-width: 768px) {
     .flexRowContent--VinosXCajaContent {
@@ -38,10 +46,10 @@
     .flexRowContent--VinosXCajaContent .stretchChildrenWidth{
         max-height: unset;
     }
-    :global(.vtex-store-components-3-x-imageElementLink--imgUno) {
-        width: 300px !important;
+    .flexRow--burbujas-VxC {
+        margin: 2rem 0;
     }
-    :global(.vtex-store-components-3-x-imageElement--imgUno) {
-        border-radius: 50%;
+    .flexRow--burbujas-VxC :global(.vtex-store-components-3-x-imageElementLink--imgUno)  {
+        width: 300px !important;
     }
 }

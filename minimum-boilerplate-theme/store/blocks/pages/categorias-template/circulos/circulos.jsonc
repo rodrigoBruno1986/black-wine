@@ -6,6 +6,10 @@
                 "tablet": 2,
                 "phone": 1
             },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
             "navigationStep": 1,
@@ -45,6 +49,10 @@
                 "desktop": 4,
                 "tablet": 2,
                 "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
             },
             "infinite": true,
             "showNavigationArrows": "desktopOnly",

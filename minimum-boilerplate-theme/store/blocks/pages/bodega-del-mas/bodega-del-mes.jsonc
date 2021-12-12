@@ -26,7 +26,7 @@
     "slider-layout#bodegas-del-mes-images": {
         "props": {
             "autoplay": {
-                "timeout": 7000,
+                "timeout": 5000,
                 "stopOnHover": true
             },
             "itemsPerPage": {
@@ -135,6 +135,10 @@
                 "desktop": 4,
                 "tablet": 2,
                 "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
             },
             "showNavigationArrows": "desktopOnly",
             "arrowSize": 25,

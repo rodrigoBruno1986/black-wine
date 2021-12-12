@@ -23,7 +23,7 @@
     "slider-layout#oficial-bar-en-casa-images": {
         "props": {
             "autoplay": {
-                "timeout": 7000,
+                "timeout": 5000,
                 "stopOnHover": true
             },
             "itemsPerPage": {
@@ -341,6 +341,10 @@
                 "desktop": 5,
                 "tablet": 2,
                 "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
             },
             "showNavigationArrows": "never",
             "arrowSize": 25,
@@ -687,6 +691,10 @@
                 "tablet": 2,
                 "phone": 2
             },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
             "showNavigationArrows": "never",
             "arrowSize": 25,
             "showPaginationDots": "never",
@@ -732,6 +740,10 @@
                 "tablet": 1,
                 "phone": 1
             },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
             "infinite": false,
             "showPaginationDots": "never",
             "showNavigationArrows": "always",
@@ -761,6 +773,10 @@
                 "desktop": 5,
                 "tablet": 2,
                 "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
             },
             "showNavigationArrows": "never",
             "arrowSize": 25,
