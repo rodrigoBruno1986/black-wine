@@ -9,7 +9,6 @@
     flex-direction: column;
 }
 
-
 .flexRow--tipsVinosXCaja {
     background-color: transparent !important;
     margin: 2rem 0;
@@ -22,9 +21,19 @@
     display: flex;
 }
 
-.flexRowContent--VinosXCajaContent .stretchChildrenWidth{
+.flexRowContent--VinosXCajaContent .stretchChildrenWidth {
     width: 100% !important;
-    max-height: 405px !important;
+    max-height: 416px !important;
+}
+
+.flexRow--burbujas-VxC
+    :global(.vtex-store-components-3-x-imageElementLink--imgUno) {
+    width: 100% !important;
+}
+
+.flexRow--burbujas-VxC
+    :global(.vtex-store-components-3-x-imageElement--imgUno) {
+    border-radius: 50%;
 }
 
 /* MOBILE */
@@ -32,16 +41,17 @@
     .flexRowContent--VinosXCajaContent {
         display: block !important;
     }
-    .flexRowContent--VinosXCajaContent .stretchChildrenWidth:first-child{
+    .flexRowContent--VinosXCajaContent .stretchChildrenWidth:first-child {
         height: auto !important;
     }
-    .flexRowContent--VinosXCajaContent .stretchChildrenWidth{
+    .flexRowContent--VinosXCajaContent .stretchChildrenWidth {
         max-height: unset;
     }
-    :global(.vtex-store-components-3-x-imageElementLink--imgUno) {
-        width: 300px !important;
+    .flexRow--burbujas-VxC {
+        margin: 2rem 0;
     }
-    :global(.vtex-store-components-3-x-imageElement--imgUno) {
-        border-radius: 50%;
+    .flexRow--burbujas-VxC
+        :global(.vtex-store-components-3-x-imageElementLink--imgUno) {
+        width: 300px !important;
     }
 }

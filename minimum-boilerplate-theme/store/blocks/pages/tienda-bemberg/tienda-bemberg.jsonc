@@ -44,7 +44,7 @@
     "slider-layout#oficial-bemberg-images": {
         "props": {
             "autoplay": {
-                "timeout": 7000,
+                "timeout": 5000,
                 "stopOnHover": true
             },
             "itemsPerPage": {
@@ -278,8 +278,12 @@
                 "tablet": 2,
                 "phone": 2
             },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
             "infinite": true,
-            "showNavigationArrows": "never",
+            "showNavigationArrows": "desktopOnly",
             "navigationStep": 4,
             "arrowSize": 25,
             "showPaginationDots": "mobileOnly",
@@ -450,6 +454,10 @@
                 "desktop": 4,
                 "tablet": 2,
                 "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
             },
             "showNavigationArrows": "desktopOnly",
             "arrowSize": 25,

@@ -58,6 +58,10 @@
                 "tablet": 2,
                 "phone": 2
             },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
             "infinite": true,
             "showPaginationDots": "mobileOnly",
             "showNavigationArrows": "desktopOnly",
@@ -144,6 +148,10 @@
                 "tablet": 2,
                 "phone": 2
             },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
             "infinite": true,
             "showPaginationDots": "mobileOnly",
             "showNavigationArrows": "desktopOnly",
@@ -228,6 +236,10 @@
                 "desktop": 3,
                 "tablet": 2,
                 "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
             },
             "infinite": true,
             "showPaginationDots": "mobileOnly",
@@ -314,6 +326,10 @@
                 "desktop": 3,
                 "tablet": 2,
                 "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
             },
             "infinite": true,
             "showPaginationDots": "never",

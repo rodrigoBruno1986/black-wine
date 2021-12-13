@@ -28,7 +28,7 @@
     "slider-layout#vinosdelasemana": {
         "props": {
             "autoplay": {
-                "timeout": 7000,
+                "timeout": 5000,
                 "stopOnHover": true
             },
             "itemsPerPage": {

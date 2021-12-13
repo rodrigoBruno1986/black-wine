@@ -63,6 +63,10 @@
                 "tablet": 2,
                 "phone": 2
             },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
             "showNavigationArrows": "desktopOnly",
             "showPaginationDots": "never",
             "fullWidth": false,

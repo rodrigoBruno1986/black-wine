@@ -33,7 +33,7 @@
     "slider-layout#tienda-keep-walking-images": {
         "props": {
             "autoplay": {
-                "timeout": 7000,
+                "timeout": 5000,
                 "stopOnHover": true
             },
             "itemsPerPage": {
@@ -173,7 +173,11 @@
                 "tablet": 2,
                 "phone": 2
             },
-            "showNavigationArrows": "never",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
             "arrowSize": 25,
             "showPaginationDots": "never",
             "fullWidth": false,
@@ -447,6 +451,10 @@
                 "tablet": 2,
                 "phone": 2
             },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
             "showNavigationArrows": "desktopOnly",
             "arrowSize": 25,
             "showPaginationDots": "never",
@@ -468,6 +476,10 @@
                 "desktop": 4,
                 "tablet": 2,
                 "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
             },
             "showNavigationArrows": "desktopOnly",
             "arrowSize": 25,
