@@ -6,3 +6,25 @@
 :global(.vtex-product-summary-2-x-element--summaryVinosXCaja) {
     margin: 0 25px;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--VinosXCajaContent)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 25% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--VinosXCajaContent)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 75% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--VinosXCajaContent)
+    :global(.vtex-flex-layout-0-x-flexRowContent--botones)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):empty {
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--VinosXCajaContent)
+    :global(.vtex-flex-layout-0-x-flexRowContent--botones)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 100% !important;
+}
