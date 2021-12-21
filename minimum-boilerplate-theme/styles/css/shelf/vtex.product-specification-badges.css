@@ -39,7 +39,10 @@
 }
 
 .badgeContainer--banderas--argentina {
-    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-Argentina.png);
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/argentina.png);
+}
+.badgeContainer--banderas--reino-unido{
+    background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-ReinoUnido.png);
 }
 
 .badgeContainer--banderas--belgica {
@@ -58,7 +61,7 @@
     background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-EEUU.png);
 }
 
-.badgeContainer--banderas--españa {
+.badgeContainer--banderas--espana {
     background-image: url(https://winesupply.vteximg.com.br/arquivos/Banderas-España.png);
 }
 
