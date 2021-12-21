@@ -279,3 +279,20 @@
         min-height: 180px;
     }
 }
+
+.flexRow--datos-producto-vinosSemana {
+    padding: 0;
+}
+
+.flexRow--datos-producto-vinosSemana :global(.vtex-store-components-3-x-productNameContainer) {
+    text-align: right;
+}
+
+:global(.vtex-product-summary-2-x-element--related-shelf-vinos-de-la-semana) :global(.vtex-flex-layout-0-x-flexRow--contenidoPrecios) {
+    margin-right: 10px !important;
+}
+
+:global(.vtex-product-summary-2-x-element--related-shelf-vinos-de-la-semana) .flexRowContent--botones {
+    padding-right: 10px;
+    width: 100%;
+}
