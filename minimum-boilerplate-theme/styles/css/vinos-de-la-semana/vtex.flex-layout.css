@@ -168,6 +168,29 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .infoCardTextContainer--colecciones-card {
+        min-height: 180px;
+    }
+}
+
+.flexRow--datos-producto-vinosSemana {
+    padding: 0;
+}
+
+.flexRow--datos-producto-vinosSemana :global(.vtex-store-components-3-x-productNameContainer) {
+    text-align: right;
+}
+
+:global(.vtex-product-summary-2-x-element--related-shelf-vinos-de-la-semana) :global(.vtex-flex-layout-0-x-flexRow--contenidoPrecios) {
+    margin-right: 10px !important;
+}
+
+:global(.vtex-product-summary-2-x-element--related-shelf-vinos-de-la-semana) .flexRowContent--botones {
+    padding-right: 10px;
+    width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
     .flexRow--contenedorVinoSemana
         :global(.vtex-search-result-3-x-galleryItem--small) {
@@ -192,7 +215,7 @@
     .flexRow--contenedorVinoSemana
         :global(.vtex-product-summary-2-x-containerNormal) {
         background: white;
-        max-width: 75% !important;
+        max-width: 50% !important;
     }
     .flexRow--contenidoBotones {
         margin: auto !important;
@@ -203,7 +226,6 @@
     .flexRow--contenedorVinoSemana
         :global(.vtex-flex-layout-0-x-flexRow--contenidoPrecios) {
         align-items: center;
-        margin-right: 115px !important;
     }
     .flexRow--contenedorVinoSemana
         :global(.vtex-flex-layout-0-x-flexRowContent--contenidoPrecios) {
@@ -213,13 +235,27 @@
         margin-right: 0;
         margin-left: 3rem;
     }
+    .flexRow--contenedorVinoSemana :global(.vtex-search-result-3-x-galleryItem--small) {
+        max-width: 50% !important;
+    }
+    .flexRowContent--galeria-vinos--semana :global(.vtex-product-summary-2-x-container) {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0;
+    }
+    .flexRowContent--galeria-vinos--semana .flexRow--contenidoPrecios {
+        margin-right: 0 !important;
+    }
+    .flexRowContent--galeria-vinos--semana :global(.vtex-button) {
+        width: 100% !important;
+    }
 }
 
 @media only screen and (max-width: 425px) {
     .flexRow--contenedorVinoSemana
         :global(.vtex-search-result-3-x-galleryItem--small) {
         flex-basis: 100% !important;
-        max-width: 100% !important;
+        max-width: 50% !important;
     }
 
     .flexRow--contenedorVinoSemana :global(.vtex-search-result-3-x-gallery) {
@@ -239,7 +275,6 @@
     .flexRow--contenedorVinoSemana
         :global(.vtex-product-summary-2-x-containerNormal) {
         background: white;
-        max-width: 75% !important;
     }
     .flexRow--contenidoBotones {
         margin: auto !important;
@@ -250,7 +285,6 @@
     .flexRow--contenedorVinoSemana
         :global(.vtex-flex-layout-0-x-flexRow--contenidoPrecios) {
         align-items: center;
-        margin-right: 115px !important;
     }
     .flexRow--columnaInfo {
         max-width: 250px;
@@ -274,25 +308,3 @@
     display: none;
 }
 
-@media only screen and (max-width: 1024px) {
-    .infoCardTextContainer--colecciones-card {
-        min-height: 180px;
-    }
-}
-
-.flexRow--datos-producto-vinosSemana {
-    padding: 0;
-}
-
-.flexRow--datos-producto-vinosSemana :global(.vtex-store-components-3-x-productNameContainer) {
-    text-align: right;
-}
-
-:global(.vtex-product-summary-2-x-element--related-shelf-vinos-de-la-semana) :global(.vtex-flex-layout-0-x-flexRow--contenidoPrecios) {
-    margin-right: 10px !important;
-}
-
-:global(.vtex-product-summary-2-x-element--related-shelf-vinos-de-la-semana) .flexRowContent--botones {
-    padding-right: 10px;
-    width: 100%;
-}
