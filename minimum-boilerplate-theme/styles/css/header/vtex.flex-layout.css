@@ -94,7 +94,19 @@
   .flexRowContent--header-account-cart .stretchChildrenWidth :global(.vtex-button__label) {
     padding: 0;
   }
+
+  .flexRow--minicart-footer :global(.vtex-button__label){
+    color: transparent;
+    position: relative;
+  }
+  .flexRow--minicart-footer :global(.vtex-button__label)::after{
+    content: "Finalizar Compra";
+    width: 100%;
+    color:white;
+    position: absolute;
   
+
+  }
   .stretchChildrenWidth {
     height: fit-content;
   }
