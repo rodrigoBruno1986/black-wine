@@ -10,14 +10,14 @@
 .discountInsideContainer{
     background-image: url("https://winesupply.vteximg.com.br/arquivos/backDescuentoDos.png");
     background-repeat: no-repeat;
-    height: 61px;
-    width: 63px;
+    height: 47px;
+    width: 47px;
     font-family: 'BodoniFLF-Bold';
     color: black;
     position: absolute;
     letter-spacing: -3px;
-    font-size: 19px;
-    padding: 12px 0px;
+    font-size: 15px;
+    padding: 7px 0px;
     text-transform: uppercase;
     background-color: white;
     background-size: contain;

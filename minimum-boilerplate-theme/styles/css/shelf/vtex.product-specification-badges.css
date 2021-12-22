@@ -19,6 +19,10 @@
 .badgeText--destaqueOrganico--organico{
     display: none;
 }
+.badgeContainer--destaqueOrganico--organico {
+    width: 47px !important;
+    height: 43px !important;
+}
 
 /* Shelf organicos-y-biodinamicos */
 :global(.vtex-product-summary-2-x-containerNormal--related-shelf-vinos-de-la-semana) .groupContainer--destaqueOrganico {
@@ -183,8 +187,8 @@
 }
 
 .badgeText--destaqueVinos {
-    width: 30px;
-    height: 63px;
+    width: 26px;
+    height: 26px;
     visibility: hidden;
 }
 
@@ -218,5 +222,9 @@
     .badgeText--destaqueVinos {
         width: 13px;
         height: 46px;
+    }
+    .badgeContainer--destaqueOrganico--organico {
+        width: 39px !important;
+        height: 39px !important;
     }
 }

@@ -34,7 +34,7 @@
     "flex-layout.row#priceDestacadosDos": {
         "children": ["product-selling-price", "product-list-price-range"],
         "props": {
-            "blockClass": "contenia",
+            "blockClass": "contenidoPrecios",
             "preventHorizontalStretch": true
         }
     },

@@ -81,6 +81,7 @@
     }
     .flexRowContent--contenidoPrecios {
         display: flex;
+        background-color: white;
     }
     :global(.vtex-product-summary-2-x-containerNormal--related-shelf-home) {
         background: white;
