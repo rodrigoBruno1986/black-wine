@@ -28,3 +28,10 @@
     :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     width: 100% !important;
 }
+
+@media (max-width: 768px ){
+    :global(.vtex-flex-layout-0-x-flexRowContent--VinosXCajaContent)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+        width: 100% !important;
+    }
+}

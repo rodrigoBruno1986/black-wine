@@ -182,7 +182,7 @@
     z-index: 10;
 }
 
-.badgeText--destaqueVinos--x4 {
+.badgeText--destaqueVinos {
     width: 30px;
     height: 63px;
     visibility: hidden;
@@ -211,5 +211,12 @@
     .badgeContainer--destaqueOrganico--organico {
     width: 45px;
     height: 45px;
+    }
+    .groupContainer--destaqueVinos {
+        left: 5px;
+    }
+    .badgeText--destaqueVinos {
+        width: 13px;
+        height: 46px;
     }
 }
