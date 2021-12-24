@@ -176,6 +176,10 @@
     padding: 0;
 }
 
+.flexRow--datos-producto-vinosSemana .flexRowContent--datos-producto-vinosSemana{
+    align-items: flex-end;
+}
+
 .flexRow--datos-producto-vinosSemana :global(.vtex-store-components-3-x-productNameContainer) {
     text-align: right;
 }
