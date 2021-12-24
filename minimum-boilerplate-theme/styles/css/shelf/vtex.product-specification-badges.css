@@ -7,8 +7,8 @@
 .badgeContainer--banderas,
 .badgeContainer--destaqueDescuentos,
 .badgeContainer--destaqueOrganico--organico {
-    width: 54px;
-    height: 54px;
+    width: 47px;
+    height: 47px;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
@@ -123,6 +123,9 @@
 
 .badgeContainer--destaqueDescuentos--6x4 {
     background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-6x4.png);
+    position: absolute;
+    top: 70px;
+    right: 8px;
 }
 
 .badgeContainer--destaqueDescuentos--6x5 {
@@ -155,6 +158,9 @@
 
 .badgeContainer--destaqueDescuentos--newin {
     background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-Newin.png);
+    position: absolute;
+    top: 70px;
+    right: 8px;
 }
 
 .badgeContainer--destaqueDescuentos--vacia {

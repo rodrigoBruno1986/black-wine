@@ -12,15 +12,10 @@
 }
 
 .imageElement--inkfooter{
-  width: 28px;
-  height: 100%;
-  margin-left: -6px;
+  width: 29px;
+  height: 30px !important;
+  padding-top: .3rem;
 }
-
-
-
-
-
 
 .imageElement--fcfooterIzq {
   width:37px;
