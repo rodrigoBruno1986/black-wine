@@ -17,21 +17,88 @@
       "blockClass": "textNovedades"
     }
   },
+
+
+
+
   
   
   "flex-layout.row#bodegasDelMesTitulo":{
     "children":["rich-text#bodegas"],
     "props": {
-      "blockClass": ["contenidoNovedades","contenidoBodegas"],
+      "blockClass": ["contenidoNovedades","contenidoBodegas","tituloMobileBodega"],
       "fullWidth":false
     }
   },
   
   
   
+  
   "rich-text#bodegas":{
     "props":{
-      "text": "BODEGAS DEL MES",
+      "text": "BODEGA DEL MES",
+      "blockClass": "textNovedades"
+    }
+  },
+  ///
+
+
+  "flex-layout.row#especialesTituloMobile":{
+    "children":["rich-text#especialesmobile"],
+    "props": {
+      "blockClass": ["contenidoNovedades","contenidoBodegas","especialesmobile"],
+      "fullWidth":false
+    }
+  },
+  
+  
+  
+  
+  "rich-text#especialesmobile":{
+    "props":{
+      "text": "ESPECIALES ver mas ..>",
+      "blockClass": "textNovedades"
+    }
+  },
+  ///
+
+  "flex-layout.row#bodegasDelMesMobile":{
+    "children":["rich-text#bodegasMobile"],
+    "props": {
+      "blockClass": ["contenidoNovedades","contenidoBodegas","bodegadelMesMobile"],
+      "fullWidth":false
+    }
+  },
+  
+  
+  
+  
+  "rich-text#bodegasMobile":{
+    "props":{
+      "text": "BODEGA DEL MES",
+      "blockClass": "textNovedades"
+    }
+  },
+
+
+
+
+
+
+  "flex-layout.row#novedadesMobile":{
+    "children":["rich-text#novedadesMobile"],
+    "props": {
+      "blockClass": ["contenidoNovedades","contenidoBodegas","novedadesMobile"],
+      "fullWidth":false
+    }
+  },
+  
+  
+  
+  
+  "rich-text#novedadesMobile":{
+    "props":{
+      "text": "NOVEDADES ver mas...>",
       "blockClass": "textNovedades"
     }
   },

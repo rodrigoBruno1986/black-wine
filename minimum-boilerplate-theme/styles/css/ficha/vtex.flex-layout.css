@@ -20,6 +20,7 @@
 
 .flexColChild--datosFicha{
   width:80% !important ;
+  font-family: Baskerville !important;
 }
 
 .flexRow--product-wrapper{
@@ -136,6 +137,7 @@
   .flexRowContent--product-wrapper :global(.vtex-flex-layout-0-x-flexCol--datosFicha){
     align-items: center;
     margin-top: 30px;
+    font-family: Baskerville !important;
   }
   .flexRow--contenidoBread{
     display: flex;
