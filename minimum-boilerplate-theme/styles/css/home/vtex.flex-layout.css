@@ -204,24 +204,54 @@
   top: 0px;
 }
 
+.flexRow--novedadesMobile{
+  display: none;
+}
+
+.flexRow--bodegadelMesMobile{
+  display: none;
+}
+
+.flexRow--especialesmobile{
+  display: none;
+}
+
 
 @media only screen and (max-width: 768px) {
   .flexRow--contenidoNovedades{
     width:100%;
     margin: auto; 
-    color: white;
+    color: white !important;
     background-color: black;
-    display: none;
+    display: block;
+    margin: 40px 0px;
   }
   .flexRow--contenidoBodegas{
-    display: none;
+    display: block;
   }
   .flexRow--bodegasContent{
-    display: none;
+    display: block;
   }
   .flexRow--destacadosDos{
+    display: block;
+  }
+  .flexRow--novedadesMobile{
+    display: block;
+  }
+
+  .flexRow--bodegadelMesMobile{
+    display: block;
+  }
+  .flexRow--contenidoDestacados{
     display: none;
   }
+  .flexRow--especialesmobile{
+    display: block;
+  }
+  .flexRow--tituloMobileBodega{
+    display: none;
+  }
+  
   .flexRowContent--contenidoTienda :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     text-align: center;
     width: 50% !important;
