@@ -44,9 +44,9 @@
     }
 }
 
-@media only screen and (max-width: 1440px) {
-  
-}
+
+
+
 
 
 @media only screen and (max-width: 1025px) {
@@ -116,5 +116,15 @@
 
 .sliderArrows--sliderEspeciales{
     right: -50px;
+}
+
+
+@media (min-width: 580px) {
+    .sliderLayoutContainer--sliderBodegasMobile {
+        display: none;
+    }
+    .sliderLayoutContainer--sliderBodegasDosMobile {
+        display: none;
+    }
 }
 

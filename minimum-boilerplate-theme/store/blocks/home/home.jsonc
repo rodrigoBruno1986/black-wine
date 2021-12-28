@@ -23,10 +23,12 @@
             "flex-layout.row#vinosSlider",
             "flex-layout.row#bodegasDelMesMobile",
             "flex-layout.row#bannerMobileBodega",
+            "list-context.product-list#bodegasMobile",
+            "list-context.product-list#bodegasDosMobile",
             "flex-layout.row#destacadosTitulo",
-            "list-context.product-list#Destacados-home",
-            "list-context.product-list#DestacadosDos-home",
             "flex-layout.row#novedadesMobile",
+            "list-context.product-list#Destacados-home",
+            "list-context.product-list#DestacadosDos-home", 
             "flex-layout.row#banners",
             "flex-layout.row#marcasTitulo",
             "flex-layout.row#marcas",
@@ -40,6 +42,9 @@
             "preventHorizontalStretch": true
         }
     },
+
+   
+    
 
     "list-context.image-list#home": {
         "children": ["slider-layout#home-images"],
