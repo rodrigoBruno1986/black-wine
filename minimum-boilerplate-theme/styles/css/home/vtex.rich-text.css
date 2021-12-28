@@ -770,9 +770,15 @@
 }
 
 .wrapper--tituloEspe :global(.vtex-rich-text-0-x-paragraph){
-  font-family: 'BodoniFLF-Bold';
+  font-family: 'Baskerville';
   font-size: 30px;
   text-align: center;
 }
 
 
+.paragraph--tituloFichaTodo{
+  font-family: 'Baskerville';
+}
+.paragraph--tituloEspe{
+  font-family: 'Baskerville';
+}

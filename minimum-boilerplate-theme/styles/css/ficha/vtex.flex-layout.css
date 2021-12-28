@@ -207,3 +207,18 @@
 .flexColChild--contenerdorImagenFP {
   position: relative;
 }
+
+.flexRowContent--contenidoBread{
+  font-family: 'Baskerville' !important;
+}
+.flexRowContent--contenidoPrecios{
+  font-family: 'Baskerville' !important;
+}
+
+.flexRowContent--contenedorTituloFicha{
+  font-family: 'Baskerville' !important;
+}
+
+.flexRowContent--contenidoDescription{
+  font-family: 'Baskerville' !important;
+}
