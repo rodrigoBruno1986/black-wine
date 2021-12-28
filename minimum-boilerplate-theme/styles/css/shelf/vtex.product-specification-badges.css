@@ -127,6 +127,9 @@
     top: 70px;
     right: 8px;
 }
+:global(.vtex-product-summary-2-x-containerNormal--related-shelf-vinos-de-la-semana) .badgeContainer--destaqueDescuentos--6x4 {
+    top: 0px;
+}
 
 .badgeContainer--destaqueDescuentos--6x5 {
     background-image: url(https://winesupply.vteximg.com.br/arquivos/Cucarda-6x5.png);
@@ -161,6 +164,9 @@
     position: absolute;
     top: 70px;
     right: 8px;
+}
+:global(.vtex-product-summary-2-x-containerNormal--related-shelf-vinos-de-la-semana) .badgeContainer--destaqueDescuentos--newin {
+    top: 0px;
 }
 
 .badgeContainer--destaqueDescuentos--vacia {
