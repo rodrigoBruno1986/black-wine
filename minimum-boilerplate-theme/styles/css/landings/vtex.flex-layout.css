@@ -372,4 +372,8 @@ width: 100% !important;
   width: 100% !important;
 }
 
+.flexRow--contenedor-bloque-flordecasa .flexRowContent--contenedor-bloque-flordecasa{
+  margin-top: 40px;
+}
+
 

@@ -1,7 +1,7 @@
 {
   "vendor": "winesupply",
   "name": "winesupply",
-  "version": "1.0.105",
+  "version": "1.0.108",
   "builders": {
     "styles": "2.x",
     "store": "0.x",

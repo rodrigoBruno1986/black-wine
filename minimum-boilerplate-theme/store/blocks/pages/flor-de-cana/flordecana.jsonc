@@ -5,10 +5,10 @@
             "flex-layout.row#flordecana--container-descripcion",
             "flex-layout.row#flordecana--circulos",
             "flex-layout.row#flordecana--container-shelf-banners",
-            "flex-layout.row#flordecana--news-contenido",
             "flex-layout.row#flordecana--historia-contenido",
             "flex-layout.row#flordecana--recetas-contenido",
-            "flex-layout.row#flordecana--regalos"
+            "flex-layout.row#flordecana--regalos",
+            "flex-layout.row#flordecana--news-contenido"
         ]
     },
     "list-context.image-list#flordecana": {

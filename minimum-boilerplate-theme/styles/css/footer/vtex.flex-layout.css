@@ -30,3 +30,10 @@
   }
 }
 
+.flexRowContent--footer-desktop-redes{
+  align-items: center;
+}
+
+.flexRowContent--footer-desktop-redes :global(.vtex-store-components-3-x-imageElement){
+  height: 100%;
+}

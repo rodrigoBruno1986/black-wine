@@ -860,6 +860,10 @@
     font-family: 'Baskerville' !important;
     font-size: 33px;
   }
+
+  :global(.vtex-rich-text-0-x-paragraph--tituloFichaTodo){
+    font-family: 'Baskerville';
+  }
    
 
 

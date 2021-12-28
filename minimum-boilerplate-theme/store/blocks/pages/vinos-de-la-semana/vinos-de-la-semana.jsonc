@@ -123,9 +123,9 @@
 
     "flex-layout.row#datosproducto": {
         "children": [
+            "product-brand#Novedades",
             "product-name#vinos",
-            "vtex.product-highlights@2.x:product-highlights#collection",
-            "product-description"
+            "vtex.product-highlights@2.x:product-highlights#collection"
         ],
         "props": {
             "blockClass": ["columnaInfo", "datos-producto-vinosSemana"],
