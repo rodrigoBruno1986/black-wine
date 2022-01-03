@@ -43,6 +43,24 @@
   ///
 
 
+  "flex-layout.row#destacadosMobile":{
+    "children":["rich-text#destacadosMobile"],
+    "props": {
+      "blockClass": ["contenidoNovedades","contenidoBodegas","especialesmobile"],
+      "fullWidth":false
+    }
+  },
+  
+    
+  "rich-text#destacadosMobile":{
+    "props":{
+      "text": "DESTACADOS",
+      "blockClass": ["textNovedades","RODRIG"]
+    }
+  },
+  ///
+
+
   "flex-layout.row#especialesTituloMobile":{
     "children":["rich-text#especialesmobile"],
     "props": {

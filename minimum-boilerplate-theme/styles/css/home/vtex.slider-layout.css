@@ -37,6 +37,8 @@
 
 
 
+
+
 @media only screen and (min-width: 1442px) {
     .sliderLayoutContainer--sliderMasVendidos{
         margin-bottom: 35px;
@@ -63,6 +65,7 @@
     .paginationDot--isActive {
         background-color: grey !important;
     }
+  
 }
 
 @media only screen and (max-width: 700px) {
@@ -79,6 +82,9 @@
 
     .paginationDotsContainer{
         bottom: -25px;
+    }
+    .sliderLayoutContainer--novedadesVuela{
+        display: none;
     }
     
 }
