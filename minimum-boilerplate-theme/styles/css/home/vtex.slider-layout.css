@@ -101,6 +101,8 @@
 .sliderLayoutContainer--sliderBodegas2{
     padding-right: 0!important;
     max-width: 95% !important;
+    margin: 0 !important;
+    width: auto !important;
 }
 .sliderRightArrow--sliderBodegas2{
     right: -50px;
