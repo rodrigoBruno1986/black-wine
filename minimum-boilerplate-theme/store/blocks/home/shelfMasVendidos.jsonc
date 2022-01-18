@@ -55,6 +55,25 @@
             "blockClass": "botonComprar"
         }
     },
+    "slider-layout#Novedades": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default", "sliderNovedades"]
+        }
+    },
 
     "slider-layout#demo-products": {
         "props": {

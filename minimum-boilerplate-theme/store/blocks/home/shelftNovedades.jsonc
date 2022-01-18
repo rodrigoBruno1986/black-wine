@@ -1,9 +1,10 @@
 {
     "list-context.product-list#novedades-home": {
         "blocks": ["product-summary.shelf#Novedades"],
-        "children": ["slider-layout#Novedades"],
+        "children": ["slider-layout#NovedadesHome"],
         "props": {
             "collection": ""
+            
         }
     },
     "product-summary.shelf#Novedades": {
@@ -20,7 +21,7 @@
             "flex-layout.row#botonesNovedades"
         ],
         "props": {
-            "blockClass": "related-shelf-home"
+            "blockClass": ["related-shelf-home"]
         }
     },
 
@@ -56,7 +57,7 @@
         }
     },
 
-    "slider-layout#Novedades": {
+    "slider-layout#NovedadesHome": {
         "props": {
             "itemsPerPage": {
                 "desktop": 4,
@@ -72,10 +73,109 @@
             "showPaginationDots": "mobileOnly",
             "fullWidth": false,
             "infinite": true,
-            "blockClass": ["shelf-default", "sliderNovedades"]
+            "blockClass": ["shelf-default", "sliderNovedades","novedadesVuela"]
         }
     },
+  
     "product-specification-badges#Novedades": {
+        "props": {
+            "specificationGroupName": "allSpecifications",
+            "specificationsOptions": [
+                {
+                    "specificationName": "Producto de Preventa",
+                    "displayValue": "SPECIFICATION_NAME",
+                    "visibleWhen": ""
+                },
+                {
+                    "specificationName": "envio gratis",
+                    "displayValue": "envio gratis",
+                    "visibleWhen": false
+                }
+            ],
+            "blockClass": "envioGratisContenido"
+        }
+    },
+
+    /////mobile
+
+    "list-context.product-list#novedades-home-mobile": {
+        "blocks": ["product-summary.shelf#Novedades-mobile"],
+        "children": ["slider-layout#Novedades-mobile"],
+        "props": {
+            "collection": "",
+            "blockClass":["novedadesDesktopDN"]
+        }
+    },
+    "product-summary.shelf#Novedades-mobile": {
+        "children": [
+            "product-specification-badges#banderas",
+            "product-specification-badges#organico",
+            "product-specification-badges#descuentos",
+            "product-specification-badges#destaques-vinos",
+            "product-summary-image",
+            "vtex.product-highlights@2.x:product-highlights#collection",
+            "product-brand#Novedades",
+            "product-name",
+            "flex-layout.row#priceNovedades",
+            "flex-layout.row#botonesNovedades"
+        ],
+        "props": {
+            "blockClass":["related-shelf-home","novedadesDesktopDN"]
+        }
+    },
+
+    "product-brand#Novedades-mobile": {
+        "props": {
+            "displayMode": "text"
+        }
+    },
+
+    "flex-layout.row#priceNovedades-mobile": {
+        "children": ["product-selling-price", "product-list-price-range"],
+        "props": {
+            "blockClass": "contenidoPrecios",
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.row#botonesNovedades-mobile": {
+        "children": [
+            "add-to-cart-button#homeNovedades",
+            "product-specification-badges#Novedades"
+        ],
+        "props": {
+            "blockClass": "botones"
+        }
+    },
+
+    "add-to-cart-button#homeNovedades-mobile": {
+        "props": {
+            "text": "COMPRAR",
+            "unavailableText": "SIN STOCK",
+            "blockClass": "botonComprar"
+        }
+    },
+
+    "slider-layout#Novedades-mobile": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 0,
+                "tablet": 3,
+                "phone": 2
+            },
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "never",
+            "arrowSize": 25,
+            "showPaginationDots": "mobileOnly",
+            "fullWidth": false,
+            "infinite": true,
+            "blockClass": ["shelf-default", "sliderNovedades","novedadesDesktopDN"]
+        }
+    },
+    "product-specification-badges#Novedades-mobile": {
         "props": {
             "specificationGroupName": "allSpecifications",
             "specificationsOptions": [
