@@ -101,11 +101,13 @@
 .sliderLayoutContainer--sliderBodegas1{
     margin-bottom: 20px;
     margin-right: 3rem;
-    padding-right: 0!important;
+    padding-left: 45px !important;
+    padding-right: 9px !important;
     max-width: 95% !important;
 }
 .sliderLayoutContainer--sliderBodegas2{
-    padding-right: 0!important;
+    padding-left: 45px !important;
+    padding-right: 9px !important;
     max-width: 95% !important;
     margin: 0 !important;
     width: auto !important;
@@ -115,15 +117,18 @@
 }
 .sliderLayoutContainer--sliderEspeciales{
     margin-bottom: 20px;
-    margin-right: 25px;
-    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 35px !important;
 }
 .paginationDotsContainer :global(.vtex-slider-layout-0-x-paginationDot--dotMarcas ){
     display: block !important;
 }
 
-.sliderArrows--sliderEspeciales{
-    right: -50px;
+.sliderLeftArrow--sliderEspeciales{
+    left: -35px;
+}
+.sliderRightArrow--sliderEspeciales{
+    right: -10px;
 }
 
 
