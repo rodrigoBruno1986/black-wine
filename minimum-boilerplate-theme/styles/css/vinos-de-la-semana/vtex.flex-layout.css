@@ -43,7 +43,7 @@
 
 .flexRow--contenedorVinoSemana :global(.vtex-button) {
     width: 47% !important;
-    margin-right: 1rem;
+    margin-right: 0.3rem;
 }
 
 .flexRow--contenedorVinoSemana
@@ -317,3 +317,14 @@
     display: none;
 }
 
+:global(.vtex-product-summary-2-x-clearLink--related-shelf-vinos-de-la-semana) .flexRow--contenidoPrecios {
+    margin-right: 1rem !important;
+}
+
+:global(.vtex-product-summary-2-x-clearLink--related-shelf-vinos-de-la-semana) :global(.vtex-store-components-3-x-discountInsideContainer) {
+    left: 487px !important;
+}
+
+:global(.vtex-product-summary-2-x-clearLink--related-shelf-vinos-de-la-semana) :global(.vtex-product-price-1-x-listPriceRange) {
+    margin-right: 0 !important;
+}
