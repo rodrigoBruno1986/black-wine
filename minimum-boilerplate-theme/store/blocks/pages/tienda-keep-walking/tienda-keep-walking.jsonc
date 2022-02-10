@@ -307,7 +307,18 @@
         }
     },
     "flex-layout.col#col-imagen-1": {
-        "children": ["image#bloques-1"],
+        "children": [
+            "image#bloques-1",
+            "image#bloques2",
+            "image#bloques3",
+            "image#bloques4",
+            "image#bloques5",
+            "image#bloques6",
+            "image#bloques7",
+            "image#bloques8"
+        
+        
+        ],
         "props": {
             "blockClass": "imagenes-bloques"
         }
@@ -317,6 +328,44 @@
             "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
         }
     },
+    "image#bloques2": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques3": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques4": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques5": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques6": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques7": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques8": {
+        "props": {
+            "src": ""
+        }
+    },
+
+
+
     "flex-layout.row#bloque-2": {
         "children": [
             "flex-layout.col#col-texto-2",
@@ -345,7 +394,16 @@
         }
     },
     "flex-layout.col#col-imagen-2": {
-        "children": ["image#bloques-2"],
+        "children": [
+            "image#bloques-2",
+            "image#bloques-2-2",
+            "image#bloques-2-3",
+            "image#bloques-2-4",
+            "image#bloques-2-5",
+            "image#bloques-2-6",
+            "image#bloques-2-7",
+            "image#bloques-2-8"
+        ],
         "props": {
             "blockClass": "imagenes-bloques"
         }
@@ -355,6 +413,45 @@
             "src": "https://limpioonline.vteximg.com.br/arquivos/2.jpg"
         }
     },
+
+    "image#bloques-2-2": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques-2-3": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques-2-4": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques-2-5": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques-2-6": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques-2-7": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bloques-2-8": {
+        "props": {
+            "src": ""
+        }
+    },
+
+
+
     "flex-layout.row#bloque-3": {
         "children": ["flex-layout.col#col-imagen-3"],
         "props": {
